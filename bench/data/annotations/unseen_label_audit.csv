@@ -1,0 +1,360 @@
+id,src,gold,text,code,code_meaning
+10016,test_ext,cooking_recipe,thanksgiving turkey cooking procedure in five sentences is what,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+10019,test_ext,cooking_recipe,please tell me how to i bake twelve oatmeal cookies,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+10023,test_ext,cooking_recipe,what do i need to make lamb pathia,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+10027,test_ext,cooking_recipe,instructions to make a meal,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+10031,test_ext,cooking_recipe,i need a recipe that is from ingredients on my shopping list,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+10038,test_ext,cooking_recipe,i need good ideas for cooking,amb,due descrizioni plausibili o frase vaga
+10045,test_orig,cooking_recipe,can you give me a recipe for homemade chicken noodle soup,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+10048,test_ext,cooking_recipe,how do i make a turkey,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+10049,test_ext,cooking_recipe,tell me how to make a poor boy sandwich,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+10053,test_ext,cooking_recipe,how do i make pizza,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+10055,test_ext,cooking_recipe,what's the recipe for fried chicken,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+10061,test_ext,cooking_recipe,what should i make for dinner,amb,due descrizioni plausibili o frase vaga
+10072,test_ext,cooking_recipe,baking times for chicken in the oven,wrong,la descrizione di un'intenzione sorella calza meglio di quella etichettata
+10076,test_ext,cooking_recipe,can you substitute baking soda for baking powder,wrong,la descrizione di un'intenzione sorella calza meglio di quella etichettata
+10077,test_ext,cooking_recipe,find a recipe for dinner tonight,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+10078,test_ext,cooking_recipe,what should i cook for supper,amb,due descrizioni plausibili o frase vaga
+10080,test_ext,cooking_recipe,let's cook meatballs together,amb,due descrizioni plausibili o frase vaga
+10081,test_ext,cooking_recipe,tell me how to cook meatballs,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+10090,test_ext,cooking_recipe,can i get a recipe for tuna,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+10093,test_ext,cooking_recipe,how is lasagne made,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+10097,test_ext,cooking_recipe,i would like a cheeseburger,none,nessuna descrizione calza
+10099,test_ext,cooking_recipe,do you know how to cook risotto,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+10100,test_orig,cooking_recipe,do you know recipe for risotto,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+10105,test_ext,cooking_recipe,how long should i cook a steak to achieve medium rare,wrong,la descrizione di un'intenzione sorella calza meglio di quella etichettata
+10107,test_ext,cooking_recipe,i need a recipe of veg pulav,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+10119,test_ext,cooking_recipe,how long do you cook a fifteen pound turkey,wrong,la descrizione di un'intenzione sorella calza meglio di quella etichettata
+10125,test_ext,cooking_recipe,what is the difference between bake and broil,wrong,la descrizione di un'intenzione sorella calza meglio di quella etichettata
+10132,test_ext,cooking_recipe,how long should i cook a steak to be medium,wrong,la descrizione di un'intenzione sorella calza meglio di quella etichettata
+10150,test_ext,cooking_recipe,how to make taco,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+10156,test_ext,cooking_recipe,i need to know how to make stuffed peppers,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+10164,test_ext,cooking_recipe,how long do i cook maccoroni,wrong,la descrizione di un'intenzione sorella calza meglio di quella etichettata
+10166,test_ext,cooking_recipe,look for apple pie recipe,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+10171,test_ext,cooking_recipe,what's the recipe for fish soup,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+10177,test_ext,cooking_recipe,how to cook spaghetti squash,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+10182,test_orig,cooking_recipe,how many eggs do i need for an omelet,amb,due descrizioni plausibili o frase vaga
+10197,test_ext,cooking_recipe,show me the best recipe for spaghetti,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+10206,test_ext,cooking_recipe,how is rice prepared,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+10213,test_ext,cooking_recipe,list of famous biryani recipes,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+10214,test_ext,cooking_recipe,recipes that can be cooked in an hour,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+10216,test_ext,cooking_recipe,search in the web for buying bakeware for muffins,none,nessuna descrizione calza
+10217,test_ext,cooking_recipe,find the recipe for sambar in cookingforu application,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+10220,test_ext,cooking_recipe,what ingredients do i need to bake a large cake,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+10224,test_ext,cooking_recipe,it must be taste,none,nessuna descrizione calza
+10226,test_ext,cooking_recipe,let me know the recipe for preparing pasta,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+13023,test_ext,cooking_recipe,show me recipes,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+14648,test_ext,cooking_recipe,recipe please,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+6542,test_ext,cooking_recipe,is soft cheese better than hard,wrong,la descrizione di un'intenzione sorella calza meglio di quella etichettata
+9912,test_ext,cooking_recipe,olly how long should i boil the eggs,wrong,la descrizione di un'intenzione sorella calza meglio di quella etichettata
+9918,test_ext,cooking_recipe,how do i make a pizza,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+9923,test_ext,cooking_recipe,how long should i boil an egg,wrong,la descrizione di un'intenzione sorella calza meglio di quella etichettata
+9924,test_ext,cooking_recipe,tell me the recipe of,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+9930,test_orig,cooking_recipe,how long should i boil the egg,wrong,la descrizione di un'intenzione sorella calza meglio di quella etichettata
+9931,test_orig,cooking_recipe,olly how long should i boil the egg,wrong,la descrizione di un'intenzione sorella calza meglio di quella etichettata
+9940,test_ext,cooking_recipe,find me a chocolate cake recipe,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+9941,test_ext,cooking_recipe,how do i cook butter chicken,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+9942,test_ext,cooking_recipe,what all goes into a red velvet cake,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+9943,test_ext,cooking_recipe,how long does it take to make vegetable lasagna,amb,due descrizioni plausibili o frase vaga
+9952,test_orig,cooking_recipe,give me a cooking tutorial,amb,due descrizioni plausibili o frase vaga
+9955,test_orig,cooking_recipe,show me a video on cooking fried chicken,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+9956,test_ext,cooking_recipe,what can i substitute butter with,wrong,la descrizione di un'intenzione sorella calza meglio di quella etichettata
+9961,test_ext,cooking_recipe,what is the best oven temperature to roast potatoes,wrong,la descrizione di un'intenzione sorella calza meglio di quella etichettata
+9962,test_orig,cooking_recipe,what is the best way to cook pasta al dente,amb,due descrizioni plausibili o frase vaga
+9964,test_ext,cooking_recipe,knowledge about food processing,wrong,la descrizione di un'intenzione sorella calza meglio di quella etichettata
+9966,test_ext,cooking_recipe,what's the easiest way to cook pasta,amb,due descrizioni plausibili o frase vaga
+9969,test_ext,cooking_recipe,what ingredient can be used instead of saffron,wrong,la descrizione di un'intenzione sorella calza meglio di quella etichettata
+9971,test_ext,cooking_recipe,what conducts heat better copper bottomed pots or cast iron,wrong,la descrizione di un'intenzione sorella calza meglio di quella etichettata
+9976,test_ext,cooking_recipe,hey robot give me a list of ingredients for welsh rarebit,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+9977,test_ext,cooking_recipe,please search the internet and display the suitable youtube videos for cooking italian foods,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+9979,test_ext,cooking_recipe,cook me some oats,none,nessuna descrizione calza
+9980,test_ext,cooking_recipe,what is the menu today add some boiled vegetables also to it,none,nessuna descrizione calza
+9986,test_ext,cooking_recipe,boiling,none,nessuna descrizione calza
+9994,test_ext,cooking_recipe,can you tell me the recipe to cook pav bhaji,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+13400,test_ext,social_post,send a funny message to all of my friends,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15155,test_ext,social_post,can you upload my latest selfie in my facebook account,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15166,test_ext,social_post,post my business on twitter,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15177,test_ext,social_post,please retweet this post on twitter,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15185,test_ext,social_post,birthday wishes,amb,due descrizioni plausibili o frase vaga
+15186,test_ext,social_post,wedding wishes,amb,due descrizioni plausibili o frase vaga
+15187,test_orig,social_post,share in friends post,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15197,test_ext,social_post,post in twitter my visit to japan,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15208,test_ext,social_post,post hey everyone on facebook,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15216,test_ext,social_post,tweet something for me,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15231,test_ext,social_post,my trip to goa photo post it on instagram,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15271,test_ext,social_post,post this to my facebook l. o. l.,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15275,test_ext,social_post,post i am happy to facebook,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15276,test_ext,social_post,post a new status on facebook saying that i am enjoying the nice weather,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15289,test_ext,social_post,post the message now,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15318,test_orig,social_post,i want to thank everyone for the birthday wishes,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15337,test_ext,social_post,post this video to facebook,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15350,test_orig,social_post,i'm unhappy with tesco please help me,none,nessuna descrizione calza
+15358,test_ext,social_post,olly tweet apple that the iphone doesn't work,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15359,test_ext,social_post,open tweet to apple that my iphone's battery is always drained,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15364,test_ext,social_post,can you let amazon know that this new phone case is junk,amb,due descrizioni plausibili o frase vaga
+15382,test_ext,social_post,can you contact samsung and say my washer is on fire,amb,due descrizioni plausibili o frase vaga
+15387,test_ext,social_post,tweet my current location,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15399,test_ext,social_post,forward a complaint to aircel for network related issues,amb,due descrizioni plausibili o frase vaga
+15401,test_ext,social_post,open twitter send message,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15402,test_ext,social_post,tweet that product sucks,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15409,test_ext,social_post,open twitter type my complaint and post to at consumer service,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15413,test_orig,social_post,get me a person a. s. a. p.,none,nessuna descrizione calza
+15444,test_ext,social_post,two thumbs down at companyname,amb,due descrizioni plausibili o frase vaga
+15448,test_ext,social_post,send a tweet about sonys volume issues,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15454,test_orig,social_post,tweet at united airlines i'm angry you lost my bags,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15456,test_ext,social_post,i want to send a tweet to united airlines i'm angry you lost my bags,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15457,test_ext,social_post,i had a problem with my burger can you tweet bk,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15459,test_orig,social_post,send a twitter complaint,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15464,test_ext,social_post,i didn't get the product on time send a tweet to jcpenney,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15467,test_ext,social_post,tell comcast i hate them,amb,due descrizioni plausibili o frase vaga
+15472,test_ext,social_post,tweet a complaint for the online bookstore,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15487,test_ext,social_post,tweet kohls about the cleanliness of their store,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15488,test_ext,social_post,please tweet at pizzahut i've been waiting for my delivery for now number nothappy,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15503,test_ext,social_post,new tweet to consumer service,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15508,test_ext,social_post,siri open twitter tweet at potus sucks,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15518,test_ext,social_post,send complaint via tweet to j. crew,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15532,test_ext,social_post,olly tweet walmart and tell them their customer service is horrible,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15546,test_ext,social_post,tweet about cold pizza to papa johns,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15548,test_ext,social_post,tweet mobile complaint to samsung,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15553,test_ext,social_post,please negative response tweet on daikin service,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15554,test_ext,social_post,please tweet on dell service for delay services,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15556,test_ext,social_post,let's tweet a complaint,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15557,test_ext,social_post,i need you to tweet a complaint,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15560,test_ext,social_post,post to facebook i'm hungry,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15565,test_ext,social_post,can you let delta know i'm never using them again,amb,due descrizioni plausibili o frase vaga
+15587,test_ext,social_post,open gallery post picture name,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15592,test_ext,social_post,tweet complain at comcast,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15593,test_ext,social_post,tweet complain at comcast,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15598,test_ext,social_post,open company name and find complaints,amb,due descrizioni plausibili o frase vaga
+15610,test_ext,social_post,post a tweet as follows very bad follow up by a. b. c. company not satisfied in my account,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15618,test_ext,social_post,tweet esurance and tell them they suck,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15626,test_ext,social_post,please tweet a complaint to comcast for bad customer service,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15634,test_ext,social_post,ok google tweet what a jerk the owner is at the gas station,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15635,test_ext,social_post,tweet mcdonald's down reseda has terrible service,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15647,test_ext,social_post,tweet complaint to at,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15651,test_ext,social_post,send report to consumer service,amb,due descrizioni plausibili o frase vaga
+15652,test_ext,social_post,help complaint to consumer service,amb,due descrizioni plausibili o frase vaga
+15655,test_ext,social_post,tweet to google costumer service my new nexus phone stop working help please,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15656,test_ext,social_post,tweet a message to suqcom that i am still waiting for my delivery,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15661,test_ext,social_post,post my latest entry to twitter at n.s.a.,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15670,test_ext,social_post,send a complaint tweet,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15672,test_ext,social_post,tweet to apple about non receipt of iphone i sent for repairs last week,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15676,test_ext,social_post,please add complaint about the service in tweet to olive garden,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15686,test_ext,social_post,hello my item which i bought from some one has gone out of order,none,nessuna descrizione calza
+15693,test_ext,social_post,tweet that there was an insect in the chocolate packet,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15700,test_ext,social_post,expired products in recent market,none,nessuna descrizione calza
+15703,test_ext,social_post,twitter to destination x. l. that they run out of sizes too fast,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15706,test_ext,social_post,tweet at,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15707,test_ext,social_post,lets send a tweet,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15708,test_ext,social_post,post complaint about service a,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15721,test_ext,social_post,tweet a disgusted face about mcdonalds,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15723,test_ext,social_post,set feeling happy status on facebook,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15731,test_ext,social_post,olly tweet a message to a. t. & t. and tell them my service is bad,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15732,test_ext,social_post,tweet samsung and tell them to stop killing people with their products,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15736,test_ext,social_post,submit a negative review about a company,amb,due descrizioni plausibili o frase vaga
+15138,test_ext,social_query,check my social networks,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15181,test_ext,social_query,do i have any new friend requests,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15199,test_ext,social_query,what going on,amb,due descrizioni plausibili o frase vaga
+15200,test_ext,social_query,get me latest updates from facebook,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15203,test_orig,social_query,new updates,amb,due descrizioni plausibili o frase vaga
+15205,test_ext,social_query,give me my facebook update every three hours,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15225,test_ext,social_query,show me latest notifications,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15229,test_ext,social_query,is there any post from my friend mike in facebook,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15249,test_ext,social_query,did anyone like my photo i just posted,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15274,test_ext,social_query,please scan my social media and tell me what's happening,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15280,test_ext,social_query,facebook,amb,due descrizioni plausibili o frase vaga
+15296,test_orig,social_query,read me new post on my feed,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15298,test_ext,social_query,olly what's hot social media topics,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15304,test_ext,social_query,has anyone follow me today on twitter today,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15311,test_ext,social_query,tell me what's going on with facebook,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15321,test_ext,social_query,has anyone commented on my status,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15326,test_ext,social_query,please read my facebook feed,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15333,test_orig,social_query,anything new on insta,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15345,test_ext,social_query,please check the trending topics on twitter,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15348,test_ext,social_query,who is doing facebook live right now,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15445,test_orig,social_query,tell me what's happening on instagram,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15511,test_ext,social_query,show me my latest social media activity,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+15513,test_orig,social_query,is there anything important happening on social media,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+4334,test_orig,social_query,what does my facebook feed look like,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+6500,test_ext,social_query,social media,amb,due descrizioni plausibili o frase vaga
+1042,test_ext,takeaway_order,open the folder app please,none,nessuna descrizione calza
+1043,test_ext,takeaway_order,call the nearest thai restaurant with delivery,amb,due descrizioni plausibili o frase vaga
+132,test_ext,takeaway_order,order a takeaway,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+1516,test_ext,takeaway_order,order a pizza with sausage from domino's,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+1830,test_orig,takeaway_order,i want to eat some spicy thing,amb,due descrizioni plausibili o frase vaga
+1831,test_ext,takeaway_order,order one pizza from pizza hut,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+2255,test_ext,takeaway_order,can i order take out from licari's,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+2336,test_ext,takeaway_order,noodles one pack make it as takeaway,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+2338,test_orig,takeaway_order,make an order for noodles one pack make it as takeaway order,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+2414,test_ext,takeaway_order,i want to order a pizza from michael's pizza,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+2447,test_ext,takeaway_order,i feel like having soup for lunch order from wangs kitchen restaurant a chicken manchow soup,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+2480,test_orig,takeaway_order,call for take-out,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+3080,test_orig,takeaway_order,it's time for junk food,amb,due descrizioni plausibili o frase vaga
+3835,test_ext,takeaway_order,i want to order chinese take-out,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+4544,test_ext,takeaway_order,order a twelve piece honey mustard wing combo with seasonimg altnon the fries and a sprite as the drink,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+5488,test_orig,takeaway_order,order pizza for delivery,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+5570,test_ext,takeaway_order,find food and order,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+5840,test_ext,takeaway_order,i need to order some food from papa john's,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+5966,test_orig,takeaway_order,can you please order some food for me,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+6112,test_ext,takeaway_order,hey order two wings with french fries from the chinese food store,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+668,test_orig,takeaway_order,i want two burgers and one coke order it fast,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+89,test_ext,takeaway_order,could you order sushi for tonight dinner,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+1247,test_ext,takeaway_query,i need to know if mr. pizza delivers,desc,"l'etichetta MASSIVE non corrisponde alla descrizione del benchmark (es. indicazioni stradali per transport_query, 'fa consegne?' per takeaway_query)"
+1379,test_ext,takeaway_query,does pizza hut have delivery,desc,"l'etichetta MASSIVE non corrisponde alla descrizione del benchmark (es. indicazioni stradali per transport_query, 'fa consegne?' per takeaway_query)"
+168,test_ext,takeaway_query,can they provide takeaway,desc,"l'etichetta MASSIVE non corrisponde alla descrizione del benchmark (es. indicazioni stradali per transport_query, 'fa consegne?' per takeaway_query)"
+169,test_ext,takeaway_query,can they do delivery,desc,"l'etichetta MASSIVE non corrisponde alla descrizione del benchmark (es. indicazioni stradali per transport_query, 'fa consegne?' per takeaway_query)"
+170,test_orig,takeaway_query,do they deliver home,desc,"l'etichetta MASSIVE non corrisponde alla descrizione del benchmark (es. indicazioni stradali per transport_query, 'fa consegne?' per takeaway_query)"
+171,test_ext,takeaway_query,olly do they deliver home,desc,"l'etichetta MASSIVE non corrisponde alla descrizione del benchmark (es. indicazioni stradali per transport_query, 'fa consegne?' per takeaway_query)"
+2035,test_ext,takeaway_query,olly where is my food,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+2163,test_ext,takeaway_query,hows the food order going,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+2164,test_ext,takeaway_query,when can we eat,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+2165,test_ext,takeaway_query,is dinner ready yet,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+2432,test_ext,takeaway_query,how is my order,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+2610,test_orig,takeaway_query,i've canceled the order placed at mcd did it go through,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+2684,test_orig,takeaway_query,is the last order is ready,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+2773,test_ext,takeaway_query,how long until my order is ready,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+2850,test_ext,takeaway_query,is there takeaway at papa john's,desc,"l'etichetta MASSIVE non corrisponde alla descrizione del benchmark (es. indicazioni stradali per transport_query, 'fa consegne?' per takeaway_query)"
+2908,test_ext,takeaway_query,tell me if taco bell delivers,desc,"l'etichetta MASSIVE non corrisponde alla descrizione del benchmark (es. indicazioni stradali per transport_query, 'fa consegne?' per takeaway_query)"
+3020,test_ext,takeaway_query,does louie's do take out,desc,"l'etichetta MASSIVE non corrisponde alla descrizione del benchmark (es. indicazioni stradali per transport_query, 'fa consegne?' per takeaway_query)"
+3021,test_ext,takeaway_query,take out available louies,desc,"l'etichetta MASSIVE non corrisponde alla descrizione del benchmark (es. indicazioni stradali per transport_query, 'fa consegne?' per takeaway_query)"
+3276,test_ext,takeaway_query,olly does shibaru sushi deliver,desc,"l'etichetta MASSIVE non corrisponde alla descrizione del benchmark (es. indicazioni stradali per transport_query, 'fa consegne?' per takeaway_query)"
+3295,test_orig,takeaway_query,does the nearby dominoes have delivery,desc,"l'etichetta MASSIVE non corrisponde alla descrizione del benchmark (es. indicazioni stradali per transport_query, 'fa consegne?' per takeaway_query)"
+3413,test_ext,takeaway_query,do you know the eta of my order,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+3671,test_ext,takeaway_query,can i carry out with this restaurant,desc,"l'etichetta MASSIVE non corrisponde alla descrizione del benchmark (es. indicazioni stradali per transport_query, 'fa consegne?' per takeaway_query)"
+4048,test_ext,takeaway_query,please find out of charley's steakhouse delivers,desc,"l'etichetta MASSIVE non corrisponde alla descrizione del benchmark (es. indicazioni stradali per transport_query, 'fa consegne?' per takeaway_query)"
+4125,test_ext,takeaway_query,where can i get a shot of tequila and some to go mexican food,none,nessuna descrizione calza
+4137,test_orig,takeaway_query,could you please confirm if paradise does takeaway,desc,"l'etichetta MASSIVE non corrisponde alla descrizione del benchmark (es. indicazioni stradali per transport_query, 'fa consegne?' per takeaway_query)"
+4224,test_ext,takeaway_query,when will my chinese food be delivered,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+4461,test_ext,takeaway_query,is fongs dine in only,desc,"l'etichetta MASSIVE non corrisponde alla descrizione del benchmark (es. indicazioni stradali per transport_query, 'fa consegne?' per takeaway_query)"
+4934,test_ext,takeaway_query,what time is my domino's order expected to arrive,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+525,test_ext,takeaway_query,prepare the order as soon as possible,amb,due descrizioni plausibili o frase vaga
+5324,test_ext,takeaway_query,hey do you have home delivery,desc,"l'etichetta MASSIVE non corrisponde alla descrizione del benchmark (es. indicazioni stradali per transport_query, 'fa consegne?' per takeaway_query)"
+5406,test_orig,takeaway_query,does pings do takeaway,desc,"l'etichetta MASSIVE non corrisponde alla descrizione del benchmark (es. indicazioni stradali per transport_query, 'fa consegne?' per takeaway_query)"
+5552,test_ext,takeaway_query,who takes less of duration of time for delivery,desc,"l'etichetta MASSIVE non corrisponde alla descrizione del benchmark (es. indicazioni stradali per transport_query, 'fa consegne?' per takeaway_query)"
+5600,test_ext,takeaway_query,check the dish price and all,none,nessuna descrizione calza
+6072,test_ext,takeaway_query,how many minutes do i need to wait to pick up my food from china on the go,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+967,test_ext,takeaway_query,can i get take-out from pf changs,desc,"l'etichetta MASSIVE non corrisponde alla descrizione del benchmark (es. indicazioni stradali per transport_query, 'fa consegne?' per takeaway_query)"
+12189,test_ext,transport_query,how do i get to the train station for a ticket,amb,due descrizioni plausibili o frase vaga
+12240,test_ext,transport_query,what is the traffic like on my commute home at five,wrong,la descrizione di un'intenzione sorella calza meglio di quella etichettata
+12245,test_ext,transport_query,when is the next train to glasgow from aberdeen,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12251,test_orig,transport_query,get me the local train timing to destination cstm,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12252,test_orig,transport_query,what time are the trains going to chennai leaving,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12261,test_orig,transport_query,tell me my options for a train to los angles next wednesday or thursday,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12263,test_ext,transport_query,california,none,nessuna descrizione calza
+12264,test_ext,transport_query,new york,none,nessuna descrizione calza
+12294,test_ext,transport_query,show me the train schedules to the metropolitan opera house,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12310,test_ext,transport_query,give me the list of available train tickets from edinburgh to leeds,amb,due descrizioni plausibili o frase vaga
+12343,test_ext,transport_query,check time of ten thousand eight hundred and eighty seven train from luni station on tuesday,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12354,test_ext,transport_query,give me the train time,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12366,test_ext,transport_query,is there a connecting train from london to paris and what time,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12367,test_ext,transport_query,what's the best way to sheffield,desc,"l'etichetta MASSIVE non corrisponde alla descrizione del benchmark (es. indicazioni stradali per transport_query, 'fa consegne?' per takeaway_query)"
+12376,test_ext,transport_query,what is the first metro to d. c.,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12392,test_ext,transport_query,tell me today's direction,desc,"l'etichetta MASSIVE non corrisponde alla descrizione del benchmark (es. indicazioni stradali per transport_query, 'fa consegne?' per takeaway_query)"
+12402,test_ext,transport_query,when does the next train traveling the city leave here,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12419,test_ext,transport_query,fastest route to turiellos,desc,"l'etichetta MASSIVE non corrisponde alla descrizione del benchmark (es. indicazioni stradali per transport_query, 'fa consegne?' per takeaway_query)"
+12430,test_ext,transport_query,tell me the train arrival time to new york,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12436,test_ext,transport_query,how long will it take to get to the airport,desc,"l'etichetta MASSIVE non corrisponde alla descrizione del benchmark (es. indicazioni stradali per transport_query, 'fa consegne?' per takeaway_query)"
+12437,test_ext,transport_query,what is the commute time to the theater,desc,"l'etichetta MASSIVE non corrisponde alla descrizione del benchmark (es. indicazioni stradali per transport_query, 'fa consegne?' per takeaway_query)"
+12446,test_orig,transport_query,can you tell me the times the train leaves for chicago,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12473,test_ext,transport_query,how do i get home from here,desc,"l'etichetta MASSIVE non corrisponde alla descrizione del benchmark (es. indicazioni stradali per transport_query, 'fa consegne?' per takeaway_query)"
+12526,test_ext,transport_query,what is the fastest way to get to starbucks,desc,"l'etichetta MASSIVE non corrisponde alla descrizione del benchmark (es. indicazioni stradali per transport_query, 'fa consegne?' per takeaway_query)"
+12532,test_ext,transport_query,lead the way to the place,desc,"l'etichetta MASSIVE non corrisponde alla descrizione del benchmark (es. indicazioni stradali per transport_query, 'fa consegne?' per takeaway_query)"
+12581,test_ext,transport_query,when does the f. train run today,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12582,test_ext,transport_query,what time does the first metrolink arrive in the morning,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12604,test_ext,transport_query,how do i book a train ticket online,amb,due descrizioni plausibili o frase vaga
+12618,test_ext,transport_query,how much is a round trip train ticket to go to new york,amb,due descrizioni plausibili o frase vaga
+12623,test_ext,transport_query,do you have the train times for beaumont tx,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12629,test_ext,transport_query,what time does the first train depart from chicago,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12634,test_ext,transport_query,when is the next train leaving for austin,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12707,test_ext,transport_query,navigation search,desc,"l'etichetta MASSIVE non corrisponde alla descrizione del benchmark (es. indicazioni stradali per transport_query, 'fa consegne?' per takeaway_query)"
+12759,test_ext,transport_query,driving time to los angeles,desc,"l'etichetta MASSIVE non corrisponde alla descrizione del benchmark (es. indicazioni stradali per transport_query, 'fa consegne?' per takeaway_query)"
+12797,test_ext,transport_query,train times from near me to location,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12800,test_ext,transport_query,where is the public library,desc,"l'etichetta MASSIVE non corrisponde alla descrizione del benchmark (es. indicazioni stradali per transport_query, 'fa consegne?' per takeaway_query)"
+12817,test_ext,transport_query,how do i get to the mall,desc,"l'etichetta MASSIVE non corrisponde alla descrizione del benchmark (es. indicazioni stradali per transport_query, 'fa consegne?' per takeaway_query)"
+12818,test_ext,transport_query,how much is a train ticket to chicago,amb,due descrizioni plausibili o frase vaga
+12824,test_ext,transport_query,list all train times to ny,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12835,test_ext,transport_query,what time does the train to place leave,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12839,test_ext,transport_query,take me to layfayette saint and canal,desc,"l'etichetta MASSIVE non corrisponde alla descrizione del benchmark (es. indicazioni stradali per transport_query, 'fa consegne?' per takeaway_query)"
+12851,test_ext,transport_query,show me direction to my home,desc,"l'etichetta MASSIVE non corrisponde alla descrizione del benchmark (es. indicazioni stradali per transport_query, 'fa consegne?' per takeaway_query)"
+12856,test_ext,transport_query,directions please,desc,"l'etichetta MASSIVE non corrisponde alla descrizione del benchmark (es. indicazioni stradali per transport_query, 'fa consegne?' per takeaway_query)"
+12866,test_orig,transport_query,what is the timing of bagmati express,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12908,test_ext,transport_query,what time does the train arrive in sacremento,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12930,test_ext,transport_query,look up the map to stores near me,desc,"l'etichetta MASSIVE non corrisponde alla descrizione del benchmark (es. indicazioni stradali per transport_query, 'fa consegne?' per takeaway_query)"
+12932,test_orig,transport_query,olly i need directions to madison street,desc,"l'etichetta MASSIVE non corrisponde alla descrizione del benchmark (es. indicazioni stradali per transport_query, 'fa consegne?' per takeaway_query)"
+13215,test_ext,transport_query,what is the quickest way to my work downtown without hitting any traffic,amb,due descrizioni plausibili o frase vaga
+14214,test_ext,transport_query,find the ways of travel for the same,amb,due descrizioni plausibili o frase vaga
+14465,test_ext,transport_query,directions to disney land,desc,"l'etichetta MASSIVE non corrisponde alla descrizione del benchmark (es. indicazioni stradali per transport_query, 'fa consegne?' per takeaway_query)"
+6403,test_ext,transport_query,how to get somewhere,desc,"l'etichetta MASSIVE non corrisponde alla descrizione del benchmark (es. indicazioni stradali per transport_query, 'fa consegne?' per takeaway_query)"
+12121,test_orig,transport_taxi,book me a taxi to leith in half an hour,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12159,test_ext,transport_taxi,can you book an uber for me,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12160,test_ext,transport_taxi,can you book an uber tomorrow,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12161,test_ext,transport_taxi,can you book an uber after i left for office,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12212,test_ext,transport_taxi,call city cab to airport,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12213,test_ext,transport_taxi,get city cab here to airport,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12244,test_ext,transport_taxi,book a taxi to go to the movies at one,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12248,test_ext,transport_taxi,olly find the nearest uber,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12299,test_ext,transport_taxi,call me a taxi olly,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12329,test_ext,transport_taxi,call yellow cab,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12377,test_orig,transport_taxi,get me a uber,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12383,test_orig,transport_taxi,find a taxi to book,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12452,test_ext,transport_taxi,uber me to the airport,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12548,test_ext,transport_taxi,i need a ride home,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12553,test_ext,transport_taxi,book me a cab going to location,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12558,test_ext,transport_taxi,please book me a taxi uber,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12608,test_orig,transport_taxi,schedule taxi pickup for monday at noon,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12710,test_orig,transport_taxi,call taxi,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12716,test_orig,transport_taxi,call an uberpool to get me at long island bar,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12745,test_ext,transport_taxi,book an uber to pick me up now,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12779,test_ext,transport_taxi,reserve the closest uber,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12844,test_orig,transport_taxi,book a cab to office for me,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12905,test_ext,transport_taxi,please reserve the next taxi a nine am,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12127,test_ext,transport_ticket,i need to go to dundee at five am on sunday by train,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12150,test_orig,transport_ticket,olly book me a ticket to paris on eurostar this weekend,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12162,test_ext,transport_ticket,can you book a train ticket,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12166,test_ext,transport_ticket,book my train ticket from las vegas to los angeles,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12233,test_orig,transport_ticket,google train tickets to washington d. c.,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12235,test_ext,transport_ticket,please purchase a train ticket for this weekend,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12281,test_ext,transport_ticket,please book a train ticket from london to manchester,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12291,test_ext,transport_ticket,ticket for bombay,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12293,test_ext,transport_ticket,ticket for delhi,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12306,test_ext,transport_ticket,book a first class ticket in the next train to miami,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12308,test_ext,transport_ticket,book me a train ticket,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12339,test_ext,transport_ticket,book a train ticket for one one way for this tuesday at nine am,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12340,test_ext,transport_ticket,can you please book train tickets for two for this friday,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12381,test_ext,transport_ticket,book a train ticket from baltimore maryland to new york new york,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12453,test_orig,transport_ticket,book train best deal,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12468,test_ext,transport_ticket,find a train ticket to philadelphia,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12469,test_ext,transport_ticket,purchase ticket to new york city on train,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12511,test_ext,transport_ticket,travel book a train ticket,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12536,test_ext,transport_ticket,book me a train ticket to barcelona please,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12537,test_ext,transport_ticket,find me the cheapest train ticket to spain,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12606,test_ext,transport_ticket,i need to get a ticket via train to orlando from hwood,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12607,test_ext,transport_ticket,i need to get a ticket via train to orlando from hwood,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12689,test_ext,transport_ticket,book a train ticket from here to charleston west virginia at eight am today,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12722,test_orig,transport_ticket,order a train ticket to boston,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12723,test_ext,transport_ticket,buy me a ticket to boston,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12724,test_orig,transport_ticket,find me a train ticket to boston,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12802,test_ext,transport_ticket,book a ticket to ny by train,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12813,test_ext,transport_ticket,please book a ticket of rajdhani express train from jaipur,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12814,test_ext,transport_ticket,please book a ticket form jaipur to mumbai on tuesday,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12846,test_ext,transport_ticket,please book train ticket from mumbai to sangli for tomorrow morning,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12873,test_ext,transport_ticket,train ticket,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12874,test_ext,transport_ticket,train ticket please,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12883,test_ext,transport_ticket,book a train ticket weekend of the twenty sixth phoenix to los angeles,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+14646,test_ext,transport_ticket,tell me about the cheapest flight fares to nj today,amb,due descrizioni plausibili o frase vaga
+5128,test_orig,transport_ticket,confirm a travel ticket to german,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12182,test_orig,transport_traffic,what are the traffic conditions on the one hundred and one,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12254,test_ext,transport_traffic,tell me about city traffic,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12256,test_ext,transport_traffic,how is the traffic presently near central park road,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12289,test_ext,transport_traffic,is there a traffic jam on my route,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12413,test_orig,transport_traffic,what is the current traffic situation,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12442,test_ext,transport_traffic,what is the traffic situation at the bazaar highway,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12672,test_orig,transport_traffic,how is traffic in city,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12675,test_ext,transport_traffic,is traffic light,amb,due descrizioni plausibili o frase vaga
+12685,test_ext,transport_traffic,what is the traffic like right now,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12693,test_orig,transport_traffic,what does the traffic look like on my usual route to work,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12717,test_orig,transport_traffic,what is the traffic like now,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12736,test_ext,transport_traffic,road traffic,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12789,test_orig,transport_traffic,can you tell me about the traffic,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12838,test_ext,transport_traffic,how is the traffic at the moment,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"
+12869,test_ext,transport_traffic,traffic report,ok,"l'etichetta MASSIVE corrisponde alla descrizione, la sorella no"

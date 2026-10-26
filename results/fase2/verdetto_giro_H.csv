@@ -1,0 +1,29 @@
+famiglia,misura,verso,partenza_file,rif,cand,diff,ci_lo,ci_hi,p,n,nota,p_holm,perdita,perdita_significativa,guadagno_significativo
+A,"Choice, tutte",su,0.8725,0.8725,0.875,0.0025,-0.01,0.015,0.7178,2000,,1.0,False,False,False
+A,"Choice, intenzioni mai viste",su,0.7414,0.7414,0.7241,-0.0172,-0.0586,0.0241,0.4448,290,,1.0,True,False,False
+A,Choice con le opzioni nella lingua della frase,su,0.8485,0.8485,0.855,0.0065,-0.0035,0.0165,0.2188,2000,,1.0,False,False,False
+A,"Sì/no, test (AUROC)",su,0.9612,0.9612,0.9627,0.0015,-0.0024,0.0054,0.4604,2000,,1.0,False,False,False
+A,"Sì/no, test esteso mai visto (AUROC)",su,0.8399,0.8399,0.8292,-0.0107,-0.016,-0.0057,0.0,3655,,0.0,True,True,False
+A,ECE calibrata delle Choice,giu,0.0478,0.0478,0.0402,-0.0076,-0.0208,0.0056,0.2656,2000,,1.0,False,False,False
+A,ECE delle sì/no (Platt),giu,0.0377,0.0377,0.0329,-0.0049,-0.017,0.0069,0.418,2000,,1.0,False,False,False
+A,Divario Choice fra inglese e lingua peggiore,giu,0.0425,0.0425,0.05,0.0075,-0.0175,0.0375,0.547,2000,,1.0,True,False,False
+B,"Azioni, comando (AUROC)",su,0.997,0.997,0.9955,-0.0016,-0.0038,0.0004,0.121,3819,,0.363,True,False,False
+B,"Azioni, descrizione inglese (AUROC)",su,0.9108,0.9108,0.9152,0.0044,-0.0078,0.0167,0.4548,910,,0.4548,False,False,False
+B,"Azioni, descrizione nella lingua (AUROC)",su,0.8359,0.8359,0.8528,0.0169,-0.0063,0.0434,0.1588,326,,0.363,False,False,False
+C,"v0 sì/no, italiano (AUROC)",su,0.8831,0.8831,0.8734,-0.0097,-0.024,0.0041,0.1696,652,,0.6784,True,False,False
+C,"v0 sì/no, inglese (AUROC)",su,0.8583,0.8583,0.8521,-0.0062,-0.0189,0.006,0.2992,652,,0.8976000000000001,True,False,False
+C,"v0 Choice, italiano",su,0.725,0.725,0.75,0.025,-0.025,0.0833,0.4616,120,,0.9232,False,False,False
+C,"v0 Choice, inglese",su,0.5917,0.5917,0.5833,-0.0083,-0.075,0.0583,0.9186,120,,0.9232,True,False,False
+D,agnews (accuracy),su,0.7818,0.7818,0.7872,0.0054,0.0009,0.01,0.022,7600,,0.176,False,False,False
+D,rotten (accuracy),su,0.7308,0.7308,0.7233,-0.0075,-0.0263,0.0113,0.449,1066,,1.0,True,False,False
+D,sst2 (accuracy),su,0.8073,0.8073,0.8039,-0.0034,-0.0229,0.0161,0.7718,872,,1.0,True,False,False
+D,emotion (accuracy),su,0.3575,0.3575,0.3735,0.016,0.002,0.0295,0.0258,2000,,0.1806,False,False,False
+D,finphrase (accuracy),su,0.4722,0.4722,0.5031,0.0309,0.0062,0.0557,0.0148,970,,0.1332,False,False,False
+D,langid (accuracy),su,0.208,0.208,0.2305,0.0225,0.0183,0.0267,0.0,10000,,0.0,False,False,True
+D,banking77 (accuracy),su,0.5754,0.5754,0.6135,0.038,0.0276,0.0484,0.0,3076,"in dominio, letta a parte",0.0,False,False,True
+D,sib200_eng (accuracy),su,0.6765,0.6765,0.7353,0.0588,0.0147,0.1029,0.0096,204,,0.09599999999999999,False,False,False
+D,sib200_ita (accuracy),su,0.7549,0.7549,0.7696,0.0147,-0.0196,0.0539,0.5258,204,,1.0,False,False,False
+D,sib200_spa (accuracy),su,0.7696,0.7696,0.7892,0.0196,-0.0098,0.049,0.2576,204,,1.0,False,False,False
+D,sib200_deu (accuracy),su,0.7157,0.7157,0.7206,0.0049,-0.0294,0.0392,0.8926,204,,1.0,False,False,False
+D,sib200_fra (accuracy),su,0.7843,0.7843,0.8039,0.0196,-0.0196,0.0588,0.3594,204,,1.0,False,False,False
+D,sms (F1_pos),su,0.7492,0.7492,0.6933,-0.0559,-0.0792,-0.0321,0.0,5574,,0.0,True,True,False

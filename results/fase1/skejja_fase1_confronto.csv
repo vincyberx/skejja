@@ -1,0 +1,6 @@
+modello,variante,addestramento,choice_acc_tutte,choice_acc_mai_viste,gap_lingua_peggiore_vs_en,choice_ece_cal,choice_ece_cal_mai_viste,noul_auroc_tutte,noul_auroc_mai_viste,noul_ece_cal,noul_ece_cal_mai_viste,p50_choice_4t_ms_harness,rss_mb_harness,p50_choice_4t_ms_kit,p50_choice_1t_ms_kit,rss_mb_kit,pesi_mb
+Laya multilingue,onnx-w8e4a4,zero-shot,0.593,0.586,0.115,0.048,0.081,0.74,0.621,0.02,0.112,34.6,1330.0,,,,265.9
+GLiClass edge,onnx-w8e4a4,zero-shot,0.552,0.603,0.167,0.037,0.067,0.691,0.729,0.045,0.06,13.3,833.0,11.8,29.5,670.0,110.1
+Skejja 32k zero-shot,onnx-int8,zero-shot,0.538,0.579,0.158,0.031,0.105,0.689,0.719,0.046,0.058,12.8,345.0,12.8,31.7,226.0,101.2
+Skejja 32k fine-tuned,onnx-int8,fine-tuned (49 intenzioni),0.873,0.769,0.04,0.024,0.073,0.959,0.712,0.026,0.211,12.8,350.0,12.7,31.4,226.0,101.2
+Skejja 8 strati fine-tuned,onnx-int8,fine-tuned (49 intenzioni),0.764,0.466,0.052,0.03,0.115,0.91,0.705,0.036,0.156,4.9,302.0,4.9,12.1,184.0,70.7

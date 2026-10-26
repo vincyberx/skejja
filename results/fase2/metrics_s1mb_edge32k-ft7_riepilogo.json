@@ -1,0 +1,44 @@
+{
+ "modello": "edge32k-ft7",
+ "prove_misurate": 137,
+ "prove_per_famiglia": {
+  "noul": 59,
+  "choice": 57,
+  "score": 21
+ },
+ "decisioni_riuscite": 26269,
+ "decisioni_fallite": 0,
+ "medie_per_famiglia": {
+  "choice": 9.44,
+  "noul": 2.49,
+  "score": 1.75
+ },
+ "medie_senza_nostra_esposizione": {
+  "choice": 8.61,
+  "noul": 2.49,
+  "score": 1.75
+ },
+ "prove_con_nostra_esposizione": [
+  "banking77-choice-test-v1",
+  "clinc-choice-test-v1",
+  "massive-choice-test-v1"
+ ],
+ "lunghezze_ingresso": {
+  "questions": 26269,
+  "shortened": 512,
+  "label_overflow": 0,
+  "tokens_max": 4101,
+  "tokens_sum": 16814302,
+  "options_max": 151,
+  "over_training_length": 4149,
+  "tokens_mean": 640.1
+ },
+ "confronto_classifica": {},
+ "score": {
+  "prove": 21,
+  "decisioni": 5148,
+  "fallite": 0,
+  "nota": "ricalcolato il 16 ottobre dal CSV per prova: il campo score_non_supportata diceva per errore che la primitiva mancava"
+ },
+ "task_avg": 4.56
+}

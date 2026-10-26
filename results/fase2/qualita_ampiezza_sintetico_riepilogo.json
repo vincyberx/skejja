@@ -1,0 +1,105 @@
+{
+ "totali": {
+  "richieste/sintetico": 61392,
+  "tenute/sintetico": 58623
+ },
+ "etichette": 61392,
+ "min_cop": 0.9,
+ "per_famiglia": {
+  "argomento/choice": {
+   "tenute": 4868,
+   "accordo": 0.7396,
+   "classe_piu_frequente": "casa",
+   "quota": 0.3387
+  },
+  "argomento/noul": {
+   "tenute": 2964,
+   "accordo": 0.9297,
+   "classe_piu_frequente": "si",
+   "quota": 0.3887
+  },
+  "emozione/choice": {
+   "tenute": 5596,
+   "accordo": 0.8538,
+   "classe_piu_frequente": "niente",
+   "quota": 0.2234
+  },
+  "emozione/noul": {
+   "tenute": 5279,
+   "accordo": 0.976,
+   "classe_piu_frequente": "si",
+   "quota": 0.39
+  },
+  "indesiderato/noul": {
+   "tenute": 4042,
+   "accordo": 0.9673,
+   "classe_piu_frequente": "si",
+   "quota": 0.2402
+  },
+  "intento_del_testo/choice": {
+   "tenute": 4792,
+   "accordo": 0.8472,
+   "classe_piu_frequente": "racconto",
+   "quota": 0.3598
+  },
+  "intento_del_testo/noul": {
+   "tenute": 3114,
+   "accordo": 0.9365,
+   "classe_piu_frequente": "si",
+   "quota": 0.3972
+  },
+  "registro/choice": {
+   "tenute": 4452,
+   "accordo": 0.9358,
+   "classe_piu_frequente": "informale",
+   "quota": 0.6817
+  },
+  "registro/noul": {
+   "tenute": 3448,
+   "accordo": 0.9287,
+   "classe_piu_frequente": "si",
+   "quota": 0.234
+  },
+  "relazione/noul": {
+   "tenute": 5601,
+   "accordo": 0.9406,
+   "classe_piu_frequente": "si",
+   "quota": 0.3582
+  },
+  "sentiment/choice": {
+   "tenute": 5510,
+   "accordo": 0.988,
+   "classe_piu_frequente": "positivo",
+   "quota": 0.3606
+  },
+  "sentiment/noul": {
+   "tenute": 4518,
+   "accordo": 0.968,
+   "classe_piu_frequente": "si",
+   "quota": 0.6445
+  },
+  "sicurezza/noul": {
+   "tenute": 4439,
+   "accordo": 0.9345,
+   "classe_piu_frequente": "si",
+   "quota": 0.4147
+  },
+  "tutte/choice": {
+   "tenute": 25218,
+   "accordo": 0.8671,
+   "classe_piu_frequente": "informale",
+   "quota": 0.1204
+  },
+  "tutte/noul": {
+   "tenute": 33405,
+   "accordo": 0.9494,
+   "classe_piu_frequente": "si",
+   "quota": 0.3887
+  }
+ },
+ "fonte": {
+  "richieste": "bench/data/broad/requests_synth.jsonl.gz",
+  "insegnante": "Qwen/Qwen3.5-9B",
+  "filtri": "come training/train_skejja2.py: copertura >= 0.9, accordo con la classe voluta se presente"
+ }
+}

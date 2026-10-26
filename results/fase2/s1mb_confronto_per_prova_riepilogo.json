@@ -1,0 +1,51 @@
+{
+ "ft6": {
+  "noul_prove": 59,
+  "noul_auroc_mediana": 0.4736,
+  "noul_prove_auroc_almeno_0_6": 5,
+  "noul_prove_auroc_sotto_0_5": 39,
+  "noul_acc_bilanciata_mediana": 0.5,
+  "noul_p_true_media_mediana": 0.7922,
+  "noul_prove_punteggio_sopra_0": 10,
+  "choice_prove": 57,
+  "choice_accuratezza_mediana": 0.33,
+  "choice_prove_sopra_base_uniforme": 27,
+  "choice_prove_punteggio_sopra_0": 22,
+  "prove_sopra_bekko_68m": [
+   "open-jev--drone-control-v1-choice-test-v1",
+   "open-jev--painting-geometry-v1-choice-test-v1"
+  ]
+ },
+ "ft5": {
+  "noul_prove": 59,
+  "noul_auroc_mediana": 0.4802,
+  "noul_prove_auroc_almeno_0_6": 3,
+  "noul_prove_auroc_sotto_0_5": 37,
+  "noul_acc_bilanciata_mediana": 0.5,
+  "noul_p_true_media_mediana": 0.8575,
+  "noul_prove_punteggio_sopra_0": 4,
+  "choice_prove": 57,
+  "choice_accuratezza_mediana": 0.34,
+  "choice_prove_sopra_base_uniforme": 24,
+  "choice_prove_punteggio_sopra_0": 19,
+  "prove_sopra_bekko_68m": [
+   "followir-robust04-noul-test-v1"
+  ]
+ },
+ "ft3": {
+  "noul_prove": 59,
+  "noul_auroc_mediana": 0.4672,
+  "noul_prove_auroc_almeno_0_6": 5,
+  "noul_prove_auroc_sotto_0_5": 39,
+  "noul_acc_bilanciata_mediana": 0.5,
+  "noul_p_true_media_mediana": 0.8303,
+  "noul_prove_punteggio_sopra_0": 8,
+  "choice_prove": 57,
+  "choice_accuratezza_mediana": 0.35,
+  "choice_prove_sopra_base_uniforme": 26,
+  "choice_prove_punteggio_sopra_0": 22,
+  "prove_sopra_bekko_68m": [
+   "open-jev--drone-control-v1-choice-test-v1"
+  ]
+ }
+}

@@ -1,0 +1,4 @@
+model,max_tokens,phrasing,reference,n,positives,auroc,accuracy,missed,extra,median_ms,truncated
+edge-v32k-ft6.fp32.onnx,1024,categories-it,judge_relabelled,235,62,0.6965317919075145,0.7531914893617021,46,12,624.2322498001158,2
+edge-v32k-ft6.fp32.onnx,1024,categories-it,judge_original,235,67,0.6057213930348259,0.723404255319149,52,13,624.2322498001158,2
+edge-v32k-ft6.fp32.onnx,1024,categories-it,judges_agree,194,44,0.697878787878788,0.788659793814433,31,10,624.2322498001158,2

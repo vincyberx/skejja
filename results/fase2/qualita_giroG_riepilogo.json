@@ -1,0 +1,45 @@
+{
+ "richieste": 70362,
+ "tenute": 70188,
+ "con_etichetta_del_corpus": 58330,
+ "con_etichetta_dell_insegnante": 11858,
+ "scartate": {
+  "senza_etichetta": 0,
+  "copertura_bassa": 17,
+  "disaccordo_con_classe_voluta": 157
+ },
+ "token_stimati": {
+  "mediana": 61,
+  "p90": 546,
+  "massimo": 1024
+ },
+ "livelli_score": {
+  "pertinenza_grado": {
+   "1": 193,
+   "3": 145,
+   "4": 493,
+   "0": 1003,
+   "2": 13
+  },
+  "preferenza": {
+   "-3": 135,
+   "3": 153,
+   "1": 436,
+   "2": 306,
+   "-2": 323,
+   "-1": 331,
+   "0": 444
+  },
+  "giudizio": {
+   "2": 695,
+   "3": 1583,
+   "0": 187,
+   "1": 436,
+   "4": 99
+  }
+ },
+ "testi_che_toccano_il_banco": 0,
+ "testi_che_toccano_il_banco_per_famiglia": {},
+ "file_pulito": "bench/data/broad/richieste_giroG_pulite.jsonl",
+ "nota": "Il controllo di sovrapposizione confronta i pezzi di stato lunghi almeno 80 caratteri con i testi del progetto e con le impronte degli stati di S1MB."
+}

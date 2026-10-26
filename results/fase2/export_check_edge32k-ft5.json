@@ -1,0 +1,27 @@
+{
+ "ckpt": "best",
+ "check_vs_torch": {
+  "fp32": {
+   "choice_max_abs": 1.52587890625e-05,
+   "choice_argmax_agree": 1.0,
+   "noul_max_abs": 2.181529998779297e-05,
+   "noul_decision_agree": 1.0
+  },
+  "int8": {
+   "choice_max_abs": 0.46248704195022583,
+   "choice_argmax_agree": 0.9966666666666667,
+   "noul_max_abs": 0.546568751335144,
+   "noul_decision_agree": 1.0
+  },
+  "int8dyn": {
+   "choice_max_abs": 1.105111837387085,
+   "choice_argmax_agree": 0.9866666666666667,
+   "noul_max_abs": 1.240872859954834,
+   "noul_decision_agree": 0.9933333333333333
+  }
+ },
+ "n_check": 300,
+ "int8dyn_excluded": [
+  "mlp/Wo"
+ ]
+}

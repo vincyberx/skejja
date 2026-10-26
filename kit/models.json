@@ -1,0 +1,173 @@
+{
+ "models": {
+  "L8-int8": {
+   "dir": "models/ft32k-L8",
+   "onnx": "edge-v32k-L8-ft.int8.onnx",
+   "model": "gliclass-edge-trim32k-L8-ft",
+   "variant": "onnx-int8",
+   "description": "8-layer student, 32k vocab, fine-tuned, weight-only int8 (smallest/fastest; weak on unseen intents)",
+   "calibration": {
+    "temperature": 1.0627726307885297,
+    "platt_a": 0.9106031997664211,
+    "platt_b": 0.38293901543231457
+   },
+   "est_rss_mb": 138,
+   "mac_rss_lean_mb": 137.822208,
+   "mac_rss_protocol_mb": 302.03904
+  },
+  "L8-int8dyn": {
+   "dir": "models/ft32k-L8",
+   "onnx": "edge-v32k-L8-ft.int8dyn.onnx",
+   "model": "gliclass-edge-trim32k-L8-ft",
+   "variant": "onnx-int8dyn",
+   "description": "8-layer student, dynamic int8 (fallback if weight-only int8 is slow on this CPU)",
+   "calibration": {
+    "temperature": 1.0392234332234114,
+    "platt_a": 0.9275077177377294,
+    "platt_b": 0.3781157847440131
+   },
+   "est_rss_mb": 140,
+   "mac_rss_lean_mb": 139.722752,
+   "mac_rss_protocol_mb": 282.78784
+  },
+  "ft32k-int8": {
+   "dir": "models/ft32k-int8",
+   "onnx": "edge-v32k-ft.int8.onnx",
+   "model": "gliclass-edge-trim32k-ft",
+   "variant": "onnx-int8",
+   "description": "22-layer, 32k vocab, fine-tuned (fase 1), weight-only int8",
+   "calibration": {
+    "temperature": 0.8352120679722355,
+    "platt_a": 1.159232285755172,
+    "platt_b": 0.19821189259318658
+   },
+   "est_rss_mb": 190,
+   "mac_rss_lean_mb": 189.874176,
+   "mac_rss_protocol_mb": 350.175232
+  },
+  "ft32k-int8dyn": {
+   "dir": "models/ft32k-int8",
+   "onnx": "edge-v32k-ft.int8dyn.onnx",
+   "model": "gliclass-edge-trim32k-ft",
+   "variant": "onnx-int8dyn",
+   "description": "22-layer fine-tuned, dynamic int8 (fallback)",
+   "calibration": {
+    "temperature": 0.7902645929975566,
+    "platt_a": 1.0582194302405918,
+    "platt_b": 0.5151317848463941
+   },
+   "est_rss_mb": 176,
+   "mac_rss_lean_mb": 175.980544,
+   "mac_rss_protocol_mb": 330.907648
+  },
+  "zs32k-int8": {
+   "dir": "models/zs32k",
+   "onnx": "edge-v32k-zs.int8.onnx",
+   "model": "gliclass-edge-trim32k-zs",
+   "variant": "onnx-int8",
+   "description": "22-layer, 32k vocab, zero-shot (no fine-tune), weight-only int8",
+   "calibration": {
+    "temperature": 1.3229066121104927,
+    "platt_a": 0.49901902966689254,
+    "platt_b": 1.1202497510644158
+   },
+   "est_rss_mb": 190,
+   "mac_rss_lean_mb": 190.316544,
+   "mac_rss_protocol_mb": 344.8832
+  },
+  "ft32k-fp32": {
+   "dir": "models/ft32k-fp32",
+   "onnx": "edge-v32k-ft.fp32.onnx",
+   "model": "gliclass-edge-trim32k-ft",
+   "variant": "onnx-fp32",
+   "description": "22-layer fine-tuned, fp32 reference",
+   "calibration": {
+    "temperature": 0.8389363642779446,
+    "platt_a": 1.1555011431986082,
+    "platt_b": 0.20315372891320368
+   },
+   "est_rss_mb": 306,
+   "mac_rss_lean_mb": 305.922048,
+   "mac_rss_protocol_mb": 444.98944
+  },
+  "gliclass-edge-w8e4a4": {
+   "dir": "models/gliclass-edge-w8e4a4",
+   "onnx": "gliclass_multilang_edge_w8e4a4.onnx",
+   "model": "gliclass-multilang-edge",
+   "variant": "onnx-w8e4a4",
+   "description": "original GLiClass edge (256k vocab) baseline, zero-shot; needs ~650+ MB RAM",
+   "calibration": {
+    "temperature": 1.2544153180173316,
+    "platt_a": 0.5229604655612083,
+    "platt_b": 1.130693435267249
+   },
+   "est_rss_mb": 653,
+   "mac_rss_lean_mb": null,
+   "mac_rss_protocol_mb": 753.401856
+  },
+  "ft5-int8": {
+   "dir": "models/ft5",
+   "onnx": "edge-v32k-ft5.int8.onnx",
+   "model": "gliclass-edge-trim32k-ft5",
+   "variant": "onnx-int8",
+   "description": "fase 2 (ft5, candidato principale), 32k, weight-only int8",
+   "calibration": {
+    "temperature": 1.0571779669339998,
+    "platt_a": 0.8147820772424255,
+    "platt_b": 0.21869424474592347
+   },
+   "est_rss_mb": 190,
+   "mac_rss_lean_mb": 189.874176,
+   "mac_rss_protocol_mb": 350.175232,
+   "note": "architettura e dimensioni identiche a ft32k: est_rss_mb ripreso da ft32k, da rimisurare"
+  },
+  "ft5-int8dyn": {
+   "dir": "models/ft5",
+   "onnx": "edge-v32k-ft5.int8dyn.onnx",
+   "model": "gliclass-edge-trim32k-ft5",
+   "variant": "onnx-int8dyn",
+   "description": "fase 2 (ft5, candidato principale), dynamic int8 con mlp.Wo in fp32 (consigliato su CPU ARM senza dot-product, es. Pi 3/4)",
+   "calibration": {
+    "temperature": 1.0553799631218528,
+    "platt_a": 0.8153057010750436,
+    "platt_b": 0.21145435278787328
+   },
+   "est_rss_mb": 176,
+   "mac_rss_lean_mb": 175.980544,
+   "mac_rss_protocol_mb": 330.907648,
+   "note": "architettura e dimensioni identiche a ft32k: est_rss_mb ripreso da ft32k, da rimisurare"
+  },
+  "ft6-int8": {
+   "dir": "models/ft6",
+   "onnx": "edge-v32k-ft6.int8.onnx",
+   "model": "gliclass-edge-trim32k-ft6",
+   "variant": "onnx-int8",
+   "description": "fase 2 giro F (ft6, candidato principale), 32k, weight-only int8",
+   "calibration": {
+    "temperature": 1.061926311530685,
+    "platt_a": 0.8450836171439912,
+    "platt_b": 0.40176501739057835
+   },
+   "est_rss_mb": 190,
+   "mac_rss_lean_mb": 189.874176,
+   "mac_rss_protocol_mb": 350.175232,
+   "note": "stessa architettura e stesse dimensioni di ft5 (124.288.004 byte di pesi int8 dinamici): est_rss_mb ripreso da ft5, da rimisurare"
+  },
+  "ft6-int8dyn": {
+   "dir": "models/ft6",
+   "onnx": "edge-v32k-ft6.int8dyn.onnx",
+   "model": "gliclass-edge-trim32k-ft6",
+   "variant": "onnx-int8dyn",
+   "description": "fase 2 giro F (ft6, candidato principale), dynamic int8 con mlp.Wo in fp32 (consigliato su CPU ARM senza dot-product, es. Pi 3/4)",
+   "calibration": {
+    "temperature": 1.0416030369517624,
+    "platt_a": 0.841808613755462,
+    "platt_b": 0.4707840185537924
+   },
+   "est_rss_mb": 176,
+   "mac_rss_lean_mb": 175.980544,
+   "mac_rss_protocol_mb": 330.907648,
+   "note": "stessa architettura e stesse dimensioni di ft5 (124.288.004 byte di pesi int8 dinamici): est_rss_mb ripreso da ft5, da rimisurare"
+  }
+ }
+}

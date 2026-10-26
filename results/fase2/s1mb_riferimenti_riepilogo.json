@@ -1,0 +1,32 @@
+{
+ "dataset": "hotchpotch/s1mb-result",
+ "revisione_file_scaricato": "ec0a2b73575665677dc45552df32aea96afc81ea",
+ "revisione_dei_risultati_aggregati": "35853a9d8e3df93342018c6cd701966be209922e",
+ "categoria": "english-v1",
+ "generato": "2026-10-13T08:04:00.232Z",
+ "prove": 137,
+ "modelli_nella_classifica": 170,
+ "prove_per_famiglia": {
+  "choice": 57,
+  "noul": 59,
+  "score": 21
+ },
+ "metrica_primaria": {
+  "choice": [
+   "target_mass_at_prediction"
+  ],
+  "noul": [
+   "binary_brier"
+  ],
+  "score": [
+   "normalized_expected_score_mae"
+  ]
+ },
+ "task_avg": "media non pesata delle tre medie di famiglia (verificato su bekko-68m)",
+ "prove_con_sorgenti_nostre": [
+  "banking77-choice-test-v1",
+  "clinc-choice-test-v1",
+  "massive-choice-test-v1"
+ ],
+ "esposizione_bekko_68m": 98
+}

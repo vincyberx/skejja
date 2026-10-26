@@ -1,0 +1,536 @@
+{
+ "_about": "Tipi di domanda per i dati di ampiezza della fase 2 (argomento, sentiment, emozioni, intento del testo, posta indesiderata, sicurezza, registro, lingua). Per ogni famiglia: `domanda` = testo della richiesta per l'insegnante; `opzioni` = descrizioni usate come etichette della Choice (sono il testo che vede Skejja); `affermazioni` = sì/no su affermazioni GENERALI del testo (il buco della fase 2: non «l'utente vuole X» ma «il testo è X»). Scritte dall'agente (Claude) il 13 ottobre 2026; da rivedere a campione da una persona. Nessuna opzione è copiata dalle etichette dei dataset dell'articolo su Jev.",
+ "_lingue": [
+  "en",
+  "it",
+  "es",
+  "de",
+  "fr"
+ ],
+ "famiglie": {
+  "argomento": {
+   "tipo": "entrambi",
+   "domanda": {
+    "en": "What is this text about?",
+    "it": "Di cosa parla questo testo?",
+    "es": "¿De qué trata este texto?",
+    "de": "Wovon handelt dieser Text?",
+    "fr": "De quoi parle ce texte ?"
+   },
+   "opzioni": {
+    "politica": {
+     "en": "politics, government and public affairs",
+     "it": "politica, governo e questioni pubbliche",
+     "es": "política, gobierno y asuntos públicos",
+     "de": "Politik, Regierung und öffentliche Angelegenheiten",
+     "fr": "politique, gouvernement et affaires publiques"
+    },
+    "sport": {
+     "en": "sport, matches, teams and athletes",
+     "it": "sport, partite, squadre e atleti",
+     "es": "deporte, partidos, equipos y atletas",
+     "de": "Sport, Spiele, Mannschaften und Sportler",
+     "fr": "sport, matchs, équipes et athlètes"
+    },
+    "economia": {
+     "en": "economy, work, money and companies",
+     "it": "economia, lavoro, soldi e aziende",
+     "es": "economía, trabajo, dinero y empresas",
+     "de": "Wirtschaft, Arbeit, Geld und Unternehmen",
+     "fr": "économie, travail, argent et entreprises"
+    },
+    "tecnologia": {
+     "en": "science, technology and computers",
+     "it": "scienza, tecnologia e informatica",
+     "es": "ciencia, tecnología e informática",
+     "de": "Wissenschaft, Technik und Computer",
+     "fr": "science, technologie et informatique"
+    },
+    "salute": {
+     "en": "health, medicine and the body",
+     "it": "salute, medicina e corpo",
+     "es": "salud, medicina y cuerpo",
+     "de": "Gesundheit, Medizin und Körper",
+     "fr": "santé, médecine et corps"
+    },
+    "cultura": {
+     "en": "culture, entertainment, music, film and books",
+     "it": "cultura, intrattenimento, musica, film e libri",
+     "es": "cultura, entretenimiento, música, cine y libros",
+     "de": "Kultur, Unterhaltung, Musik, Film und Bücher",
+     "fr": "culture, divertissement, musique, cinéma et livres"
+    },
+    "casa": {
+     "en": "home, family and everyday life",
+     "it": "casa, famiglia e vita quotidiana",
+     "es": "casa, familia y vida cotidiana",
+     "de": "Haus, Familie und Alltag",
+     "fr": "maison, famille et vie quotidienne"
+    },
+    "diritto": {
+     "en": "law, rules and documents",
+     "it": "diritto, regole e documenti",
+     "es": "derecho, normas y documentos",
+     "de": "Recht, Regeln und Dokumente",
+     "fr": "droit, règles et documents"
+    }
+   },
+   "affermazioni": {
+    "parla_di_sport": {
+     "en": "the text is about sport",
+     "it": "il testo parla di sport",
+     "es": "el texto trata de deporte",
+     "de": "der Text handelt von Sport",
+     "fr": "le texte parle de sport"
+    },
+    "parla_di_soldi": {
+     "en": "the text is about money or business",
+     "it": "il testo parla di soldi o di affari",
+     "es": "el texto trata de dinero o de negocios",
+     "de": "der Text handelt von Geld oder Geschäften",
+     "fr": "le texte parle d'argent ou d'affaires"
+    },
+    "parla_di_salute": {
+     "en": "the text is about health or medicine",
+     "it": "il testo parla di salute o di medicina",
+     "es": "el texto trata de salud o de medicina",
+     "de": "der Text handelt von Gesundheit oder Medizin",
+     "fr": "le texte parle de santé ou de médecine"
+    }
+   }
+  },
+  "sentiment": {
+   "tipo": "entrambi",
+   "domanda": {
+    "en": "What opinion does this text express?",
+    "it": "Che giudizio esprime questo testo?",
+    "es": "¿Qué opinión expresa este texto?",
+    "de": "Welche Meinung drückt dieser Text aus?",
+    "fr": "Quel avis exprime ce texte ?"
+   },
+   "opzioni": {
+    "negativo": {
+     "en": "a negative opinion: the writer is dissatisfied or critical",
+     "it": "un giudizio negativo: chi scrive è insoddisfatto o critico",
+     "es": "una opinión negativa: quien escribe está insatisfecho o es crítico",
+     "de": "eine negative Meinung: die schreibende Person ist unzufrieden oder kritisch",
+     "fr": "un avis négatif : l'auteur est insatisfait ou critique"
+    },
+    "neutro": {
+     "en": "no opinion: the text only reports facts",
+     "it": "nessun giudizio: il testo riporta solo fatti",
+     "es": "ninguna opinión: el texto solo informa de hechos",
+     "de": "keine Meinung: der Text berichtet nur Fakten",
+     "fr": "aucun avis : le texte ne rapporte que des faits"
+    },
+    "positivo": {
+     "en": "a positive opinion: the writer is satisfied or appreciative",
+     "it": "un giudizio positivo: chi scrive è soddisfatto o apprezza",
+     "es": "una opinión positiva: quien escribe está satisfecho o lo aprecia",
+     "de": "eine positive Meinung: die schreibende Person ist zufrieden oder lobt",
+     "fr": "un avis positif : l'auteur est satisfait ou apprécie"
+    }
+   },
+   "affermazioni": {
+    "positivo": {
+     "en": "the text expresses a positive opinion",
+     "it": "il testo esprime un giudizio positivo",
+     "es": "el texto expresa una opinión positiva",
+     "de": "der Text drückt eine positive Meinung aus",
+     "fr": "le texte exprime un avis positif"
+    },
+    "negativo": {
+     "en": "the text expresses a negative opinion",
+     "it": "il testo esprime un giudizio negativo",
+     "es": "el texto expresa una opinión negativa",
+     "de": "der Text drückt eine negative Meinung aus",
+     "fr": "le texte exprime un avis négatif"
+    },
+    "solo_fatti": {
+     "en": "the text only reports facts, without an opinion",
+     "it": "il testo riporta solo fatti, senza giudizi",
+     "es": "el texto solo informa de hechos, sin opiniones",
+     "de": "der Text berichtet nur Fakten, ohne Wertung",
+     "fr": "le texte ne rapporte que des faits, sans avis"
+    }
+   }
+  },
+  "emozione": {
+   "tipo": "entrambi",
+   "domanda": {
+    "en": "What does the writer of this text feel?",
+    "it": "Che cosa sente chi ha scritto questo testo?",
+    "es": "¿Qué siente quien ha escrito este texto?",
+    "de": "Was fühlt die Person, die diesen Text geschrieben hat?",
+    "fr": "Que ressent la personne qui a écrit ce texte ?"
+   },
+   "opzioni": {
+    "gioia": {
+     "en": "joy or enthusiasm",
+     "it": "gioia o entusiasmo",
+     "es": "alegría o entusiasmo",
+     "de": "Freude oder Begeisterung",
+     "fr": "joie ou enthousiasme"
+    },
+    "tristezza": {
+     "en": "sadness or disappointment",
+     "it": "tristezza o delusione",
+     "es": "tristeza o decepción",
+     "de": "Trauer oder Enttäuschung",
+     "fr": "tristesse ou déception"
+    },
+    "rabbia": {
+     "en": "anger or irritation",
+     "it": "rabbia o irritazione",
+     "es": "ira o irritación",
+     "de": "Wut oder Verärgerung",
+     "fr": "colère ou irritation"
+    },
+    "paura": {
+     "en": "fear or worry",
+     "it": "paura o preoccupazione",
+     "es": "miedo o preocupación",
+     "de": "Angst oder Sorge",
+     "fr": "peur ou inquiétude"
+    },
+    "sorpresa": {
+     "en": "surprise",
+     "it": "sorpresa",
+     "es": "sorpresa",
+     "de": "Überraschung",
+     "fr": "surprise"
+    },
+    "affetto": {
+     "en": "affection or gratitude",
+     "it": "affetto o gratitudine",
+     "es": "afecto o gratitud",
+     "de": "Zuneigung oder Dankbarkeit",
+     "fr": "affection ou gratitude"
+    },
+    "niente": {
+     "en": "no clear emotion",
+     "it": "nessuna emozione chiara",
+     "es": "ninguna emoción clara",
+     "de": "keine klare Emotion",
+     "fr": "aucune émotion claire"
+    }
+   },
+   "affermazioni": {
+    "arrabbiato": {
+     "en": "the writer is angry",
+     "it": "chi scrive è arrabbiato",
+     "es": "quien escribe está enfadado",
+     "de": "die schreibende Person ist wütend",
+     "fr": "l'auteur est en colère"
+    },
+    "preoccupato": {
+     "en": "the writer is worried or afraid",
+     "it": "chi scrive è preoccupato o ha paura",
+     "es": "quien escribe está preocupado o tiene miedo",
+     "de": "die schreibende Person ist besorgt oder hat Angst",
+     "fr": "l'auteur est inquiet ou a peur"
+    },
+    "contento": {
+     "en": "the writer is happy",
+     "it": "chi scrive è contento",
+     "es": "quien escribe está contento",
+     "de": "die schreibende Person ist froh",
+     "fr": "l'auteur est content"
+    }
+   }
+  },
+  "intento_del_testo": {
+   "tipo": "entrambi",
+   "domanda": {
+    "en": "What is this text doing?",
+    "it": "Che cosa fa questo testo?",
+    "es": "¿Qué hace este texto?",
+    "de": "Was tut dieser Text?",
+    "fr": "Que fait ce texte ?"
+   },
+   "opzioni": {
+    "domanda": {
+     "en": "it asks a question",
+     "it": "fa una domanda",
+     "es": "hace una pregunta",
+     "de": "er stellt eine Frage",
+     "fr": "il pose une question"
+    },
+    "ordine": {
+     "en": "it gives an order or an instruction",
+     "it": "dà un ordine o un'istruzione",
+     "es": "da una orden o una instrucción",
+     "de": "er gibt einen Befehl oder eine Anweisung",
+     "fr": "il donne un ordre ou une instruction"
+    },
+    "racconto": {
+     "en": "it reports a fact or tells something",
+     "it": "racconta un fatto o riferisce qualcosa",
+     "es": "informa de un hecho o cuenta algo",
+     "de": "er berichtet eine Tatsache oder erzählt etwas",
+     "fr": "il rapporte un fait ou raconte quelque chose"
+    },
+    "opinione": {
+     "en": "it expresses an opinion",
+     "it": "esprime un'opinione",
+     "es": "expresa una opinión",
+     "de": "er drückt eine Meinung aus",
+     "fr": "il exprime une opinion"
+    },
+    "lamentela": {
+     "en": "it complains about something",
+     "it": "si lamenta di qualcosa",
+     "es": "se queja de algo",
+     "de": "er beschwert sich über etwas",
+     "fr": "il se plaint de quelque chose"
+    },
+    "promozione": {
+     "en": "it advertises or sells something",
+     "it": "pubblicizza o vende qualcosa",
+     "es": "anuncia o vende algo",
+     "de": "er bewirbt oder verkauft etwas",
+     "fr": "il fait de la publicité ou vend quelque chose"
+    }
+   },
+   "affermazioni": {
+    "contiene_domanda": {
+     "en": "the text asks a question",
+     "it": "il testo fa una domanda",
+     "es": "el texto hace una pregunta",
+     "de": "der Text stellt eine Frage",
+     "fr": "le texte pose une question"
+    },
+    "chiede_azione": {
+     "en": "the text asks someone to do something",
+     "it": "il testo chiede a qualcuno di fare qualcosa",
+     "es": "el texto pide a alguien que haga algo",
+     "de": "der Text bittet jemanden, etwas zu tun",
+     "fr": "le texte demande à quelqu'un de faire quelque chose"
+    },
+    "promuove": {
+     "en": "the text advertises a product or a service",
+     "it": "il testo pubblicizza un prodotto o un servizio",
+     "es": "el texto anuncia un producto o un servicio",
+     "de": "der Text bewirbt ein Produkt oder eine Dienstleistung",
+     "fr": "le texte fait la publicité d'un produit ou d'un service"
+    }
+   }
+  },
+  "indesiderato": {
+   "tipo": "noul",
+   "domanda": {
+    "en": "Judge this message.",
+    "it": "Giudica questo messaggio.",
+    "es": "Juzga este mensaje.",
+    "de": "Beurteile diese Nachricht.",
+    "fr": "Juge ce message."
+   },
+   "opzioni": {},
+   "affermazioni": {
+    "indesiderato": {
+     "en": "the message is unwanted: unsolicited advertising, a scam or a prize offer",
+     "it": "il messaggio è indesiderato: pubblicità non richiesta, truffa o offerta di premi",
+     "es": "el mensaje no es deseado: publicidad no solicitada, estafa u oferta de premios",
+     "de": "die Nachricht ist unerwünscht: unverlangte Werbung, Betrug oder ein Gewinnversprechen",
+     "fr": "le message est indésirable : publicité non sollicitée, arnaque ou offre de prix"
+    },
+    "chiede_credenziali": {
+     "en": "the message asks for personal data, passwords or payment details",
+     "it": "il messaggio chiede dati personali, password o dati di pagamento",
+     "es": "el mensaje pide datos personales, contraseñas o datos de pago",
+     "de": "die Nachricht fragt nach persönlichen Daten, Passwörtern oder Zahlungsdaten",
+     "fr": "le message demande des données personnelles, des mots de passe ou des données de paiement"
+    },
+    "urgenza": {
+     "en": "the message pushes to act immediately",
+     "it": "il messaggio spinge ad agire subito",
+     "es": "el mensaje empuja a actuar de inmediato",
+     "de": "die Nachricht drängt zu sofortigem Handeln",
+     "fr": "le message pousse à agir immédiatement"
+    }
+   }
+  },
+  "sicurezza": {
+   "tipo": "noul",
+   "domanda": {
+    "en": "Judge this text.",
+    "it": "Giudica questo testo.",
+    "es": "Juzga este texto.",
+    "de": "Beurteile diesen Text.",
+    "fr": "Juge ce texte."
+   },
+   "opzioni": {},
+   "affermazioni": {
+    "offese": {
+     "en": "the text insults or demeans a person or a group",
+     "it": "il testo insulta o umilia una persona o un gruppo",
+     "es": "el texto insulta o humilla a una persona o a un grupo",
+     "de": "der Text beschimpft oder erniedrigt eine Person oder eine Gruppe",
+     "fr": "le texte insulte ou rabaisse une personne ou un groupe"
+    },
+    "dati_personali": {
+     "en": "the text contains personal data such as a name, an address or a phone number",
+     "it": "il testo contiene dati personali come un nome, un indirizzo o un numero di telefono",
+     "es": "el texto contiene datos personales como un nombre, una dirección o un teléfono",
+     "de": "der Text enthält persönliche Daten wie Name, Adresse oder Telefonnummer",
+     "fr": "le texte contient des données personnelles comme un nom, une adresse ou un téléphone"
+    },
+    "violenza": {
+     "en": "the text describes violence or harm to people",
+     "it": "il testo descrive violenza o danni alle persone",
+     "es": "el texto describe violencia o daños a las personas",
+     "de": "der Text beschreibt Gewalt oder Schaden an Menschen",
+     "fr": "le texte décrit de la violence ou des atteintes aux personnes"
+    }
+   }
+  },
+  "registro": {
+   "tipo": "entrambi",
+   "domanda": {
+    "en": "How is this text written?",
+    "it": "Com'è scritto questo testo?",
+    "es": "¿Cómo está escrito este texto?",
+    "de": "Wie ist dieser Text geschrieben?",
+    "fr": "Comment ce texte est-il écrit ?"
+   },
+   "opzioni": {
+    "formale": {
+     "en": "in formal language",
+     "it": "in lingua formale",
+     "es": "en lenguaje formal",
+     "de": "in formeller Sprache",
+     "fr": "en langue formelle"
+    },
+    "informale": {
+     "en": "in everyday, informal language",
+     "it": "in lingua informale, di tutti i giorni",
+     "es": "en lenguaje informal, cotidiano",
+     "de": "in informeller Alltagssprache",
+     "fr": "en langue informelle, de tous les jours"
+    },
+    "tecnico": {
+     "en": "in technical or specialist language",
+     "it": "in lingua tecnica o da specialisti",
+     "es": "en lenguaje técnico o especializado",
+     "de": "in technischer oder Fachsprache",
+     "fr": "en langue technique ou spécialisée"
+    }
+   },
+   "affermazioni": {
+    "formale": {
+     "en": "the text is written in formal language",
+     "it": "il testo è scritto in lingua formale",
+     "es": "el texto está escrito en lenguaje formal",
+     "de": "der Text ist in formeller Sprache geschrieben",
+     "fr": "le texte est écrit en langue formelle"
+    },
+    "tecnico": {
+     "en": "the text is written for specialists",
+     "it": "il testo è scritto per specialisti",
+     "es": "el texto está escrito para especialistas",
+     "de": "der Text ist für Fachleute geschrieben",
+     "fr": "le texte est écrit pour des spécialistes"
+    }
+   }
+  },
+  "lingua": {
+   "tipo": "entrambi",
+   "_nota": "Le etichette di questa famiglia NON vengono dall'insegnante: sono la lingua dichiarata dal corpus (fineweb-2 è diviso per lingua, aya e mfaq hanno il codice di lingua). Serve a coprire il caso in cui la domanda riguarda la lingua del testo, dove oggi Skejja è al livello del caso. Il dataset Language ID dell'articolo su Jev resta mai visto, ma la CAPACITÀ non è più zero-shot: va dichiarato nel confronto.",
+   "domanda": {
+    "en": "Which language is this text written in?",
+    "it": "In che lingua è scritto questo testo?",
+    "es": "¿En qué idioma está escrito este texto?",
+    "de": "In welcher Sprache ist dieser Text geschrieben?",
+    "fr": "Dans quelle langue ce texte est-il écrit ?"
+   },
+   "opzioni": {
+    "en": {
+     "en": "in English",
+     "it": "in inglese",
+     "es": "en inglés",
+     "de": "auf Englisch",
+     "fr": "en anglais"
+    },
+    "it": {
+     "en": "in Italian",
+     "it": "in italiano",
+     "es": "en italiano",
+     "de": "auf Italienisch",
+     "fr": "en italien"
+    },
+    "es": {
+     "en": "in Spanish",
+     "it": "in spagnolo",
+     "es": "en español",
+     "de": "auf Spanisch",
+     "fr": "en espagnol"
+    },
+    "de": {
+     "en": "in German",
+     "it": "in tedesco",
+     "es": "en alemán",
+     "de": "auf Deutsch",
+     "fr": "en allemand"
+    },
+    "fr": {
+     "en": "in French",
+     "it": "in francese",
+     "es": "en francés",
+     "de": "auf Französisch",
+     "fr": "en français"
+    }
+   },
+   "affermazioni": {
+    "e_italiano": {
+     "en": "the text is written in Italian",
+     "it": "il testo è scritto in italiano",
+     "es": "el texto está escrito en italiano",
+     "de": "der Text ist auf Italienisch geschrieben",
+     "fr": "le texte est écrit en italien"
+    },
+    "e_inglese": {
+     "en": "the text is written in English",
+     "it": "il testo è scritto in inglese",
+     "es": "el texto está escrito en inglés",
+     "de": "der Text ist auf Englisch geschrieben",
+     "fr": "le texte est écrit en anglais"
+    }
+   }
+  },
+  "relazione": {
+   "tipo": "noul",
+   "_nota": "Coppie di frasi (A, B) o domanda e passaggio, scritte dall'insegnante (testi sintetici, nessuna fonte di S1MB). Il testo per Skejja è «A: …\\nB: …».",
+   "domanda": {
+    "en": "Compare the two parts of this text.",
+    "it": "Confronta le due parti di questo testo.",
+    "es": "Compara las dos partes de este texto.",
+    "de": "Vergleiche die beiden Teile dieses Textes.",
+    "fr": "Compare les deux parties de ce texte."
+   },
+   "opzioni": {},
+   "affermazioni": {
+    "implica": {
+     "en": "if A is true, then B is also true",
+     "it": "se A è vera, allora anche B è vera",
+     "es": "si A es verdadera, entonces B también lo es",
+     "de": "wenn A wahr ist, dann ist auch B wahr",
+     "fr": "si A est vraie, alors B est vraie aussi"
+    },
+    "contraddice": {
+     "en": "A and B cannot both be true",
+     "it": "A e B non possono essere vere entrambe",
+     "es": "A y B no pueden ser verdaderas a la vez",
+     "de": "A und B können nicht beide wahr sein",
+     "fr": "A et B ne peuvent pas être vraies toutes les deux"
+    },
+    "risponde": {
+     "en": "B answers the question asked in A",
+     "it": "B risponde alla domanda posta in A",
+     "es": "B responde a la pregunta planteada en A",
+     "de": "B beantwortet die Frage aus A",
+     "fr": "B répond à la question posée dans A"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,117 @@
+{
+ "Qwen/Qwen3.5-9B": {
+  "distribuzione_etichette_choice": {
+   "argomento/choice": {
+    "cultura": 183,
+    "casa": 161,
+    "politica": 121,
+    "tecnologia": 112,
+    "economia": 100,
+    "sport": 96,
+    "salute": 44,
+    "diritto": 17
+   },
+   "emozione/choice": {
+    "niente": 676,
+    "gioia": 75,
+    "affetto": 32,
+    "tristezza": 17,
+    "paura": 10,
+    "rabbia": 7,
+    "sorpresa": 4
+   },
+   "intento_del_testo/choice": {
+    "domanda": 439,
+    "racconto": 226,
+    "promozione": 74,
+    "ordine": 73,
+    "opinione": 18,
+    "lamentela": 3
+   },
+   "registro/choice": {
+    "informale": 486,
+    "formale": 305,
+    "tecnico": 73
+   },
+   "sentiment/choice": {
+    "neutro": 641,
+    "positivo": 153,
+    "negativo": 34
+   }
+  },
+  "tempi": {
+   "modello": "Qwen/Qwen3.5-9B",
+   "caricamento_s": 56.3,
+   "richieste": 13861,
+   "secondi_generazione": 688.5,
+   "richieste_al_secondo": 20.13,
+   "token_prompt_al_secondo": 4370.1,
+   "vllm": {
+    "max_model_len": 1536,
+    "gpu_util": 0.92,
+    "enforce_eager": true,
+    "max_num_seqs": 64,
+    "prefix_caching": true,
+    "attention_backend": "FLASH_ATTN"
+   }
+  }
+ },
+ "RedHatAI/Qwen3.8-27B-INT4": {
+  "distribuzione_etichette_choice": {
+   "argomento/choice": {
+    "cultura": 156,
+    "politica": 95,
+    "tecnologia": 95,
+    "sport": 79,
+    "casa": 46,
+    "economia": 39,
+    "salute": 18,
+    "diritto": 5
+   },
+   "emozione/choice": {
+    "niente": 483,
+    "gioia": 40,
+    "tristezza": 7,
+    "affetto": 3,
+    "rabbia": 3,
+    "paura": 2,
+    "sorpresa": 1
+   },
+   "intento_del_testo/choice": {
+    "domanda": 296,
+    "ordine": 104,
+    "racconto": 95,
+    "promozione": 23,
+    "opinione": 19,
+    "lamentela": 2
+   },
+   "registro/choice": {
+    "formale": 251,
+    "informale": 242,
+    "tecnico": 57
+   },
+   "sentiment/choice": {
+    "neutro": 464,
+    "positivo": 65,
+    "negativo": 27
+   }
+  },
+  "tempi": {
+   "modello": "RedHatAI/Qwen3.8-27B-INT4",
+   "caricamento_s": 27.5,
+   "richieste": 1600,
+   "secondi_generazione": 241.1,
+   "richieste_al_secondo": 6.64,
+   "token_prompt_al_secondo": 1234.1,
+   "vllm": {
+    "max_model_len": 1024,
+    "gpu_util": 0.94,
+    "enforce_eager": true,
+    "max_num_seqs": 64,
+    "prefix_caching": true,
+    "attention_backend": "FLASH_ATTN",
+    "kv_cache_dtype": "bfloat16"
+   }
+  }
+ }
+}

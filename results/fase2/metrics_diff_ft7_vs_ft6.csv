@@ -1,0 +1,13 @@
+confronto,split,metrica,valore,ci_lo,ci_hi,n
+edge32k-ft7 - edge32k-ft6,choice/tutte,diff_accuratezza,0.0035,-0.0085,0.0155,2000
+edge32k-ft7 - edge32k-ft6,choice/tutte,accuratezza_edge32k-ft6,0.8725,nan,nan,2000
+edge32k-ft7 - edge32k-ft6,choice/tutte,accuratezza_edge32k-ft7,0.876,nan,nan,2000
+edge32k-ft7 - edge32k-ft6,choice/mai_viste,diff_accuratezza,-0.0207,-0.0552,0.0172,290
+edge32k-ft7 - edge32k-ft6,choice/mai_viste,accuratezza_edge32k-ft6,0.7414,nan,nan,290
+edge32k-ft7 - edge32k-ft6,choice/mai_viste,accuratezza_edge32k-ft7,0.7207,nan,nan,290
+edge32k-ft7 - edge32k-ft6,noul/test,diff_auroc,0.0016,-0.0022,0.0056,2000
+edge32k-ft7 - edge32k-ft6,noul/test,auroc_edge32k-ft6,0.9612,nan,nan,2000
+edge32k-ft7 - edge32k-ft6,noul/test,auroc_edge32k-ft7,0.9628,nan,nan,2000
+edge32k-ft7 - edge32k-ft6,noul/esteso_mai_viste,diff_auroc,-0.01,-0.0153,-0.0049,3655
+edge32k-ft7 - edge32k-ft6,noul/esteso_mai_viste,auroc_edge32k-ft6,0.8399,nan,nan,3655
+edge32k-ft7 - edge32k-ft6,noul/esteso_mai_viste,auroc_edge32k-ft7,0.8299,nan,nan,3655

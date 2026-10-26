@@ -1,0 +1,50 @@
+{
+ "file": "bench/data/broad/richieste_giroG.jsonl",
+ "n": 70362,
+ "per_tipo": {
+  "noul": 39202,
+  "choice": 24028,
+  "score": 7132
+ },
+ "per_famiglia": {
+  "relazione": 671,
+  "sicurezza": 642,
+  "sentiment": 1270,
+  "registro": 1320,
+  "indesiderato": 659,
+  "emozione": 1328,
+  "lingua": 1356,
+  "argomento": 1356,
+  "intento_del_testo": 1426,
+  "pertinenza": 17202,
+  "pertinenza_grado": 2004,
+  "relazione_risposta": 24000,
+  "preferenza": 2128,
+  "giudizio": 3000,
+  "intento_molte_opzioni": 12000
+ },
+ "per_lingua": {
+  "en": 33966,
+  "it": 5139,
+  "es": 8145,
+  "de": 11828,
+  "fr": 11284
+ },
+ "con_etichetta_del_corpus": 58330,
+ "da_etichettare_con_insegnante": 12032,
+ "opzioni": {
+  "massimo": 49,
+  "con_oltre_10": 12000
+ },
+ "token_stimati": {
+  "mediana": 61,
+  "p90": 546,
+  "massimo": 1024,
+  "nota": "stima a 4 caratteri per token, il taglio vero è nel trainer"
+ },
+ "budget": {
+  "max_token": 1024,
+  "max_opzioni": 50
+ },
+ "seed": 0
+}

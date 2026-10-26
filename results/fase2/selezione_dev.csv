@@ -1,0 +1,6 @@
+model,dev_auroc,dev_auroc_same,calib_choice_acc,calib_choice_acc_unseen
+fase1-ft,0.9026,0.8696,0.874,0.712
+A-best,0.9312,0.9069,0.87,0.8
+A-last,0.9301,0.9059,0.864,0.776
+B-best,0.9385,0.9164,0.8793,0.756
+B-last,0.9334,0.9094,0.89,0.764

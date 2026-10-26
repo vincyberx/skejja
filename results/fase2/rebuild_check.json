@@ -1,0 +1,10 @@
+{
+ "onnx_ft": "edge-v32k-ft.fp32.onnx",
+ "n_params_imported": 162,
+ "ft_vs_onnx_choice_max_abs": 1.3470649719238281e-05,
+ "zs_vs_orig_choice_max_abs": 0.0,
+ "zs_vs_orig_choice_n_same_tok": 191,
+ "ft_vs_onnx_noul_max_abs": 2.1278858184814453e-05,
+ "zs_vs_orig_noul_max_abs": 0.0,
+ "zs_vs_orig_noul_n_same_tok": 191
+}

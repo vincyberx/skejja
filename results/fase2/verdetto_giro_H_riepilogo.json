@@ -1,0 +1,40 @@
+{
+ "obiettivi": "results/fase2/giro_H_obiettivi.json",
+ "riferimento": "edge32k-ft6",
+ "candidato": "edge32k-ft8",
+ "ricampionamenti": 10000,
+ "alpha": 0.05,
+ "correzione": "Holm dentro ogni famiglia",
+ "famiglie": {
+  "A": {
+   "stato": "violata",
+   "motivi": [
+    "perdita significativa: Sì/no, test esteso mai visto (AUROC)"
+   ],
+   "non_misurate": 0,
+   "misure": 8
+  },
+  "B": {
+   "stato": "rispettata",
+   "motivi": [],
+   "non_misurate": 0,
+   "misure": 3
+  },
+  "C": {
+   "stato": "rispettata",
+   "motivi": [],
+   "non_misurate": 0,
+   "misure": 4
+  },
+  "D": {
+   "stato": "violata",
+   "motivi": [
+    "una riga oltre 0,03: sms (F1_pos) -0.056"
+   ],
+   "non_misurate": 0,
+   "misure": 13
+  }
+ },
+ "regola_rispettata": false,
+ "nota_banking77": "Banking77 entra nella correzione di Holm della famiglia D ma non nel conteggio delle righe in perdita (in dominio, «letta a parte»)"
+}

@@ -1,0 +1,13 @@
+confronto,split,metrica,valore,ci_lo,ci_hi,n
+ft6-int8dyn - ft5-int8dyn,choice/tutte,diff_accuratezza,0.0015,-0.0115,0.0145,2000
+ft6-int8dyn - ft5-int8dyn,choice/tutte,accuratezza_ft5-int8dyn,0.871,nan,nan,2000
+ft6-int8dyn - ft5-int8dyn,choice/tutte,accuratezza_ft6-int8dyn,0.8725,nan,nan,2000
+ft6-int8dyn - ft5-int8dyn,choice/mai_viste,diff_accuratezza,0.0241,-0.0276,0.0793,290
+ft6-int8dyn - ft5-int8dyn,choice/mai_viste,accuratezza_ft5-int8dyn,0.7241,nan,nan,290
+ft6-int8dyn - ft5-int8dyn,choice/mai_viste,accuratezza_ft6-int8dyn,0.7483,nan,nan,290
+ft6-int8dyn - ft5-int8dyn,noul/test,diff_auroc,-0.0022,-0.007,0.0027,2000
+ft6-int8dyn - ft5-int8dyn,noul/test,auroc_ft5-int8dyn,0.9634,nan,nan,2000
+ft6-int8dyn - ft5-int8dyn,noul/test,auroc_ft6-int8dyn,0.9612,nan,nan,2000
+ft6-int8dyn - ft5-int8dyn,noul/esteso_mai_viste,diff_auroc,0.011,0.0026,0.0191,3655
+ft6-int8dyn - ft5-int8dyn,noul/esteso_mai_viste,auroc_ft5-int8dyn,0.8286,nan,nan,3655
+ft6-int8dyn - ft5-int8dyn,noul/esteso_mai_viste,auroc_ft6-int8dyn,0.8395,nan,nan,3655

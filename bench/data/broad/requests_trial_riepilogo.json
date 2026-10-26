@@ -1,0 +1,25 @@
+{
+ "file": "bench/data/broad/requests_trial.jsonl",
+ "n_richieste": 10000,
+ "n_testi": 2500,
+ "per_famiglia": {
+  "choice/sentiment": 828,
+  "choice/emozione": 821,
+  "noul/lingua": 642,
+  "noul/intento_del_testo": 634,
+  "choice/argomento": 834,
+  "choice/intento_del_testo": 833,
+  "noul/registro": 596,
+  "noul/argomento": 616,
+  "choice/registro": 864,
+  "noul/sicurezza": 632,
+  "noul/indesiderato": 614,
+  "noul/sentiment": 660,
+  "choice/lingua": 820,
+  "noul/emozione": 606
+ },
+ "domande_in_lingua_nativa": 3979,
+ "etichette_dal_corpus": 1462,
+ "p_domanda_nativa": 0.5,
+ "seed": 7
+}

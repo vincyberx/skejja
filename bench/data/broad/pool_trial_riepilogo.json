@@ -1,0 +1,60 @@
+{
+ "file": "bench/data/broad/pool_trial.jsonl",
+ "n": 2500,
+ "per_lingua": {
+  "de": 500,
+  "en": 500,
+  "es": 500,
+  "fr": 500,
+  "it": 500
+ },
+ "per_fonte": {
+  "aya": 1331,
+  "fineweb2": 607,
+  "mfaq": 403,
+  "fineweb": 159
+ },
+ "per_fonte_e_lingua": {
+  "aya/de": 160,
+  "aya/en": 271,
+  "aya/es": 305,
+  "aya/fr": 262,
+  "aya/it": 333,
+  "fineweb/en": 159,
+  "fineweb2/de": 162,
+  "fineweb2/es": 141,
+  "fineweb2/fr": 137,
+  "fineweb2/it": 167,
+  "mfaq/de": 178,
+  "mfaq/en": 70,
+  "mfaq/es": 54,
+  "mfaq/fr": 101
+ },
+ "raccolti_prima_del_livellamento": {
+  "aya/de": 160,
+  "aya/en": 271,
+  "aya/es": 305,
+  "aya/fr": 262,
+  "aya/it": 333,
+  "fineweb/en": 159,
+  "fineweb2/de": 162,
+  "fineweb2/es": 141,
+  "fineweb2/fr": 137,
+  "fineweb2/it": 189,
+  "mfaq/de": 248,
+  "mfaq/en": 192,
+  "mfaq/es": 266,
+  "mfaq/fr": 234,
+  "mfaq/it": 84
+ },
+ "scartati": {
+  "forma": 1969,
+  "duplicato": 142,
+  "sovrapposizione_col_progetto": 1
+ },
+ "caratteri_mediani": 122,
+ "seed": 7,
+ "min_char": 40,
+ "max_char": 1500,
+ "testi_del_progetto_esclusi": 105397
+}

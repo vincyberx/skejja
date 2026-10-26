@@ -1,0 +1,2 @@
+# finché skejja non è su PyPI si installa dal repository GitHub (deve essere pubblico)
+skejja @ git+https://github.com/vincyberx/skejja@main

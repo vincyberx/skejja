@@ -1,0 +1,536 @@
+{
+ "_about": "Obiettivi, ricetta e regola del giro H, fissati il 16 ottobre 2026 prima di addestrare. Guardia, test, tolleranze e limiti rigidi sono copiati senza modifiche da giro_G_obiettivi.json; cambiano la ricetta dei dati e la condizione di guadagno. Generato da bench/giro_H_obiettivi.py.",
+ "giro": "H",
+ "fissato_il": "2026-10-16",
+ "modello_di_riferimento": "edge32k-ft6",
+ "candidato_previsto": "edge32k-ft8",
+ "formato": {
+  "budget_token": 1024,
+  "budget_token_nota": "lunghezza di addestramento, confermata dalla misura sul Pi 4 del 14 ottobre: il costo all'inferenza dipende dall'ingresso che si dà al modello, non dalla lunghezza a cui è stato addestrato, e il bundle resta della stessa dimensione",
+  "inviluppo_pi_token": 512,
+  "inviluppo_pi_nota": "lunghezza massima dichiarata sul Pi 4: a 512 token la RAM di picco è 246 MB (231 con l'arena disattivata), a 1.024 arriva a 398 MB (357), oltre il limite di 300 MB. Dentro l'inviluppo la latenza resta comunque di secondi: il tempo reale vale per il carico normale, non per gli stati lunghi",
+  "budget_opzioni": 50,
+  "scala_score": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "scala_score_nota": "scala prevalente di S1MB (6.168 decisioni su 6.748 hanno i livelli 0–4); Score è una Choice sui livelli con valore, il valore atteso è Σ p·valore e la metrica di S1MB è l'errore sul valore atteso normalizzato sull'ampiezza della scala",
+  "resa": "istruzioni + stato + criteri, la stessa dell'adattatore S1MB (renderer: instructions-then-state-in-text, criteria-as-labels-v1)",
+  "copertura_s1mb": {
+   "entro_192_token_oggi": 0.314,
+   "entro_1024_token": 0.8438,
+   "opzioni_entro_50_choice": 0.9371,
+   "fonte": "results/fase2/s1mb_lunghezze_ft6.json"
+  }
+ },
+ "obiettivi_s1mb": [
+  {
+   "misura": "Score: prove misurate",
+   "valore_ft6": "0/21",
+   "obiettivo": "21/21, zero decisioni fallite",
+   "bekko68m": "21/21",
+   "fonte": "results/fase2/metrics_s1mb_edge32k-ft6.csv",
+   "nota": "la primitiva manca: oggi 5148 decisioni risultano fallite, non sbagliate"
+  },
+  {
+   "misura": "Score: punteggio corretto di famiglia",
+   "valore_ft6": null,
+   "obiettivo": 10.0,
+   "bekko68m": 26.85,
+   "fonte": "results/fase2/metrics_s1mb_edge32k-ft6.csv"
+  },
+  {
+   "misura": "Noul: punteggio corretto di famiglia",
+   "valore_ft6": 0.69,
+   "obiettivo": 8.0,
+   "bekko68m": 42.91,
+   "fonte": "results/fase2/metrics_s1mb_edge32k-ft6.csv"
+  },
+  {
+   "misura": "Noul: AUROC mediana delle 59 prove",
+   "valore_ft6": 0.4736,
+   "obiettivo": 0.6,
+   "bekko68m": null,
+   "fonte": "results/fase2/s1mb_confronto_per_prova.csv",
+   "nota": "oggi 39 prove su 59 sotto 0,5 e solo 5 sopra 0,6: il modello risponde «sì» quasi a tutto"
+  },
+  {
+   "misura": "Noul: prove con AUROC ≥ 0,6",
+   "valore_ft6": 5,
+   "obiettivo": 20,
+   "bekko68m": null,
+   "fonte": "results/fase2/s1mb_confronto_per_prova.csv",
+   "nota": "su 59"
+  },
+  {
+   "misura": "Choice: punteggio corretto di famiglia",
+   "valore_ft6": 9.75,
+   "obiettivo": 15.0,
+   "bekko68m": 51.62,
+   "fonte": "results/fase2/metrics_s1mb_edge32k-ft6.csv"
+  },
+  {
+   "misura": "Choice: punteggio medio, prove con 11–50 opzioni",
+   "valore_ft6": 31.08,
+   "obiettivo": 40.0,
+   "bekko68m": null,
+   "fonte": "results/fase2/metrics_s1mb_edge32k-ft6.csv",
+   "nota": "banda coperta dal budget di 50 opzioni del giro G"
+  },
+  {
+   "misura": "Choice: punteggio medio, prove con 2–4 opzioni",
+   "valore_ft6": 3.4,
+   "obiettivo": 8.0,
+   "bekko68m": null,
+   "fonte": "results/fase2/metrics_s1mb_edge32k-ft6.csv",
+   "nota": "quasi tutte di ragionamento, logica, implicazione: oggi al livello del caso"
+  },
+  {
+   "misura": "Quota di decisioni entro la lunghezza di addestramento",
+   "valore_ft6": 0.314,
+   "obiettivo": 0.8438,
+   "bekko68m": null,
+   "fonte": "results/fase2/s1mb_lunghezze_ft6.json",
+   "nota": "con il budget di 1024 token, senza accorciare nient'altro"
+  }
+ ],
+ "misure_di_guardia": [
+  {
+   "misura": "Choice, tutte",
+   "famiglia": "A",
+   "valore_ft6": 0.8725,
+   "n": 2000,
+   "fonte": "results/fase2/metrics_edge32k-ft6.csv",
+   "verso": "su",
+   "tolleranza": 0.0,
+   "nota": ""
+  },
+  {
+   "misura": "Choice, intenzioni mai viste",
+   "famiglia": "A",
+   "valore_ft6": 0.7414,
+   "n": 290,
+   "fonte": "results/fase2/metrics_edge32k-ft6.csv",
+   "verso": "su",
+   "tolleranza": 0.0,
+   "nota": ""
+  },
+  {
+   "misura": "Choice con le opzioni nella lingua della frase",
+   "famiglia": "A",
+   "valore_ft6": 0.8485,
+   "n": 2000,
+   "fonte": "results/fase2/metrics_edge32k-ft6.csv",
+   "verso": "su",
+   "tolleranza": 0.0,
+   "nota": ""
+  },
+  {
+   "misura": "Sì/no, test (AUROC)",
+   "famiglia": "A",
+   "valore_ft6": 0.9612,
+   "n": 2000,
+   "fonte": "results/fase2/metrics_edge32k-ft6.csv",
+   "verso": "su",
+   "tolleranza": 0.0,
+   "nota": ""
+  },
+  {
+   "misura": "Sì/no, test esteso mai visto (AUROC)",
+   "famiglia": "A",
+   "valore_ft6": 0.8399,
+   "n": 3655,
+   "fonte": "results/fase2/metrics_edge32k-ft6.csv",
+   "verso": "su",
+   "tolleranza": 0.0,
+   "nota": ""
+  },
+  {
+   "misura": "ECE calibrata delle Choice",
+   "famiglia": "A",
+   "valore_ft6": 0.0478,
+   "n": 2000,
+   "fonte": "results/fase2/metrics_edge32k-ft6.csv",
+   "verso": "giu",
+   "tolleranza": 0.0,
+   "nota": "obiettivo di progetto ≤ 0,05 (limite rigido)"
+  },
+  {
+   "misura": "ECE delle sì/no (Platt)",
+   "famiglia": "A",
+   "valore_ft6": 0.0377,
+   "n": 2000,
+   "fonte": "results/fase2/metrics_edge32k-ft6.csv",
+   "verso": "giu",
+   "tolleranza": 0.0,
+   "nota": "obiettivo di progetto ≤ 0,05 (limite rigido)"
+  },
+  {
+   "misura": "Divario Choice fra inglese e lingua peggiore",
+   "famiglia": "A",
+   "valore_ft6": 0.0425,
+   "n": 2000,
+   "fonte": "results/fase2/metrics_edge32k-ft6.csv",
+   "verso": "giu",
+   "tolleranza": 0.0,
+   "nota": "obiettivo di progetto ≤ 8 punti; per lingua: en 0.8925, it 0.8750, es 0.8775, de 0.8500, fr 0.8675"
+  },
+  {
+   "misura": "Azioni, comando (AUROC)",
+   "famiglia": "B",
+   "valore_ft6": 0.997,
+   "n": 3819,
+   "fonte": "results/fase2/metrics_agent_tldr_ft6.csv",
+   "verso": "su",
+   "tolleranza": 0.0,
+   "nota": "lo script non salva i punteggi per esempio: niente test appaiato (da correggere nel giro G)"
+  },
+  {
+   "misura": "Azioni, descrizione inglese (AUROC)",
+   "famiglia": "B",
+   "valore_ft6": 0.9108,
+   "n": 910,
+   "fonte": "results/fase2/metrics_agent_tldr_ft6.csv",
+   "verso": "su",
+   "tolleranza": 0.0,
+   "nota": "lo script non salva i punteggi per esempio: niente test appaiato (da correggere nel giro G)"
+  },
+  {
+   "misura": "Azioni, descrizione nella lingua (AUROC)",
+   "famiglia": "B",
+   "valore_ft6": 0.8359,
+   "n": 326,
+   "fonte": "results/fase2/metrics_agent_tldr_ft6.csv",
+   "verso": "su",
+   "tolleranza": 0.0,
+   "nota": "lo script non salva i punteggi per esempio: niente test appaiato (da correggere nel giro G)"
+  },
+  {
+   "misura": "v0 sì/no, italiano (AUROC)",
+   "famiglia": "C",
+   "valore_ft6": 0.8831,
+   "n": 652,
+   "fonte": "results/fase2/metrics_ood_diff_ft6_vs_ft5.csv",
+   "verso": "su",
+   "tolleranza": 0.0,
+   "nota": ""
+  },
+  {
+   "misura": "v0 sì/no, inglese (AUROC)",
+   "famiglia": "C",
+   "valore_ft6": 0.8583,
+   "n": 652,
+   "fonte": "results/fase2/metrics_ood_diff_ft6_vs_ft5.csv",
+   "verso": "su",
+   "tolleranza": 0.0,
+   "nota": ""
+  },
+  {
+   "misura": "v0 Choice, italiano",
+   "famiglia": "C",
+   "valore_ft6": 0.725,
+   "n": 120,
+   "fonte": "results/fase2/metrics_ood_diff_ft6_vs_ft5.csv",
+   "verso": "su",
+   "tolleranza": 0.0,
+   "nota": ""
+  },
+  {
+   "misura": "v0 Choice, inglese",
+   "famiglia": "C",
+   "valore_ft6": 0.5917,
+   "n": 120,
+   "fonte": "results/fase2/metrics_ood_diff_ft6_vs_ft5.csv",
+   "verso": "su",
+   "tolleranza": 0.0,
+   "nota": ""
+  },
+  {
+   "misura": "agnews (accuracy)",
+   "famiglia": "D",
+   "valore_ft6": 0.7818,
+   "n": 7600,
+   "fonte": "results/fase2/metrics_jev_suite_ft6.csv",
+   "verso": "su",
+   "tolleranza": 0.0,
+   "nota": ""
+  },
+  {
+   "misura": "rotten (accuracy)",
+   "famiglia": "D",
+   "valore_ft6": 0.7308,
+   "n": 1066,
+   "fonte": "results/fase2/metrics_jev_suite_ft6.csv",
+   "verso": "su",
+   "tolleranza": 0.0,
+   "nota": ""
+  },
+  {
+   "misura": "sst2 (accuracy)",
+   "famiglia": "D",
+   "valore_ft6": 0.8073,
+   "n": 872,
+   "fonte": "results/fase2/metrics_jev_suite_ft6.csv",
+   "verso": "su",
+   "tolleranza": 0.0,
+   "nota": ""
+  },
+  {
+   "misura": "emotion (accuracy)",
+   "famiglia": "D",
+   "valore_ft6": 0.3575,
+   "n": 2000,
+   "fonte": "results/fase2/metrics_jev_suite_ft6.csv",
+   "verso": "su",
+   "tolleranza": 0.0,
+   "nota": ""
+  },
+  {
+   "misura": "finphrase (accuracy)",
+   "famiglia": "D",
+   "valore_ft6": 0.4722,
+   "n": 970,
+   "fonte": "results/fase2/metrics_jev_suite_ft6.csv",
+   "verso": "su",
+   "tolleranza": 0.0,
+   "nota": ""
+  },
+  {
+   "misura": "langid (accuracy)",
+   "famiglia": "D",
+   "valore_ft6": 0.208,
+   "n": 10000,
+   "fonte": "results/fase2/metrics_jev_suite_ft6.csv",
+   "verso": "su",
+   "tolleranza": 0.0,
+   "nota": ""
+  },
+  {
+   "misura": "banking77 (accuracy)",
+   "famiglia": "D",
+   "valore_ft6": 0.5754,
+   "n": 3076,
+   "fonte": "results/fase2/metrics_jev_suite_ft6.csv",
+   "verso": "su",
+   "tolleranza": 0.0,
+   "nota": "in dominio, non zero-shot"
+  },
+  {
+   "misura": "sib200_eng (accuracy)",
+   "famiglia": "D",
+   "valore_ft6": 0.6765,
+   "n": 204,
+   "fonte": "results/fase2/metrics_jev_suite_ft6.csv",
+   "verso": "su",
+   "tolleranza": 0.0,
+   "nota": ""
+  },
+  {
+   "misura": "sib200_ita (accuracy)",
+   "famiglia": "D",
+   "valore_ft6": 0.7549,
+   "n": 204,
+   "fonte": "results/fase2/metrics_jev_suite_ft6.csv",
+   "verso": "su",
+   "tolleranza": 0.0,
+   "nota": ""
+  },
+  {
+   "misura": "sib200_spa (accuracy)",
+   "famiglia": "D",
+   "valore_ft6": 0.7696,
+   "n": 204,
+   "fonte": "results/fase2/metrics_jev_suite_ft6.csv",
+   "verso": "su",
+   "tolleranza": 0.0,
+   "nota": ""
+  },
+  {
+   "misura": "sib200_deu (accuracy)",
+   "famiglia": "D",
+   "valore_ft6": 0.7157,
+   "n": 204,
+   "fonte": "results/fase2/metrics_jev_suite_ft6.csv",
+   "verso": "su",
+   "tolleranza": 0.0,
+   "nota": ""
+  },
+  {
+   "misura": "sib200_fra (accuracy)",
+   "famiglia": "D",
+   "valore_ft6": 0.7843,
+   "n": 204,
+   "fonte": "results/fase2/metrics_jev_suite_ft6.csv",
+   "verso": "su",
+   "tolleranza": 0.0,
+   "nota": ""
+  },
+  {
+   "misura": "sms (F1_pos)",
+   "famiglia": "D",
+   "valore_ft6": 0.7492,
+   "n": 5574,
+   "fonte": "results/fase2/metrics_jev_suite_ft6.csv",
+   "verso": "su",
+   "tolleranza": 0.0,
+   "nota": ""
+  }
+ ],
+ "famiglie_di_guardia": {
+  "A": "MASSIVE: il carico di lavoro che spediamo (Choice, sì/no, calibrazione, divario fra lingue)",
+  "B": "azioni degli agenti (tldr-pages)",
+  "C": "test v0 fuori da MASSIVE (domotica, email, agenti)",
+  "D": "dataset dell'articolo su Jev, zero-shot"
+ },
+ "limiti_rigidi": [
+  {
+   "limite": "Pi 4, Choice 8 opzioni, 1 thread, p50",
+   "massimo_ms": 400,
+   "ft5_misurato_ms": 379.1,
+   "ft6_misurato_ms": 380.0,
+   "fonte": "results/pi4/pi4_20261009-115526.csv; ft6 dal giro 3 del 14 ottobre",
+   "nota": "obiettivo di bench/success_criteria.json; il giro di ft6 era in rallentamento termico, quindi 380 ms è un limite superiore"
+  },
+  {
+   "limite": "Pi 4, sì/no, 1 thread, p50",
+   "massimo_ms": 200,
+   "ft5_misurato_ms": 125.9,
+   "ft6_misurato_ms": 126.0,
+   "fonte": "results/pi4/pi4_20261009-115526.csv; ft6 dal giro 3 del 14 ottobre"
+  },
+  {
+   "limite": "Pi 4, RAM di picco, carico normale",
+   "massimo_mb": 300,
+   "ft5_misurato_mb": 226.5,
+   "ft6_misurato_mb": 227.0,
+   "fonte": "results/pi4/pi4_20261009-115526.csv; ft6 dal giro 3 del 14 ottobre"
+  },
+  {
+   "limite": "Pi 4, RAM di picco dentro l'inviluppo dichiarato (512 token, 50 opzioni)",
+   "massimo_mb": 300,
+   "ft6_misurato_mb": 245.7,
+   "ft6_misurato_mb_arena_off": 231.1,
+   "fonte": "results/fase2/costo_lunghezza_opzioni_pi4.csv",
+   "nota": "misurato il 14 ottobre: dentro il limite. Il rallentamento termico non tocca la RAM"
+  },
+  {
+   "limite": "Pi 4, RAM di picco a 1024 token (fuori dall'inviluppo, solo dichiarata)",
+   "massimo_mb": null,
+   "ft6_misurato_mb": 398.2,
+   "ft6_misurato_mb_arena_off": 356.7,
+   "fonte": "results/fase2/costo_lunghezza_opzioni_pi4.csv",
+   "nota": "supera i 300 MB anche con l'arena disattivata: gli ingressi oltre l'inviluppo non si dichiarano per il Pi, si misurano e si riportano"
+  },
+  {
+   "limite": "ECE calibrata delle Choice (MASSIVE, test completo)",
+   "massimo": 0.05,
+   "ft6_misurato": 0.0478,
+   "fonte": "results/fase2/metrics_edge32k-ft6.csv"
+  },
+  {
+   "limite": "ECE delle sì/no (Platt, MASSIVE, test completo)",
+   "massimo": 0.05,
+   "ft6_misurato": 0.0377,
+   "fonte": "results/fase2/metrics_edge32k-ft6.csv"
+  },
+  {
+   "limite": "Dimensione del bundle int8 dinamico",
+   "massimo_byte": 130000000,
+   "ft6_misurato_byte": 124288004,
+   "fonte": "docs/fase2_ampiezza.md §6",
+   "nota": "stessa architettura: il giro G non cambia i pesi, solo i dati e la lunghezza"
+  }
+ ],
+ "regola_di_non_regressione": {
+  "principio": "Pre-registrata: insieme di guardia, test statistico e tolleranze sono fissati qui, prima di generare i dati e di addestrare. Il verdetto si legge su questo file, non si riscrive dopo.",
+  "test": "bootstrap appaiato per esempio, 10.000 ricampionamenti, intervallo al 95% sulla differenza edge32k-ft8 − edge32k-ft6 sugli stessi esempi (bench/compare_runs.py)",
+  "correzione": "Holm dentro ciascuna famiglia (A, B, C, D), non su tutte le misure insieme: la disputa del giro F su SIB-200 nasceva dall'avere scelto la correzione dopo aver visto il risultato",
+  "perdita_significativa": "intervallo al 95% che esclude lo zero, stima puntuale negativa, dopo Holm nella sua famiglia",
+  "tolleranze": {
+   "A": "nessuna perdita significativa ammessa: è il carico di lavoro che spediamo",
+   "B": "nessuna perdita significativa ammessa sul comando; sulle descrizioni è ammessa una perdita fino a 0,02 se non significativa dopo Holm",
+   "C": "ammessa una perdita fino a 0,02 per misura, purché la sì/no complessiva (it ed en) non peggiori in modo significativo",
+   "D": "ammessa una perdita significativa su al massimo UNA delle 13 righe e non oltre 0,03 di stima puntuale, da dichiarare nel documento; due o più righe in perdita significativa = candidato respinto. Banking77 è in dominio e va letta a parte"
+  },
+  "limiti_rigidi": "una violazione qualsiasi dei limiti rigidi respinge il candidato senza passare dalla statistica",
+  "misure_nuove": "le capacità nuove (stati lunghi, 50 opzioni, Score) non hanno un valore di partenza: non entrano nell'insieme di guardia, si riportano e basta",
+  "selezione": "la variante si sceglie solo sulla media di selezione dello sviluppo; S1MB e i test non scelgono niente (politica di S1MB sul test)",
+  "una_misura_sola": "ogni banco si misura una volta sola con la configurazione fissata qui"
+ },
+ "condizione_di_guadagno": {
+  "necessaria": "nessuna perdita oltre le tolleranze del giro G (stesse 28 misure, stesso test, Holm dentro ogni famiglia), limiti rigidi rispettati",
+  "guadagno": "Score supportata su 21/21 prove di S1MB con zero decisioni fallite, E almeno uno fra: (i) Choice di MASSIVE con le opzioni nella lingua della frase, differenza appaiata ft8 − ft6 con intervallo al 95% sopra lo zero; (ii) punteggio della famiglia Score di S1MB ≥ quello di ft6 + 1 punto, ft6 misurato con lo stesso adattatore e la stessa configurazione prima del verdetto; (iii) Choice o Noul di S1MB ≥ +5 punti (la condizione del giro G, che resta valida)",
+  "perche_cambia": "il giro G ha mostrato che con questi dati S1MB sale di 1-2 punti, non di 5: con la condizione del giro G il giro H sarebbe respinto per costruzione anche senza regressioni. Lo scopo del giro H è tenere le capacità nuove (Score, stati lunghi, molte opzioni) senza perdere niente; la condizione lo dice, ed è fissata qui prima di addestrare",
+  "se_guadagno_manca": "ft8 resta alternativo e edge32k-ft6 resta principale; la fase 2 si chiude comunque",
+  "riserve": "una perdita ammessa dalle tolleranze va dichiarata come riserva, come nel giro G"
+ },
+ "separazione": {
+  "mai_in_addestramento": [
+   "dataset dell'articolo su Jev: AG News, Rotten Tomatoes, SST-2, Emotion (dair-ai), Financial PhraseBank, SMS Spam, Language ID, SIB-200, nemmeno i loro split di training",
+   "S1MB in qualunque forma, dati e prove comprese",
+   "le 10 intenzioni dei 4 ambiti esclusi di MASSIVE (transport, takeaway, social, cooking)",
+   "il dataset di addestramento di Bekko (nessuna licenza sullo strato di conversione)",
+   "i 1.600 testi del metro dell'insegnante (uso = solo_metro)"
+  ],
+  "fonti_di_relazioni": "una fonte candidata è esclusa se coincide con una delle 110 famiglie di sorgenti delle prove di S1MB (bench/data/broad/s1mb_sottoinsiemi.json); se la coincidenza è inevitabile e la fonte è già in casa, va dichiarata come esposizione",
+  "esposizioni_gia_dichiarate": [
+   "banking77-choice-test-v1",
+   "clinc-choice-test-v1",
+   "massive-choice-test-v1"
+  ],
+  "licenze_ammesse": [
+   "CC BY",
+   "CC0",
+   "Apache-2.0",
+   "MIT",
+   "BSD",
+   "ODC-BY"
+  ],
+  "licenze_escluse": [
+   "ShareAlike (CC BY-SA, GFDL)",
+   "non commerciale (CC BY-NC)",
+   "GPL/LGPL",
+   "OpenRAIL",
+   "licenza assente o «unknown»"
+  ],
+  "controllo": "controllo automatico di sovrapposizione dei testi normalizzati contro tutti i file di test, i metri e i testi delle prove di S1MB; assert in train_skejja2.py esteso ai dati nuovi"
+ },
+ "giro_precedente": {
+  "giro": "G",
+  "candidato": "edge32k-ft7",
+  "esito": "respinto",
+  "documento": "docs/fase2_giro_G.md, §6"
+ },
+ "ricetta": {
+  "init": "run_F/best (edge32k-ft6), come nel giro G",
+  "teacher_skejja": "run_C/best, distillazione solo su MASSIVE (kd_w 0,5, kd_agent 0, kd_broad 0)",
+  "iperparametri": "lr 2e-5, head_lr 6e-5, p_desc_native 0,5, n_agent 12.000, n_choice 24.000, n_noul_anchor 24.000, max_len 1.024, bs 32, token_budget 16.384, lambda_score 0,5, seed 0: identici al giro G",
+  "dati_giro_F": "teacher_trial_in.jsonl + requests_synth.jsonl con le etichette Qwen3.5-9B, TUTTI, come nel giro F (30.114 Choice e 37.135 sì/no di ampiezza). Il giro G usava requests_trial.jsonl, che non ha le 2.261 varianti di ordine e di lingua del giro F: qui tornano",
+  "dati_giro_G": "richieste_giroG_pulite.jsonl con i tetti per fonte qui sotto; stati lunghi (lungo/fineweb, lungo/fineweb2) e Score tutti",
+  "tetti_per_fonte": {
+   "noul/circa": 4000,
+   "choice/circa": 3000,
+   "noul/mfaq": 1500,
+   "noul/germanquad": 1500,
+   "noul/piaf": 1500,
+   "noul/miracl": 1500,
+   "choice/casa": 6000
+  },
+  "tetti_per_tipo": "nessuno (n_broad_choice, n_broad_noul, n_broad_score = -1)",
+  "modifiche_tecniche": [
+   "le sì/no di ampiezza vanno in batch propri con tetto di 16.384 token (--bnoul_budget), invece che nei batch sì/no da 32 con padding sul più lungo: nel giro G un solo stato lungo portava a 1.024 token un batch di 32",
+   "il tetto di token conta i token dopo il padding, e gli esempi sono ordinati per lunghezza dentro blocchi casuali di 100 batch",
+   "il teacher Skejja gira solo dove la sua uscita entra nella perdita (Choice e sì/no di MASSIVE): stessa perdita, meno calcolo",
+   "il giro va portato a termine: il tetto di tempo del lavoro si fissa dalla prova di ritmo con almeno il 50% di margine, e se il ritmo misurato non lo permette si accorcia la ricetta PRIMA di partire, non a metà"
+  ],
+  "selezione": "come nel giro G: checkpoint migliore sulla media di selezione dello sviluppo"
+ },
+ "avvertenze": [
+  "terzo candidato misurato sugli stessi test di guardia (ft6 nel giro F, ft7 nel giro G, ft8 qui): la probabilità di un falso guadagno cresce con i candidati; per questo la condizione di guadagno chiede un intervallo appaiato sopra lo zero o soglie fissate prima, e ogni banco si misura una volta sola",
+  "la Choice con le opzioni nella lingua della frase è anche una misura di guardia della famiglia A: lo stesso numero può respingere (perdita significativa) o qualificare (guadagno significativo) il candidato",
+  "il bootstrap è a 10.000 ricampionamenti come scritto nella regola del giro G; il confronto appaiato del giro G è stato eseguito con 1.000 (valore fisso in bench/compare_runs.py, senza opzione), contro i 10.000 dichiarati: va rifatto a 10.000 prima del verdetto del giro H, e il verdetto del giro G va riletto su quel rifacimento"
+ ]
+}

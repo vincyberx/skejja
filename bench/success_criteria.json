@@ -1,0 +1,16 @@
+{
+ "version": "phase1-v1",
+ "workload": "short inputs (voice-command length, <=64 tokens); MASSIVE it/en/es/de/fr; Choice over 8 options, Noul yes/no",
+ "targets": {
+  "latency_p50_ms_pi5": 200,
+  "latency_p50_ms_pi4": 400,
+  "latency_p50_ms_pi3": "report only (floor device)",
+  "peak_rss_mb": 300,
+  "choice_accuracy_vs_laya_multilingual": "within 3 points or better, macro over languages",
+  "worst_language_choice_accuracy_gap_vs_en": "<= 8 points",
+  "ece_after_calibration": 0.05,
+  "noul_auroc_min": 0.9
+ },
+ "kill_rule": "If no small candidate meets RAM <=300 MB AND accuracy within 3 points of Laya multilingual on this benchmark, phase 2 does not start as planned (fallback: contribute calibration/edge export to Laya upstream).",
+ "notes": "Pi targets are proposals; Pi 5 numbers extrapolated until measured; Mac numbers measured with 4 CPU threads as proxy only."
+}

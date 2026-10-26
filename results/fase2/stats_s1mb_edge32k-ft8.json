@@ -1,0 +1,10 @@
+{
+ "questions": 26269,
+ "shortened": 512,
+ "label_overflow": 0,
+ "tokens_max": 4101,
+ "tokens_sum": 16814302,
+ "options_max": 151,
+ "over_training_length": 4149,
+ "tokens_mean": 640.1
+}

@@ -1,0 +1,117 @@
+{
+ "modello": "edge32k-ft5",
+ "prove_misurate": 17,
+ "prove_per_famiglia": {
+  "noul": 8,
+  "choice": 9,
+  "score": 0
+ },
+ "decisioni_riuscite": 2991,
+ "decisioni_fallite": 0,
+ "score_non_supportata": {
+  "prove": 0,
+  "decisioni": 0,
+  "nota": "Skejja non ha la primitiva Score: le decisioni sono fallite, non sbagliate. La Task Avg della classifica (media delle tre famiglie) non è quindi confrontabile."
+ },
+ "medie_per_famiglia": {
+  "choice": 16.42,
+  "noul": 0.0
+ },
+ "medie_senza_nostra_esposizione": {
+  "choice": 9.96,
+  "noul": 0.0
+ },
+ "prove_con_nostra_esposizione": [
+  "banking77-choice-test-v1",
+  "clinc-choice-test-v1"
+ ],
+ "lunghezze_ingresso": {
+  "questions": 4291,
+  "shortened": 1173,
+  "label_overflow": 0,
+  "tokens_max": 3319,
+  "tokens_sum": 4100669,
+  "options_max": 151,
+  "over_training_length": 2843,
+  "tokens_mean": 1974.8000000000002
+ },
+ "confronto_classifica": {
+  "jev-1.13.0": {
+   "noul": "64.63",
+   "choice": "67.22",
+   "score": "46.92",
+   "task_avg": "59.59",
+   "prove_con_esposizione_dichiarata": "0"
+  },
+  "hotchpotch/bekko-system-one-v0-400m": {
+   "noul": "51.24",
+   "choice": "61.32",
+   "score": "39.25",
+   "task_avg": "50.6",
+   "prove_con_esposizione_dichiarata": "98"
+  },
+  "jaredpalmer/kev-4b": {
+   "noul": "48.48",
+   "choice": "52.03",
+   "score": "26.47",
+   "task_avg": "42.33",
+   "prove_con_esposizione_dichiarata": "0"
+  },
+  "hotchpotch/bekko-system-one-v0-68m": {
+   "noul": "42.91",
+   "choice": "51.62",
+   "score": "26.85",
+   "task_avg": "40.46",
+   "prove_con_esposizione_dichiarata": "98"
+  },
+  "hotchpotch/bekko-system-one-v0-17m": {
+   "noul": "31.43",
+   "choice": "35.57",
+   "score": "15.7",
+   "task_avg": "27.57",
+   "prove_con_esposizione_dichiarata": "98"
+  },
+  "jaredpalmer/kev-0.8b": {
+   "noul": "23.61",
+   "choice": "27.36",
+   "score": "5.07",
+   "task_avg": "18.68",
+   "prove_con_esposizione_dichiarata": "0"
+  },
+  "convaiinnovations/laya-typed-decisions": {
+   "noul": "20.06",
+   "choice": "18.93",
+   "score": "5.99",
+   "task_avg": "15.0",
+   "prove_con_esposizione_dichiarata": "0"
+  },
+  "convaiinnovations/laya": {
+   "noul": "20.19",
+   "choice": "16.31",
+   "score": "3.58",
+   "task_avg": "13.36",
+   "prove_con_esposizione_dichiarata": "0"
+  },
+  "MoritzLaurer/ModernBERT-large-zeroshot-v2.0": {
+   "noul": "7.33",
+   "choice": "17.67",
+   "score": "3.68",
+   "task_avg": "9.56",
+   "prove_con_esposizione_dichiarata": "0"
+  },
+  "convaiinnovations/laya-multilingual": {
+   "noul": "14.01",
+   "choice": "13.03",
+   "score": "0.79",
+   "task_avg": "9.28",
+   "prove_con_esposizione_dichiarata": "0"
+  },
+  "fastino/GLiNER2.5-Decide": {
+   "noul": "5.4",
+   "choice": "18.19",
+   "score": "3.87",
+   "task_avg": "9.15",
+   "prove_con_esposizione_dichiarata": "0"
+  }
+ }
+}

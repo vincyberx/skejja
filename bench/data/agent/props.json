@@ -1,0 +1,47 @@
+{
+ "_about": "Domande sì/no sulle proprietà di un'azione di un agente (fase 2). Prima stringa = forma usata nel test v0 (en/it) e principale per le altre lingue; le altre = parafrasi per l'addestramento. Scritte dall'agente (Claude) il 7 ottobre 2026; da rivedere.",
+ "props": {
+  "del": {
+   "en": ["delete or overwrite files", "remove or replace existing files", "destroy or overwrite data on disk"],
+   "it": ["cancellare o sovrascrivere file", "eliminare o sostituire file esistenti", "distruggere o sovrascrivere dati sul disco"],
+   "es": ["borrar o sobrescribir archivos", "eliminar o reemplazar archivos existentes", "destruir o sobrescribir datos en el disco"],
+   "de": ["Dateien löschen oder überschreiben", "vorhandene Dateien entfernen oder ersetzen", "Daten auf der Festplatte vernichten oder überschreiben"],
+   "fr": ["supprimer ou écraser des fichiers", "effacer ou remplacer des fichiers existants", "détruire ou écraser des données sur le disque"]
+  },
+  "net": {
+   "en": ["connect to the internet", "use the network to reach another computer", "send or receive data over the internet"],
+   "it": ["connettersi a internet", "usare la rete per raggiungere un altro computer", "inviare o ricevere dati via internet"],
+   "es": ["conectarse a internet", "usar la red para llegar a otro ordenador", "enviar o recibir datos por internet"],
+   "de": ["sich mit dem Internet verbinden", "das Netzwerk nutzen, um einen anderen Rechner zu erreichen", "Daten über das Internet senden oder empfangen"],
+   "fr": ["se connecter à internet", "utiliser le réseau pour joindre un autre ordinateur", "envoyer ou recevoir des données par internet"]
+  },
+  "sudo": {
+   "en": ["use administrator privileges", "run with root permissions", "require sudo or superuser rights"],
+   "it": ["usare privilegi di amministratore", "essere eseguita con permessi di root", "richiedere sudo o i diritti di superutente"],
+   "es": ["usar privilegios de administrador", "ejecutarse con permisos de root", "requerir sudo o derechos de superusuario"],
+   "de": ["Administratorrechte verwenden", "mit Root-Rechten ausgeführt werden", "sudo oder Superuser-Rechte benötigen"],
+   "fr": ["utiliser des privilèges d'administrateur", "s'exécuter avec les droits root", "nécessiter sudo ou les droits de superutilisateur"]
+  },
+  "inst": {
+   "en": ["install software", "install or upgrade a package", "add new programs or libraries to the system"],
+   "it": ["installare software", "installare o aggiornare un pacchetto", "aggiungere nuovi programmi o librerie al sistema"],
+   "es": ["instalar software", "instalar o actualizar un paquete", "añadir nuevos programas o bibliotecas al sistema"],
+   "de": ["Software installieren", "ein Paket installieren oder aktualisieren", "neue Programme oder Bibliotheken zum System hinzufügen"],
+   "fr": ["installer un logiciel", "installer ou mettre à jour un paquet", "ajouter de nouveaux programmes ou bibliothèques au système"]
+  },
+  "ro": {
+   "en": ["only read information without changing anything", "be a read-only operation", "just look at data without modifying it"],
+   "it": ["solo leggere informazioni senza modificare nulla", "essere un'operazione di sola lettura", "limitarsi a guardare i dati senza modificarli"],
+   "es": ["solo leer información sin cambiar nada", "ser una operación de solo lectura", "limitarse a mirar los datos sin modificarlos"],
+   "de": ["nur Informationen lesen, ohne etwas zu ändern", "ein reiner Lesevorgang sein", "Daten nur ansehen, ohne sie zu verändern"],
+   "fr": ["seulement lire des informations sans rien modifier", "être une opération en lecture seule", "se contenter de consulter les données sans les modifier"]
+  },
+  "push": {
+   "en": ["publish code or packages to a remote service", "push or upload code to a remote repository", "release a package to a public registry"],
+   "it": ["pubblicare codice o pacchetti su un servizio remoto", "inviare il codice a un repository remoto", "rilasciare un pacchetto su un registro pubblico"],
+   "es": ["publicar código o paquetes en un servicio remoto", "enviar código a un repositorio remoto", "publicar un paquete en un registro público"],
+   "de": ["Code oder Pakete auf einem entfernten Dienst veröffentlichen", "Code in ein entferntes Repository hochladen", "ein Paket in einer öffentlichen Registry veröffentlichen"],
+   "fr": ["publier du code ou des paquets sur un service distant", "envoyer du code vers un dépôt distant", "publier un paquet sur un registre public"]
+  }
+ }
+}

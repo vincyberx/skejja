@@ -1,0 +1,39 @@
+{
+ "modello": "RedHatAI/Qwen3.8-27B-INT4",
+ "caricamento_s": 27.5,
+ "blocchi": [
+  {
+   "n": 400,
+   "secondi": 78.81,
+   "token_prompt": 98413
+  },
+  {
+   "n": 400,
+   "secondi": 58.88,
+   "token_prompt": 72748
+  },
+  {
+   "n": 400,
+   "secondi": 51.1,
+   "token_prompt": 61252
+  },
+  {
+   "n": 400,
+   "secondi": 52.26,
+   "token_prompt": 65060
+  }
+ ],
+ "richieste": 1600,
+ "secondi_generazione": 241.1,
+ "richieste_al_secondo": 6.64,
+ "token_prompt_al_secondo": 1234.1,
+ "vllm": {
+  "max_model_len": 1024,
+  "gpu_util": 0.94,
+  "enforce_eager": true,
+  "max_num_seqs": 64,
+  "prefix_caching": true,
+  "attention_backend": "FLASH_ATTN",
+  "kv_cache_dtype": "bfloat16"
+ }
+}

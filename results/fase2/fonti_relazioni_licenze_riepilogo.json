@@ -1,0 +1,38 @@
+{
+ "letto_il": "2026-10-14",
+ "candidati": 21,
+ "da_usare": [
+  "google-research-datasets/circa",
+  "deepset/germanquad",
+  "deepset/germandpr",
+  "AgentPublic/piaf",
+  "miracl/miracl",
+  "clips/mfaq",
+  "nvidia/HelpSteer",
+  "nvidia/HelpSteer3",
+  "ucberkeley-dlab/measuring-hate-speech",
+  "nvidia/HelpSteer2",
+  "openbmb/UltraFeedback"
+ ],
+ "esclusi_per_coincidenza": [
+  "stanfordnlp/snli",
+  "allenai/scitail",
+  "google-research-datasets/paws",
+  "Anthropic/hh-rlhf",
+  "nvidia/Aegis-AI-Content-Safety-Dataset-2.0",
+  "google/civil_comments",
+  "BeIR/msmarco"
+ ],
+ "esclusi_per_licenza": [
+  "nyu-mll/multi_nli",
+  "tasksource/tasksource-instruct-v0",
+  "PhilipMay/stsb_multi_mt"
+ ],
+ "per_tipo": {
+  "relazione": 1,
+  "pertinenza": 5,
+  "score": 5
+ },
+ "errori": {},
+ "nota": "Classificazione automatica dalla stringa di licenza dichiarata sull'Hub: non è una consulenza legale, e le schede vanno lette anche a mano prima di usare una fonte."
+}

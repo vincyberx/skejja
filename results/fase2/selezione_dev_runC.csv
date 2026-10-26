@@ -1,0 +1,5 @@
+model,dev_auroc_en,dev_auroc_native,dev_auroc_mean
+fase1-ft,0.9026,0.9165,0.9095
+B-best (ft2),0.9385,0.9426,0.9406
+C-best,0.9342,0.9422,0.9382
+C-last,0.9327,0.9411,0.9369

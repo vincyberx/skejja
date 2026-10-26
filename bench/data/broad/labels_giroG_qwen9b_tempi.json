@@ -1,0 +1,84 @@
+{
+ "modello": "Qwen/Qwen3.5-9B",
+ "caricamento_s": 34.1,
+ "blocchi": [
+  {
+   "n": 1000,
+   "secondi": 126.62,
+   "token_prompt": 613869
+  },
+  {
+   "n": 1000,
+   "secondi": 134.42,
+   "token_prompt": 644487
+  },
+  {
+   "n": 1000,
+   "secondi": 128.46,
+   "token_prompt": 689618
+  },
+  {
+   "n": 1000,
+   "secondi": 119.6,
+   "token_prompt": 657435
+  },
+  {
+   "n": 1000,
+   "secondi": 129.0,
+   "token_prompt": 649093
+  },
+  {
+   "n": 1000,
+   "secondi": 126.95,
+   "token_prompt": 685077
+  },
+  {
+   "n": 1000,
+   "secondi": 132.92,
+   "token_prompt": 658777
+  },
+  {
+   "n": 1000,
+   "secondi": 116.88,
+   "token_prompt": 679761
+  },
+  {
+   "n": 1000,
+   "secondi": 127.75,
+   "token_prompt": 702174
+  },
+  {
+   "n": 1000,
+   "secondi": 128.64,
+   "token_prompt": 685739
+  },
+  {
+   "n": 1000,
+   "secondi": 180.06,
+   "token_prompt": 355219
+  },
+  {
+   "n": 1000,
+   "secondi": 212.75,
+   "token_prompt": 419485
+  },
+  {
+   "n": 32,
+   "secondi": 5.16,
+   "token_prompt": 10475
+  }
+ ],
+ "richieste": 12032,
+ "secondi_generazione": 1669.2,
+ "richieste_al_secondo": 7.21,
+ "token_prompt_al_secondo": 4463.9,
+ "vllm": {
+  "max_model_len": 2048,
+  "gpu_util": 0.94,
+  "enforce_eager": true,
+  "max_num_seqs": 64,
+  "prefix_caching": true,
+  "attention_backend": "FLASH_ATTN",
+  "kv_cache_dtype": "auto"
+ }
+}

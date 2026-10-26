@@ -1,0 +1,36 @@
+{
+ "modello": "edge32k-ft6",
+ "prove_misurate": 21,
+ "prove_per_famiglia": {
+  "noul": 0,
+  "choice": 0,
+  "score": 21
+ },
+ "decisioni_riuscite": 5148,
+ "decisioni_fallite": 0,
+ "medie_per_famiglia": {
+  "score": 0.89
+ },
+ "medie_senza_nostra_esposizione": {
+  "score": 0.89
+ },
+ "prove_con_nostra_esposizione": [],
+ "lunghezze_ingresso": {
+  "questions": 5148,
+  "shortened": 40,
+  "label_overflow": 0,
+  "tokens_max": 4101,
+  "tokens_sum": 4177854,
+  "options_max": 10,
+  "over_training_length": 4662,
+  "tokens_mean": 811.5
+ },
+ "confronto_classifica": {},
+ "score": {
+  "prove": 21,
+  "decisioni": 5148,
+  "fallite": 0,
+  "nota": "ricalcolato il 16 ottobre dal CSV per prova: il campo score_non_supportata diceva per errore che la primitiva mancava"
+ },
+ "task_avg": null
+}

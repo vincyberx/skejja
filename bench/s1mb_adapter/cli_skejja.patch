@@ -1,0 +1,60 @@
+diff --git a/evaluator/src/s1mb/cli.py b/evaluator/src/s1mb/cli.py
+index dc63ab8..10bd580 100644
+--- a/evaluator/src/s1mb/cli.py
++++ b/evaluator/src/s1mb/cli.py
+@@ -48,6 +48,7 @@ def main() -> None:
+         choices=[
+             "dummy",
+             "llama-cpp",
++            "skejja",
+             "laya",
+             "typesafe",
+             "fastino-glide",
+@@ -218,6 +219,19 @@ def main() -> None:
+         type=int,
+         help="Ichi/Bekko candidate token cap including special tokens; v0 truncates adaptively",
+     )
++    run.add_argument("--skejja-runtime", help="Skejja: directory containing skejja_infer.py")
++    run.add_argument("--skejja-stats", help="Skejja: write token/shortening counters to this JSON file")
++    run.add_argument("--skejja-max-len", type=int, default=4096,
++                     help="Skejja total token limit (default: the bundle tokenizer's own 4096 truncation limit)")
++    run.add_argument("--skejja-threads", type=int, default=4, help="Skejja onnxruntime CPU threads")
++    run.add_argument("--skejja-onnx", help="Skejja: ONNX file inside the bundle (default: the bundle's choice)")
++    run.add_argument("--skejja-model-id", help="Skejja: model identifier recorded in the result")
++    run.add_argument("--skejja-backend", choices=["onnx", "torch"], default="onnx",
++                     help="Skejja: onnxruntime CPU on the bundle, or PyTorch on the checkpoint it was exported from")
++    run.add_argument("--skejja-ckpt", help="Skejja torch backend: checkpoint directory (model.safetensors)")
++    run.add_argument("--skejja-training-dir", help="Skejja torch backend: directory containing skejja_glic.py")
++    run.add_argument("--skejja-training-max-len", type=int, default=192,
++                     help="Skejja: training length of the bundle, only used to count inputs above it")
+     run.add_argument("--max-len", type=int, help="Laya total token limit")
+     run.add_argument("--head-max-len", type=int, help="Laya question/candidate token budget")
+     run.add_argument("--questions-per-call", type=int, help="Laya/System Ichi question batch limit")
+@@ -583,6 +597,27 @@ def execute(args, parser):
+             adapter = LlamaCppAdapter(args.model, args.revision, **parse_adapter_kwargs(args, parser))
+         except (ValueError, TypeError) as exc:
+             parser.error(str(exc))
++    elif args.adapter == "skejja":
++        from .adapters.skejja import SkejjaAdapter
++
++        try:
++            adapter = SkejjaAdapter(
++                args.model,
++                args.revision,
++                runtime=args.skejja_runtime,
++                model_file=args.skejja_onnx,
++                max_len=args.skejja_max_len,
++                threads=args.skejja_threads,
++                stats_path=args.skejja_stats,
++                model_id=args.skejja_model_id,
++                backend=args.skejja_backend,
++                ckpt=args.skejja_ckpt,
++                training_dir=args.skejja_training_dir,
++                device=args.device,
++                training_max_len=args.skejja_training_max_len,
++            )
++        except (ValueError, TypeError) as exc:
++            parser.error(str(exc))
+     elif args.adapter == "laya":
+         from .adapters.laya import LayaAdapter
+ 

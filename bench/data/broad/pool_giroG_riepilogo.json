@@ -1,0 +1,62 @@
+{
+ "file": "bench/data/broad/pool_giroG.jsonl",
+ "n": 21862,
+ "per_gruppo": {
+  "lungo": 3000,
+  "pertinenza": 5734,
+  "relazione": 8000,
+  "score": 5128
+ },
+ "per_fonte": {
+  "fineweb": 600,
+  "fineweb2": 2400,
+  "mfaq": 2161,
+  "germanquad": 1500,
+  "piaf": 1500,
+  "miracl": 573,
+  "circa": 8000,
+  "helpsteer3": 2128,
+  "ultrafeedback": 3000
+ },
+ "per_fonte_e_lingua": {
+  "circa/en": 8000,
+  "fineweb/en": 600,
+  "fineweb2/de": 600,
+  "fineweb2/es": 600,
+  "fineweb2/fr": 600,
+  "fineweb2/it": 600,
+  "germanquad/de": 1500,
+  "helpsteer3/de": 286,
+  "helpsteer3/en": 600,
+  "helpsteer3/es": 486,
+  "helpsteer3/fr": 497,
+  "helpsteer3/it": 259,
+  "mfaq/de": 600,
+  "mfaq/en": 600,
+  "mfaq/es": 387,
+  "mfaq/fr": 423,
+  "mfaq/it": 151,
+  "miracl/es": 573,
+  "piaf/fr": 1500,
+  "ultrafeedback/en": 3000
+ },
+ "caratteri_lungo": {
+  "mediana": 2136,
+  "massimo": 4000
+ },
+ "scartati": {
+  "lungo/forma": 3467,
+  "pertinenza/duplicato": 25,
+  "pertinenza/sovrapposizione": 2,
+  "pertinenza/forma": 6,
+  "relazione/sovrapposizione": 10,
+  "relazione/forma": 11,
+  "coppia/sovrapposizione": 49,
+  "relazione/duplicato": 19,
+  "score/forma": 76,
+  "score/duplicato": 842,
+  "score/sovrapposizione": 3
+ },
+ "seed": 0,
+ "nota": "Il controllo di sovrapposizione copre i file del progetto, i testi del metro dell'insegnante e le impronte degli stati di S1MB (bench/data/broad/s1mb_testi_hash.json)."
+}

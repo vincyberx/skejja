@@ -1,0 +1,42 @@
+# large binaries: publish as GitHub releases / Hugging Face, not in git
+releases/*
+!releases/README.md
+models/
+*.onnx
+*.onnx.data
+*.tar.gz
+*.safetensors
+# raw downloads and local runs
+data/massive/
+kit/results/
+kit/models/
+kit/data/
+kit/.venv/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# stray runtime session files (never commit)
+*.ses
+
+# cache traduzioni: in git solo la versione compressa
+bench/data/ext/mt_cache.jsonl
+
+# cache Hugging Face creata per errore dentro il repository
+hf/
+
+# richieste per l'insegnante con i testi del metro (split di training dei dataset dell'articolo su Jev):
+# mai in git, si rigenerano con `bench/teacher_label.py prepara` (docs/fase2_ampiezza.md, §1 e §5)
+bench/data/broad/teacher_*_in.jsonl
+# etichette dell'insegnante non compresse: in git solo la versione .jsonl.gz
+bench/data/broad/labels_synth_*.jsonl
+
+# pacchetto Python (fase 3): artefatti di build e dei test
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# frasi vere dell'utente per la prova sui comandi reali: mai in git (in results/ vanno solo le metriche aggregate)
+private/

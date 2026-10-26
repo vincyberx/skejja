@@ -1,0 +1,42 @@
+{
+ "obiettivi": "results/fase2/giro_G_obiettivi.json",
+ "riferimento": "edge32k-ft6",
+ "candidato": "edge32k-ft7",
+ "ricampionamenti": 10000,
+ "alpha": 0.05,
+ "correzione": "Holm dentro ogni famiglia",
+ "famiglie": {
+  "A": {
+   "stato": "violata",
+   "motivi": [
+    "perdita significativa: Sì/no, test esteso mai visto (AUROC)"
+   ],
+   "non_misurate": 1,
+   "misure": 8
+  },
+  "B": {
+   "stato": "incompleta",
+   "motivi": [],
+   "non_misurate": 3,
+   "misure": 3
+  },
+  "C": {
+   "stato": "violata",
+   "motivi": [
+    "v0 Choice, inglese: -0.0250 (oltre 0,02)"
+   ],
+   "non_misurate": 0,
+   "misure": 4
+  },
+  "D": {
+   "stato": "violata",
+   "motivi": [
+    "4 righe in perdita significativa: agnews (accuracy) -0.008, emotion (accuracy) -0.032, langid (accuracy) -0.009, sms (F1_pos) -0.192"
+   ],
+   "non_misurate": 0,
+   "misure": 13
+  }
+ },
+ "regola_rispettata": false,
+ "nota_banking77": "Banking77 entra nella correzione di Holm della famiglia D ma non nel conteggio delle righe in perdita (in dominio, «letta a parte»)"
+}

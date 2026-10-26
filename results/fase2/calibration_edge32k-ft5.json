@@ -1,0 +1,53 @@
+{
+ "edge-v32k-ft5.fp32.onnx": {
+  "temperature": 1.0601303426864965,
+  "platt_calib": [
+   0.8127792937892315,
+   0.23691121200999485
+  ],
+  "model": "edge32k-ft5",
+  "variant": "onnx-fp32",
+  "fitted_on": "calib_choice.jsonl / calib_noul.jsonl / calib_noul_ext.jsonl",
+  "platt_calib_ext": [
+   0.7350128694476211,
+   0.4676466252841715
+  ],
+  "platt_a": 0.8127792937892315,
+  "platt_b": 0.23691121200999485,
+  "platt_used": "platt_calib"
+ },
+ "edge-v32k-ft5.int8.onnx": {
+  "temperature": 1.0571779669339998,
+  "platt_calib": [
+   0.8147820772424255,
+   0.21869424474592347
+  ],
+  "model": "edge32k-ft5",
+  "variant": "onnx-int8",
+  "fitted_on": "calib_choice.jsonl / calib_noul.jsonl / calib_noul_ext.jsonl",
+  "platt_calib_ext": [
+   0.7377392501734507,
+   0.45738057199445886
+  ],
+  "platt_a": 0.8147820772424255,
+  "platt_b": 0.21869424474592347,
+  "platt_used": "platt_calib"
+ },
+ "edge-v32k-ft5.int8dyn.onnx": {
+  "temperature": 1.0553799631218528,
+  "platt_calib": [
+   0.8153057010750436,
+   0.21145435278787328
+  ],
+  "model": "edge32k-ft5",
+  "variant": "onnx-int8dyn",
+  "fitted_on": "calib_choice.jsonl / calib_noul.jsonl / calib_noul_ext.jsonl",
+  "platt_calib_ext": [
+   0.7408520415801406,
+   0.40298029353643233
+  ],
+  "platt_a": 0.8153057010750436,
+  "platt_b": 0.21145435278787328,
+  "platt_used": "platt_calib"
+ }
+}

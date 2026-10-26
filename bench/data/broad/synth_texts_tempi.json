@@ -1,0 +1,10 @@
+{
+ "modello": "Qwen/Qwen3.5-9B",
+ "testi": 19296,
+ "scartati": {
+  "formato": 4
+ },
+ "secondi": 1385.9,
+ "token_generati": 1051187,
+ "temperatura": 0.9
+}

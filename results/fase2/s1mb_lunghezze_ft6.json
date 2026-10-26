@@ -1,0 +1,142 @@
+{
+ "_about": "Formato degli ingressi di S1MB english-v1 visto da Skejja: lunghezza in token della resa «istruzioni + stato nel testo, criteri come opzioni» (tokenizer del bundle edge32k-ft6), numero di opzioni e scale delle Score. Conta tutte le decisioni presenti nei file del dataset; le 137 prove ammesse ne usano 26.269.",
+ "dataset": "hotchpotch/S1MB-english-v1",
+ "revisione": "6aa5f39753f98eef604a2af6a61f41670c030f28",
+ "tokenizer": "releases/skejja-edge32k-ft6_onnx/tokenizer.json",
+ "misurato_il": "2026-10-14",
+ "resa": "istruzioni + stato nel testo, criteri come opzioni (adattatore bench/s1mb_adapter)",
+ "tutte": {
+  "decisioni": 29469,
+  "media": 652.8,
+  "mediana": 475,
+  "p90": 1352,
+  "p99": 4155,
+  "massimo": 4551,
+  "quota_entro": {
+   "192": 0.314,
+   "320": 0.3927,
+   "512": 0.5424,
+   "768": 0.7354,
+   "1024": 0.8438,
+   "1536": 0.9149,
+   "2048": 0.9409,
+   "4096": 0.9826
+  }
+ },
+ "per_famiglia": {
+  "choice": {
+   "decisioni": 8764,
+   "media": 763.0,
+   "mediana": 253,
+   "p90": 2541,
+   "p99": 4160,
+   "massimo": 4172,
+   "quota_entro": {
+    "192": 0.4061,
+    "320": 0.5891,
+    "512": 0.701,
+    "768": 0.7501,
+    "1024": 0.7808,
+    "1536": 0.8249,
+    "2048": 0.866,
+    "4096": 0.9593
+   },
+   "opzioni_massime": 151,
+   "quota_opzioni_entro_50": 0.9371,
+   "istogramma_opzioni": {
+    "2": 767,
+    "3": 3319,
+    "4": 952,
+    "5": 244,
+    "6": 68,
+    "7": 144,
+    "8": 432,
+    "9": 108,
+    "11": 100,
+    "14": 100,
+    "16": 17,
+    "17": 1509,
+    "18": 100,
+    "36": 353,
+    "60": 100,
+    "64": 100,
+    "77": 100,
+    "113": 100,
+    "151": 151
+   }
+  },
+  "noul": {
+   "decisioni": 13957,
+   "media": 508.8,
+   "mediana": 424,
+   "p90": 1030,
+   "p99": 3749,
+   "massimo": 4455,
+   "quota_entro": {
+    "192": 0.3842,
+    "320": 0.4245,
+    "512": 0.6103,
+    "768": 0.7833,
+    "1024": 0.899,
+    "1536": 0.9591,
+    "2048": 0.9767,
+    "4096": 0.9918
+   },
+   "opzioni_massime": 2,
+   "quota_opzioni_entro_50": 1.0,
+   "istogramma_opzioni": {
+    "2": 13957
+   }
+  },
+  "score": {
+   "decisioni": 6748,
+   "media": 807.6,
+   "mediana": 666,
+   "p90": 1255,
+   "p99": 3351,
+   "massimo": 4551,
+   "quota_entro": {
+    "192": 0.0493,
+    "320": 0.0719,
+    "512": 0.1958,
+    "768": 0.6172,
+    "1024": 0.8112,
+    "1536": 0.9403,
+    "2048": 0.9641,
+    "4096": 0.9941
+   },
+   "opzioni_massime": 10,
+   "quota_opzioni_entro_50": 1.0,
+   "istogramma_opzioni": {
+    "3": 128,
+    "4": 324,
+    "5": 6286,
+    "6": 5,
+    "10": 5
+   }
+  }
+ },
+ "istruzioni_token": {
+  "media": 143.3,
+  "mediana": 33,
+  "p90": 318,
+  "massimo": 337
+ },
+ "score_livelli": {
+  "3": 128,
+  "4": 324,
+  "5": 6286,
+  "6": 5,
+  "10": 5
+ },
+ "score_scale": {
+  "[0.0, 1.0, 2.0, 3.0, 4.0]": 6168,
+  "[0.0, 1.0, 2.0, 3.0]": 241,
+  "[0.0, 0.25, 0.5, 0.75, 1.0]": 118,
+  "[0.0, 1.0, 2.0]": 114,
+  "[0.0, 0.3333333333333333, 0.6666666666666666, 1.0]": 83,
+  "[0.0, 0.5, 1.0]": 14,
+  "[0.0, 0.1111111111111111, 0.2222222222222222, 0.3333333333333333, 0.4444444444444444, 0.5555555555555556, 0.6666666666666666, 0.7777777777777778, 0.8888888888888888, 1.0]": 5,
+  "[0.0, 0.2, 0.4, 0.6, 0.8, 1.0]": 5
+ }
+}

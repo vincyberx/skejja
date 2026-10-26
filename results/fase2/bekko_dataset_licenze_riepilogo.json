@@ -1,0 +1,46 @@
+{
+ "dataset": "hotchpotch/bekko-system-one-dataset-v0",
+ "revisione": "9c673a09c31e145684ab9915871afa72ba40a383",
+ "licenza_dichiarata_nel_repository": null,
+ "ultima_modifica": "2026-10-08",
+ "fonti_nell_audit": 131,
+ "audit_del": "2026-09-30",
+ "stati_audit": {
+  "qualified": 84,
+  "unresolved": 6,
+  "verified": 41
+ },
+ "sottoinsiemi_in_tabella": 182,
+ "casi_train_totali": 6589188,
+ "per_classe": {
+  "sconosciuta": {
+   "sottoinsiemi": 17,
+   "casi_train": 375426
+  },
+  "CC BY": {
+   "sottoinsiemi": 38,
+   "casi_train": 695331
+  },
+  "CC BY-SA": {
+   "sottoinsiemi": 33,
+   "casi_train": 2369876
+  },
+  "Apache, MIT o BSD": {
+   "sottoinsiemi": 53,
+   "casi_train": 2387701
+  },
+  "CC0 o dominio pubblico": {
+   "sottoinsiemi": 30,
+   "casi_train": 373644
+  },
+  "ristretta": {
+   "sottoinsiemi": 11,
+   "casi_train": 387210
+  }
+ },
+ "casi_che_toccano_il_banco": 283181,
+ "casi_derivati_jev": 266793,
+ "casi_generati_da_modello": 93133,
+ "casi_usabili_per_noi": 3081249,
+ "sottoinsiemi_usabili_per_noi": 65
+}

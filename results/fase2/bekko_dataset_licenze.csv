@@ -1,0 +1,183 @@
+config,fonte,train,validation,test,licenza,classe,stato_audit,tocca_banco,derivato_jev,generato_da_modello,usabile_per_noi,url_fonte
+bge-hn-msmarco,Shitao/bge-m3-data: msmarco · microsoft/ms_marco,300000,0,0,Non-commercial research only,ristretta,qualified,0,0,0,0,https://huggingface.co/datasets/Shitao/bge-m3-data https://huggingface.co/datasets/microsoft/ms_marco
+dbpedia,fancyzhx/dbpedia_14,300000,0,100,CC BY-SA 3.0,CC BY-SA,qualified,0,0,0,0,https://huggingface.co/datasets/fancyzhx/dbpedia_14
+esci,tasksource/esci,300000,0,100,Apache-2.0,"Apache, MIT o BSD",qualified,0,0,0,1,https://huggingface.co/datasets/tasksource/esci
+mnli,nyu-mll/multi_nli,300000,100,0,CC BY 3.0 / CC BY-SA 3.0 / OANC / public domain,CC BY-SA,qualified,0,0,0,0,https://huggingface.co/datasets/nyu-mll/multi_nli
+ruletaker,tasksource/ruletaker,300000,100,100,Apache-2.0,"Apache, MIT o BSD",qualified,0,0,0,1,https://huggingface.co/datasets/tasksource/ruletaker
+snli,stanfordnlp/snli,300000,100,100,CC BY-SA 4.0,CC BY-SA,qualified,0,0,0,0,https://huggingface.co/datasets/stanfordnlp/snli
+wikipedia_hard_negatives_english,hotchpotch/wikipedia-english-ir-simulated-search-queries,300000,0,0,CC BY-SA 4.0 / GFDL,CC BY-SA,qualified,0,0,0,0,https://huggingface.co/datasets/hotchpotch/wikipedia-english-ir-simulated-search-queries
+stepgame,tasksource/stepgame,295827,100,100,MIT,"Apache, MIT o BSD",verified,0,0,0,1,https://huggingface.co/datasets/tasksource/stepgame
+bge-hn-nli_for_simcse,Shitao/bge-m3-data: nli_for_simcse · SimCSE NLI (SNLI + MultiNLI),274859,0,0,SNLI: CC BY-SA 4.0; MultiNLI: CC BY 3.0 / CC BY-SA 3.0 / OANC / public domain,CC BY-SA,qualified,0,0,0,0,https://huggingface.co/datasets/Shitao/bge-m3-data https://github.com/princeton-nlp/SimCSE
+corr2cause,tasksource/corr2cause,274168,100,100,MIT,"Apache, MIT o BSD",qualified,0,0,0,1,https://huggingface.co/datasets/tasksource/corr2cause
+sgd,https://github.com/google-research-datasets/dstc8-schema-guided-dialogue,173481,100,100,CC BY-SA 4.0,CC BY-SA,qualified,0,0,0,0,https://github.com/google-research-datasets/dstc8-schema-guided-dialogue
+abductive_nli,allenai/art,166937,100,0,Unknown,sconosciuta,unresolved,0,0,0,0,https://huggingface.co/datasets/allenai/art
+plane,tasksource/PLANE-ood,161073,0,100,CC BY 2.0,CC BY,qualified,0,0,0,1,https://huggingface.co/datasets/tasksource/PLANE-ood
+hh_rlhf,Anthropic/hh-rlhf,160149,0,100,MIT,"Apache, MIT o BSD",qualified,0,0,0,1,https://huggingface.co/datasets/Anthropic/hh-rlhf
+nlsat,tasksource/nlsat,160000,100,100,Apache-2.0,"Apache, MIT o BSD",qualified,0,0,0,1,https://huggingface.co/datasets/tasksource/nlsat
+squad2,rajpurkar/squad_v2,129668,100,0,CC BY-SA 4.0,CC BY-SA,verified,0,0,0,0,https://huggingface.co/datasets/rajpurkar/squad_v2
+laya__ag_news,fancyzhx/ag_news,120000,0,100,Unknown,sconosciuta,unresolved,1,0,0,0,https://huggingface.co/datasets/fancyzhx/ag_news
+few_nerd,DFKI-SLT/few-nerd,100506,100,100,CC BY-SA 4.0,CC BY-SA,verified,0,0,0,0,https://huggingface.co/datasets/DFKI-SLT/few-nerd
+logical_entailment,tasksource/logical-entailment,99754,100,100,Apache-2.0,"Apache, MIT o BSD",qualified,0,0,0,1,https://huggingface.co/datasets/tasksource/logical-entailment
+aqua_rat,deepmind/aqua_rat,97113,100,100,Apache-2.0,"Apache, MIT o BSD",verified,0,0,0,1,https://huggingface.co/datasets/deepmind/aqua_rat
+defeasible_nli,tasksource/defeasible-nli,88448,100,100,Apache-2.0 / CC BY-SA 4.0,CC BY-SA,verified,0,0,0,0,https://huggingface.co/datasets/tasksource/defeasible-nli
+bge-hn-squad,Shitao/bge-m3-data: squad · rajpurkar/squad,87526,0,0,CC BY-SA 4.0,CC BY-SA,qualified,0,0,0,0,https://huggingface.co/datasets/Shitao/bge-m3-data https://huggingface.co/datasets/rajpurkar/squad
+ethics,hendrycks/ethics,87143,100,100,MIT,"Apache, MIT o BSD",qualified,0,0,0,1,https://huggingface.co/datasets/hendrycks/ethics
+bge-hn-hotpotqa,Shitao/bge-m3-data: hotpotqa · hotpotqa/hotpot_qa,84176,0,0,CC BY-SA 4.0,CC BY-SA,qualified,0,0,0,0,https://huggingface.co/datasets/Shitao/bge-m3-data https://huggingface.co/datasets/hotpotqa/hotpot_qa
+fol_nli,tasksource/FOL-nli,82188,100,100,Apache-2.0,"Apache, MIT o BSD",qualified,0,0,0,1,https://huggingface.co/datasets/tasksource/FOL-nli
+open_jev__mailroom-control-v1,ZefanCai/Open-Jev,73472,100,100,CC0-1.0,CC0 o dominio pubblico,qualified,0,1,0,0,https://huggingface.co/datasets/ZefanCai/Open-Jev
+temporal_nli,tasksource/temporal-nli,72322,0,100,Apache-2.0,"Apache, MIT o BSD",qualified,0,0,0,1,https://huggingface.co/datasets/tasksource/temporal-nli
+blimp,nyu-mll/blimp,66999,0,0,CC BY 4.0,CC BY,verified,0,0,0,1,https://huggingface.co/datasets/nyu-mll/blimp
+bge-hn-trivia,Shitao/bge-m3-data: trivia · mandarjoshi/trivia_qa,60298,0,0,Apache-2.0,"Apache, MIT o BSD",qualified,0,0,0,1,https://huggingface.co/datasets/Shitao/bge-m3-data https://huggingface.co/datasets/mandarjoshi/trivia_qa
+bge-hn-nq,Shitao/bge-m3-data: nq · google-research-datasets/natural_questions,58551,0,0,CC BY-SA 3.0,CC BY-SA,qualified,0,0,0,0,https://huggingface.co/datasets/Shitao/bge-m3-data https://huggingface.co/datasets/google-research-datasets/natural_questions
+paws,google-research-datasets/paws,49334,100,100,Google custom license; Wikipedia text: CC BY-SA / GFDL,CC BY-SA,qualified,0,0,0,0,https://huggingface.co/datasets/google-research-datasets/paws
+gretel_pii,gretelai/gretel-pii-masking-en-v1,48221,100,100,Apache-2.0,"Apache, MIT o BSD",qualified,0,0,0,1,https://huggingface.co/datasets/gretelai/gretel-pii-masking-en-v1
+civil_comments,google/civil_comments,42857,100,100,CC0-1.0,CC0 o dominio pubblico,verified,0,0,0,1,https://huggingface.co/datasets/google/civil_comments
+winogrande,allenai/winogrande,40392,100,0,Apache-2.0,"Apache, MIT o BSD",qualified,0,0,0,1,https://huggingface.co/datasets/allenai/winogrande
+helpsteer3,nvidia/HelpSteer3,37844,100,0,CC BY 4.0,CC BY,qualified,0,0,0,1,https://huggingface.co/datasets/nvidia/HelpSteer3
+patent_similarity,tasksource/patent-phrase-similarity,36473,100,100,CC BY 4.0,CC BY,verified,0,0,0,1,https://huggingface.co/datasets/tasksource/patent-phrase-similarity
+circa,google-research-datasets/circa,34015,0,0,CC BY 4.0,CC BY,verified,0,0,0,1,https://huggingface.co/datasets/google-research-datasets/circa
+social_iqa,baber/social_i_qa,33193,100,0,CC BY 4.0,CC BY,qualified,0,0,0,1,https://huggingface.co/datasets/baber/social_i_qa
+open_jev__amount-extraction-control-v1,ZefanCai/Open-Jev,32984,100,100,CC0-1.0,CC0 o dominio pubblico,qualified,0,1,0,0,https://huggingface.co/datasets/ZefanCai/Open-Jev
+helpsteer,nvidia/HelpSteer,32872,100,0,CC BY 4.0,CC BY,verified,0,0,0,1,https://huggingface.co/datasets/nvidia/HelpSteer
+space_nli,tasksource/SpaceNLI,31877,0,0,MIT,"Apache, MIT o BSD",qualified,0,0,0,1,https://huggingface.co/datasets/tasksource/SpaceNLI
+measuring_hate,ucberkeley-dlab/measuring-hate-speech,30000,0,0,CC BY 4.0,CC BY,verified,0,0,0,1,https://huggingface.co/datasets/ucberkeley-dlab/measuring-hate-speech
+hans,tasksource/hans,29851,100,100,MIT,"Apache, MIT o BSD",verified,0,0,0,1,https://huggingface.co/datasets/tasksource/hans
+wiqa,allenai/wiqa,29324,100,100,Apache-2.0,"Apache, MIT o BSD",qualified,0,0,0,1,https://huggingface.co/datasets/allenai/wiqa
+laya__enron_spam,SetFit/enron_spam,28142,0,100,Unknown,sconosciuta,unresolved,1,0,0,0,https://huggingface.co/datasets/SetFit/enron_spam
+aegis2,nvidia/Aegis-AI-Content-Safety-Dataset-2.0,27060,100,100,CC BY 4.0,CC BY,qualified,0,0,0,1,https://huggingface.co/datasets/nvidia/Aegis-AI-Content-Safety-Dataset-2.0
+cosmos_qa,Samsoup/cosmos_qa,25201,100,0,CC BY 4.0,CC BY,qualified,0,0,0,1,https://huggingface.co/datasets/Samsoup/cosmos_qa
+bitext,bitext/Bitext-customer-support-llm-chatbot-training-dataset,24635,0,0,cdla-sharing-1.0,ristretta,verified,0,0,0,0,https://huggingface.co/datasets/bitext/Bitext-customer-support-llm-chatbot-training-dataset
+scitail,allenai/scitail,23563,100,100,Apache-2.0,"Apache, MIT o BSD",verified,0,0,0,1,https://huggingface.co/datasets/allenai/scitail
+open_jev__painting-geometry-v1,ZefanCai/Open-Jev,23552,100,100,CC0-1.0,CC0 o dominio pubblico,qualified,0,1,0,0,https://huggingface.co/datasets/ZefanCai/Open-Jev
+spartqa,tasksource/spartqa-mchoice,22472,100,100,MIT,"Apache, MIT o BSD",qualified,0,0,0,1,https://huggingface.co/datasets/tasksource/spartqa-mchoice
+oasst1,OpenAssistant/oasst1,21843,100,0,Apache-2.0,"Apache, MIT o BSD",qualified,0,0,0,1,https://huggingface.co/datasets/OpenAssistant/oasst1
+argument_quality,ibm-research/argument_quality_ranking_30k,20972,100,100,CC BY 3.0 (conflicting source notices),CC BY,qualified,0,0,0,1,https://huggingface.co/datasets/ibm-research/argument_quality_ranking_30k
+sdoh_nli,tasksource/SDOH-NLI,20465,100,100,CC BY 4.0,CC BY,verified,0,0,0,1,https://huggingface.co/datasets/tasksource/SDOH-NLI
+helpsteer2,nvidia/HelpSteer2,20321,100,0,CC BY 4.0,CC BY,qualified,0,0,0,1,https://huggingface.co/datasets/nvidia/HelpSteer2
+all_nli,sentence-transformers/all-nli,20000,0,0,SNLI: CC BY-SA 4.0; MultiNLI: CC BY 3.0 / CC BY-SA 3.0 / OANC / public domain,CC BY-SA,qualified,0,0,0,0,https://huggingface.co/datasets/sentence-transformers/all-nli
+arxiv,hotchpotch/arxiv-ir-simulated-search-queries · open-index/open-arxiv,20000,0,0,CC0 (metadata); paper licenses vary,CC0 o dominio pubblico,qualified,0,0,0,1,https://huggingface.co/datasets/hotchpotch/arxiv-ir-simulated-search-queries https://huggingface.co/datasets/open-index/open-arxiv
+coco_captions,sentence-transformers/coco-captions,20000,0,0,CC BY 4.0 (captions),CC BY,qualified,0,0,0,1,https://huggingface.co/datasets/sentence-transformers/coco-captions
+gooaq,sentence-transformers/gooaq · allenai/gooaq,19993,0,0,Non-commercial use only,ristretta,qualified,0,0,0,0,https://huggingface.co/datasets/sentence-transformers/gooaq https://huggingface.co/datasets/allenai/gooaq
+pubmed,hotchpotch/pubmed-abstract-ir-simulated-search-queries · slinusc/PubMedAbstractsSubset,19993,0,0,CC0 (metadata); abstract rights vary,CC0 o dominio pubblico,qualified,0,0,0,1,https://huggingface.co/datasets/hotchpotch/pubmed-abstract-ir-simulated-search-queries https://huggingface.co/datasets/slinusc/PubMedAbstractsSubset
+agnews,sentence-transformers/agnews · fancyzhx/ag_news,19992,0,0,Unknown,sconosciuta,unresolved,1,0,0,0,https://huggingface.co/datasets/sentence-transformers/agnews https://huggingface.co/datasets/fancyzhx/ag_news
+fineweb,hotchpotch/fineweb-ir-simulated-search-queries · HuggingFaceFW/fineweb-edu,19987,0,0,ODC-By 1.0 (database); source-page rights vary,sconosciuta,qualified,0,0,0,0,https://huggingface.co/datasets/hotchpotch/fineweb-ir-simulated-search-queries https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu
+natural_questions,sentence-transformers/natural-questions · google-research-datasets/natural_questions,19948,0,0,CC BY-SA 3.0,CC BY-SA,verified,0,0,0,0,https://huggingface.co/datasets/sentence-transformers/natural-questions https://huggingface.co/datasets/google-research-datasets/natural_questions
+codesearch,nomic-ai/nomic-embed-unsupervised-data · CodeSearchNet,19731,0,0,MIT (tools); source-code licenses vary,"Apache, MIT o BSD",qualified,0,0,0,1,https://huggingface.co/datasets/nomic-ai/nomic-embed-unsupervised-data https://github.com/github/CodeSearchNet
+trivia_qa,sentence-transformers/trivia-qa · mandarjoshi/trivia_qa,18775,0,0,Apache-2.0,"Apache, MIT o BSD",qualified,0,0,0,1,https://huggingface.co/datasets/sentence-transformers/trivia-qa https://huggingface.co/datasets/mandarjoshi/trivia_qa
+babi_nli,tasksource/babi_nli,18590,100,100,BSD,"Apache, MIT o BSD",verified,0,0,0,1,https://huggingface.co/datasets/tasksource/babi_nli
+laya__phishing,zefang-liu/phishing-email-dataset,17535,0,0,LGPL-3.0,ristretta,verified,1,0,0,0,https://huggingface.co/datasets/zefang-liu/phishing-email-dataset
+taskmaster,https://github.com/google-research-datasets/Taskmaster,17295,0,0,CC BY 4.0,CC BY,verified,0,0,0,1,https://github.com/google-research-datasets/Taskmaster
+open_jev__drone-control-v1,ZefanCai/Open-Jev,15694,100,100,CC0-1.0,CC0 o dominio pubblico,qualified,0,1,0,0,https://huggingface.co/datasets/ZefanCai/Open-Jev
+mtop,tasksource/mtop,15597,100,100,CC BY-SA 4.0,CC BY-SA,verified,1,0,0,0,https://huggingface.co/datasets/tasksource/mtop
+clinc,clinc/clinc_oos,15189,151,151,CC BY 3.0,CC BY,qualified,1,0,0,0,https://huggingface.co/datasets/clinc/clinc_oos
+piqa,lighteval/piqa,15041,100,0,AFL-3.0,ristretta,verified,0,0,0,0,https://huggingface.co/datasets/lighteval/piqa
+boardgameqa,tasksource/Boardgame-QA,15000,100,100,CC BY 4.0,CC BY,verified,0,0,0,1,https://huggingface.co/datasets/tasksource/Boardgame-QA
+open_jev__browser-control-v1,ZefanCai/Open-Jev,13814,100,100,CC0-1.0,CC0 o dominio pubblico,qualified,0,1,0,0,https://huggingface.co/datasets/ZefanCai/Open-Jev
+snips,https://github.com/sonos/nlu-benchmark,13621,100,0,CC0-1.0,CC0 o dominio pubblico,verified,1,0,0,0,https://github.com/sonos/nlu-benchmark
+open_jev__snake-v1,ZefanCai/Open-Jev,12508,100,100,CC0-1.0,CC0 o dominio pubblico,qualified,0,1,0,0,https://huggingface.co/datasets/ZefanCai/Open-Jev
+open_jev__phone-extraction-control-v1,ZefanCai/Open-Jev,12350,100,100,CC0-1.0,CC0 o dominio pubblico,qualified,0,1,0,0,https://huggingface.co/datasets/ZefanCai/Open-Jev
+ud_ewt,universal-dependencies/universal_dependencies,11663,100,100,CC BY-SA 4.0,CC BY-SA,verified,0,0,0,0,https://huggingface.co/datasets/universal-dependencies/universal_dependencies
+canttalk,nvidia/CantTalkAboutThis-Topic-Control-Dataset,10818,0,100,CC BY 4.0,CC BY,qualified,0,0,0,1,https://huggingface.co/datasets/nvidia/CantTalkAboutThis-Topic-Control-Dataset
+go_emotions,google-research-datasets/go_emotions,10714,100,100,Apache-2.0,"Apache, MIT o BSD",qualified,1,0,0,0,https://huggingface.co/datasets/google-research-datasets/go_emotions
+massive,AmazonScience/massive,10463,100,100,CC BY 4.0,CC BY,qualified,1,0,0,0,https://huggingface.co/datasets/AmazonScience/massive
+creak,amydeng2000/CREAK,10173,100,100,MIT (repository); data license unconfirmed,"Apache, MIT o BSD",qualified,0,0,0,1,https://huggingface.co/datasets/amydeng2000/CREAK
+banking77,PolyAI/banking77,10003,0,100,CC BY 4.0,CC BY,verified,1,0,0,0,https://huggingface.co/datasets/PolyAI/banking77
+commonsense_qa,tau/commonsense_qa,9741,100,0,MIT,"Apache, MIT o BSD",qualified,0,0,0,1,https://huggingface.co/datasets/tau/commonsense_qa
+commonsense_qa2,tasksource/commonsense_qa_2.0,9264,100,0,CC BY 4.0,CC BY,qualified,0,0,0,1,https://huggingface.co/datasets/tasksource/commonsense_qa_2.0
+open_jev__workflow-controls-v1__security_incidents,ZefanCai/Open-Jev,8874,100,100,CC0-1.0,CC0 o dominio pubblico,qualified,0,1,0,0,https://huggingface.co/datasets/ZefanCai/Open-Jev
+qasc,allenai/qasc,8129,100,0,CC BY 4.0,CC BY,qualified,0,0,0,1,https://huggingface.co/datasets/allenai/qasc
+boolq,google/boolq,7993,100,0,CC BY-SA 3.0,CC BY-SA,qualified,0,0,0,0,https://huggingface.co/datasets/google/boolq
+fig_qa,nightingal3/fig-qa,7962,100,0,MIT,"Apache, MIT o BSD",qualified,0,0,0,1,https://huggingface.co/datasets/nightingal3/fig-qa
+gsm8k,openai/gsm8k,7473,0,100,MIT,"Apache, MIT o BSD",verified,0,0,0,1,https://huggingface.co/datasets/openai/gsm8k
+open_jev__ir-control-v1,ZefanCai/Open-Jev,7366,100,100,CC0-1.0,CC0 o dominio pubblico,qualified,0,1,0,0,https://huggingface.co/datasets/ZefanCai/Open-Jev
+hwu64,FastFit/hwu_64,7251,100,100,CC BY 4.0,CC BY,verified,1,0,0,0,https://huggingface.co/datasets/FastFit/hwu_64
+open_jev__entity-alignment-control-v1,ZefanCai/Open-Jev,6944,100,100,CC0-1.0,CC0 o dominio pubblico,qualified,0,1,0,0,https://huggingface.co/datasets/ZefanCai/Open-Jev
+open_jev__silent-failure-control-v1,ZefanCai/Open-Jev,6432,100,100,CC0-1.0,CC0 o dominio pubblico,qualified,0,1,0,0,https://huggingface.co/datasets/ZefanCai/Open-Jev
+natural_logic,tasksource/naturallogic,6386,0,0,Apache-2.0,"Apache, MIT o BSD",qualified,0,0,0,1,https://huggingface.co/datasets/tasksource/naturallogic
+ropes,allenai/ropes,6379,100,0,CC BY 4.0,CC BY,qualified,0,0,0,1,https://huggingface.co/datasets/allenai/ropes
+open_jev__vizdoom-basic-v1,ZefanCai/Open-Jev,6354,100,66,CC0 (numeric data),CC0 o dominio pubblico,qualified,0,1,0,0,https://huggingface.co/datasets/ZefanCai/Open-Jev
+open_jev__sponsor-segment-control-v1,ZefanCai/Open-Jev,6345,100,100,CC0-1.0,CC0 o dominio pubblico,qualified,0,1,0,0,https://huggingface.co/datasets/ZefanCai/Open-Jev
+open_jev__context-retention-control-v1,ZefanCai/Open-Jev,6138,100,100,CC0-1.0,CC0 o dominio pubblico,qualified,0,1,0,0,https://huggingface.co/datasets/ZefanCai/Open-Jev
+scicite,tasksource/scicite,6099,100,100,Unknown,sconosciuta,unresolved,0,0,0,0,https://huggingface.co/datasets/tasksource/scicite
+open_jev__reasoning-control-v1,ZefanCai/Open-Jev,5442,100,100,CC0-1.0,CC0 o dominio pubblico,qualified,0,1,0,0,https://huggingface.co/datasets/ZefanCai/Open-Jev
+monotonicity,tasksource/monotonicity-entailment,5379,0,0,Apache-2.0,"Apache, MIT o BSD",qualified,0,0,0,1,https://huggingface.co/datasets/tasksource/monotonicity-entailment
+open_jev__workflow-controls-v1__invoice_processing,ZefanCai/Open-Jev,5370,100,100,CC0-1.0,CC0 o dominio pubblico,qualified,0,1,0,0,https://huggingface.co/datasets/ZefanCai/Open-Jev
+sms_spam,ucirvine/sms_spam,5171,0,0,CC BY 4.0,CC BY,verified,1,0,0,0,https://huggingface.co/datasets/ucirvine/sms_spam
+scone,tasksource/scone,4986,0,100,CC0-1.0,CC0 o dominio pubblico,qualified,0,0,0,1,https://huggingface.co/datasets/tasksource/scone
+openbookqa,allenai/openbookqa,4870,100,100,Apache-2.0,"Apache, MIT o BSD",qualified,0,0,0,1,https://huggingface.co/datasets/allenai/openbookqa
+synthetic_relevance__agnews,sentence-transformers/agnews · fancyzhx/ag_news,4800,0,0,Unknown,sconosciuta,unresolved,1,0,1,0,https://huggingface.co/datasets/sentence-transformers/agnews https://huggingface.co/datasets/fancyzhx/ag_news
+synthetic_relevance__all_nli,sentence-transformers/all-nli,4800,0,0,SNLI: CC BY-SA 4.0; MultiNLI: CC BY 3.0 / CC BY-SA 3.0 / OANC / public domain,CC BY-SA,qualified,0,0,1,0,https://huggingface.co/datasets/sentence-transformers/all-nli
+synthetic_relevance__arxiv,hotchpotch/arxiv-ir-simulated-search-queries · open-index/open-arxiv,4800,0,0,CC0 (metadata); paper licenses vary,CC0 o dominio pubblico,qualified,0,0,1,0,https://huggingface.co/datasets/hotchpotch/arxiv-ir-simulated-search-queries https://huggingface.co/datasets/open-index/open-arxiv
+synthetic_relevance__bge_m3__hotpotqa,Shitao/bge-m3-data: hotpotqa · hotpotqa/hotpot_qa,4800,0,0,CC BY-SA 4.0,CC BY-SA,qualified,0,0,1,0,https://huggingface.co/datasets/Shitao/bge-m3-data https://huggingface.co/datasets/hotpotqa/hotpot_qa
+synthetic_relevance__bge_m3__miracl_en,Shitao/bge-m3-data: miracl_en · miracl/miracl,4800,0,0,Apache-2.0; Wikipedia text: CC BY-SA / GFDL,CC BY-SA,qualified,0,0,1,0,https://huggingface.co/datasets/Shitao/bge-m3-data https://huggingface.co/datasets/miracl/miracl
+synthetic_relevance__bge_m3__mr-tydi_english,Shitao/bge-m3-data: mr-tydi_english · castorini/mr-tydi,4800,0,0,Apache-2.0; Wikipedia text: CC BY-SA / GFDL,CC BY-SA,qualified,0,0,1,0,https://huggingface.co/datasets/Shitao/bge-m3-data https://huggingface.co/datasets/castorini/mr-tydi
+synthetic_relevance__bge_m3__nq,Shitao/bge-m3-data: nq · google-research-datasets/natural_questions,4800,0,0,CC BY-SA 3.0,CC BY-SA,qualified,0,0,1,0,https://huggingface.co/datasets/Shitao/bge-m3-data https://huggingface.co/datasets/google-research-datasets/natural_questions
+synthetic_relevance__bge_m3__squad,Shitao/bge-m3-data: squad · rajpurkar/squad,4800,0,0,CC BY-SA 4.0,CC BY-SA,qualified,0,0,1,0,https://huggingface.co/datasets/Shitao/bge-m3-data https://huggingface.co/datasets/rajpurkar/squad
+synthetic_relevance__bge_m3__trivia,Shitao/bge-m3-data: trivia · mandarjoshi/trivia_qa,4800,0,0,Apache-2.0,"Apache, MIT o BSD",qualified,0,0,1,0,https://huggingface.co/datasets/Shitao/bge-m3-data https://huggingface.co/datasets/mandarjoshi/trivia_qa
+synthetic_relevance__coco_captions,sentence-transformers/coco-captions,4800,0,0,CC BY 4.0 (captions),CC BY,qualified,0,0,1,0,https://huggingface.co/datasets/sentence-transformers/coco-captions
+synthetic_relevance__codesearch,nomic-ai/nomic-embed-unsupervised-data · CodeSearchNet,4800,0,0,MIT (tools); source-code licenses vary,"Apache, MIT o BSD",qualified,0,0,1,0,https://huggingface.co/datasets/nomic-ai/nomic-embed-unsupervised-data https://github.com/github/CodeSearchNet
+synthetic_relevance__fineweb,hotchpotch/fineweb-ir-simulated-search-queries · HuggingFaceFW/fineweb-edu,4800,0,0,ODC-By 1.0 (database); source-page rights vary,sconosciuta,qualified,0,0,1,0,https://huggingface.co/datasets/hotchpotch/fineweb-ir-simulated-search-queries https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu
+synthetic_relevance__gooaq,sentence-transformers/gooaq · allenai/gooaq,4800,0,0,Non-commercial use only,ristretta,qualified,0,0,1,0,https://huggingface.co/datasets/sentence-transformers/gooaq https://huggingface.co/datasets/allenai/gooaq
+synthetic_relevance__natural_questions,sentence-transformers/natural-questions · google-research-datasets/natural_questions,4800,0,0,CC BY-SA 3.0,CC BY-SA,verified,0,0,1,0,https://huggingface.co/datasets/sentence-transformers/natural-questions https://huggingface.co/datasets/google-research-datasets/natural_questions
+synthetic_relevance__pubmed,hotchpotch/pubmed-abstract-ir-simulated-search-queries · slinusc/PubMedAbstractsSubset,4800,0,0,CC0 (metadata); abstract rights vary,CC0 o dominio pubblico,qualified,0,0,1,0,https://huggingface.co/datasets/hotchpotch/pubmed-abstract-ir-simulated-search-queries https://huggingface.co/datasets/slinusc/PubMedAbstractsSubset
+synthetic_relevance__trivia_qa,sentence-transformers/trivia-qa · mandarjoshi/trivia_qa,4800,0,0,Apache-2.0,"Apache, MIT o BSD",qualified,0,0,1,0,https://huggingface.co/datasets/sentence-transformers/trivia-qa https://huggingface.co/datasets/mandarjoshi/trivia_qa
+synthetic_relevance__wikipedia_hard_negatives_english,hotchpotch/wikipedia-english-ir-simulated-search-queries,4800,0,0,CC BY-SA 4.0 / GFDL,CC BY-SA,qualified,0,0,1,0,https://huggingface.co/datasets/hotchpotch/wikipedia-english-ir-simulated-search-queries
+synthetic_relevance__bge_m3__msmarco,Shitao/bge-m3-data: msmarco · microsoft/ms_marco,4608,0,0,Non-commercial research only,ristretta,qualified,0,0,1,0,https://huggingface.co/datasets/Shitao/bge-m3-data https://huggingface.co/datasets/microsoft/ms_marco
+open_jev__workflow-controls-v1__customer_service,ZefanCai/Open-Jev,4392,100,100,CC0-1.0,CC0 o dominio pubblico,qualified,0,1,0,0,https://huggingface.co/datasets/ZefanCai/Open-Jev
+open_jev__customer-control-v1,ZefanCai/Open-Jev,4206,100,100,CC0 (conversations); question license unknown,sconosciuta,qualified,0,1,0,0,https://huggingface.co/datasets/ZefanCai/Open-Jev
+synthetic_relevance__bge_m3__pubmed_qa_labeled,Shitao/bge-m3-data: pubmed_qa_labeled · qiaojin/PubMedQA,4000,0,0,MIT (dataset); abstract rights vary,"Apache, MIT o BSD",qualified,0,0,1,0,https://huggingface.co/datasets/Shitao/bge-m3-data https://huggingface.co/datasets/qiaojin/PubMedQA
+open_jev__workflow-controls-v1__agent_trace_observability,ZefanCai/Open-Jev,3780,100,100,CC0-1.0,CC0 o dominio pubblico,qualified,0,1,0,0,https://huggingface.co/datasets/ZefanCai/Open-Jev
+open_jev__email-selection-control-v1,ZefanCai/Open-Jev,3618,100,100,CC0-1.0,CC0 o dominio pubblico,qualified,0,1,0,0,https://huggingface.co/datasets/ZefanCai/Open-Jev
+bge-hn-mr-tydi_english,Shitao/bge-m3-data: mr-tydi_english · castorini/mr-tydi,3513,0,0,Apache-2.0; Wikipedia text: CC BY-SA / GFDL,CC BY-SA,qualified,0,0,0,0,https://huggingface.co/datasets/Shitao/bge-m3-data https://huggingface.co/datasets/castorini/mr-tydi
+arc,allenai/ai2_arc,3352,100,100,CC BY-SA 4.0,CC BY-SA,qualified,0,0,0,0,https://huggingface.co/datasets/allenai/ai2_arc
+open_jev__tic_tac_toe-v1,ZefanCai/Open-Jev,3264,100,100,CC0-1.0,CC0 o dominio pubblico,qualified,0,1,0,0,https://huggingface.co/datasets/ZefanCai/Open-Jev
+feasibility_qa,tasksource/feasibilityQA,3233,0,0,MIT,"Apache, MIT o BSD",qualified,0,0,0,1,https://huggingface.co/datasets/tasksource/feasibilityQA
+nlupp,https://github.com/PolyAI-LDN/task-specific-datasets,3040,0,0,CC BY 4.0,CC BY,verified,1,0,0,0,https://github.com/PolyAI-LDN/task-specific-datasets
+bge-hn-miracl_en,Shitao/bge-m3-data: miracl_en · miracl/miracl,2861,0,0,Apache-2.0; Wikipedia text: CC BY-SA / GFDL,CC BY-SA,qualified,0,0,0,0,https://huggingface.co/datasets/Shitao/bge-m3-data https://huggingface.co/datasets/miracl/miracl
+quartz,allenai/quartz,2672,100,100,CC BY 4.0,CC BY,qualified,0,0,0,1,https://huggingface.co/datasets/allenai/quartz
+open_jev__citation-control-v1,ZefanCai/Open-Jev,2520,100,100,CC0-1.0,CC0 o dominio pubblico,qualified,0,1,0,0,https://huggingface.co/datasets/ZefanCai/Open-Jev
+strategyqa,tasksource/strategy-qa,2289,0,0,MIT,"Apache, MIT o BSD",verified,0,0,0,1,https://huggingface.co/datasets/tasksource/strategy-qa
+followir,mteb/Core17InstructionRetrieval · mteb/News21InstructionRetrieval · mteb/Robust04InstructionRetrieval · jhu-clsp/FollowIR-train,1725,0,0,MIT (annotations); NYT corpus access terms · MIT (annotations); Washington Post access terms · MIT (annotations); TREC research-access terms · Apache-2.0,"Apache, MIT o BSD",qualified,0,0,1,0,https://huggingface.co/datasets/mteb/Core17InstructionRetrieval https://huggingface.co/datasets/mteb/News21InstructionRetrieval https://huggingface.co/datasets/mteb/Robust04InstructionRetrieval https://huggingface.co/datasets/jhu-clsp/FollowIR-train
+minds14,PolyAI/minds14,1663,0,0,CC BY 4.0,CC BY,qualified,1,0,0,0,https://huggingface.co/datasets/PolyAI/minds14
+open_jev__tile_platformer-v1,ZefanCai/Open-Jev,1346,0,0,CC0-1.0,CC0 o dominio pubblico,qualified,0,1,0,0,https://huggingface.co/datasets/ZefanCai/Open-Jev
+lexcomp,tasksource/lexcomp-nc-relation,1272,100,100,Apache-2.0,"Apache, MIT o BSD",qualified,0,0,0,1,https://huggingface.co/datasets/tasksource/lexcomp-nc-relation
+arct,tasksource/arct,1210,100,100,Apache-2.0,"Apache, MIT o BSD",qualified,0,0,0,1,https://huggingface.co/datasets/tasksource/arct
+laya__typed_decisions,LocalLLaMA/typed-decisions,1200,0,100,Apache-2.0,"Apache, MIT o BSD",verified,0,0,1,0,https://huggingface.co/datasets/LocalLLaMA/typed-decisions
+tracie,tasksource/tracie,1174,0,100,Apache-2.0,"Apache, MIT o BSD",verified,0,0,0,1,https://huggingface.co/datasets/tasksource/tracie
+poem_sentiment,google-research-datasets/poem_sentiment,892,100,100,CC BY 4.0,CC BY,qualified,0,0,0,1,https://huggingface.co/datasets/google-research-datasets/poem_sentiment
+ethos,SetFit/ethos_binary,598,0,100,GPL-3.0,ristretta,qualified,0,0,0,0,https://huggingface.co/datasets/SetFit/ethos_binary
+bge-hn-pubmed_qa_labeled,Shitao/bge-m3-data: pubmed_qa_labeled · qiaojin/PubMedQA,500,0,0,MIT (dataset); abstract rights vary,"Apache, MIT o BSD",qualified,0,0,0,1,https://huggingface.co/datasets/Shitao/bge-m3-data https://huggingface.co/datasets/qiaojin/PubMedQA
+bge-hn-colliee,Shitao/bge-m3-data: colliee · COLIEE (original benchmark),463,0,0,Unknown,sconosciuta,qualified,0,0,0,0,https://huggingface.co/datasets/Shitao/bge-m3-data https://coliee.org/archive/coliee-2022
+contract_nli,https://github.com/stanfordnlp/contract-nli,422,61,100,CC BY 4.0,CC BY,qualified,0,0,0,1,https://github.com/stanfordnlp/contract-nli
+copa,aps/super_glue,399,100,0,BSD-2-Clause (COPA),"Apache, MIT o BSD",verified,0,0,0,1,https://huggingface.co/datasets/aps/super_glue
+qasper,allenai/qasper,392,89,100,CC BY 4.0,CC BY,verified,0,0,0,1,https://huggingface.co/datasets/allenai/qasper
+open_jev__trex_runner-v1,ZefanCai/Open-Jev,28,0,0,CC0-1.0,CC0 o dominio pubblico,qualified,0,1,0,0,https://huggingface.co/datasets/ZefanCai/Open-Jev
+bbq,lighteval/bbq_helm,0,0,100,CC BY 4.0,CC BY,verified,0,0,0,0,https://huggingface.co/datasets/lighteval/bbq_helm
+cladder,https://github.com/causalNLP/cladder,0,0,100,MIT,"Apache, MIT o BSD",verified,0,0,0,0,https://github.com/causalNLP/cladder
+crows_pairs,https://github.com/nyu-mll/crows-pairs,0,0,100,CC BY-SA 4.0,CC BY-SA,verified,0,0,0,0,https://github.com/nyu-mll/crows-pairs
+followir_core17,mteb/Core17InstructionRetrieval,0,0,100,MIT (annotations); NYT corpus access terms,"Apache, MIT o BSD",qualified,0,0,1,0,https://huggingface.co/datasets/mteb/Core17InstructionRetrieval
+followir_news21,mteb/News21InstructionRetrieval,0,0,100,MIT (annotations); Washington Post access terms,"Apache, MIT o BSD",qualified,0,0,1,0,https://huggingface.co/datasets/mteb/News21InstructionRetrieval
+followir_robust04,mteb/Robust04InstructionRetrieval,0,0,100,MIT (annotations); TREC research-access terms,"Apache, MIT o BSD",qualified,0,0,1,0,https://huggingface.co/datasets/mteb/Robust04InstructionRetrieval
+hatecheck,Paul/hatecheck,0,0,100,CC BY 4.0,CC BY,qualified,0,0,0,0,https://huggingface.co/datasets/Paul/hatecheck
+impli,https://github.com/UKPLab/acl2022-impli,0,0,100,Apache-2.0,"Apache, MIT o BSD",qualified,0,0,0,0,https://github.com/UKPLab/acl2022-impli
+lonli,tasksource/lonli,0,0,100,MIT,"Apache, MIT o BSD",verified,0,0,0,0,https://huggingface.co/datasets/tasksource/lonli
+miqa,tasksource/miqa,0,0,100,CC BY 4.0,CC BY,qualified,0,0,0,0,https://huggingface.co/datasets/tasksource/miqa
+robust_lr,tasksource/robustLR,0,0,100,MIT,"Apache, MIT o BSD",verified,0,0,0,0,https://huggingface.co/datasets/tasksource/robustLR
+s1mb-generalization-contextual-choice,Authored evaluation source,0,0,100,not separately declared,sconosciuta,,0,0,1,0,
+s1mb-generalization-contextual-noul,Authored evaluation source,0,0,100,not separately declared,sconosciuta,,0,0,1,0,
+s1mb-generalization-contextual-score,Authored evaluation source,0,0,100,not separately declared,sconosciuta,,0,0,1,0,
+s1mb-generalization-diverse-choice,Authored evaluation source,0,0,100,not separately declared,sconosciuta,,0,0,1,0,
+s1mb-generalization-diverse-noul,Authored evaluation source,0,0,100,not separately declared,sconosciuta,,0,0,1,0,
+s1mb-generalization-diverse-score,Authored evaluation source,0,0,100,not separately declared,sconosciuta,,0,0,1,0,
+synthetic_relevance__nanobeir__NanoArguAna,NanoArguAna,0,0,400,CC BY 4.0,CC BY,qualified,0,0,1,0,https://huggingface.co/datasets/hakari-bench/NanoBEIR-en
+synthetic_relevance__nanobeir__NanoDBPedia,NanoDBPedia,0,0,400,CC BY-SA 3.0 / GFDL,CC BY-SA,qualified,0,0,1,0,https://huggingface.co/datasets/hakari-bench/NanoBEIR-en
+synthetic_relevance__nanobeir__NanoFiQA2018,NanoFiQA2018,0,0,400,Non-commercial use only / CC BY-SA 2.5 / CC BY-SA 3.0,ristretta,qualified,0,0,1,0,https://huggingface.co/datasets/hakari-bench/NanoBEIR-en
+synthetic_relevance__nanobeir__NanoHotpotQA,NanoHotpotQA,0,0,400,CC BY-SA 4.0,CC BY-SA,qualified,0,0,1,0,https://huggingface.co/datasets/hakari-bench/NanoBEIR-en
+synthetic_relevance__nanobeir__NanoMSMARCO,NanoMSMARCO,0,0,400,Non-commercial research only,ristretta,qualified,0,0,1,0,https://huggingface.co/datasets/hakari-bench/NanoBEIR-en
+synthetic_relevance__nanobeir__NanoNFCorpus,NanoNFCorpus,0,0,400,Unknown,sconosciuta,qualified,0,0,1,0,https://huggingface.co/datasets/hakari-bench/NanoBEIR-en
+synthetic_relevance__nanobeir__NanoNQ,NanoNQ,0,0,400,CC BY-SA 3.0,CC BY-SA,qualified,0,0,1,0,https://huggingface.co/datasets/hakari-bench/NanoBEIR-en
+synthetic_relevance__nanobeir__NanoSCIDOCS,NanoSCIDOCS,0,0,400,CC BY 4.0,CC BY,qualified,0,0,1,0,https://huggingface.co/datasets/hakari-bench/NanoBEIR-en
+synthetic_relevance__nanobeir__NanoTouche2020,NanoTouche2020,0,0,392,CC BY 4.0,CC BY,qualified,0,0,1,0,https://huggingface.co/datasets/hakari-bench/NanoBEIR-en
+synthetic_relevance__nanocoir,NanoApps · NanoCodeFeedbackMT · NanoCodeFeedbackST · NanoCodeSearchNet · NanoCodeSearchNetCCR · NanoCodeTransOceanContest · NanoCodeTransOceanDL · NanoCosQA · NanoStackOverflowQA · NanoSyntheticText2SQL,0,0,800,Non-commercial research only · Apache-2.0 · Non-commercial research only; source-code licenses vary · CC BY-SA 3.0,ristretta,qualified,0,0,1,0,https://huggingface.co/datasets/hakari-bench/NanoCoIR https://huggingface.co/datasets/hakari-bench/NanoCoIR https://huggingface.co/datasets/hakari-bench/NanoCoIR https://huggingface.co/datasets/hakari-bench/NanoCoIR https://huggingface.co/datasets/hakari-bench/NanoCoIR https://huggingface.co/datasets/hakari-bench/NanoCoIR https://huggingface.co/datasets/hakari-bench/NanoCoIR https://huggingface.co/datasets/hakari-bench/NanoCoIR https://huggingface.co/datasets/hakari-bench/NanoCoIR https://huggingface.co/datasets/hakari-bench/NanoCoIR
+winobias,https://github.com/uclanlp/corefBias,0,0,100,MIT,"Apache, MIT o BSD",verified,0,0,0,0,https://github.com/uclanlp/corefBias
+winowhy,tasksource/winowhy,0,0,100,MIT,"Apache, MIT o BSD",qualified,0,0,0,0,https://huggingface.co/datasets/tasksource/winowhy

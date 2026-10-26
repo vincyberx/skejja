@@ -1,0 +1,4360 @@
+{
+"_models": {
+"it": {
+"model": "Helsinki-NLP/opus-mt-en-it",
+"revision": "be5a254d936f1a8c8da080406ca582a6615e6658"
+},
+"es": {
+"model": "Helsinki-NLP/opus-mt-en-es",
+"revision": "5bc4493d463cf000c1f0b50f8d56886a392ed4ab"
+},
+"de": {
+"model": "Helsinki-NLP/opus-mt-en-de",
+"revision": "6183067f769a302e3861815543b9f312c71b0ca4"
+},
+"fr": {
+"model": "Helsinki-NLP/opus-mt-en-fr",
+"revision": "dd7f6540a7a48a7f4db59e5c0b9c42c8eea67f18"
+}
+},
+"translations": {
+"activate their card": {
+"it": "attivare la loro carta",
+"es": "activar su tarjeta",
+"de": "ihre Karte aktivieren",
+"fr": "activer leur carte"
+},
+"add a calendar event or reminder": {
+"it": "aggiungere un evento o un promemoria di calendario",
+"es": "añadir un evento o recordatorio de calendario",
+"de": "Kalender-Ereignis oder Erinnerung hinzufügen",
+"fr": "ajouter un événement de calendrier ou un rappel"
+},
+"add a card they already have": {
+"it": "aggiungere una carta che hanno già",
+"es": "añadir una tarjeta que ya tienen",
+"de": "eine Karte hinzufügen, die sie bereits haben",
+"fr": "ajouter une carte qu'ils ont déjà"
+},
+"add a person to their account": {
+"it": "aggiungere una persona al proprio account",
+"es": "agregar una persona a su cuenta",
+"de": "eine Person zu ihrem Konto hinzufügen",
+"fr": "ajouter une personne à son compte"
+},
+"add a song to a playlist": {
+"it": "aggiungi un brano a una scaletta",
+"es": "añadir una canción a una lista de reproducción",
+"de": "Ein Lied zu einer Wiedergabeliste hinzufügen",
+"fr": "ajouter une chanson à une playlist"
+},
+"add an email contact": {
+"it": "aggiungere un contatto email",
+"es": "añadir un contacto de correo electrónico",
+"de": "E-Mail-Kontakt hinzufügen",
+"fr": "ajouter un contact e-mail"
+},
+"add funds from another bank": {
+"it": "aggiungere fondi da un'altra banca",
+"es": "añadir fondos de otro banco",
+"de": "Geld von einer anderen Bank hinzufügen",
+"fr": "ajouter des fonds d'une autre banque"
+},
+"add money using cash": {
+"it": "aggiungere denaro con denaro contante",
+"es": "Añadir dinero usando efectivo",
+"de": "Geld mit Bargeld hinzufügen",
+"fr": "ajouter de l'argent en utilisant de l'argent comptant"
+},
+"add money with a debit card": {
+"it": "aggiungere denaro con una carta di debito",
+"es": "añadir dinero con una tarjeta de débito",
+"de": "Geld mit einer Debitkarte hinzufügen",
+"fr": "ajouter de l'argent avec une carte de débit"
+},
+"add or change an event in their calendar": {
+"it": "aggiungere o modificare un evento nel loro calendario",
+"es": "agregar o cambiar un evento en su calendario",
+"de": "Hinzufügen oder Ändern eines Ereignisses in ihrem Kalender",
+"fr": "ajouter ou modifier un événement dans leur calendrier"
+},
+"add or remove items on their shopping list": {
+"it": "aggiungere o rimuovere gli articoli nella loro lista della spesa",
+"es": "agregar o eliminar artículos en su lista de compras",
+"de": "Artikel auf der Einkaufsliste hinzufügen oder entfernen",
+"fr": "ajouter ou supprimer des articles sur leur liste d'achats"
+},
+"add or remove tasks on their to-do list": {
+"it": "aggiungere o rimuovere attività nell'elenco delle cose da fare",
+"es": "añadir o eliminar tareas en su lista de tareas pendientes",
+"de": "Aufgaben auf ihrer Aufgabenliste hinzufügen oder entfernen",
+"fr": "ajouter ou supprimer des tâches sur leur liste de tâches"
+},
+"add their card to a mobile wallet": {
+"it": "aggiungere la loro scheda a un portafoglio mobile",
+"es": "añadir su tarjeta a una cartera móvil",
+"de": "Ihre Karte einer mobilen Geldbörse hinzufügen",
+"fr": "ajouter leur carte à un portefeuille mobile"
+},
+"adjust a smart device in the house": {
+"it": "regolare un dispositivo intelligente in casa",
+"es": "ajustar un dispositivo inteligente en la casa",
+"de": "Ein intelligentes Gerät im Haus anpassen",
+"fr": "ajuster un appareil intelligent dans la maison"
+},
+"adjust a sound setting": {
+"it": "regolare un'impostazione del suono",
+"es": "ajustar una configuración de sonido",
+"de": "Einstellen einer Klangeinstellung",
+"fr": "régler un réglage sonore"
+},
+"adjust how music is played": {
+"it": "regolare come la musica è riprodotta",
+"es": "ajustar cómo se reproduce la música",
+"de": "Passen Sie an, wie Musik gespielt wird",
+"fr": "ajuster la façon dont la musique est jouée"
+},
+"adjust the speaker volume": {
+"it": "regolare il volume dell'altoparlante",
+"es": "ajustar el volumen del altavoz",
+"de": "Lautstärke einstellen",
+"fr": "ajuster le volume de l'enceinte"
+},
+"adjust the speaking speed": {
+"it": "regolare la velocità di parola",
+"es": "ajustar la velocidad de habla",
+"de": "die sprechende Geschwindigkeit einstellen",
+"fr": "ajuster la vitesse de parole"
+},
+"agree or confirm": {
+"it": "accettare o confermare",
+"es": "acordar o confirmar",
+"de": "zustimmen oder bestätigen",
+"fr": "d'accord ou de confirmation"
+},
+"answer maybe": {
+"it": "rispondere forse",
+"es": "respuesta tal vez",
+"de": "Antwort vielleicht",
+"fr": "répondre peut-être"
+},
+"answer no": {
+"it": "risposta no",
+"es": "respuesta no",
+"de": "Antwort nein",
+"fr": "réponse non"
+},
+"answer yes": {
+"it": "risposta sì",
+"es": "respuesta sí",
+"de": "Antwort ja",
+"fr": "réponse oui"
+},
+"apply for a loan for a business": {
+"it": "domanda di prestito per un'impresa",
+"es": "solicitar un préstamo para una empresa",
+"de": "Antrag auf ein Darlehen für ein Unternehmen",
+"fr": "demander un prêt pour une entreprise"
+},
+"apply for a new credit card": {
+"it": "richiedere una nuova carta di credito",
+"es": "solicitar una nueva tarjeta de crédito",
+"de": "eine neue Kreditkarte beantragen",
+"fr": "demander une nouvelle carte de crédit"
+},
+"ask a general knowledge question": {
+"it": "porre una domanda di conoscenza generale",
+"es": "hacer una pregunta de conocimiento general",
+"de": "eine allgemeine Wissensfrage stellen",
+"fr": "poser une question sur les connaissances générales"
+},
+"ask a philosophical question about life": {
+"it": "porre una domanda filosofica sulla vita",
+"es": "hacer una pregunta filosófica sobre la vida",
+"de": "eine philosophische Frage nach dem Leben stellen",
+"fr": "poser une question philosophique sur la vie"
+},
+"ask about ATM support": {
+"it": "chiedere circa il supporto ATM",
+"es": "preguntar sobre el soporte de cajero automático",
+"de": "Fragen Sie nach ATM-Unterstützung",
+"fr": "demander au sujet du support de guichet automatique"
+},
+"ask about a business loan": {
+"it": "chiedere di un prestito commerciale",
+"es": "preguntar por un préstamo comercial",
+"de": "fragen Sie nach einem Business-Darlehen",
+"fr": "demander au sujet d'un prêt d'entreprise"
+},
+"ask about a direct debit": {
+"it": "chiedere di un addebito diretto",
+"es": "preguntar por un adeudo domiciliado",
+"de": "fragen Sie nach einer Lastschrift",
+"fr": "demander au sujet d'un débit direct"
+},
+"ask about a fee charged on a card payment": {
+"it": "chiedere circa una tassa addebitata su un pagamento con carta",
+"es": "preguntar sobre una tarifa cobrada en un pago con tarjeta",
+"de": "fragen Sie nach einer Gebühr für eine Kartenzahlung",
+"fr": "demander des frais facturés sur le paiement d'une carte"
+},
+"ask about a fee charged on a transfer": {
+"it": "chiedere circa una tassa addebitata su un trasferimento",
+"es": "preguntar sobre una tarifa cobrada en una transferencia",
+"de": "fragen Sie nach einer Gebühr, die bei einer Überweisung berechnet wird",
+"fr": "demander au sujet d'une taxe facturée sur un transfert"
+},
+"ask about a fee for withdrawing cash": {
+"it": "chiedere circa una tassa per il prelievo di contanti",
+"es": "preguntar por una tarifa para retirar dinero en efectivo",
+"de": "fragen Sie nach einer Gebühr für die Auszahlung von Bargeld",
+"fr": "demander au sujet d'une taxe pour le retrait d'espèces"
+},
+"ask about a purchase they did not make": {
+"it": "chiedere di un acquisto che non hanno fatto",
+"es": "preguntar acerca de una compra que no hicieron",
+"de": "fragen Sie nach einem Kauf, den sie nicht gemacht haben",
+"fr": "demander au sujet d'un achat qu'ils n'ont pas fait"
+},
+"ask about an extra charge on their statement": {
+"it": "chiedere circa un costo aggiuntivo sulla loro dichiarazione",
+"es": "preguntar por un cargo adicional en su declaración",
+"de": "fragen Sie nach einem Aufpreis auf ihre Erklärung",
+"fr": "demander un supplément sur leur déclaration"
+},
+"ask about an unexpected direct debit": {
+"it": "chiedere di un addebito diretto inatteso",
+"es": "preguntar por un débito directo inesperado",
+"de": "fragen Sie nach einer unerwarteten Lastschrift",
+"fr": "demander au sujet d'un débit direct inattendu"
+},
+"ask about auto top-up": {
+"it": "chiedere circa top-up automatico",
+"es": "preguntar sobre la recarga automática",
+"de": "fragen Sie nach Auto-Top-up",
+"fr": "demander au sujet de l'auto-supplément"
+},
+"ask about cash taken without their permission": {
+"it": "chiedere circa i contanti presi senza il loro permesso",
+"es": "preguntar por dinero en efectivo tomado sin su permiso",
+"de": "fragen Sie nach Bargeld ohne ihre Erlaubnis genommen",
+"fr": "demander de l'argent pris sans leur permission"
+},
+"ask about exchange rates": {
+"it": "chiedere circa i tassi di cambio",
+"es": "preguntar sobre los tipos de cambio",
+"de": "Fragen Sie nach Wechselkursen",
+"fr": "question sur les taux de change"
+},
+"ask about fees for currency exchange": {
+"it": "chiedere circa le tasse per il cambio valuta",
+"es": "preguntar sobre las tasas de cambio de divisas",
+"de": "fragen Sie nach Gebühren für die Währungsumtausch",
+"fr": "demander au sujet des frais de change"
+},
+"ask about fees for topping up by bank transfer": {
+"it": "chiedere circa le tasse per il topping up tramite bonifico bancario",
+"es": "preguntar sobre las tarifas para cubrir por transferencia bancaria",
+"de": "fragen Sie nach Gebühren für Topping up per Banküberweisung",
+"fr": "demander au sujet des frais de supplémentage par virement bancaire"
+},
+"ask about fees for topping up by card": {
+"it": "chiedere circa le tasse per il topping up con la carta",
+"es": "preguntar sobre las tarifas para el topping hasta con tarjeta",
+"de": "fragen Sie nach Gebühren für das Topping mit der Karte",
+"fr": "demander des frais pour le supplémentage par carte"
+},
+"ask about foreign transaction fees": {
+"it": "chiedere circa le tasse di transazione estera",
+"es": "preguntar sobre las tasas de transacción en el extranjero",
+"de": "Fragen Sie nach ausländischen Transaktionsgebühren",
+"fr": "demander au sujet des frais de transaction à l'étranger"
+},
+"ask about paying with their phone": {
+"it": "chiedere di pagare con il telefono",
+"es": "preguntar sobre el pago con su teléfono",
+"de": "fragen über zahlen mit ihrem Telefon",
+"fr": "demander au sujet de payer avec leur téléphone"
+},
+"ask about power sockets abroad": {
+"it": "chiedere circa prese elettriche all'estero",
+"es": "preguntar sobre tomas de corriente en el extranjero",
+"de": "fragen Sie nach Steckdosen im Ausland",
+"fr": "se renseigner sur les prises de courant à l'étranger"
+},
+"ask about required shots for travel": {
+"it": "chiedere circa scatti richiesti per il viaggio",
+"es": "preguntar sobre los disparos requeridos para viajar",
+"de": "fragen Sie nach erforderlichen Schüssen für Reisen",
+"fr": "demander au sujet des coups de feu nécessaires pour le voyage"
+},
+"ask about stock prices": {
+"it": "chiedere circa i prezzi delle azioni",
+"es": "preguntar sobre los precios de las acciones",
+"de": "fragen Sie nach Aktienpreisen",
+"fr": "se renseigner sur les prix des actions"
+},
+"ask about the annual percentage rate on a card": {
+"it": "chiedere circa il tasso annuo percentuale su una carta",
+"es": "preguntar sobre el porcentaje anual en una tarjeta",
+"de": "fragen Sie nach dem jährlichen Prozentsatz auf einer Karte",
+"fr": "demander au sujet du taux annuel de pourcentage sur une carte"
+},
+"ask about the assistant's hobbies": {
+"it": "chiedere circa hobby dell'assistente",
+"es": "preguntar por los pasatiempos del asistente",
+"de": "Fragen Sie nach den Hobbys des Assistenten",
+"fr": "Demande au sujet des passe-temps de l'assistant"
+},
+"ask about the assistant's pets": {
+"it": "chiedere circa gli animali domestici dell'assistente",
+"es": "preguntar sobre las mascotas del asistente",
+"de": "Fragen Sie nach den Haustieren des Assistenten",
+"fr": "Demande à propos des animaux de compagnie de l'assistant"
+},
+"ask about the limit for big payments": {
+"it": "chiedere circa il limite per i grandi pagamenti",
+"es": "preguntar sobre el límite para grandes pagos",
+"de": "fragen Sie nach der Grenze für große Zahlungen",
+"fr": "demander au sujet de la limite pour les gros paiements"
+},
+"ask about the meaning of life": {
+"it": "chiedere circa il significato della vita",
+"es": "preguntar sobre el significado de la vida",
+"de": "fragen Sie nach dem Sinn des Lebens",
+"fr": "s'interrogent sur le sens de la vie"
+},
+"ask about the verification code for a top-up": {
+"it": "chiedere circa il codice di verifica per un top-up",
+"es": "preguntar sobre el código de verificación para una recarga",
+"de": "Fragen Sie nach dem Verifikationscode für ein Top-up",
+"fr": "demander au sujet du code de vérification pour un supplément"
+},
+"ask about the weather": {
+"it": "chiedere circa il tempo",
+"es": "preguntar sobre el tiempo",
+"de": "Fragen Sie nach dem Wetter",
+"fr": "question sur la météo"
+},
+"ask about their insurance coverage": {
+"it": "chiedere circa la loro copertura assicurativa",
+"es": "preguntar sobre su cobertura de seguro",
+"de": "Fragen Sie nach ihrem Versicherungsschutz",
+"fr": "demande au sujet de leur couverture d'assurance"
+},
+"ask about their schedule": {
+"it": "chiedere circa il loro programma",
+"es": "preguntar acerca de su horario",
+"de": "Fragen Sie nach ihrem Zeitplan",
+"fr": "Demandez-leur leur calendrier."
+},
+"ask about their taxes": {
+"it": "chiedere circa le loro tasse",
+"es": "preguntar sobre sus impuestos",
+"de": "Fragen Sie nach ihren Steuern",
+"fr": "demande au sujet de leurs impôts"
+},
+"ask about upcoming appointments": {
+"it": "chiedere circa i prossimi appuntamenti",
+"es": "preguntar acerca de las próximas citas",
+"de": "fragen Sie nach anstehenden Terminen",
+"fr": "questionner sur les rendez-vous à venir"
+},
+"ask about upcoming public holidays": {
+"it": "chiedere circa i prossimi giorni festivi",
+"es": "preguntar acerca de los próximos días festivos",
+"de": "fragen Sie nach anstehenden Feiertagen",
+"fr": "question sur les jours fériés à venir"
+},
+"ask about using their account in another country": {
+"it": "chiedere di utilizzare il proprio account in un altro paese",
+"es": "preguntar sobre el uso de su cuenta en otro país",
+"de": "fragen Sie über die Verwendung ihres Kontos in einem anderen Land",
+"fr": "demander au sujet de l'utilisation de leur compte dans un autre pays"
+},
+"ask for a digital card": {
+"it": "chiedere una scheda digitale",
+"es": "pedir una tarjeta digital",
+"de": "fragen Sie nach einer digitalen Karte",
+"fr": "demander une carte numérique"
+},
+"ask for a higher credit limit": {
+"it": "chiedere un limite di credito più elevato",
+"es": "pedir un límite de crédito más alto",
+"de": "eine höhere Bonitätsgrenze verlangen",
+"fr": "demander une limite de crédit plus élevée"
+},
+"ask for a one-time card": {
+"it": "chiedere una carta una sola volta",
+"es": "pedir una tarjeta de una sola vez",
+"de": "fragen Sie nach einer einmaligen Karte",
+"fr": "demander une carte unique"
+},
+"ask for a refund": {
+"it": "chiedere un rimborso",
+"es": "solicitar una devolución",
+"de": "Bitten Sie um eine Erstattung",
+"fr": "demander un remboursement"
+},
+"ask for a second card": {
+"it": "chiedere una seconda carta",
+"es": "pedir una segunda tarjeta",
+"de": "fragen Sie nach einer zweiten Karte",
+"fr": "demander une deuxième carte"
+},
+"ask for the card's expiry date": {
+"it": "chiedere la data di scadenza della carta",
+"es": "solicitar la fecha de caducidad de la tarjeta",
+"de": "fragen Sie nach dem Ablaufdatum der Karte",
+"fr": "demander la date d'expiration de la carte"
+},
+"ask for the definition of a word": {
+"it": "chiedere la definizione di una parola",
+"es": "pedir la definición de una palabra",
+"de": "fragen Sie nach der Definition eines Wortes",
+"fr": "demander la définition d'un mot"
+},
+"ask for the due date of a bill": {
+"it": "chiedere la data di scadenza di un disegno di legge",
+"es": "solicitar la fecha de vencimiento de un proyecto de ley",
+"de": "fragen Sie nach dem Fälligkeitsdatum einer Rechnung",
+"fr": "demander la date d'échéance d'un projet de loi"
+},
+"ask for the minimum amount they must pay": {
+"it": "chiedere l'importo minimo che devono pagare",
+"es": "pedir el importe mínimo que deben pagar",
+"de": "fragen Sie nach dem Mindestbetrag, den sie zahlen müssen",
+"fr": "demander le montant minimum qu'ils doivent payer"
+},
+"ask for the outstanding balance of a bill": {
+"it": "chiedere il saldo residuo di un disegno di legge",
+"es": "pedir el saldo pendiente de una factura",
+"de": "fragen Sie nach dem ausstehenden Restbetrag einer Rechnung",
+"fr": "demander le solde impayé d'un projet de loi"
+},
+"ask for the routing number": {
+"it": "chiedere il numero di routing",
+"es": "preguntar por el número de ruta",
+"de": "fragen Sie nach der Routing-Nummer",
+"fr": "demander le numéro de routage"
+},
+"ask for the spelling of a word": {
+"it": "chiedere l'ortografia di una parola",
+"es": "pedir la ortografía de una palabra",
+"de": "fragen Sie nach der Schreibweise eines Wortes",
+"fr": "demander l'orthographe d'un mot"
+},
+"ask for their current location": {
+"it": "chiedere la loro posizione attuale",
+"es": "preguntar por su ubicación actual",
+"de": "fragen Sie nach ihrem aktuellen Standort",
+"fr": "demander leur emplacement actuel"
+},
+"ask how many of one unit are in another": {
+"it": "Chiedi quanti di un'unità sono in un'altra",
+"es": "preguntar cuántos de una unidad están en otra",
+"de": "fragen, wie viele von einer Einheit in einer anderen sind",
+"fr": "demander combien d'une unité sont dans une autre"
+},
+"ask how many times a disposable card can be used": {
+"it": "chiedere quante volte una scheda usa e getta può essere utilizzato",
+"es": "preguntar cuántas veces se puede utilizar una tarjeta desechable",
+"de": "fragen, wie oft eine Einwegkarte verwendet werden kann",
+"fr": "demander combien de fois une carte jetable peut être utilisée"
+},
+"ask how much a currency is worth in another": {
+"it": "chiedere quanto una valuta vale in un altro",
+"es": "preguntar cuánto vale una moneda en otro",
+"de": "fragen, wie viel eine Währung in einer anderen wert ist",
+"fr": "demander combien une monnaie vaut dans une autre"
+},
+"ask how much cash they can take out": {
+"it": "Chiedi quanti soldi possono tirare fuori",
+"es": "preguntar cuánto dinero en efectivo pueden sacar",
+"de": "Frage, wie viel Bargeld sie herausnehmen können",
+"fr": "demander combien d'argent ils peuvent retirer"
+},
+"ask how much credit they have": {
+"it": "chiedere quanto credito hanno",
+"es": "preguntar cuánto crédito tienen",
+"de": "fragen, wie viel Kredit sie haben",
+"fr": "demander combien ils ont de crédit"
+},
+"ask how much they can top up": {
+"it": "chiedere quanto possono top up",
+"es": "preguntar cuánto pueden recargar",
+"de": "fragen, wie viel sie aufladen können",
+"fr": "Demandez-leur combien ils peuvent encaisser."
+},
+"ask how the assistant is": {
+"it": "Chiedi come sta l'assistente",
+"es": "pregunta cómo está el asistente",
+"de": "Frage, wie der Assistent ist",
+"fr": "demander comment est l'assistant"
+},
+"ask how the assistant is doing": {
+"it": "Chiedi come sta l'assistente",
+"es": "pregunta cómo está el asistente",
+"de": "Frage, wie es dem Assistenten geht",
+"fr": "Demande comment va l'assistant."
+},
+"ask how to complete the identity check": {
+"it": "chiedere come completare il controllo di identità",
+"es": "preguntar cómo completar el control de identidad",
+"de": "Frage, wie die Identitätsprüfung abgeschlossen werden soll",
+"fr": "demander comment effectuer la vérification d'identité"
+},
+"ask how to deposit a cheque": {
+"it": "chiedere come depositare un assegno",
+"es": "preguntar cómo depositar un cheque",
+"de": "fragen, wie man einen Scheck einzahlt",
+"fr": "demander comment déposer un chèque"
+},
+"ask how to deposit cash": {
+"it": "chiedere come depositare contanti",
+"es": "preguntar cómo depositar dinero en efectivo",
+"de": "fragen, wie man Bargeld einzahlt",
+"fr": "demander comment déposer de l'argent comptant"
+},
+"ask how to exchange currencies": {
+"it": "chiedere come scambiare le valute",
+"es": "preguntar cómo cambiar divisas",
+"de": "Frage, wie man Währungen tauscht",
+"fr": "demander comment échanger des devises"
+},
+"ask how to get paid into the account": {
+"it": "chiedere come ottenere il pagamento sul conto",
+"es": "preguntar cómo se paga en la cuenta",
+"de": "fragen, wie man auf das Konto bezahlt",
+"fr": "demander comment être payé sur le compte"
+},
+"ask how to move money in": {
+"it": "chiedere come spostare i soldi in",
+"es": "preguntar cómo mover el dinero en",
+"de": "fragen, wie man Geld in bewegen",
+"fr": "demander comment déplacer de l'argent dans"
+},
+"ask how to say something in another language": {
+"it": "chiedere come dire qualcosa in un'altra lingua",
+"es": "preguntar cómo decir algo en otro idioma",
+"de": "fragen, wie man etwas in einer anderen Sprache sagt",
+"fr": "demander comment dire quelque chose dans une autre langue"
+},
+"ask how to top up by card": {
+"it": "chiedere come caricare con la carta",
+"es": "preguntar cómo recargar con tarjeta",
+"de": "fragen, wie man mit der Karte auffüllen",
+"fr": "demander comment ajouter par carte"
+},
+"ask if a currency is supported": {
+"it": "chiedere se una valuta è supportata",
+"es": "preguntar si una moneda es compatible",
+"de": "fragen, ob eine Währung unterstützt wird",
+"fr": "demander si une devise est prise en charge"
+},
+"ask if a shop takes their card": {
+"it": "chiedere se un negozio prende la loro carta",
+"es": "preguntar si una tienda toma su tarjeta",
+"de": "fragen, ob ein Geschäft nimmt ihre Karte",
+"fr": "demander si une boutique prend leur carte"
+},
+"ask if the assistant is human": {
+"it": "chiedere se l'assistente è umano",
+"es": "preguntar si el asistente es humano",
+"de": "fragen, ob der Assistent menschlich ist",
+"fr": "demander si l'assistant est humain"
+},
+"ask if their card type works": {
+"it": "chiedere se il tipo di carta funziona",
+"es": "preguntar si su tipo de tarjeta funciona",
+"de": "fragen, ob ihr Kartentyp funktioniert",
+"fr": "demander si leur type de carte fonctionne"
+},
+"ask if there is an age limit": {
+"it": "chiedere se c'è un limite di età",
+"es": "preguntar si hay un límite de edad",
+"de": "Frage, ob es eine Altersgrenze gibt",
+"fr": "demander s'il y a une limite d'âge"
+},
+"ask if they can use the account in their country": {
+"it": "chiedere se possono utilizzare il conto nel loro paese",
+"es": "preguntar si pueden utilizar la cuenta en su país",
+"de": "fragen, ob sie das Konto in ihrem Land verwenden können",
+"fr": "demander s'ils peuvent utiliser le compte dans leur pays"
+},
+"ask the assistant to say it again": {
+"it": "Chiedi all'assistente di dirlo di nuovo",
+"es": "Pídele al asistente que lo diga de nuevo.",
+"de": "Bitten Sie den Assistenten, es noch einmal zu sagen",
+"fr": "demander à l'assistant de le répéter"
+},
+"ask the assistant's age": {
+"it": "chiedere l'età dell'assistente",
+"es": "preguntar la edad del asistente",
+"de": "Frage das Alter des Assistenten",
+"fr": "demander l'âge de l'assistant"
+},
+"ask the assistant's name": {
+"it": "chiedere il nome dell'assistente",
+"es": "preguntar el nombre del asistente",
+"de": "fragen Sie den Namen des Assistenten",
+"fr": "demander le nom de l'assistant"
+},
+"ask the current date or time": {
+"it": "chiedere la data o l'ora corrente",
+"es": "preguntar la fecha o hora actual",
+"de": "fragen Sie das aktuelle Datum oder die Uhrzeit",
+"fr": "demander la date ou l'heure actuelle"
+},
+"ask the name of the song": {
+"it": "chiedere il nome della canzone",
+"es": "pregunta el nombre de la canción",
+"de": "fragen Sie den Namen des Liedes",
+"fr": "demander le nom de la chanson"
+},
+"ask what a word means": {
+"it": "chiedere che cosa una parola significa",
+"es": "pregunta lo que significa una palabra",
+"de": "fragen, was ein Wort bedeutet",
+"fr": "demander ce que signifie un mot"
+},
+"ask what day it is": {
+"it": "chiedi che giorno è",
+"es": "Pregunta qué día es.",
+"de": "fragen, welcher Tag es ist",
+"fr": "demander quel jour c'est"
+},
+"ask what interest their savings earn": {
+"it": "chiedere quale interesse i loro risparmi guadagnano",
+"es": "preguntar qué interés ganan sus ahorros",
+"de": "fragen, welche Zinsen ihre Ersparnisse verdienen",
+"fr": "demander quels intérêts leurs économies gagnent"
+},
+"ask what meetings they have": {
+"it": "chiedere quali riunioni hanno",
+"es": "preguntar qué reuniones tienen",
+"de": "fragen, welche Treffen sie haben",
+"fr": "demander quelles réunions ils ont"
+},
+"ask what music is playing": {
+"it": "chiedi che musica sta suonando",
+"es": "pregunta qué música está tocando",
+"de": "fragen, welche Musik spielt",
+"fr": "demander à quoi joue la musique"
+},
+"ask what name the assistant uses for them": {
+"it": "chiedere il nome che l'assistente usa per loro",
+"es": "preguntar qué nombre utiliza el asistente para ellos",
+"de": "fragen, welchen Namen der Assistent für sie verwendet",
+"fr": "demander quel nom l'assistant utilise pour eux"
+},
+"ask what rate is used to convert currencies": {
+"it": "chiedere quale tasso viene utilizzato per convertire le valute",
+"es": "preguntar qué tipo se utiliza para convertir monedas",
+"de": "Frage, welcher Kurs verwendet wird, um Währungen umzuwandeln",
+"fr": "demander quel taux est utilisé pour convertir des devises"
+},
+"ask what reminders they have": {
+"it": "chiedigli quali ricordi hanno",
+"es": "preguntar qué recordatorios tienen",
+"de": "fragen, was sie zu ermahnen haben",
+"fr": "demander quels rappels ils ont"
+},
+"ask what the assistant can do": {
+"it": "chiedere cosa l'assistente può fare",
+"es": "preguntar qué puede hacer el asistente",
+"de": "fragen, was der Assistent tun kann",
+"fr": "demander ce que l'assistant peut faire"
+},
+"ask what the assistant does in its free time": {
+"it": "chiedere cosa fa l'assistente nel suo tempo libero",
+"es": "preguntar qué hace el asistente en su tiempo libre",
+"de": "fragen, was der Assistent in seiner Freizeit macht",
+"fr": "demander ce que l'assistant fait dans son temps libre"
+},
+"ask what time it is": {
+"it": "chiedi che ora è",
+"es": "Pregunta qué hora es.",
+"de": "fragen, wie spät es ist",
+"fr": "Demande à quelle heure il est."
+},
+"ask what time their alarm is": {
+"it": "chiedere a che ora il loro allarme è",
+"es": "pregunta a qué hora es su alarma",
+"de": "fragen, wie spät ihr Alarm ist",
+"fr": "demander à quelle heure leur alarme est"
+},
+"ask what to do when the cash machine took their card": {
+"it": "chiedere cosa fare quando il bancomat ha preso la loro carta",
+"es": "preguntar qué hacer cuando el cajero automático tomó su tarjeta",
+"de": "fragen, was zu tun ist, wenn der Geldautomat nahm ihre Karte",
+"fr": "demander quoi faire quand la machine à liquide a pris leur carte"
+},
+"ask what to do when their card is about to expire": {
+"it": "chiedere cosa fare quando la loro carta sta per scadere",
+"es": "preguntar qué hacer cuando su tarjeta está a punto de expirar",
+"de": "fragen, was zu tun ist, wenn ihre Karte abläuft",
+"fr": "demander quoi faire lorsque leur carte est sur le point d'expirer"
+},
+"ask when a new card will be delivered": {
+"it": "chiedere quando verrà consegnata una nuova carta",
+"es": "preguntar cuándo se entregará una nueva tarjeta",
+"de": "fragen, wann eine neue Karte geliefert wird",
+"fr": "demander quand une nouvelle carte sera livrée"
+},
+"ask when a transfer will arrive": {
+"it": "chiedere quando arriverà un trasferimento",
+"es": "preguntar cuándo llegará un traslado",
+"de": "fragen, wann ein Transfer eintrifft",
+"fr": "demander quand un transfert arrivera"
+},
+"ask when the new card will come": {
+"it": "chiedere quando la nuova carta verrà",
+"es": "pregunta cuándo llegará la nueva tarjeta",
+"de": "fragen, wann die neue Karte kommt",
+"fr": "demander quand la nouvelle carte viendra"
+},
+"ask where the assistant is from": {
+"it": "chiedi da dove viene l'assistente",
+"es": "preguntar de dónde es el asistente",
+"de": "fragen, woher der Assistent kommt",
+"fr": "demander d'où vient l'assistant"
+},
+"ask whether the assistant has pets": {
+"it": "chiedere se l'assistente ha animali domestici",
+"es": "preguntar si el asistente tiene mascotas",
+"de": "fragen, ob der Assistent Haustiere hat",
+"fr": "demander si l'assistant a des animaux de compagnie"
+},
+"ask whether the assistant is a bot": {
+"it": "chiedere se l'assistente è un bot",
+"es": "preguntar si el asistente es un bot",
+"de": "Frage, ob der Assistent ein Bot ist",
+"fr": "demander si l'assistant est un bot"
+},
+"ask which network the card uses": {
+"it": "chiedere a quale rete la carta utilizza",
+"es": "preguntar qué red utiliza la tarjeta",
+"de": "fragen, welches Netzwerk die Karte verwendet",
+"fr": "demander quel réseau utilise la carte"
+},
+"ask which time zone a city is in": {
+"it": "chiedere in quale fuso orario si trova una città",
+"es": "preguntar en qué zona horaria se encuentra una ciudad",
+"de": "fragen, in welcher Zeitzone eine Stadt ist",
+"fr": "demander dans quel fuseau horaire une ville se trouve"
+},
+"ask who created the assistant": {
+"it": "chiedi chi ha creato l'assistente",
+"es": "preguntar quién creó al asistente",
+"de": "Frage, wer den Assistenten geschaffen hat",
+"fr": "demander qui a créé l'assistant"
+},
+"ask who the assistant works for": {
+"it": "chiedi per chi lavora l'assistente",
+"es": "preguntar para quién trabaja el asistente",
+"de": "fragen, für wen der Assistent arbeitet",
+"fr": "demander à qui travaille l'assistant"
+},
+"ask why a card payment is still pending": {
+"it": "chiedere perché un pagamento con carta è ancora in attesa",
+"es": "preguntar por qué un pago con tarjeta todavía está pendiente",
+"de": "fragen, warum eine Kartenzahlung noch aussteht",
+"fr": "demander pourquoi un paiement par carte est encore en attente"
+},
+"ask why a card payment was declined": {
+"it": "chiedere perché un pagamento con carta è stato rifiutato",
+"es": "preguntar por qué se denegó el pago de una tarjeta",
+"de": "fragen, warum eine Kartenzahlung abgelehnt wurde",
+"fr": "demander pourquoi un paiement par carte a été refusé"
+},
+"ask why a card payment was refused": {
+"it": "chiedere perché un pagamento con carta è stato rifiutato",
+"es": "preguntar por qué se denegó el pago de una tarjeta",
+"de": "fragen, warum eine Kartenzahlung abgelehnt wurde",
+"fr": "demander pourquoi un paiement par carte a été refusé"
+},
+"ask why a card payment was reverted": {
+"it": "chiedere perché un pagamento con carta è stato ripristinato",
+"es": "preguntar por qué un pago con tarjeta fue revertido",
+"de": "fragen, warum eine Kartenzahlung zurückgezahlt wurde",
+"fr": "demander pourquoi un paiement par carte a été retourné"
+},
+"ask why a cash withdrawal is still pending": {
+"it": "chiedere perché un prelievo di contanti è ancora in attesa",
+"es": "preguntar por qué una retirada de efectivo todavía está pendiente",
+"de": "fragen, warum eine Bargeldabhebung noch aussteht",
+"fr": "demander pourquoi un retrait en espèces est encore en attente"
+},
+"ask why a cash withdrawal was declined": {
+"it": "chiedere perché un prelievo di contanti è stato rifiutato",
+"es": "preguntar por qué se declinó una retirada de efectivo",
+"de": "fragen, warum eine Bargeldabhebung abgelehnt wurde",
+"fr": "demander pourquoi un retrait en espèces a été refusé"
+},
+"ask why a cheque or cash deposit is not in their balance": {
+"it": "chiedere perché un assegno o un deposito in contanti non è nel loro saldo",
+"es": "preguntar por qué un cheque o depósito en efectivo no está en su saldo",
+"de": "fragen, warum ein Scheck oder eine Bareinlage nicht in ihrem Gleichgewicht ist",
+"fr": "demander pourquoi un chèque ou un dépôt en espèces n'est pas dans leur solde"
+},
+"ask why a refund has not appeared": {
+"it": "chiedere perché un rimborso non è apparso",
+"es": "preguntar por qué no ha aparecido un reembolso",
+"de": "Frage, warum eine Rückerstattung nicht erschienen ist",
+"fr": "demander pourquoi un remboursement n'est pas apparu"
+},
+"ask why a top-up is still pending": {
+"it": "Chiedere perché un top-up è ancora in sospeso",
+"es": "preguntar por qué una recarga todavía está pendiente",
+"de": "fragen, warum ein Top-up noch aussteht",
+"fr": "demander pourquoi un supplément est encore en attente"
+},
+"ask why a top-up was reverted": {
+"it": "Chiedi perché è stato ripristinato un top-up",
+"es": "preguntar por qué se revirtió una recarga",
+"de": "fragen, warum ein Top-up zurückgegeben wurde",
+"fr": "demander pourquoi un supplément a été retourné"
+},
+"ask why a transfer did not go through": {
+"it": "chiedere perché un trasferimento non è andato attraverso",
+"es": "preguntar por qué una transferencia no pasó",
+"de": "fragen, warum ein Transfer nicht durch ging",
+"fr": "demander pourquoi un transfert n'a pas eu lieu"
+},
+"ask why a transfer is still pending": {
+"it": "chiedere perché un trasferimento è ancora in sospeso",
+"es": "preguntar por qué una transferencia sigue pendiente",
+"de": "fragen, warum eine Übertragung noch aussteht",
+"fr": "demander pourquoi un transfert est encore en cours"
+},
+"ask why a transfer was declined": {
+"it": "chiedere perché un trasferimento è stato rifiutato",
+"es": "preguntar por qué una transferencia fue rechazada",
+"de": "fragen, warum ein Transfer abgelehnt wurde",
+"fr": "demander pourquoi un transfert a été refusé"
+},
+"ask why identity verification is needed": {
+"it": "chiedere perché è necessaria la verifica dell'identità",
+"es": "preguntar por qué es necesaria la verificación de identidad",
+"de": "Frage, warum Identitätsprüfung erforderlich ist",
+"fr": "demander pourquoi une vérification d'identité est nécessaire"
+},
+"ask why tap to pay fails": {
+"it": "chiedere perché toccare per pagare fallisce",
+"es": "preguntar por qué falla el toque para pagar",
+"de": "fragen, warum tippen, um zu zahlen fehlschlägt",
+"fr": "demander pourquoi le tap pour payer échoue"
+},
+"ask why the payee has not received the money": {
+"it": "chiedere perché il beneficiario non ha ricevuto il denaro",
+"es": "preguntar por qué el beneficiario no ha recibido el dinero",
+"de": "Frage, warum der Zahlungsempfänger das Geld nicht erhalten hat",
+"fr": "demander pourquoi le bénéficiaire n'a pas reçu l'argent"
+},
+"ask why the virtual card fails": {
+"it": "chiedere perché la scheda virtuale fallisce",
+"es": "preguntar por qué falla la tarjeta virtual",
+"de": "fragen, warum die virtuelle Karte fehlschlägt",
+"fr": "demander pourquoi la carte virtuelle échoue"
+},
+"ask why their account is locked": {
+"it": "chiedere perché il loro account è bloccato",
+"es": "preguntar por qué su cuenta está bloqueada",
+"de": "fragen, warum ihr Konto gesperrt ist",
+"fr": "demander pourquoi leur compte est verrouillé"
+},
+"ask why their balance did not update after a bank transfer": {
+"it": "chiedere perché il loro saldo non è stato aggiornato dopo un bonifico bancario",
+"es": "preguntar por qué su saldo no se actualizó después de una transferencia bancaria",
+"de": "fragen, warum ihr Guthaben nicht aktualisiert nach einer Banküberweisung",
+"fr": "demander pourquoi leur solde n'a pas été mis à jour après un virement bancaire"
+},
+"ask why their card stopped working": {
+"it": "chiedere perché la loro carta ha smesso di funzionare",
+"es": "preguntar por qué su tarjeta dejó de funcionar",
+"de": "fragen, warum ihre Karte nicht mehr funktioniert",
+"fr": "demander pourquoi leur carte a cessé de fonctionner"
+},
+"ask why their new card has not arrived": {
+"it": "chiedi perché la loro nuova carta non è arrivata",
+"es": "preguntar por qué su nueva tarjeta no ha llegado",
+"de": "fragen, warum ihre neue Karte nicht angekommen ist",
+"fr": "demander pourquoi leur nouvelle carte n'est pas arrivée"
+},
+"ask why their top-up did not work": {
+"it": "chiedere perché il loro top-up non ha funzionato",
+"es": "preguntar por qué su recarga no funcionó",
+"de": "fragen, warum ihr Top-up nicht funktioniert hat",
+"fr": "demander pourquoi leur supplément n'a pas fonctionné"
+},
+"ask why they cannot add a beneficiary": {
+"it": "chiedere perché non possono aggiungere un beneficiario",
+"es": "preguntar por qué no pueden añadir un beneficiario",
+"de": "Frage, warum sie keinen Begünstigten hinzufügen können",
+"fr": "demander pourquoi ils ne peuvent pas ajouter un bénéficiaire"
+},
+"ask why they cannot verify their identity": {
+"it": "chiedere perché non possono verificare la loro identità",
+"es": "preguntar por qué no pueden verificar su identidad",
+"de": "fragen, warum sie ihre Identität nicht überprüfen können",
+"fr": "demander pourquoi ils ne peuvent pas vérifier leur identité"
+},
+"ask why they must prove where their money comes from": {
+"it": "Chiedere perché devono dimostrare da dove vengono i loro soldi",
+"es": "preguntar por qué deben probar de dónde viene su dinero",
+"de": "fragen, warum sie beweisen müssen, woher ihr Geld kommt",
+"fr": "demander pourquoi ils doivent prouver d'où vient leur argent"
+},
+"be called by a different name": {
+"it": "essere chiamato con un nome diverso",
+"es": "ser llamado por un nombre diferente",
+"de": "mit einem anderen Namen aufgerufen werden",
+"fr": "être appelé par un nom différent"
+},
+"be reminded about something": {
+"it": "essere ricordato di qualcosa",
+"es": "ser recordado acerca de algo",
+"de": "an etwas erinnert werden",
+"fr": "être rappelé à propos de quelque chose"
+},
+"be suggested a film": {
+"it": "essere suggerito un film",
+"es": "se sugiere una película",
+"de": "einen Film vorschlagen",
+"fr": "être suggéré un film"
+},
+"be suggested a shop or venue": {
+"it": "essere suggerito un negozio o una sede",
+"es": "se sugiere una tienda o lugar de celebración",
+"de": "ein Geschäft oder Ort vorgeschlagen werden",
+"fr": "suggérer un magasin ou un lieu"
+},
+"be told something funny": {
+"it": "Mi dica qualcosa di divertente.",
+"es": "Que te digan algo gracioso.",
+"de": "etwas Lustiges erzählt werden",
+"fr": "être dit quelque chose de drôle"
+},
+"be woken up at a certain time": {
+"it": "essere svegliati in un certo momento",
+"es": "despertarse en un momento determinado",
+"de": "zu einer bestimmten Zeit aufgeweckt werden",
+"fr": "être réveillé à un certain moment"
+},
+"be woken up at a set time": {
+"it": "essere svegliati ad un tempo stabilito",
+"es": "despertarse a una hora determinada",
+"de": "zu einer bestimmten Zeit aufgeweckt werden",
+"fr": "être réveillé à un moment donné"
+},
+"block a card that was stolen": {
+"it": "bloccare una carta che è stata rubata",
+"es": "bloquear una tarjeta que fue robada",
+"de": "Blockieren Sie eine Karte, die gestohlen wurde",
+"fr": "bloquer une carte qui a été volée"
+},
+"block their account temporarily": {
+"it": "bloccare temporaneamente il loro account",
+"es": "bloquear temporalmente su cuenta",
+"de": "Sperren Sie Ihr Konto vorübergehend",
+"fr": "bloquer temporairement leur compte"
+},
+"book a time to meet": {
+"it": "prenota un momento per incontrarti",
+"es": "reservar un momento para reunirse",
+"de": "Buchen Sie eine Zeit, um sich zu treffen",
+"fr": "réserver un moment pour se rencontrer"
+},
+"borrow money for their company": {
+"it": "prendere in prestito denaro per la loro azienda",
+"es": "pedir prestado dinero para su empresa",
+"de": "Geld für ihr Unternehmen leihen",
+"fr": "emprunter de l'argent pour leur entreprise"
+},
+"brew a cup of coffee": {
+"it": "preparare una tazza di caffè",
+"es": "preparar una taza de café",
+"de": "eine Tasse Kaffee brauen",
+"fr": "brasser une tasse de café"
+},
+"call off the last command": {
+"it": "annullare l'ultimo comando",
+"es": "cancelar el último comando",
+"de": "den letzten Befehl abrufen",
+"fr": "annuler la dernière commande"
+},
+"call someone": {
+"it": "Chiama qualcuno",
+"es": "Llama a alguien.",
+"de": "Ruf jemanden an.",
+"fr": "Appelez quelqu'un."
+},
+"cancel a direct debit": {
+"it": "annulla un addebito diretto",
+"es": "cancelar un adeudo directo",
+"de": "eine Lastschrift stornieren",
+"fr": "annuler un débit direct"
+},
+"cancel a meeting in the calendar": {
+"it": "annulla una riunione nel calendario",
+"es": "cancelar una reunión en el calendario",
+"de": "eine Sitzung im Kalender absagen",
+"fr": "annuler une réunion dans le calendrier"
+},
+"cancel a money transfer": {
+"it": "annullare un trasferimento di denaro",
+"es": "cancelar una transferencia de dinero",
+"de": "eine Geldüberweisung zu stornieren",
+"fr": "annuler un transfert d'argent"
+},
+"cancel an alarm": {
+"it": "annulla un avviso",
+"es": "cancelar una alarma",
+"de": "einen Alarm absagen",
+"fr": "annuler une alarme"
+},
+"cancel the current request": {
+"it": "annulla la richiesta corrente",
+"es": "cancelar la solicitud actual",
+"de": "Aufhebung der aktuellen Anfrage",
+"fr": "annuler la requête actuelle"
+},
+"cash in their points": {
+"it": "contanti nei loro punti",
+"es": "efectivo en sus puntos",
+"de": "Bargeld in ihren Punkten",
+"fr": "en espèces dans leurs points"
+},
+"change a quantity into other units": {
+"it": "modificare una quantità in altre unità",
+"es": "cambiar una cantidad en otras unidades",
+"de": "Änderung einer Menge in andere Einheiten",
+"fr": "changer une quantité en autres unités"
+},
+"change how fast the assistant speaks": {
+"it": "cambiare quanto velocemente l'assistente parla",
+"es": "cambiar lo rápido que habla el asistente",
+"de": "ändern, wie schnell der Assistent spricht",
+"fr": "changer la rapidité avec laquelle l'assistant parle"
+},
+"change how the audio is set up": {
+"it": "cambiare il modo in cui l'audio è impostato",
+"es": "cambiar cómo se configura el audio",
+"de": "ändern, wie das Audio eingerichtet wird",
+"fr": "modifier la configuration de l'audio"
+},
+"change music playback settings": {
+"it": "modificare le impostazioni di riproduzione musicale",
+"es": "cambiar la configuración de reproducción de música",
+"de": "Musikwiedergabeeinstellungen ändern",
+"fr": "modifier les paramètres de lecture de musique"
+},
+"change other audio settings": {
+"it": "cambiare altre impostazioni audio",
+"es": "cambiar otras configuraciones de audio",
+"de": "Andere Audioeinstellungen ändern",
+"fr": "modifier d'autres paramètres audio"
+},
+"change the assistant's accent": {
+"it": "cambiare l'accento dell'assistente",
+"es": "cambiar el acento del asistente",
+"de": "den Akzent des Assistenten ändern",
+"fr": "changer l'accent de l'assistant"
+},
+"change the assistant's language": {
+"it": "cambiare la lingua dell'assistente",
+"es": "cambiar el idioma del asistente",
+"de": "die Sprache des Assistenten ändern",
+"fr": "changer la langue de l'assistant"
+},
+"change the assistant's volume": {
+"it": "modificare il volume dell'assistente",
+"es": "cambiar el volumen del asistente",
+"de": "die Lautstärke des Assistenten ändern",
+"fr": "changer le volume de l'assistant"
+},
+"change the light color": {
+"it": "cambia il colore della luce",
+"es": "cambiar el color de la luz",
+"de": "ändern Sie die Lichtfarbe",
+"fr": "changer la couleur de la lumière"
+},
+"change the limit on their card": {
+"it": "cambiare il limite sulla loro carta",
+"es": "cambiar el límite de su tarjeta",
+"de": "das Limit auf ihrer Karte ändern",
+"fr": "modifier la limite de leur carte"
+},
+"change the name the assistant calls them": {
+"it": "cambiare il nome che l'assistente li chiama",
+"es": "cambiar el nombre que el asistente les llama",
+"de": "den Namen ändern, den der Assistent sie nennt",
+"fr": "changer le nom de l'assistant les appelle"
+},
+"change the songs in a playlist": {
+"it": "cambiare i brani in una scaletta",
+"es": "cambiar las canciones en una lista de reproducción",
+"de": "die Songs in einer Playlist ändern",
+"fr": "changer les chansons dans une playlist"
+},
+"change their PIN": {
+"it": "cambiare il loro PIN",
+"es": "cambiar su PIN",
+"de": "ihre PIN ändern",
+"fr": "changer leur NIP"
+},
+"change their address": {
+"it": "cambiare il loro indirizzo",
+"es": "cambiar su dirección",
+"de": "Adresse ändern",
+"fr": "changer d'adresse"
+},
+"change their card PIN": {
+"it": "cambiare il loro PIN di carta",
+"es": "cambiar su tarjeta PIN",
+"de": "ändern Sie ihre Karten-PIN",
+"fr": "changer leur carte PIN"
+},
+"change their cash machine limit": {
+"it": "cambiare il loro limite di cassa macchina",
+"es": "cambiar su límite de cajero automático",
+"de": "ändern Sie ihre Geldautomaten-Limit",
+"fr": "modifier leur limite de numéraire"
+},
+"change their insurance plan": {
+"it": "cambiare il loro piano di assicurazione",
+"es": "cambiar su plan de seguro",
+"de": "Änderung ihres Versicherungsplans",
+"fr": "modifier leur régime d'assurance"
+},
+"change their personal details": {
+"it": "modificare i propri dati personali",
+"es": "cambiar sus datos personales",
+"de": "ändern ihre persönlichen Daten",
+"fr": "modifier leurs données personnelles"
+},
+"change what the assistant is called": {
+"it": "cambiare quello che l'assistente è chiamato",
+"es": "cambiar lo que el asistente se llama",
+"de": "ändern, was der Assistent genannt wird",
+"fr": "changer ce qu'on appelle l'assistant"
+},
+"check a currency conversion rate": {
+"it": "check a currency conversion rate",
+"es": "comprobar una tasa de conversión de divisas",
+"de": "Überprüfung eines Umrechnungskurses",
+"fr": "vérifier un taux de conversion de devises"
+},
+"check a transfer that did not arrive": {
+"it": "controllare un trasferimento che non è arrivato",
+"es": "verifique una transferencia que no haya llegado",
+"de": "einen Transfer überprüfen, der nicht eingetroffen ist",
+"fr": "vérifier un transfert qui n'est pas arrivé"
+},
+"check card acceptance": {
+"it": "accettazione della carta di controllo",
+"es": "comprobar la aceptación de la tarjeta",
+"de": "Akzeptanz der Prüfkarte",
+"fr": "vérifier l'acceptation de la carte"
+},
+"check country availability": {
+"it": "verificare la disponibilità del paese",
+"es": "comprobar la disponibilidad del país",
+"de": "Verfügbarkeit des Landes prüfen",
+"fr": "vérifier la disponibilité du pays"
+},
+"check emails": {
+"it": "controlla le email",
+"es": "comprobar los correos electrónicos",
+"de": "E-Mails überprüfen",
+"fr": "vérifier les courriels"
+},
+"check existing alarms": {
+"it": "controllare gli allarmi esistenti",
+"es": "comprobar las alarmas existentes",
+"de": "bestehende Alarme überprüfen",
+"fr": "vérifier les alarmes existantes"
+},
+"check how a share is trading": {
+"it": "controllare come una quota è trading",
+"es": "comprobar cómo una acción está trading",
+"de": "überprüfen, wie eine Aktie handelt",
+"fr": "vérifier comment une action est trading"
+},
+"check if it will rain": {
+"it": "controlla se piove",
+"es": "verifique si va a llover",
+"de": "überprüfen, ob es regnet",
+"fr": "vérifier s'il va pleuvoir"
+},
+"check on a pending ATM withdrawal": {
+"it": "controllo di un ritiro ATM in attesa",
+"es": "comprobar una retirada de cajero automático pendiente",
+"de": "Überprüfung einer ausstehenden ATM-Abhebung",
+"fr": "vérifier un retrait de guichet automatique en attente"
+},
+"check on a pending purchase": {
+"it": "controllo su un acquisto in corso",
+"es": "comprobar una compra pendiente",
+"de": "Überprüfung eines ausstehenden Kaufs",
+"fr": "vérifier un achat en cours"
+},
+"check on a pending top-up": {
+"it": "check su un aggiornamento in corso",
+"es": "comprobar una recarga pendiente",
+"de": "Überprüfung eines ausstehenden Top-ups",
+"fr": "contrôle d'un supplément en attente"
+},
+"check on a pending transfer": {
+"it": "controllo di un trasferimento in corso",
+"es": "comprobar una transferencia pendiente",
+"de": "Überprüfung einer noch ausstehenden Übertragung",
+"fr": "vérifier un transfert en attente"
+},
+"check on a refund that has not arrived": {
+"it": "verificare un rimborso che non è arrivato",
+"es": "comprobar un reembolso que no ha llegado",
+"de": "Überprüfung einer Erstattung, die noch nicht eingetroffen ist",
+"fr": "vérifier un remboursement qui n'est pas arrivé"
+},
+"check recent movements on their account": {
+"it": "controllare i movimenti recenti sul loro conto",
+"es": "comprobar los movimientos recientes en su cuenta",
+"de": "Überprüfung der jüngsten Bewegungen auf ihrem Konto",
+"fr": "vérifier les mouvements récents sur leur compte"
+},
+"check the APR on their card": {
+"it": "controllare l'APR sulla loro carta",
+"es": "verifique el APR en su tarjeta",
+"de": "überprüfen Sie die APR auf ihrer Karte",
+"fr": "vérifier l'APR sur leur carte"
+},
+"check the amount due on a bill": {
+"it": "controllare l'importo dovuto su una fattura",
+"es": "comprobar la cantidad debida en una factura",
+"de": "den Betrag auf Rechnung überprüfen",
+"fr": "vérifier le montant dû sur une facture"
+},
+"check the calendar": {
+"it": "controlla il calendario",
+"es": "verifique el calendario",
+"de": "Kalender überprüfen",
+"fr": "vérifier l'agenda"
+},
+"check the car's tire pressure": {
+"it": "Controlla la pressione dei pneumatici dell'auto",
+"es": "Compruebe la presión del neumático del coche",
+"de": "Prüfen Sie den Reifendruck des Autos",
+"fr": "vérifier la pression des pneus de la voiture"
+},
+"check the charge for a card top-up": {
+"it": "controllare la carica per una carta da ricaricare",
+"es": "verifique el cargo por una recarga de tarjeta",
+"de": "überprüfen Sie die Gebühr für eine Karte aufladen",
+"fr": "vérifier la charge d'un supplément de carte"
+},
+"check the charge for a transfer top-up": {
+"it": "controllare la carica per un trasferimento aggiuntivo",
+"es": "comprobar el cargo para una recarga de transferencia",
+"de": "Prüfen Sie die Gebühr für einen Transfer-Up",
+"fr": "vérifier la charge pour un supplément de transfert"
+},
+"check the charge for exchanging currency": {
+"it": "controllare la tassa per lo scambio di valuta",
+"es": "comprobar el cargo por cambio de moneda",
+"de": "überprüfen Sie die Gebühr für den Austausch von Währung",
+"fr": "vérifier les frais d'échange de devises"
+},
+"check the charges for international payments": {
+"it": "controllare le tariffe per i pagamenti internazionali",
+"es": "comprobar los gastos de los pagos internacionales",
+"de": "Überprüfung der Gebühren für internationale Zahlungen",
+"fr": "vérifier les frais pour les paiements internationaux"
+},
+"check the current currency rate": {
+"it": "controllare il tasso di cambio corrente",
+"es": "verifique el tipo de cambio actual",
+"de": "Überprüfung des aktuellen Wechselkurses",
+"fr": "vérifier le taux de change actuel"
+},
+"check the delivery time of a replacement card": {
+"it": "verificare i tempi di consegna di una carta sostitutiva",
+"es": "comprobar el tiempo de entrega de una tarjeta de reemplazo",
+"de": "Überprüfung der Lieferzeit einer Ersatzkarte",
+"fr": "vérifier le délai de livraison d'une carte de remplacement"
+},
+"check the expiration date of their card": {
+"it": "controllare la data di scadenza della loro carta",
+"es": "comprobar la fecha de vencimiento de su tarjeta",
+"de": "Überprüfung des Ablaufdatums ihrer Karte",
+"fr": "vérifier la date d'expiration de leur carte"
+},
+"check the interest rate of an account": {
+"it": "controllare il tasso di interesse di un conto",
+"es": "comprobar el tipo de interés de una cuenta",
+"de": "den Zinssatz eines Kontos überprüfen",
+"fr": "vérifier le taux d'intérêt d'un compte"
+},
+"check the latest purchases on their account": {
+"it": "controllare gli ultimi acquisti sul loro conto",
+"es": "verifique las últimas compras en su cuenta",
+"de": "überprüfen Sie die letzten Einkäufe auf ihrem Konto",
+"fr": "vérifier les derniers achats sur leur compte"
+},
+"check the limit on their credit card": {
+"it": "controllare il limite della carta di credito",
+"es": "comprobar el límite de su tarjeta de crédito",
+"de": "überprüfen Sie das Limit auf ihrer Kreditkarte",
+"fr": "vérifier la limite de leur carte de crédit"
+},
+"check the lowest payment they can make": {
+"it": "controllare il pagamento più basso che possono effettuare",
+"es": "comprobar el pago más bajo que pueden hacer",
+"de": "überprüfen Sie die niedrigste Zahlung, die sie leisten können",
+"fr": "vérifier le paiement le plus bas qu'ils peuvent faire"
+},
+"check the maximum top-up": {
+"it": "controlla l'inizio massimo",
+"es": "comprobar la recarga máxima",
+"de": "Überprüfung der maximalen Aufladung",
+"fr": "vérifier le supplément maximal"
+},
+"check the restrictions on disposable cards": {
+"it": "controllare le restrizioni sulle carte usa e getta",
+"es": "comprobar las restricciones de las tarjetas desechables",
+"de": "Überprüfung der Beschränkungen für Einwegkarten",
+"fr": "vérifier les restrictions sur les cartes jetables"
+},
+"check the status of a credit card application": {
+"it": "verificare lo stato di una domanda di carta di credito",
+"es": "comprobar el estado de una solicitud de tarjeta de crédito",
+"de": "den Status eines Kreditkartenantrags überprüfen",
+"fr": "vérifier l'état d'une demande de carte de crédit"
+},
+"check the status of a time off request": {
+"it": "verifica lo stato di una richiesta di time off",
+"es": "comprobar el estado de una solicitud de tiempo libre",
+"de": "den Status einer Auszeitanfrage überprüfen",
+"fr": "vérifier l'état d'une demande de congé"
+},
+"check the supported cards": {
+"it": "controlla le carte supportate",
+"es": "verifique las tarjetas soportadas",
+"de": "überprüfen Sie die unterstützten Karten",
+"fr": "vérifier les cartes prises en charge"
+},
+"check the supported currencies": {
+"it": "controlla le valute supportate",
+"es": "comprobar las monedas apoyadas",
+"de": "Überprüfung der unterstützten Währungen",
+"fr": "vérifier les devises supportées"
+},
+"check the time": {
+"it": "controlla l'ora",
+"es": "comprobar la hora",
+"de": "Prüfen Sie die Uhrzeit",
+"fr": "vérifier l'heure"
+},
+"check the time zone of a location": {
+"it": "controllare il fuso orario di una località",
+"es": "comprobar el huso horario de una ubicación",
+"de": "die Zeitzone eines Ortes überprüfen",
+"fr": "vérifier le fuseau horaire d'un emplacement"
+},
+"check their account balance": {
+"it": "controllare il saldo del conto",
+"es": "comprobar el saldo de su cuenta",
+"de": "ihren Kontostand überprüfen",
+"fr": "vérifier le solde de leur compte"
+},
+"check their bank account balance": {
+"it": "controllare il loro saldo del conto bancario",
+"es": "comprobar el saldo de su cuenta bancaria",
+"de": "überprüfen Sie ihren Kontostand",
+"fr": "vérifier le solde de leur compte bancaire"
+},
+"check their credit score": {
+"it": "controllare il loro punteggio di credito",
+"es": "verifique su puntaje de crédito",
+"de": "überprüfen Sie ihre Kredit-Score",
+"fr": "vérifier leur cote de crédit"
+},
+"check their lists": {
+"it": "controllare le loro liste",
+"es": "verifique sus listas",
+"de": "ihre Listen überprüfen",
+"fr": "vérifier leurs listes"
+},
+"check their past expenses": {
+"it": "controllare le loro spese passate",
+"es": "verifique sus gastos pasados",
+"de": "ihre früheren Ausgaben zu überprüfen",
+"fr": "vérifier leurs dépenses passées"
+},
+"check their reminders": {
+"it": "controlla i loro promemoria",
+"es": "verifique sus recordatorios",
+"de": "ihre Mahnungen überprüfen",
+"fr": "vérifier leurs rappels"
+},
+"check their rewards balance": {
+"it": "controllare il loro equilibrio delle ricompense",
+"es": "comprobar su saldo de recompensas",
+"de": "überprüfen ihre Belohnungen Gleichgewicht",
+"fr": "vérifier l'équilibre de leurs récompenses"
+},
+"check their shopping list": {
+"it": "Controlla la loro lista della spesa",
+"es": "verifique su lista de compras",
+"de": "Überprüfen Sie ihre Einkaufsliste",
+"fr": "vérifier leur liste d'achats"
+},
+"check their to-do list": {
+"it": "controlla la loro lista delle cose da fare",
+"es": "verifique su lista de tareas pendientes",
+"de": "ihre Aufgabenliste überprüfen",
+"fr": "vérifier leur liste de tâches"
+},
+"check transfer times": {
+"it": "verifica i tempi di trasferimento",
+"es": "comprobar los tiempos de transferencia",
+"de": "Überprüfung der Übertragungszeiten",
+"fr": "vérifier les temps de transfert"
+},
+"check vaccination requirements for a country": {
+"it": "controllare i requisiti di vaccinazione per un paese",
+"es": "comprobar los requisitos de vacunación de un país",
+"de": "Impfanforderungen für ein Land überprüfen",
+"fr": "vérifier les exigences en matière de vaccination dans un pays"
+},
+"check what is on their calendar": {
+"it": "controllare cosa c'è sul loro calendario",
+"es": "verifique lo que está en su calendario",
+"de": "überprüfen, was auf ihrem Kalender ist",
+"fr": "vérifier ce qu'il y a sur leur calendrier"
+},
+"check what the assistant calls them": {
+"it": "Controlla come li chiama l'assistente",
+"es": "verifique cómo los llama el asistente",
+"de": "Prüfen Sie, wie der Assistent sie nennt",
+"fr": "Vérifiez ce que l'assistant les appelle"
+},
+"check when their meetings are": {
+"it": "verificare quando le loro riunioni sono",
+"es": "comprobar cuando sus reuniones son",
+"de": "überprüfen, wenn ihre Sitzungen",
+"fr": "vérifier quand leurs réunions sont"
+},
+"check when they have to pay a bill": {
+"it": "controllare quando devono pagare una fattura",
+"es": "comprobar cuando tienen que pagar una factura",
+"de": "überprüfen, wann sie eine Rechnung bezahlen müssen",
+"fr": "vérifier quand ils doivent payer une facture"
+},
+"check why a transfer is not in their balance yet": {
+"it": "controllare perché un trasferimento non è ancora nel loro equilibrio",
+"es": "comprobar por qué una transferencia no está en su saldo todavía",
+"de": "überprüfen, warum eine Übertragung noch nicht im Gleichgewicht ist",
+"fr": "vérifier pourquoi un transfert n'est pas encore dans leur solde"
+},
+"check why their deposit has not updated the balance": {
+"it": "verificare perché il loro deposito non ha aggiornato il saldo",
+"es": "comprobar por qué su depósito no ha actualizado el saldo",
+"de": "überprüfen, warum ihre Einzahlung nicht den Restbetrag aktualisiert hat",
+"fr": "vérifier pourquoi leur dépôt n'a pas mis à jour le solde"
+},
+"choose between Visa and Mastercard": {
+"it": "scegliere tra Visa e Mastercard",
+"es": "elegir entre Visa y Mastercard",
+"de": "Wählen Sie zwischen Visa und Mastercard",
+"fr": "choisir entre Visa et Mastercard"
+},
+"clear a list": {
+"it": "cancella un elenco",
+"es": "limpiar una lista",
+"de": "eine Liste löschen",
+"fr": "effacer une liste"
+},
+"close their account": {
+"it": "chiudere il loro account",
+"es": "cerrar su cuenta",
+"de": "Konto schließen",
+"fr": "clôture de leur compte"
+},
+"complain about a duplicate payment": {
+"it": "Lamentarsi di un pagamento duplicato",
+"es": "quejarse de un pago duplicado",
+"de": "beschweren sich über eine doppelte Zahlung",
+"fr": "se plaindre d'un double paiement"
+},
+"complain about the exchange rate on a card payment": {
+"it": "lamentarsi del tasso di cambio su un pagamento con carta",
+"es": "quejarse del tipo de cambio en el pago de una tarjeta",
+"de": "beschweren sich über den Wechselkurs auf eine Kartenzahlung",
+"fr": "se plaindre du taux de change sur un paiement par carte"
+},
+"complain about the exchange rate on a cash withdrawal": {
+"it": "lamentarsi del tasso di cambio su un prelievo in contanti",
+"es": "quejarse sobre el tipo de cambio en un retiro de efectivo",
+"de": "beschweren sich über den Wechselkurs bei einer Bargeldabhebung",
+"fr": "se plaindre du taux de change sur un retrait en espèces"
+},
+"complain that the ATM gave too little money": {
+"it": "Lamentarsi che il bancomat ha dato troppo poco denaro",
+"es": "quejarse de que el cajero automático dio demasiado poco dinero",
+"de": "beschweren, dass der Geldautomat gab zu wenig Geld",
+"fr": "se plaindre que l'ATM a donné trop peu d'argent"
+},
+"complete a source of funds check": {
+"it": "completare una fonte di controllo dei fondi",
+"es": "completar una fuente de verificación de fondos",
+"de": "Vervollständigen Sie eine Quelle von Fonds-Kontrolle",
+"fr": "effectuer une vérification de la source de fonds"
+},
+"compute a number": {
+"it": "calcola un numero",
+"es": "calcular un número",
+"de": "eine Zahl berechnen",
+"fr": "Calculer un nombre"
+},
+"compute an arithmetic result": {
+"it": "calcola un risultato aritmetico",
+"es": "calcular un resultado aritmético",
+"de": "Berechnung eines arithmetischen Ergebnisses",
+"fr": "Calculer un résultat arithmétique"
+},
+"confirm a card top-up": {
+"it": "confermare un top-up della carta",
+"es": "confirmar una recarga de la tarjeta",
+"de": "eine Karte aufladen bestätigen",
+"fr": "confirmer un supplément de carte"
+},
+"connect an existing card in the app": {
+"it": "collegare una scheda esistente nell'app",
+"es": "conectar una tarjeta existente en la aplicación",
+"de": "eine bestehende Karte in der App verbinden",
+"fr": "connecter une carte existante dans l'application"
+},
+"connect their device to the assistant": {
+"it": "collegare il loro dispositivo all'assistente",
+"es": "conectar su dispositivo al asistente",
+"de": "Verbinden Sie ihr Gerät mit dem Assistenten",
+"fr": "connecter leur appareil à l'assistant"
+},
+"control a smart home device": {
+"it": "controllare un dispositivo smart home",
+"es": "controlar un dispositivo inteligente para el hogar",
+"de": "Steuerung eines Smart-Home-Geräts",
+"fr": "contrôle d'un appareil à domicile intelligent"
+},
+"convert a measurement between units": {
+"it": "convertire una misura tra unità",
+"es": "convertir una medición entre unidades",
+"de": "Umwandeln einer Messung zwischen Einheiten",
+"fr": "convertir une mesure entre les unités"
+},
+"convert money between currencies": {
+"it": "convertire denaro tra valute",
+"es": "convertir el dinero entre monedas",
+"de": "Geld zwischen Währungen umrechnen",
+"fr": "convertir de l'argent entre les monnaies"
+},
+"convert money into another currency": {
+"it": "convertire denaro in un'altra valuta",
+"es": "convertir el dinero en otra moneda",
+"de": "Geld in eine andere Währung umwandeln",
+"fr": "convertir de l'argent en une autre monnaie"
+},
+"convert time zones or dates": {
+"it": "converte i fusi orari o le date",
+"es": "convertir zonas horarias o fechas",
+"de": "Umrechnen von Zeitzonen oder Daten",
+"fr": "convertir des fuseaux horaires ou des dates"
+},
+"create a list or add an item to a list": {
+"it": "creare un elenco o aggiungere un elemento a un elenco",
+"es": "crear una lista o añadir un elemento a una lista",
+"de": "eine Liste erstellen oder ein Element zu einer Liste hinzufügen",
+"fr": "créer une liste ou ajouter un élément à une liste"
+},
+"create a new alarm": {
+"it": "crea un nuovo avviso",
+"es": "crear una nueva alarma",
+"de": "einen neuen Alarm erstellen",
+"fr": "créer une nouvelle alarme"
+},
+"create a reminder": {
+"it": "crea un promemoria",
+"es": "crear un recordatorio",
+"de": "Erstelle eine Erinnerung",
+"fr": "créer un rappel"
+},
+"create a reminder in the calendar": {
+"it": "crea un promemoria nel calendario",
+"es": "crear un recordatorio en el calendario",
+"de": "eine Erinnerung im Kalender erstellen",
+"fr": "créer un rappel dans le calendrier"
+},
+"create a single-use virtual card": {
+"it": "creare una scheda virtuale monouso",
+"es": "crear una tarjeta virtual de un solo uso",
+"de": "Erstellen Sie eine virtuelle Karte mit einem einzigen Verwendungszweck",
+"fr": "créer une carte virtuelle à usage unique"
+},
+"create a virtual card": {
+"it": "creare una scheda virtuale",
+"es": "crear una tarjeta virtual",
+"de": "eine virtuelle Karte erstellen",
+"fr": "créer une carte virtuelle"
+},
+"cut power to a plugged device": {
+"it": "Tagliare l'alimentazione a un dispositivo collegato",
+"es": "corte de energía a un dispositivo conector",
+"de": "Strom auf ein angeschlossenes Gerät kürzen",
+"fr": "couper la puissance d'un appareil branché"
+},
+"decline or disagree": {
+"it": "declinare o non essere d'accordo",
+"es": "declinar o no estar de acuerdo",
+"de": "Ablehnung oder Uneinigkeit",
+"fr": "déclin ou désaccord"
+},
+"delete a calendar event": {
+"it": "Elimina un evento di calendario",
+"es": "eliminar un evento de calendario",
+"de": "ein Kalender-Ereignis löschen",
+"fr": "supprimer un événement de calendrier"
+},
+"delete an alarm": {
+"it": "Elimina un avviso",
+"es": "borrar una alarma",
+"de": "Alarm löschen",
+"fr": "supprimer une alarme"
+},
+"delete something from a list": {
+"it": "eliminare qualcosa da una lista",
+"es": "borrar algo de una lista",
+"de": "etwas aus einer Liste löschen",
+"fr": "supprimer quelque chose d'une liste"
+},
+"delete their account": {
+"it": "eliminare il loro account",
+"es": "eliminar su cuenta",
+"de": "Ihr Konto löschen",
+"fr": "supprimer leur compte"
+},
+"deposit cash into their account": {
+"it": "deposito in contanti sul loro conto",
+"es": "depositar efectivo en su cuenta",
+"de": "Bareinzahlung auf ihr Konto",
+"fr": "dépôt en espèces sur leur compte"
+},
+"dial a phone number": {
+"it": "comporre un numero di telefono",
+"es": "marque un número de teléfono",
+"de": "Telefonnummer wählen",
+"fr": "composer un numéro de téléphone"
+},
+"dim the lights": {
+"it": "dimezza le luci",
+"es": "atenuar las luces",
+"de": "dämpfen Sie die Lichter",
+"fr": "Baisser les lumières"
+},
+"dispute an unknown ATM withdrawal": {
+"it": "contestano un ritiro ATM sconosciuto",
+"es": "disputa una retirada de cajero automático desconocida",
+"de": "einen unbekannten ATM-Entzug bestreiten",
+"fr": "contester un retrait de guichet automatique inconnu"
+},
+"dispute an unknown card transaction": {
+"it": "contesta una transazione con carta sconosciuta",
+"es": "disputa una transacción de tarjeta desconocida",
+"de": "bestreitet eine unbekannte Kartentransaktion",
+"fr": "contester une transaction de carte inconnue"
+},
+"dispute an unknown direct debit": {
+"it": "contesta un addebito diretto sconosciuto",
+"es": "disputa un adeudo domiciliado desconocido",
+"de": "eine unbekannte Lastschrift bestreiten",
+"fr": "contester un débit direct inconnu"
+},
+"do a calculation": {
+"it": "effettuare un calcolo",
+"es": "hacer un cálculo",
+"de": "eine Berechnung durchführen",
+"fr": "faire un calcul"
+},
+"edit a calendar entry": {
+"it": "Modifica una voce di calendario",
+"es": "editar una entrada de calendario",
+"de": "einen Kalendereintrag bearbeiten",
+"fr": "modifier une entrée de calendrier"
+},
+"edit their account information": {
+"it": "modifica le informazioni relative all'account",
+"es": "editar la información de su cuenta",
+"de": "Ihre Kontoinformationen bearbeiten",
+"fr": "modifier les informations de leur compte"
+},
+"end the conversation": {
+"it": "termina la conversazione",
+"es": "terminar la conversación",
+"de": "das Gespräch beenden",
+"fr": "Fin de la conversation"
+},
+"exchange currency in the app": {
+"it": "valuta di cambio nell'app",
+"es": "cambiar moneda en la aplicación",
+"de": "Wechselwährung in der App",
+"fr": "monnaie de change dans l'application"
+},
+"express gratitude": {
+"it": "esprimere gratitudine",
+"es": "expresar gratitud",
+"de": "Ausdruck der Dankbarkeit",
+"fr": "exprimer sa gratitude"
+},
+"find a cash machine that accepts their card": {
+"it": "trovare un bancomat che accetta la loro carta",
+"es": "encontrar un cajero automático que acepte su tarjeta",
+"de": "einen Geldautomaten finden, der seine Karte akzeptiert",
+"fr": "trouver une machine à liquide qui accepte leur carte"
+},
+"find a contact's details": {
+"it": "trovare i dettagli di un contatto",
+"es": "encontrar los datos de un contacto",
+"de": "finden Sie die Kontaktdaten",
+"fr": "trouver les coordonnées d'un contact"
+},
+"find a good movie to watch": {
+"it": "trovare un buon film da guardare",
+"es": "encontrar una buena película para ver",
+"de": "Finden Sie einen guten Film zu sehen",
+"fr": "trouver un bon film à regarder"
+},
+"find a good place nearby": {
+"it": "trovare un buon posto nelle vicinanze",
+"es": "encontrar un buen lugar cerca",
+"de": "Finden Sie einen guten Ort in der Nähe",
+"fr": "trouver un bon endroit à proximité"
+},
+"find events happening nearby": {
+"it": "trovare gli eventi che accadono nelle vicinanze",
+"es": "encontrar eventos que suceden cerca",
+"de": "Veranstaltungen in der Nähe finden",
+"fr": "trouver des événements qui se passent à proximité"
+},
+"find out if a child can have an account": {
+"it": "Scopri se un bambino può avere un account",
+"es": "averiguar si un niño puede tener una cuenta",
+"de": "herausfinden, ob ein Kind ein Konto haben kann",
+"fr": "découvrir si un enfant peut avoir un compte"
+},
+"find out if the assistant owns an animal": {
+"it": "Scopri se l'assistente possiede un animale",
+"es": "averiguar si el asistente posee un animal",
+"de": "herausfinden, ob der Assistent ein Tier besitzt",
+"fr": "découvrir si l'assistant possède un animal"
+},
+"find out if their card application was approved": {
+"it": "scoprire se la loro domanda di carta è stata approvata",
+"es": "averiguar si su solicitud de tarjeta fue aprobada",
+"de": "herausfinden, ob ihr Kartenantrag genehmigt wurde",
+"fr": "découvrir si leur demande de carte a été approuvée"
+},
+"find out if they are talking to a machine": {
+"it": "scoprire se stanno parlando con una macchina",
+"es": "averiguar si están hablando con una máquina",
+"de": "Finden Sie heraus, ob sie mit einer Maschine sprechen",
+"fr": "découvrir s'ils parlent à une machine"
+},
+"find out the assistant's maker": {
+"it": "Scopri il creatore dell'assistente",
+"es": "averiguar el creador del asistente",
+"de": "finden Sie heraus, die Assistenten-Hersteller",
+"fr": "découvrir le créateur de l'assistant"
+},
+"find out the assistant's name": {
+"it": "Scopri il nome dell'assistente",
+"es": "averiguar el nombre del asistente",
+"de": "finden Sie heraus, der Name des Assistenten",
+"fr": "trouver le nom de l'assistant"
+},
+"find out the date": {
+"it": "Scopri la data",
+"es": "averiguar la fecha",
+"de": "das Datum herausfinden",
+"fr": "découvrir la date"
+},
+"find out their position": {
+"it": "Scoprire la loro posizione",
+"es": "averiguar su posición",
+"de": "ihre Position herausfinden",
+"fr": "découvrir leur position"
+},
+"find out today's date": {
+"it": "Scopri la data di oggi",
+"es": "Averigüe la fecha de hoy",
+"de": "das heutige Datum herausfinden",
+"fr": "découvrir la date d'aujourd'hui"
+},
+"find out when the assistant was made": {
+"it": "Scoprire quando l'assistente è stato creato",
+"es": "averiguar cuándo se hizo el asistente",
+"de": "finden Sie heraus, wann der Assistent gemacht wurde",
+"fr": "découvrir quand l'assistant a été fait"
+},
+"find out where the assistant comes from": {
+"it": "Scopri da dove viene l'assistente",
+"es": "averiguar de dónde viene el asistente",
+"de": "finden Sie heraus, woher der Assistent kommt",
+"fr": "Découvrez d'où vient l'assistant."
+},
+"find out which company the assistant serves": {
+"it": "Scopri quale società serve l'assistente",
+"es": "averiguar a qué empresa sirve el asistente",
+"de": "finden Sie heraus, welches Unternehmen der Assistent dient",
+"fr": "trouver l'entreprise que l'assistant sert"
+},
+"find out who sings this": {
+"it": "Scopri chi canta questo",
+"es": "Averigua quién canta esto.",
+"de": "Finde heraus, wer das singt",
+"fr": "découvrir qui chante ça"
+},
+"find out why their bank account is blocked": {
+"it": "Scopri perché il loro conto bancario è bloccato",
+"es": "averiguar por qué su cuenta bancaria está bloqueada",
+"de": "finden Sie heraus, warum ihr Bankkonto gesperrt ist",
+"fr": "découvrir pourquoi leur compte bancaire est bloqué"
+},
+"find out why their card was declined": {
+"it": "Scopri perché la loro carta è stata rifiutata",
+"es": "averiguar por qué su tarjeta fue rechazada",
+"de": "herausfinden, warum ihre Karte abgelehnt wurde",
+"fr": "découvrir pourquoi leur carte a été refusée"
+},
+"find the date of the next holiday": {
+"it": "trova la data della prossima vacanza",
+"es": "encontrar la fecha de las próximas vacaciones",
+"de": "das Datum des nächsten Urlaubs finden",
+"fr": "trouver la date des prochains vacances"
+},
+"find the right power adapter for a country": {
+"it": "trovare l'adattatore di potenza giusto per un paese",
+"es": "encontrar el adaptador de alimentación adecuado para un país",
+"de": "Finden Sie den passenden Netzteil für ein Land",
+"fr": "trouver le bon adaptateur d'alimentation pour un pays"
+},
+"find the routing number of their bank": {
+"it": "trovare il numero di routing della loro banca",
+"es": "encontrar el número de ruta de su banco",
+"de": "finden Sie die Routing-Nummer ihrer Bank",
+"fr": "trouver le numéro de routage de leur banque"
+},
+"find their lost phone": {
+"it": "trovare il loro telefono perduto",
+"es": "encontrar su teléfono perdido",
+"de": "Finden Sie ihr verlorenes Telefon",
+"fr": "trouver leur téléphone perdu"
+},
+"fix a card that does not work": {
+"it": "correggere una carta che non funziona",
+"es": "arreglar una tarjeta que no funciona",
+"de": "eine Karte zu reparieren, die nicht funktioniert",
+"fr": "fixer une carte qui ne fonctionne pas"
+},
+"fix a cash withdrawal with the wrong amount": {
+"it": "risolvere un prelievo di contanti con l'importo sbagliato",
+"es": "fijar un retiro de efectivo con la cantidad incorrecta",
+"de": "eine Bargeldabhebung mit dem falschen Betrag fixieren",
+"fr": "fixer un retrait en espèces avec le mauvais montant"
+},
+"fix a failed payment": {
+"it": "correggere un pagamento non riuscito",
+"es": "fijar un pago fallido",
+"de": "Fixieren einer fehlgeschlagenen Zahlung",
+"fr": "Correction d'un paiement échoué"
+},
+"fix a failed top-up": {
+"it": "correggere un top-up non riuscito",
+"es": "arreglar una recarga fallida",
+"de": "Fix ein fehlgeschlagenes Top-up",
+"fr": "Correction d'un rechargement échoué"
+},
+"fix a locked PIN after wrong attempts": {
+"it": "correggere un PIN bloccato dopo tentativi sbagliati",
+"es": "arreglar un PIN bloqueado después de intentos equivocados",
+"de": "Fixieren einer gesperrten PIN nach falschen Versuchen",
+"fr": "Correction d'un code PIN verrouillé après de mauvaises tentatives"
+},
+"fix a problem adding a recipient": {
+"it": "risolvere un problema aggiungendo un destinatario",
+"es": "solucionar un problema al añadir un destinatario",
+"de": "Problem beim Hinzufügen eines Empfängers beheben",
+"fr": "Correction d'un problème d'ajout d'un destinataire"
+},
+"fix a problem with the identity check": {
+"it": "risolvere un problema con il controllo di identità",
+"es": "solucionar un problema con el control de identidad",
+"de": "Problem mit der Identitätsüberprüfung beheben",
+"fr": "Correction d'un problème avec la vérification d'identité"
+},
+"fix a virtual card": {
+"it": "correggere una scheda virtuale",
+"es": "arreglar una tarjeta virtual",
+"de": "Fixieren einer virtuellen Karte",
+"fr": "Correction d'une carte virtuelle"
+},
+"fix an error in the app": {
+"it": "correggere un errore nell'app",
+"es": "corregir un error en la aplicación",
+"de": "Fehler in der App beheben",
+"fr": "Correction d'une erreur dans l'application"
+},
+"fix contactless payments": {
+"it": "fissare i pagamenti senza contatto",
+"es": "fijar pagos sin contacto",
+"de": "Fix kontaktlose Zahlungen",
+"fr": "fixer les paiements sans contact"
+},
+"flag a suspicious transaction": {
+"it": "Contrassegna una transazione sospetta",
+"es": "marque una transacción sospechosa",
+"de": "eine verdächtige Transaktion markieren",
+"fr": "signaler une transaction suspecte"
+},
+"flip a coin": {
+"it": "lanciare una moneta",
+"es": "voltear una moneda",
+"de": "eine Münze umdrehen",
+"fr": "retournez une pièce de monnaie"
+},
+"follow up on a credit application": {
+"it": "seguito di una domanda di credito",
+"es": "seguimiento de una solicitud de crédito",
+"de": "Folgemaßnahmen zu einem Kreditantrag",
+"fr": "suivi d'une demande de crédit"
+},
+"freeze their account": {
+"it": "congelare il loro account",
+"es": "congelar su cuenta",
+"de": "Einfrieren ihres Kontos",
+"fr": "geler leur compte"
+},
+"freeze their bank account": {
+"it": "congelare il loro conto bancario",
+"es": "congelar su cuenta bancaria",
+"de": "Sperren Sie ihr Bankkonto",
+"fr": "geler leur compte bancaire"
+},
+"get a disposable virtual card": {
+"it": "ottenere una scheda virtuale usa e getta",
+"es": "obtener una tarjeta virtual desechable",
+"de": "erhalten Sie eine virtuelle Einwegkarte",
+"fr": "obtenir une carte virtuelle jetable"
+},
+"get a double charge fixed": {
+"it": "ottenere una doppia carica fissa",
+"es": "Obtener una doble carga fija",
+"de": "erhalten Sie eine doppelte Gebühr festgelegt",
+"fr": "obtenir une double charge fixe"
+},
+"get a fact about something": {
+"it": "get a fact about something",
+"es": "obtener un hecho sobre algo",
+"de": "eine Tatsache über etwas zu bekommen",
+"fr": "Répondez à quelque chose."
+},
+"get a joke": {
+"it": "get a scherzare",
+"es": "Obtener una broma",
+"de": "einen Witz zu bekommen",
+"fr": "Une blague."
+},
+"get a new card": {
+"it": "ottenere una nuova carta",
+"es": "Obtener una tarjeta nueva",
+"de": "erhalten Sie eine neue Karte",
+"fr": "obtenir une nouvelle carte"
+},
+"get a new card before the old one expires": {
+"it": "ottieni una nuova carta prima che il vecchio scada",
+"es": "Obtener una nueva tarjeta antes de que expire la vieja",
+"de": "eine neue Karte erhalten, bevor die alte abläuft",
+"fr": "obtenir une nouvelle carte avant que l'ancienne expire"
+},
+"get a new checkbook": {
+"it": "ottieni un nuovo libretto di assegni",
+"es": "Obtener una nueva chequera",
+"de": "erhalten Sie ein neues Scheckbuch",
+"fr": "obtenir un nouveau chéquier"
+},
+"get a physical card": {
+"it": "ottenere una carta fisica",
+"es": "obtener una tarjeta física",
+"de": "erhalten Sie eine physische Karte",
+"fr": "obtenir une carte physique"
+},
+"get a piece of trivia": {
+"it": "Prendi un pezzo di curiosità",
+"es": "Obtener un pedazo de trivia",
+"de": "ein Stück Trivia bekommen",
+"fr": "Obtenez un morceau de trivia"
+},
+"get a random dice roll": {
+"it": "ottenere un rotolo casuale di dadi",
+"es": "Obtener un rollo de dados al azar",
+"de": "erhalten Sie eine zufällige Würfelrolle",
+"fr": "obtenir un rouleau de dés aléatoire"
+},
+"get a random heads or tails": {
+"it": "ottenere una testa o una croce casuale",
+"es": "obtener una cabeza o cola al azar",
+"de": "erhalten Sie zufällige Köpfe oder Schwänze",
+"fr": "obtenir une tête ou une queue aléatoire"
+},
+"get a translation": {
+"it": "ottieni una traduzione",
+"es": "obtener una traducción",
+"de": "eine Übersetzung erhalten",
+"fr": "obtenir une traduction"
+},
+"get a virtual card": {
+"it": "ottenere una scheda virtuale",
+"es": "obtener una tarjeta virtual",
+"de": "erhalten Sie eine virtuelle Karte",
+"fr": "obtenir une carte virtuelle"
+},
+"get an additional card": {
+"it": "ottieni una carta aggiuntiva",
+"es": "obtener una tarjeta adicional",
+"de": "erhalten Sie eine zusätzliche Karte",
+"fr": "obtenir une carte supplémentaire"
+},
+"get an estimate for card shipping": {
+"it": "ottenere un preventivo per la spedizione di carte",
+"es": "obtener una estimación para el envío de tarjetas",
+"de": "erhalten Sie einen Kostenvoranschlag für Kartenversand",
+"fr": "obtenir une estimation pour l'expédition de la carte"
+},
+"get back a card swallowed by a machine": {
+"it": "ottenere indietro una carta inghiottita da una macchina",
+"es": "recuperar una tarjeta tragada por una máquina",
+"de": "eine von einer Maschine verschluckte Karte zurückholen",
+"fr": "récupérer une carte avalée par une machine"
+},
+"get event recommendations": {
+"it": "ottieni raccomandazioni sugli eventi",
+"es": "obtener recomendaciones de eventos",
+"de": "Event-Empfehlungen erhalten",
+"fr": "obtenir les recommandations de l'événement"
+},
+"get help with a card that has issues": {
+"it": "ottenere aiuto con una carta che ha problemi",
+"es": "obtener ayuda con una tarjeta que tiene problemas",
+"de": "erhalten Sie Hilfe mit einer Karte, die Probleme hat",
+"fr": "obtenir de l'aide avec une carte qui a des problèmes"
+},
+"get help with banking while travelling": {
+"it": "ottenere aiuto con le banche durante il viaggio",
+"es": "obtener ayuda con la banca durante el viaje",
+"de": "Hilfe beim Bankgeschäft während der Reise erhalten",
+"fr": "obtenir de l'aide avec les services bancaires pendant les voyages"
+},
+"get movie recommendations": {
+"it": "ottieni consigli sui film",
+"es": "obtener recomendaciones de películas",
+"de": "Filmempfehlungen erhalten",
+"fr": "obtenir des recommandations de film"
+},
+"get place recommendations": {
+"it": "ottieni delle raccomandazioni",
+"es": "obtener recomendaciones de lugar",
+"de": "Platzempfehlungen erhalten",
+"fr": "obtenir des recommandations de lieu"
+},
+"get someone's phone number or email": {
+"it": "ottenere il numero di telefono o di e-mail di qualcuno",
+"es": "obtener el número de teléfono o correo electrónico de alguien",
+"de": "erhalten Sie eine Telefonnummer oder eine E-Mail",
+"fr": "Obtenez le numéro de téléphone ou l'e-mail de quelqu'un"
+},
+"get the definition of a word": {
+"it": "ottenere la definizione di una parola",
+"es": "obtener la definición de una palabra",
+"de": "die Definition eines Wortes erhalten",
+"fr": "obtenir la définition d'un mot"
+},
+"get the meaning of a term": {
+"it": "ottenere il significato di un termine",
+"es": "obtener el significado de un término",
+"de": "die Bedeutung eines Begriffs erhalten",
+"fr": "obtenir le sens d'un terme"
+},
+"get the news": {
+"it": "get the news",
+"es": "Obtener las noticias",
+"de": "die Nachrichten zu bekommen",
+"fr": "Répondez aux nouvelles"
+},
+"get their W-2 tax form": {
+"it": "ottenere il loro modulo di imposta W-2",
+"es": "Obtenga su formulario de impuestos W-2",
+"de": "erhalten ihre W-2 Steuerform",
+"fr": "obtenir leur formulaire d'impôt W-2"
+},
+"get their blocked account working again": {
+"it": "far funzionare di nuovo il loro account bloccato",
+"es": "conseguir que su cuenta bloqueada funcione de nuevo",
+"de": "Ihr gesperrtes Konto wieder funktionieren lassen",
+"fr": "obtenir leur compte bloqué fonctionne à nouveau"
+},
+"get their money back for a purchase": {
+"it": "riavere i loro soldi per un acquisto",
+"es": "Recuperar su dinero para una compra",
+"de": "erhalten ihr Geld zurück für einen Kauf",
+"fr": "récupérer leur argent pour un achat"
+},
+"get tips to improve their credit score": {
+"it": "ottenere suggerimenti per migliorare il loro punteggio di credito",
+"es": "obtener consejos para mejorar su puntaje de crédito",
+"de": "erhalten Sie Tipps, um ihre Kredit-Score zu verbessern",
+"fr": "obtenir des conseils pour améliorer leur cote de crédit"
+},
+"give an uncertain answer": {
+"it": "dare una risposta incerta",
+"es": "dar una respuesta incierta",
+"de": "geben Sie eine unsichere Antwort",
+"fr": "donner une réponse incertaine"
+},
+"give negative feedback on a song": {
+"it": "dare un feedback negativo su una canzone",
+"es": "dar retroalimentación negativa sobre una canción",
+"de": "geben Sie negatives Feedback zu einem Song",
+"fr": "donner des commentaires négatifs sur une chanson"
+},
+"give the assistant a new name": {
+"it": "dare all'assistente un nuovo nome",
+"es": "darle al asistente un nuevo nombre",
+"de": "dem Assistenten einen neuen Namen geben",
+"fr": "donner un nouveau nom à l'assistant"
+},
+"go to the next song": {
+"it": "vai alla prossima canzone",
+"es": "ir a la siguiente canción",
+"de": "zum nächsten Lied gehen",
+"fr": "aller à la chanson suivante"
+},
+"greet the assistant": {
+"it": "Saluta l'assistente",
+"es": "saluda al asistente",
+"de": "grüßen Sie den Assistenten",
+"fr": "saluer l'assistant"
+},
+"have a plastic card sent to them": {
+"it": "avere una carta di plastica inviata a loro",
+"es": "tienen una tarjeta de plástico enviada a ellos",
+"de": "eine Plastikkarte an sie senden lassen",
+"fr": "une carte en plastique leur est envoyée"
+},
+"have a word spelled out": {
+"it": "avere una parola spiegata",
+"es": "Tiene una palabra deletreada.",
+"de": "haben ein Wort geschrieben",
+"fr": "avoir un mot écrit"
+},
+"have some fun with a game": {
+"it": "divertirsi un po 'con un gioco",
+"es": "divertirse un poco con un juego",
+"de": "haben etwas Spaß mit einem Spiel",
+"fr": "Amusez-vous avec un jeu"
+},
+"have the assistant repeat what it said": {
+"it": "avere l'assistente ripetere ciò che ha detto",
+"es": "Que el asistente repita lo que dijo.",
+"de": "lassen Sie den Assistenten wiederholen, was es gesagt hat",
+"fr": "Que l'assistant répète ce qu'il a dit"
+},
+"have the assistant speak very quietly": {
+"it": "Fai parlare l'assistente con molta calma",
+"es": "Que el asistente hable muy tranquilamente.",
+"de": "den Assistenten sehr leise sprechen lassen",
+"fr": "Que l'assistant parle très tranquillement"
+},
+"have the robot clean the floor": {
+"it": "avere il robot pulire il pavimento",
+"es": "que el robot limpie el suelo",
+"de": "den Roboter den Boden reinigen lassen",
+"fr": "Que le robot nettoie le sol"
+},
+"have their balance topped up automatically": {
+"it": "avere il loro equilibrio montato automaticamente",
+"es": "tienen su saldo recargado automáticamente",
+"de": "haben ihre Balance automatisch aufgestockt",
+"fr": "que leur équilibre s'accumule automatiquement"
+},
+"hear a fun fact": {
+"it": "sentire un fatto divertente",
+"es": "escuchar un hecho divertido",
+"de": "hören Sie eine lustige Tatsache",
+"fr": "entendre un fait amusant"
+},
+"hear a joke": {
+"it": "Sentire una barzelletta",
+"es": "Escucha una broma.",
+"de": "einen Witz hören",
+"fr": "entendre une blague"
+},
+"hear the last answer again": {
+"it": "sentire di nuovo l'ultima risposta",
+"es": "escuchar la última respuesta de nuevo",
+"de": "die letzte Antwort noch einmal hören",
+"fr": "entendre encore la dernière réponse"
+},
+"hear the latest headlines": {
+"it": "Ascolta gli ultimi titoli",
+"es": "escuchar los últimos titulares",
+"de": "die neuesten Schlagzeilen hören",
+"fr": "entendre les dernières manchettes"
+},
+"identify the current song": {
+"it": "identificare la canzone corrente",
+"es": "identificar la canción actual",
+"de": "den aktuellen Song identifizieren",
+"fr": "identifier la chanson actuelle"
+},
+"increase the brightness": {
+"it": "aumentare la luminosità",
+"es": "aumentar el brillo",
+"de": "Erhöhung der Helligkeit",
+"fr": "augmenter la luminosité"
+},
+"increase their credit limit": {
+"it": "aumentare il loro limite di credito",
+"es": "aumentar su límite de crédito",
+"de": "Erhöhung der Kreditlimite",
+"fr": "augmenter leur limite de crédit"
+},
+"jump start their car": {
+"it": "saltare avviare la loro auto",
+"es": "saltar arrancar su coche",
+"de": "Sprung starten ihr Auto",
+"fr": "sauter démarrer leur voiture"
+},
+"know a piece of information": {
+"it": "conoscere un pezzo di informazione",
+"es": "conocer un pedazo de información",
+"de": "wissen, ein Stück von Informationen",
+"fr": "connaître un élément d'information"
+},
+"know how long a replacement card takes to arrive": {
+"it": "sapere quanto tempo ci vuole per arrivare una carta sostitutiva",
+"es": "saber cuánto tiempo tarda una tarjeta de reemplazo en llegar",
+"de": "wissen, wie lange eine Ersatzkarte braucht, um zu kommen",
+"fr": "savoir combien de temps une carte de remplacement prend pour arriver"
+},
+"know how long a transfer takes": {
+"it": "sai quanto tempo ci vuole per un trasferimento",
+"es": "saber cuánto tiempo tarda una transferencia",
+"de": "wissen, wie lange ein Transfer dauert",
+"fr": "savoir combien de temps un transfert prend"
+},
+"know how long card delivery takes": {
+"it": "sapere quanto tempo richiede la consegna della carta",
+"es": "saber cuánto tiempo tarda la entrega de la tarjeta",
+"de": "wissen, wie lange die Kartenlieferung dauert",
+"fr": "savoir combien de temps la livraison de la carte prend"
+},
+"know how many reward points they have": {
+"it": "sapere quanti punti di ricompensa hanno",
+"es": "saber cuántos puntos de recompensa tienen",
+"de": "wissen, wie viele Prämienpunkte sie haben",
+"fr": "savoir combien de points de récompense ils ont"
+},
+"know how many vacation days they have left": {
+"it": "sapere quanti giorni di vacanza hanno lasciato",
+"es": "saber cuántos días de vacaciones les quedan",
+"de": "wissen, wie viele Ferientage sie noch haben",
+"fr": "savoir combien de jours de vacances ils ont laissés"
+},
+"know how many vacation days they have used": {
+"it": "sapere quanti giorni di vacanza hanno usato",
+"es": "saber cuántos días de vacaciones han utilizado",
+"de": "wissen, wie viele Ferientage sie genutzt haben",
+"fr": "savoir combien de jours de vacances ils ont utilisés"
+},
+"know how much fuel is left in the car": {
+"it": "sapere quanto carburante è rimasto in macchina",
+"es": "saber cuánto combustible queda en el coche",
+"de": "wissen, wie viel Treibstoff im Auto bleibt",
+"fr": "savoir combien de carburant reste dans la voiture"
+},
+"know how much money is in their account": {
+"it": "sapere quanto denaro è nel loro conto",
+"es": "saber cuánto dinero hay en su cuenta",
+"de": "wissen, wie viel Geld auf ihrem Konto ist",
+"fr": "savoir combien d'argent est dans leur compte"
+},
+"know how much money they have": {
+"it": "Sai quanti soldi hanno",
+"es": "saben cuánto dinero tienen",
+"de": "wissen, wie viel Geld sie haben",
+"fr": "savent combien d'argent ils ont"
+},
+"know how much they earn": {
+"it": "Sai quanto guadagnano",
+"es": "saber cuánto ganan",
+"de": "wissen, wie viel sie verdienen",
+"fr": "savent combien ils gagnent"
+},
+"know how much they owe on a bill": {
+"it": "Sai quanto devono su un conto",
+"es": "saber cuánto deben en una factura",
+"de": "wissen, wie viel sie auf einer Rechnung schulden",
+"fr": "savoir combien ils doivent sur un projet de loi"
+},
+"know how old the assistant is": {
+"it": "Sai quanti anni ha l'assistente",
+"es": "¿Sabes qué edad tiene el asistente?",
+"de": "wissen, wie alt der Assistent ist",
+"fr": "Je sais quel âge a l'assistant."
+},
+"know how others can send them money": {
+"it": "sapere come gli altri possono inviare loro denaro",
+"es": "saber cómo otros pueden enviarles dinero",
+"de": "wissen, wie andere ihnen Geld schicken können",
+"fr": "savoir comment les autres peuvent leur envoyer de l'argent"
+},
+"know how to spell a word": {
+"it": "sai come si scrive una parola",
+"es": "saber cómo deletrear una palabra",
+"de": "wissen, wie man ein Wort buchstabiert",
+"fr": "savoir épeler un mot"
+},
+"know if a bank transfer top-up costs extra": {
+"it": "sapere se un bonifico bancario aggiuntivo costa extra",
+"es": "saber si una transferencia bancaria coste adicional",
+"de": "wissen, wenn eine Banküberweisung oben kostet extra",
+"fr": "savoir si un virement bancaire frais supplémentaires"
+},
+"know if a card top-up costs extra": {
+"it": "Sapere se una carta ricaricabile costa extra",
+"es": "saber si una tarjeta de recarga cuesta extra",
+"de": "wissen, wenn eine Karte Aufladung kostet extra",
+"fr": "savoir si un supplément de carte coûte plus"
+},
+"know if exchanging money costs extra": {
+"it": "sapere se lo scambio di denaro costa extra",
+"es": "saber si el intercambio de dinero cuesta extra",
+"de": "wissen, wenn Geld zu tauschen kostet extra",
+"fr": "savoir si l'échange d'argent coûte plus"
+},
+"know the APR of their credit card": {
+"it": "conoscere l'APR della loro carta di credito",
+"es": "conocer el APR de su tarjeta de crédito",
+"de": "kennen die APR ihrer Kreditkarte",
+"fr": "connaître l'APR de leur carte de crédit"
+},
+"know the ATM withdrawal limit": {
+"it": "conoscere il limite di ritiro ATM",
+"es": "conocer el límite de retirada del cajero automático",
+"de": "die ATM-Abhebungsgrenze kennen",
+"fr": "connaître la limite de retrait des distributeurs automatiques de billets"
+},
+"know the assistant's origin": {
+"it": "conoscere l'origine dell'assistente",
+"es": "conocer el origen del asistente",
+"de": "den Ursprung des Assistenten kennen",
+"fr": "connaître l'origine de l'assistant"
+},
+"know the car's fuel efficiency": {
+"it": "conoscere l'efficienza del carburante dell'auto",
+"es": "conocer la eficiencia del combustible del coche",
+"de": "die Kraftstoffeffizienz des Fahrzeugs kennen",
+"fr": "connaître l'efficacité énergétique de la voiture"
+},
+"know the current time": {
+"it": "conoscere l'ora corrente",
+"es": "conocer la hora actual",
+"de": "die aktuelle Zeit kennen",
+"fr": "connaître l'heure actuelle"
+},
+"know the exchange rate": {
+"it": "conoscere il tasso di cambio",
+"es": "conocer el tipo de cambio",
+"de": "den Wechselkurs kennen",
+"fr": "connaître le taux de change"
+},
+"know the exchange rate between currencies": {
+"it": "conoscere il tasso di cambio tra le valute",
+"es": "conocer el tipo de cambio entre monedas",
+"de": "den Wechselkurs zwischen den Währungen kennen",
+"fr": "connaître le taux de change entre les monnaies"
+},
+"know the fees for using their card abroad": {
+"it": "conoscere le tariffe per l'utilizzo della carta all'estero",
+"es": "conocer las tarifas por el uso de su tarjeta en el extranjero",
+"de": "kennen die Gebühren für die Verwendung ihrer Karte im Ausland",
+"fr": "connaître les frais d'utilisation de leur carte à l'étranger"
+},
+"know the forecast": {
+"it": "conoscere le previsioni",
+"es": "conocer el pronóstico",
+"de": "die Prognose kennen",
+"fr": "connaître les prévisions"
+},
+"know the interest rate on their bank account": {
+"it": "conoscere il tasso di interesse sul loro conto bancario",
+"es": "conocer el tipo de interés de su cuenta bancaria",
+"de": "kennen den Zinssatz auf ihrem Bankkonto",
+"fr": "connaître le taux d'intérêt sur leur compte bancaire"
+},
+"know the limits of disposable virtual cards": {
+"it": "conoscere i limiti delle schede virtuali usa e getta",
+"es": "conocer los límites de las tarjetas virtuales desechables",
+"de": "kennen die Grenzen der verfügbaren virtuellen Karten",
+"fr": "connaître les limites des cartes virtuelles jetables"
+},
+"know the minimum age to open an account": {
+"it": "conoscere l'età minima per aprire un conto",
+"es": "conocer la edad mínima para abrir una cuenta",
+"de": "das Mindestalter kennen, um ein Konto zu eröffnen",
+"fr": "connaître l'âge minimum pour ouvrir un compte"
+},
+"know the minimum payment due": {
+"it": "conoscere il pagamento minimo dovuto",
+"es": "conocer el pago mínimo debido",
+"de": "die fällige Mindestzahlung kennen",
+"fr": "connaître le paiement minimum dû"
+},
+"know the name of the song": {
+"it": "Conosci il nome della canzone",
+"es": "conocer el nombre de la canción",
+"de": "den Namen des Liedes kennen",
+"fr": "connaître le nom de la chanson"
+},
+"know the reason for the identity check": {
+"it": "conoscere il motivo del controllo di identità",
+"es": "conocer el motivo del control de identidad",
+"de": "den Grund für die Identitätsüberprüfung kennen",
+"fr": "connaître la raison de la vérification d'identité"
+},
+"know the time in another time zone": {
+"it": "conoscere il tempo in un altro fuso orario",
+"es": "conocer la hora en otro huso horario",
+"de": "die Zeit in einer anderen Zeitzone kennen",
+"fr": "connaître l'heure dans un autre fuseau horaire"
+},
+"know the time zone of a place": {
+"it": "conoscere il fuso orario di un luogo",
+"es": "conocer la zona horaria de un lugar",
+"de": "die Zeitzone eines Ortes kennen",
+"fr": "connaître le fuseau horaire d'un lieu"
+},
+"know the top-up limits": {
+"it": "conoscere i limiti aggiuntivi",
+"es": "conocer los límites de recarga",
+"de": "die Top-Up-Grenzen kennen",
+"fr": "connaître les limites supplémentaires"
+},
+"know the value of a stock": {
+"it": "conoscere il valore di un titolo",
+"es": "conocer el valor de una acción",
+"de": "den Wert einer Aktie kennen",
+"fr": "connaître la valeur d'un stock"
+},
+"know their bank routing number": {
+"it": "conoscere il loro numero di routing bancario",
+"es": "conocer su número de ruta bancaria",
+"de": "Ihre Bankleitzahl kennen",
+"fr": "connaître leur numéro de routage bancaire"
+},
+"know their credit limit": {
+"it": "conoscere il loro limite di credito",
+"es": "conocer su límite de crédito",
+"de": "ihre Kreditlimite kennen",
+"fr": "connaître leur limite de crédit"
+},
+"know their current credit rating": {
+"it": "conoscere il loro rating corrente",
+"es": "conocer su calificación crediticia actual",
+"de": "kennen ihr aktuelles Rating",
+"fr": "connaître leur cote de crédit actuelle"
+},
+"know their user name": {
+"it": "conoscere il loro nome utente",
+"es": "conocer su nombre de usuario",
+"de": "ihren Benutzernamen kennen",
+"fr": "connaître leur nom d'utilisateur"
+},
+"know today's date": {
+"it": "conoscere la data di oggi",
+"es": "conocer la fecha de hoy",
+"de": "das heutige Datum kennen",
+"fr": "connaître la date d'aujourd'hui"
+},
+"know what a currency is worth": {
+"it": "sapere quanto vale una valuta",
+"es": "saber lo que vale una moneda",
+"de": "wissen, was eine Währung wert ist",
+"fr": "savoir ce qu'une monnaie vaut"
+},
+"know what a word means": {
+"it": "sai cosa significa una parola",
+"es": "saber lo que significa una palabra",
+"de": "wissen, was ein Wort bedeutet",
+"fr": "savoir ce qu'un mot signifie"
+},
+"know what is happening in the world": {
+"it": "sapere cosa sta accadendo nel mondo",
+"es": "saber lo que está pasando en el mundo",
+"de": "wissen, was in der Welt passiert",
+"fr": "savoir ce qui se passe dans le monde"
+},
+"know what life is about": {
+"it": "Sapere cosa significa la vita",
+"es": "saber de qué se trata la vida",
+"de": "wissen, worum es im Leben geht",
+"fr": "savoir ce qu'est la vie"
+},
+"know what plug type is used in a country": {
+"it": "sapere quale tipo di plug è utilizzato in un paese",
+"es": "saber qué tipo de enchufe se utiliza en un país",
+"de": "wissen, welcher Steckertyp in einem Land verwendet wird",
+"fr": "savoir quel type de plug est utilisé dans un pays"
+},
+"know what questions they can ask": {
+"it": "sapere quali domande possono fare",
+"es": "saber qué preguntas pueden hacer",
+"de": "wissen, welche Fragen sie stellen können",
+"fr": "savoir quelles questions ils peuvent poser"
+},
+"know what song is playing": {
+"it": "sai quale canzone sta suonando",
+"es": "saber qué canción está tocando",
+"de": "wissen, welches Lied spielt",
+"fr": "savoir quelle chanson est en train de jouer"
+},
+"know what the assistant is called": {
+"it": "sai come si chiama l'assistente",
+"es": "saber cómo se llama al asistente",
+"de": "wissen, wie der Assistent genannt wird",
+"fr": "savoir ce qu'on appelle l'assistant"
+},
+"know what the assistant likes to do for fun": {
+"it": "sai cosa piace fare l'assistente per divertirsi",
+"es": "saber lo que el asistente le gusta hacer por diversión",
+"de": "wissen, was der Assistent gerne zum Spaß macht",
+"fr": "savoir ce que l'assistant aime faire pour s'amuser"
+},
+"know what time it is": {
+"it": "sai che ora è",
+"es": "¿Sabes qué hora es?",
+"de": "wissen, wie spät es ist",
+"fr": "savoir l'heure qu'il est"
+},
+"know what to do this weekend": {
+"it": "Sapere cosa fare questo fine settimana",
+"es": "saber qué hacer este fin de semana",
+"de": "wissen, was an diesem Wochenende zu tun",
+"fr": "savoir quoi faire ce week-end"
+},
+"know what type of fuel the car takes": {
+"it": "sapere che tipo di carburante prende l'auto",
+"es": "saber qué tipo de combustible toma el coche",
+"de": "wissen, welche Art von Kraftstoff das Auto nimmt",
+"fr": "savoir quel type de carburant la voiture prend"
+},
+"know when a bill is due": {
+"it": "sapere quando un disegno di legge è dovuto",
+"es": "saber cuándo debe pagarse una cuenta",
+"de": "wissen, wann eine Rechnung fällig ist",
+"fr": "savoir quand une facture est due"
+},
+"know when a pending payment will clear": {
+"it": "sapere quando un pagamento in sospeso sarà chiaro",
+"es": "saber cuándo se liquidará un pago pendiente",
+"de": "wissen, wenn eine ausstehende Zahlung wird klar",
+"fr": "savoir quand un paiement en attente sera clair"
+},
+"know when a pending transfer will complete": {
+"it": "sapere quando un trasferimento in corso sarà completato",
+"es": "saber cuándo se completará una transferencia pendiente",
+"de": "wissen, wann eine anstehende Übertragung abgeschlossen wird",
+"fr": "savoir quand un transfert en attente sera terminé"
+},
+"know when a top-up will arrive": {
+"it": "sai quando arriverà un top-up",
+"es": "saber cuándo llegará una recarga",
+"de": "wissen, wann ein Top-up ankommen wird",
+"fr": "savoir quand un supplément arrivera"
+},
+"know when a withdrawal will complete": {
+"it": "sapere quando un prelievo sarà completato",
+"es": "saber cuándo se completará una retirada",
+"de": "wissen, wann ein Widerruf abgeschlossen wird",
+"fr": "savoir quand un retrait se terminera"
+},
+"know when the car needs an oil change": {
+"it": "sapere quando l'auto ha bisogno di un cambio di olio",
+"es": "saber cuando el coche necesita un cambio de aceite",
+"de": "wissen, wann das Auto einen Ölwechsel braucht",
+"fr": "savoir quand la voiture a besoin d'un changement d'huile"
+},
+"know when the car was last serviced": {
+"it": "sapere quando l'auto è stata ultimamente servita",
+"es": "saber cuándo fue el último servicio del coche",
+"de": "wissen, wann das Auto zuletzt gewartet wurde",
+"fr": "savoir quand la voiture a été desservie pour la dernière fois"
+},
+"know when the next holiday is": {
+"it": "Sapere quando la prossima vacanza è",
+"es": "saber cuándo es la próxima fiesta",
+"de": "wissen, wann der nächste Urlaub ist",
+"fr": "savoir quand les prochaines vacances sont"
+},
+"know when their card expires": {
+"it": "sapere quando la loro carta scade",
+"es": "saber cuándo expira su tarjeta",
+"de": "wissen, wann ihre Karte abläuft",
+"fr": "savoir quand leur carte expire"
+},
+"know when they get paid": {
+"it": "Sapere quando vengono pagati",
+"es": "saber cuándo se les paga",
+"de": "wissen, wann sie bezahlt werden",
+"fr": "savoir quand ils sont payés"
+},
+"know where their card is accepted": {
+"it": "sapere dove la loro carta è accettata",
+"es": "saber dónde se acepta su tarjeta",
+"de": "wissen, wo ihre Karte akzeptiert wird",
+"fr": "savoir où leur carte est acceptée"
+},
+"know where they are right now": {
+"it": "Sai dove sono in questo momento",
+"es": "saber dónde están ahora mismo",
+"de": "wissen, wo sie jetzt sind",
+"fr": "savent où ils sont en ce moment"
+},
+"know whether their card is Visa or Mastercard": {
+"it": "sapere se la loro carta è Visa o Mastercard",
+"es": "saber si su tarjeta es Visa o Mastercard",
+"de": "wissen, ob ihre Karte Visa oder Mastercard ist",
+"fr": "savoir si leur carte est Visa ou Mastercard"
+},
+"know which ATMs they can use": {
+"it": "sapere quali sportelli bancomat possono utilizzare",
+"es": "saber qué cajeros automáticos pueden utilizar",
+"de": "wissen, welche Geldautomaten sie verwenden können",
+"fr": "savoir quels distributeurs ils peuvent utiliser"
+},
+"know which cards and currencies are supported": {
+"it": "sapere quali carte e valute sono supportate",
+"es": "saber qué tarjetas y monedas son compatibles",
+"de": "wissen, welche Karten und Währungen unterstützt werden",
+"fr": "savoir quelles cartes et devises sont prises en charge"
+},
+"know which countries the service supports": {
+"it": "sapere quali paesi il servizio sostiene",
+"es": "saber a qué países apoya el servicio",
+"de": "wissen, welche Länder der Dienst unterstützt",
+"fr": "savoir quels pays le service soutient"
+},
+"know which currencies they can hold": {
+"it": "sa quali valute possono detenere",
+"es": "saber qué monedas pueden tener",
+"de": "wissen, welche Währungen sie halten können",
+"fr": "connaître les devises qu'ils peuvent détenir"
+},
+"know which vaccines they need for a trip": {
+"it": "Sapere di quali vaccini hanno bisogno per un viaggio",
+"es": "saber qué vacunas necesitan para un viaje",
+"de": "wissen, welche Impfstoffe sie für eine Reise benötigen",
+"fr": "savoir quels vaccins ils ont besoin pour un voyage"
+},
+"know who built the assistant": {
+"it": "sai chi ha costruito l'assistente",
+"es": "saber quién construyó el asistente",
+"de": "wissen, wer den Assistenten gebaut hat",
+"fr": "savoir qui a construit l'assistant"
+},
+"know who the assistant's boss is": {
+"it": "Sai chi e' il capo dell'assistente?",
+"es": "saber quién es el jefe del asistente",
+"de": "wissen, wer der Chef des Assistenten ist",
+"fr": "savoir qui est le patron de l'assistant"
+},
+"know why they paid a card fee": {
+"it": "Sapere perché hanno pagato una tassa di carta",
+"es": "saber por qué pagaron una tarjeta de pago",
+"de": "wissen, warum sie eine Kartengebühr bezahlt haben",
+"fr": "savoir pourquoi ils ont payé des frais de carte"
+},
+"know why they paid for a transfer": {
+"it": "Sapere perché hanno pagato per un trasferimento",
+"es": "saber por qué pagaron por una transferencia",
+"de": "wissen, warum sie für einen Transfer bezahlt haben",
+"fr": "savoir pourquoi ils ont payé pour un transfert"
+},
+"know why they were charged at an ATM": {
+"it": "Sapere perché sono stati addebitati a un bancomat",
+"es": "saber por qué fueron cargados en un cajero automático",
+"de": "wissen, warum sie an einem Geldautomaten belastet wurden",
+"fr": "savoir pourquoi ils ont été inculpés à un distributeur de billets"
+},
+"learn an interesting fact": {
+"it": "imparare un fatto interessante",
+"es": "aprender un hecho interesante",
+"de": "eine interessante Tatsache lernen",
+"fr": "apprendre un fait intéressant"
+},
+"learn how to build better credit": {
+"it": "imparare a costruire un credito migliore",
+"es": "aprender a construir un mejor crédito",
+"de": "lernen, wie man bessere Kredite baut",
+"fr": "apprendre à construire un meilleur crédit"
+},
+"learn how to change a tire": {
+"it": "imparare a cambiare una gomma",
+"es": "aprender a cambiar un neumático",
+"de": "lernen, wie man einen Reifen wechselt",
+"fr": "apprendre à changer un pneu"
+},
+"learn how to change the car's oil": {
+"it": "imparare a cambiare l'olio della macchina",
+"es": "aprender a cambiar el aceite del coche",
+"de": "lernen, wie man das Auto Öl zu ändern",
+"fr": "apprendre à changer l'huile de la voiture"
+},
+"learn the assistant's capabilities": {
+"it": "apprendere le capacità dell'assistente",
+"es": "aprender las capacidades del asistente",
+"de": "Erlernen der Fähigkeiten des Assistenten",
+"fr": "apprendre les capacités de l'assistant"
+},
+"let someone see where they are": {
+"it": "Lasciate che qualcuno veda dove sono",
+"es": "Deja que alguien vea dónde están.",
+"de": "Lassen Sie jemanden sehen, wo sie sind",
+"fr": "laisser quelqu'un voir où ils sont"
+},
+"light up the room": {
+"it": "illuminare la stanza",
+"es": "iluminar la habitación",
+"de": "Beleuchten Sie den Raum",
+"fr": "Allumez la pièce"
+},
+"link a card to their account": {
+"it": "collega una carta al proprio account",
+"es": "vincular una tarjeta a su cuenta",
+"de": "eine Karte mit ihrem Konto verknüpfen",
+"fr": "lier une carte à leur compte"
+},
+"list their reminders": {
+"it": "elenca i loro promemoria",
+"es": "listar sus recordatorios",
+"de": "ihre Erinnerungen auflisten",
+"fr": "énumérer leurs rappels"
+},
+"listen to a book": {
+"it": "ascoltare un libro",
+"es": "escuchar un libro",
+"de": "Hör dir ein Buch an",
+"fr": "écouter un livre"
+},
+"listen to a podcast episode": {
+"it": "ascoltare un episodio di podcast",
+"es": "escuchar un episodio de podcast",
+"de": "Höre dir eine Podcast-Episode an",
+"fr": "écouter un épisode de podcast"
+},
+"listen to some songs": {
+"it": "ascoltare alcune canzoni",
+"es": "escuchar algunas canciones",
+"de": "Hör dir ein paar Lieder an",
+"fr": "écouter quelques chansons"
+},
+"listen to the radio": {
+"it": "ascolta la radio",
+"es": "Escucha la radio.",
+"de": "Höre das Radio",
+"fr": "Écoute la radio."
+},
+"locate their phone": {
+"it": "localizza il loro telefono",
+"es": "localizar su teléfono",
+"de": "Ort ihres Telefons",
+"fr": "localiser leur téléphone"
+},
+"lock their account": {
+"it": "Bloccare il loro account",
+"es": "bloquear su cuenta",
+"de": "Sperren Sie ihr Konto",
+"fr": "verrouiller leur compte"
+},
+"look at their scheduled events": {
+"it": "guarda i loro eventi in programma",
+"es": "ver sus eventos programados",
+"de": "Blick auf ihre geplanten Veranstaltungen",
+"fr": "Regardez leurs événements programmés"
+},
+"look up a contact": {
+"it": "Cerca un contatto",
+"es": "buscar un contacto",
+"de": "einen Kontakt nachschlagen",
+"fr": "Rechercher un contact"
+},
+"look up the meaning of a word": {
+"it": "guardare il significato di una parola",
+"es": "buscar el significado de una palabra",
+"de": "die Bedeutung eines Wortes nachschlagen",
+"fr": "chercher le sens d'un mot"
+},
+"look up their scheduled meetings": {
+"it": "esaminare le loro riunioni programmate",
+"es": "buscar sus reuniones programadas",
+"de": "nach ihren geplanten Sitzungen suchen",
+"fr": "Rechercher leurs réunions prévues"
+},
+"lower the brightness": {
+"it": "abbassare la luminosità",
+"es": "bajar el brillo",
+"de": "die Helligkeit senken",
+"fr": "abaisser la luminosité"
+},
+"lower the volume": {
+"it": "abbassare il volume",
+"es": "bajar el volumen",
+"de": "das Volumen senken",
+"fr": "abaisser le volume"
+},
+"make a bill payment": {
+"it": "effettuare un pagamento di bolletta",
+"es": "hacer un pago de la factura",
+"de": "eine Rechnung bezahlen",
+"fr": "effectuer un paiement de facture"
+},
+"make a large payment": {
+"it": "effettuare un grande pagamento",
+"es": "hacer un pago grande",
+"de": "machen Sie eine große Zahlung",
+"fr": "effectuer un paiement important"
+},
+"make a new list": {
+"it": "crea un nuovo elenco",
+"es": "hacer una nueva lista",
+"de": "eine neue Liste erstellen",
+"fr": "faire une nouvelle liste"
+},
+"make a payment for a bill": {
+"it": "effettuare un pagamento per una fattura",
+"es": "hacer un pago por una factura",
+"de": "eine Zahlung für eine Rechnung machen",
+"fr": "effectuer un paiement pour une facture"
+},
+"make a phone call": {
+"it": "fai una telefonata",
+"es": "hacer una llamada telefónica",
+"de": "einen Anruf tätigen",
+"fr": "passer un coup de fil"
+},
+"make coffee": {
+"it": "fare il caffè",
+"es": "Hacer café",
+"de": "Kaffee machen",
+"fr": "Faire du café"
+},
+"make the assistant louder or quieter": {
+"it": "rendere l'assistente più forte o più silenzioso",
+"es": "hacer que el asistente sea más fuerte o más silencioso",
+"de": "den Assistenten lauter oder leiser machen",
+"fr": "Rendre l'assistant plus fort ou plus silencieux"
+},
+"make the assistant speak another language": {
+"it": "fare l'assistente parlare un'altra lingua",
+"es": "hacer que el asistente hable otro idioma",
+"de": "den Assistenten eine andere Sprache sprechen zu lassen",
+"fr": "faire parler l'assistant une autre langue"
+},
+"make the assistant speak with a different accent": {
+"it": "fare l'assistente parlare con un accento diverso",
+"es": "hacer que el asistente hable con un acento diferente",
+"de": "den Assistenten mit einem anderen Akzent sprechen zu lassen",
+"fr": "faire parler l'assistant avec un accent différent"
+},
+"make the assistant talk slower or faster": {
+"it": "rendere l'assistente parlare più lentamente o più veloce",
+"es": "hacer que el asistente hable más lento o más rápido",
+"de": "den Assistenten langsamer oder schneller sprechen zu lassen",
+"fr": "faire parler l'assistant plus lentement ou plus rapidement"
+},
+"make the assistant whisper": {
+"it": "fai sussurrare l'assistente",
+"es": "hacer que el asistente susurre",
+"de": "den Assistenten flüstern lassen",
+"fr": "Faites chuchoter l'assistant"
+},
+"make the lights brighter": {
+"it": "rendere le luci più luminose",
+"es": "hacer las luces más brillantes",
+"de": "die Lichter heller machen",
+"fr": "rendre les lumières plus lumineuses"
+},
+"make the lights darker": {
+"it": "rendere le luci più scure",
+"es": "Haz que las luces sean más oscuras.",
+"de": "die Lichter dunkler machen",
+"fr": "rendre les lumières plus sombres"
+},
+"make the sound louder": {
+"it": "Rendere il suono più forte",
+"es": "Haz que el sonido sea más fuerte.",
+"de": "den Klang lauter machen",
+"fr": "Rendre le son plus fort"
+},
+"make the sound quieter": {
+"it": "Rendere il suono più tranquillo",
+"es": "Haz que el sonido sea más silencioso.",
+"de": "den Klang leiser machen",
+"fr": "Rendre le son plus silencieux"
+},
+"make their phone ring to find it": {
+"it": "fanno il loro telefono squillare per trovarlo",
+"es": "hacer sonar su teléfono para encontrarlo",
+"de": "machen ihre Telefon klingeln, um es zu finden",
+"fr": "Faites sonner leur téléphone pour le trouver"
+},
+"move funds": {
+"it": "spostare i fondi",
+"es": "movimientos de fondos",
+"de": "Verschieben von Mitteln",
+"fr": "Déménagement des fonds"
+},
+"mute the audio": {
+"it": "muto l'audio",
+"es": "silenciar el audio",
+"de": "stumm stumm das Audio",
+"fr": "Mettons en silence l'audio"
+},
+"notify the bank about a trip": {
+"it": "informare la banca di un viaggio",
+"es": "notificar al banco sobre un viaje",
+"de": "Benachrichtigung der Bank über eine Reise",
+"fr": "informer la banque d'un voyage"
+},
+"open a joint account": {
+"it": "aprire un conto congiunto",
+"es": "abrir una cuenta conjunta",
+"de": "Eröffnung eines gemeinsamen Kontos",
+"fr": "ouvrir un compte conjoint"
+},
+"open a new card account": {
+"it": "aprire un nuovo account di carta",
+"es": "abrir una nueva cuenta de tarjeta",
+"de": "ein neues Kartenkonto eröffnen",
+"fr": "ouvrir un nouveau compte de carte"
+},
+"operate appliances in their home": {
+"it": "utilizzare gli apparecchi nella loro casa",
+"es": "operar electrodomésticos en su hogar",
+"de": "Geräte in ihrer Wohnung zu betreiben",
+"fr": "d'utiliser des appareils dans leur maison"
+},
+"order a physical card": {
+"it": "ordinare una carta fisica",
+"es": "ordenar una tarjeta física",
+"de": "eine physische Karte bestellen",
+"fr": "commander une carte physique"
+},
+"order a spare card": {
+"it": "ordinare una carta di scorta",
+"es": "pedir una tarjeta de repuesto",
+"de": "eine Ersatzkarte bestellen",
+"fr": "commander une carte de rechange"
+},
+"order new checks": {
+"it": "ordinare nuovi controlli",
+"es": "ordenar nuevos controles",
+"de": "neue Kontrollen anordnen",
+"fr": "commander de nouveaux contrôles"
+},
+"pair a device": {
+"it": "coppia di un dispositivo",
+"es": "emparejar un dispositivo",
+"de": "ein Gerät paaren",
+"fr": "paire d'un dispositif"
+},
+"pay a bill": {
+"it": "pagare una bolletta",
+"es": "pagar una factura",
+"de": "eine Rechnung bezahlen",
+"fr": "payer une facture"
+},
+"pay in money at the bank": {
+"it": "pagare in denaro presso la banca",
+"es": "pagar en dinero en el banco",
+"de": "Geld bei der Bank bezahlen",
+"fr": "payer en argent à la banque"
+},
+"play a game": {
+"it": "fai un gioco",
+"es": "jugar un juego",
+"de": "ein Spiel spielen",
+"fr": "jouer à un jeu"
+},
+"play a podcast": {
+"it": "riproduci un podcast",
+"es": "reproducir un podcast",
+"de": "einen Podcast abspielen",
+"fr": "jouer un podcast"
+},
+"play an audiobook": {
+"it": "riprodurre un audiolibro",
+"es": "reproducir un audiolibro",
+"de": "ein Hörbuch abspielen",
+"fr": "lire un livre audio"
+},
+"play music": {
+"it": "riproduci musica",
+"es": "reproducir música",
+"de": "Musik abspielen",
+"fr": "jouer de la musique"
+},
+"play the following track": {
+"it": "riproduci la traccia seguente",
+"es": "reproducir la siguiente pista",
+"de": "den folgenden Track abspielen",
+"fr": "jouer la piste suivante"
+},
+"play the radio": {
+"it": "riproduci la radio",
+"es": "reproducir la radio",
+"de": "Radio abspielen",
+"fr": "jouer la radio"
+},
+"power a plugged device": {
+"it": "alimentazione di un dispositivo collegato",
+"es": "alimentación de un dispositivo conector",
+"de": "Stromversorgung eines angeschlossenen Geräts",
+"fr": "d'alimenter un dispositif branché"
+},
+"prove who they are": {
+"it": "dimostrare chi sono",
+"es": "probar quiénes son",
+"de": "beweisen, wer sie sind",
+"fr": "prouver qui ils sont"
+},
+"put a hold on their account": {
+"it": "mettere una presa sul loro conto",
+"es": "poner una retención en su cuenta",
+"de": "sich auf ihre Rechnung zu halten",
+"fr": "mettre une retenue sur leur compte"
+},
+"put a task on the to-do list": {
+"it": "mettere un'attività nell'elenco delle cose da fare",
+"es": "poner una tarea en la lista de tareas pendientes",
+"de": "eine Aufgabe auf die To-Do-Liste setzen",
+"fr": "mettre une tâche sur la liste des tâches"
+},
+"put an item on a list": {
+"it": "inserire un elemento in un elenco",
+"es": "poner un elemento en una lista",
+"de": "einen Eintrag auf eine Liste setzen",
+"fr": "mettre un article sur une liste"
+},
+"put on a song": {
+"it": "Metti su una canzone",
+"es": "poner en una canción",
+"de": "auf ein Lied setzen",
+"fr": "mettre sur une chanson"
+},
+"put on some music": {
+"it": "Metti un po' di musica",
+"es": "Pon algo de música.",
+"de": "auf etwas Musik setzen",
+"fr": "mettre sur de la musique"
+},
+"put something on the shopping list": {
+"it": "Metti qualcosa nella lista della spesa",
+"es": "poner algo en la lista de compras",
+"de": "etwas auf die Einkaufsliste setzen",
+"fr": "mettre quelque chose sur la liste des achats"
+},
+"put their account on hold": {
+"it": "mettere il loro account in attesa",
+"es": "poner su cuenta en espera",
+"de": "ihre Rechnung auf Eis legen",
+"fr": "mettre leur compte en attente"
+},
+"question a cash withdrawal charge": {
+"it": "mettere in discussione una tassa di prelievo di contanti",
+"es": "Cuestionar un cargo por retiro de efectivo",
+"de": "Frage eine Barabhebung Gebühr",
+"fr": "questionner un droit de retrait en espèces"
+},
+"question a transfer charge": {
+"it": "mettere in discussione una tassa di trasferimento",
+"es": "pregunta un cargo por traslado",
+"de": "Frage eine Übertragungsgebühr",
+"fr": "question d'une taxe de transfert"
+},
+"question an extra charge on a card purchase": {
+"it": "domandare un costo aggiuntivo su un acquisto di carta",
+"es": "pregunta un cargo adicional en una compra de tarjeta",
+"de": "Frage eine zusätzliche Gebühr bei einem Kartenkauf",
+"fr": "question d'un supplément sur un achat de carte"
+},
+"question an unexpected fee": {
+"it": "domandare una tassa inaspettata",
+"es": "Cuestionar una cuota imprevista",
+"de": "Frage eine unerwartete Gebühr",
+"fr": "questionner une taxe inattendue"
+},
+"question the conversion on a card payment": {
+"it": "interrogare la conversione su una carta di pagamento",
+"es": "Cuestionar la conversión en un pago con tarjeta",
+"de": "Frage der Umwandlung auf eine Kartenzahlung",
+"fr": "questionner la conversion sur un paiement par carte"
+},
+"question the conversion on a cash withdrawal": {
+"it": "mettere in discussione la conversione su un prelievo di contante",
+"es": "Cuestionar la conversión de una retirada de efectivo",
+"de": "Frage der Umwandlung bei einer Bargeldabhebung",
+"fr": "questionner la conversion sur un retrait en espèces"
+},
+"question why they must verify": {
+"it": "domandare perché devono verificare",
+"es": "pregunta por qué deben verificar",
+"de": "Frage, warum sie überprüfen müssen",
+"fr": "se demande pourquoi ils doivent vérifier"
+},
+"raise the volume": {
+"it": "aumentare il volume",
+"es": "aumentar el volumen",
+"de": "Erhöhung des Volumens",
+"fr": "augmenter le volume"
+},
+"raise their credit rating": {
+"it": "aumentare il loro rating del credito",
+"es": "aumentar su calificación crediticia",
+"de": "Erhöhung ihres Ratings",
+"fr": "augmenter leur cote de crédit"
+},
+"read a list": {
+"it": "leggi un elenco",
+"es": "leer una lista",
+"de": "eine Liste lesen",
+"fr": "lire une liste"
+},
+"read the to-do list": {
+"it": "leggi l'elenco delle cose da fare",
+"es": "leer la lista de tareas pendientes",
+"de": "Lesen Sie die To-Do-Liste",
+"fr": "lire la liste des tâches"
+},
+"read their inbox": {
+"it": "leggi la loro casella di posta",
+"es": "leer su bandeja de entrada",
+"de": "Lesen Sie ihren Posteingang",
+"fr": "lire leur boîte de réception"
+},
+"read what is on the shopping list": {
+"it": "leggi cosa c'è nella lista della spesa",
+"es": "leer lo que está en la lista de compras",
+"de": "Lesen Sie, was auf der Einkaufsliste steht",
+"fr": "lire ce qui est sur la liste des achats"
+},
+"receive a plastic card": {
+"it": "ricevere una carta di plastica",
+"es": "recibir una tarjeta de plástico",
+"de": "eine Plastikkarte erhalten",
+"fr": "recevoir une carte en plastique"
+},
+"receive money from someone": {
+"it": "ricevere denaro da qualcuno",
+"es": "recibir dinero de alguien",
+"de": "Geld von jemandem erhalten",
+"fr": "recevoir de l'argent de quelqu'un"
+},
+"recover a forgotten passcode": {
+"it": "recuperare un codice di accesso dimenticato",
+"es": "recuperar una contraseña olvidada",
+"de": "einen vergessenen Passcode wiederherzustellen",
+"fr": "récupérer un code d'accès oublié"
+},
+"redeem their reward points": {
+"it": "riscattare i loro punti di ricompensa",
+"es": "canjear sus puntos de recompensa",
+"de": "ihre Belohnungspunkte einlösen",
+"fr": "Rachète leurs points de récompense"
+},
+"remove a list or a list item": {
+"it": "rimuovere un elenco o un elemento lista",
+"es": "eliminar una lista o un elemento de lista",
+"de": "eine Liste oder einen Listeneintrag entfernen",
+"fr": "supprimer une liste ou un élément de liste"
+},
+"remove an appointment": {
+"it": "rimuovere un appuntamento",
+"es": "suprimir una cita",
+"de": "eine Ernennung zu streichen",
+"fr": "supprimer un rendez-vous"
+},
+"rename the assistant": {
+"it": "rinomina l'assistente",
+"es": "cambiar el nombre del asistente",
+"de": "den Assistenten umbenennen",
+"fr": "renommer l'assistant"
+},
+"replace a card that is damaged": {
+"it": "sostituire una carta danneggiata",
+"es": "reemplazar una tarjeta que está dañada",
+"de": "eine beschädigte Karte ersetzen",
+"fr": "remplacer une carte endommagée"
+},
+"reply to an email": {
+"it": "risposta a un'email",
+"es": "responder a un correo electrónico",
+"de": "Antwort auf eine E-Mail",
+"fr": "réponse à un courriel"
+},
+"report a card payment they do not recognise": {
+"it": "segnalare un pagamento con carta che non riconoscono",
+"es": "informan de un pago con tarjeta que no reconocen",
+"de": "eine Kartenzahlung melden, die sie nicht anerkennen",
+"fr": "déclarer un paiement par carte qu'ils ne reconnaissent pas"
+},
+"report a card that expires soon": {
+"it": "segnalare una carta che scade presto",
+"es": "reportar una tarjeta que expira pronto",
+"de": "eine Karte melden, die bald abläuft",
+"fr": "signaler une carte qui expire bientôt"
+},
+"report a card that never came": {
+"it": "segnalare una carta che non è mai venuto",
+"es": "reportar una tarjeta que nunca llegó",
+"de": "eine Karte melden, die nie kam",
+"fr": "signaler une carte qui n'est jamais venue"
+},
+"report a cash withdrawal they did not make": {
+"it": "segnalare un prelievo di contante che non hanno fatto",
+"es": "informan de una retirada de efectivo que no hicieron",
+"de": "melden eine Bargeldabhebung, die sie nicht gemacht haben",
+"fr": "déclarer un retrait en espèces qu'ils n'ont pas effectué"
+},
+"report a damaged card": {
+"it": "segnalare una carta danneggiata",
+"es": "reportar una tarjeta dañada",
+"de": "eine beschädigte Karte melden",
+"fr": "Signaler une carte endommagée"
+},
+"report a deposit that is not showing": {
+"it": "segnalare un deposito che non mostra",
+"es": "reportar un depósito que no muestra",
+"de": "eine Anzahlung melden, die nicht angezeigt wird",
+"fr": "déclarer un dépôt qui ne montre pas"
+},
+"report a direct debit they do not recognise": {
+"it": "segnalare un addebito diretto che non riconoscono",
+"es": "informan de un adeudo domiciliado que no reconocen",
+"de": "eine Lastschrift melden, die sie nicht anerkennen",
+"fr": "déclarer un débit direct qu'ils ne reconnaissent pas"
+},
+"report a lost card": {
+"it": "Segnala una carta persa",
+"es": "reportar una tarjeta perdida",
+"de": "eine verlorene Karte melden",
+"fr": "signaler une carte perdue"
+},
+"report a lost or stolen card": {
+"it": "segnalare una carta persa o rubata",
+"es": "reportar una tarjeta perdida o robada",
+"de": "eine verlorene oder gestohlene Karte melden",
+"fr": "déclarer une carte perdue ou volée"
+},
+"report a lost or stolen phone": {
+"it": "Segnala un telefono smarrito o rubato",
+"es": "reportar un teléfono perdido o robado",
+"de": "ein verlorenes oder gestohlenes Telefon melden",
+"fr": "signaler un téléphone perdu ou volé"
+},
+"report a missing refund": {
+"it": "segnalare una restituzione mancante",
+"es": "informar de un reembolso perdido",
+"de": "eine fehlende Erstattung melden",
+"fr": "déclarer une restitution manquante"
+},
+"report a payee that was not allowed": {
+"it": "segnalare un beneficiario che non è stato consentito",
+"es": "reportar a un beneficiario que no estaba permitido",
+"de": "einen Zahlungsempfänger melden, der nicht zugelassen war",
+"fr": "déclarer un bénéficiaire qui n'a pas été autorisé"
+},
+"report a payment that was reversed": {
+"it": "segnalare un pagamento che è stato invertito",
+"es": "informar de un pago que se invirtió",
+"de": "Meldung einer Zahlung, die rückgängig gemacht wurde",
+"fr": "déclarer un paiement qui a été annulé"
+},
+"report a problem with the banking app": {
+"it": "segnalare un problema con l'app bancaria",
+"es": "reportar un problema con la aplicación bancaria",
+"de": "ein Problem mit der Banking-App melden",
+"fr": "signaler un problème avec l'application bancaire"
+},
+"report a problem with their card": {
+"it": "segnalare un problema con la loro carta",
+"es": "reportar un problema con su tarjeta",
+"de": "ein Problem mit ihrer Karte melden",
+"fr": "signaler un problème avec leur carte"
+},
+"report a refused purchase": {
+"it": "segnalare un acquisto rifiutato",
+"es": "reportar una compra denegada",
+"de": "einen abgelehnten Kauf melden",
+"fr": "déclarer un achat refusé"
+},
+"report a rejected transfer": {
+"it": "segnalare un trasferimento respinto",
+"es": "notificar una transferencia rechazada",
+"de": "eine abgelehnte Übertragung melden",
+"fr": "signaler un transfert rejeté"
+},
+"report a top-up that failed": {
+"it": "Segnala un top-up che non è riuscito",
+"es": "reportar una recarga que falló",
+"de": "Bericht über ein Top-up, das fehlgeschlagen",
+"fr": "rapporter un supplément qui a échoué"
+},
+"report a top-up that was reversed": {
+"it": "segnalare un top-up che è stato invertito",
+"es": "informe de una recarga que se invirtió",
+"de": "berichten, dass ein Aufwärtstrend umgekehrt wurde",
+"fr": "rapporter un supplément qui a été inversé"
+},
+"report a transaction charged twice": {
+"it": "segnalare un'operazione addebitata due volte",
+"es": "reportar una transacción cargada dos veces",
+"de": "Meldung einer zweimal belasteten Transaktion",
+"fr": "déclarer une opération facturée deux fois"
+},
+"report a transfer missing from their balance": {
+"it": "segnalare un trasferimento mancante dal loro saldo",
+"es": "informar de una transferencia que falta en su saldo",
+"de": "eine Übertragung aus dem Saldo fehlt melden",
+"fr": "signaler un transfert manquant de leur solde"
+},
+"report a transfer that failed": {
+"it": "segnalare un trasferimento che non è riuscito",
+"es": "reportar una transferencia que falló",
+"de": "eine fehlgeschlagene Übertragung melden",
+"fr": "signaler un transfert qui a échoué"
+},
+"report a wrong rate at a foreign ATM": {
+"it": "segnalare un tasso errato a un bancomat straniero",
+"es": "reportar una tasa incorrecta en un cajero automático extranjero",
+"de": "einen falschen Kurs an einem ausländischen Geldautomaten melden",
+"fr": "signaler un mauvais taux à un distributeur étranger"
+},
+"report a wrong rate on a foreign purchase": {
+"it": "segnalare un tasso errato su un acquisto estero",
+"es": "reportar una tasa incorrecta en una compra extranjera",
+"de": "eine falsche Rate bei einem ausländischen Kauf melden",
+"fr": "déclarer un mauvais taux sur un achat étranger"
+},
+"report an unknown charge on their account": {
+"it": "segnalare un addebito sconosciuto sul loro conto",
+"es": "reportar un cargo desconocido en su cuenta",
+"de": "eine unbekannte Gebühr auf ihr Konto melden",
+"fr": "signaler une charge inconnue sur leur compte"
+},
+"report fraud": {
+"it": "denuncia le frodi",
+"es": "Informe de fraude",
+"de": "Betrug melden",
+"fr": "signaler la fraude"
+},
+"report fraudulent activity on their account": {
+"it": "segnalare l'attività fraudolenta sul loro conto",
+"es": "denuncian actividades fraudulentas por su cuenta",
+"de": "betrügerische Aktivitäten auf ihrem Konto melden",
+"fr": "signaler des activités frauduleuses pour leur compte"
+},
+"report receiving the wrong amount of cash": {
+"it": "segnalazione che riceve l'importo sbagliato di contanti",
+"es": "informe de recepción de la cantidad equivocada de efectivo",
+"de": "Bericht erhalten die falsche Menge an Bargeld",
+"fr": "déclarer avoir reçu le mauvais montant d'argent liquide"
+},
+"report that a recipient did not get their transfer": {
+"it": "segnalare che un destinatario non ha ottenuto il loro trasferimento",
+"es": "informan que un receptor no recibió su transferencia",
+"de": "melden, dass ein Empfänger ihre Übertragung nicht erhalten hat",
+"fr": "déclarer qu'un bénéficiaire n'a pas obtenu son transfert"
+},
+"report that an ATM kept their card": {
+"it": "Segnala che un bancomat ha conservato la sua carta",
+"es": "informan de que un cajero automático conservaba su tarjeta",
+"de": "melden, dass ein Geldautomat ihre Karte behalten hat",
+"fr": "signaler qu'un distributeur de billets a conservé sa carte"
+},
+"report that contactless payment is not working": {
+"it": "segnalare che il pagamento contactless non funziona",
+"es": "informe que el pago sin contacto no está funcionando",
+"de": "berichten, dass kontaktlose Bezahlung nicht funktioniert",
+"fr": "signaler que le paiement sans contact ne fonctionne pas"
+},
+"report that identity verification is failing": {
+"it": "segnala che la verifica dell'identità non sta funzionando",
+"es": "informar de que la verificación de identidad está fallando",
+"de": "Meldung, dass die Identitätsprüfung fehlschlägt",
+"fr": "signaler que la vérification de l'identité est défaillante"
+},
+"report that the ATM refused to give cash": {
+"it": "segnala che l'ATM ha rifiutato di dare contanti",
+"es": "informe de que el cajero automático se negó a dar efectivo",
+"de": "melden, dass der Geldautomat sich weigerte, Bargeld zu geben",
+"fr": "déclarer que l'ATM a refusé de donner de l'argent liquide"
+},
+"report that their PIN is blocked": {
+"it": "segnalare che il loro PIN è bloccato",
+"es": "informan que su PIN está bloqueado",
+"de": "melden, dass ihre PIN blockiert ist",
+"fr": "signaler que leur NIP est bloqué"
+},
+"report that their card is not working": {
+"it": "segnalare che la loro carta non funziona",
+"es": "informan de que su tarjeta no está funcionando",
+"de": "berichten, dass ihre Karte nicht funktioniert",
+"fr": "signaler que leur carte ne fonctionne pas"
+},
+"report that their card may be compromised": {
+"it": "segnalare che la loro carta può essere compromessa",
+"es": "informan de que su tarjeta puede verse comprometida",
+"de": "melden, dass ihre Karte gefährdet werden kann",
+"fr": "signaler que leur carte peut être compromise"
+},
+"report that their virtual card is not working": {
+"it": "segnalare che la loro scheda virtuale non funziona",
+"es": "reportar que su tarjeta virtual no está funcionando",
+"de": "berichten, dass ihre virtuelle Karte nicht funktioniert",
+"fr": "signaler que leur carte virtuelle ne fonctionne pas"
+},
+"request a physical card": {
+"it": "richiedere una carta fisica",
+"es": "solicitar una tarjeta física",
+"de": "eine physische Karte anfordern",
+"fr": "demander une carte physique"
+},
+"request a refund": {
+"it": "chiedere una restituzione",
+"es": "solicitar una restitución",
+"de": "eine Erstattung beantragen",
+"fr": "demander une restitution"
+},
+"request paper checks": {
+"it": "richiedere controlli cartacei",
+"es": "solicitar controles en papel",
+"de": "Papierprüfungen beantragen",
+"fr": "demander des vérifications sur papier"
+},
+"request time off from work": {
+"it": "richiesta di tempo libero dal lavoro",
+"es": "solicitar tiempo libre del trabajo",
+"de": "Anfrage Zeit von der Arbeit frei",
+"fr": "demander un congé de travail"
+},
+"reset the assistant to factory settings": {
+"it": "resetta l'assistente alle impostazioni di fabbrica",
+"es": "restablecer el asistente a la configuración de fábrica",
+"de": "Zurücksetzen des Assistenten auf Werkseinstellungen",
+"fr": "réinitialiser l'assistant aux paramètres de l'usine"
+},
+"reset the device": {
+"it": "resetta il dispositivo",
+"es": "restablecer el dispositivo",
+"de": "Zurücksetzen des Geräts",
+"fr": "réinitialiser l'appareil"
+},
+"reset their app passcode": {
+"it": "resetta il loro codice app",
+"es": "restablecer su código de acceso de la aplicación",
+"de": "ihren App-Passcode zurücksetzen",
+"fr": "réinitialiser leur code d'accès à l'application"
+},
+"restore the default settings": {
+"it": "ripristinare le impostazioni predefinite",
+"es": "restaurar la configuración predeterminada",
+"de": "Wiederherstellen der Standardeinstellungen",
+"fr": "restaurer les paramètres par défaut"
+},
+"resume their audiobook": {
+"it": "riprendere il loro audiolibro",
+"es": "reanudar su audiolibro",
+"de": "nehmen ihr Hörbuch wieder auf",
+"fr": "reprendre leur livre audio"
+},
+"reverse a payment they just sent": {
+"it": "invertire un pagamento che hanno appena inviato",
+"es": "revertir un pago que acaban de enviar",
+"de": "reverse eine Zahlung, die sie gerade gesendet",
+"fr": "annuler un paiement qu'ils viennent d'envoyer"
+},
+"review their account activity": {
+"it": "rivedere l'attività del conto",
+"es": "revisar la actividad de su cuenta",
+"de": "Überprüfung ihrer Kontotätigkeit",
+"fr": "revoir leur activité comptable"
+},
+"review their last payments": {
+"it": "rivedere gli ultimi pagamenti",
+"es": "revisar sus últimos pagos",
+"de": "Überprüfung der letzten Zahlungen",
+"fr": "revoir leurs derniers paiements"
+},
+"review their spending history": {
+"it": "rivedere la loro storia di spesa",
+"es": "revisar su historial de gastos",
+"de": "ihre Ausgabengeschichte überprüfen",
+"fr": "revoir l'historique de leurs dépenses"
+},
+"roll a die": {
+"it": "rotolare un dado",
+"es": "Tirar un dado",
+"de": "rollen Sie einen Stempel",
+"fr": "Rouler une matrice"
+},
+"roll over their 401k": {
+"it": "rotolare sopra il loro 401k",
+"es": "vuelque sobre sus 401k",
+"de": "Rollen über ihre 401k",
+"fr": "Rouler sur leurs 401k"
+},
+"roll the dice": {
+"it": "Rotolare i dadi",
+"es": "Tira los dados",
+"de": "Würfel rollen",
+"fr": "Rouler les dés"
+},
+"save a new contact": {
+"it": "Salva un nuovo contatto",
+"es": "guardar un nuevo contacto",
+"de": "einen neuen Kontakt speichern",
+"fr": "enregistrer un nouveau contact"
+},
+"save their music preferences": {
+"it": "salvare le loro preferenze musicali",
+"es": "guardar sus preferencias musicales",
+"de": "ihre Musikpräferenzen speichern",
+"fr": "enregistrer leurs préférences musicales"
+},
+"say goodbye": {
+"it": "Di' addio.",
+"es": "Despídete.",
+"de": "Verabschiede dich",
+"fr": "Dis au revoir."
+},
+"say hello": {
+"it": "Di' ciao.",
+"es": "Saluda.",
+"de": "Sag hallo.",
+"fr": "Dis bonjour."
+},
+"say no": {
+"it": "Di' di no.",
+"es": "Di que no.",
+"de": "Nein sagen",
+"fr": "dire non"
+},
+"say someone else may have their card details": {
+"it": "dire che qualcun altro può avere i dettagli della carta",
+"es": "dicen que alguien más puede tener sus datos de la tarjeta",
+"de": "sagen, jemand anderes könnte ihre Kartendetails haben",
+"fr": "dire que quelqu'un d'autre peut avoir les détails de sa carte"
+},
+"say thanks": {
+"it": "Di' grazie.",
+"es": "Di gracias.",
+"de": "Danke sagen",
+"fr": "Dis merci."
+},
+"say the app is not working": {
+"it": "dire che l'app non funziona",
+"es": "dicen que la aplicación no está funcionando",
+"de": "sagen, die App funktioniert nicht",
+"fr": "dire que l'application ne fonctionne pas"
+},
+"say their card is lost or broken": {
+"it": "dicono che la loro carta è persa o rotta",
+"es": "dicen que su tarjeta está perdida o rota",
+"de": "sagen, ihre Karte ist verloren oder gebrochen",
+"fr": "dire que leur carte est perdue ou cassée"
+},
+"say their card is missing": {
+"it": "dicono che la loro carta è mancante",
+"es": "dicen que falta su tarjeta",
+"de": "sagen, dass ihre Karte fehlt",
+"fr": "dire que leur carte est manquante"
+},
+"say their card is physically broken": {
+"it": "dicono che la loro carta è fisicamente rotta",
+"es": "dicen que su tarjeta está físicamente rota",
+"de": "sagen, ihre Karte ist physisch kaputt",
+"fr": "dire que leur carte est physiquement cassée"
+},
+"say their phone was stolen": {
+"it": "dicono che gli hanno rubato il telefono.",
+"es": "dicen que su teléfono fue robado",
+"de": "sagen, dass ihr Telefon gestohlen wurde",
+"fr": "dire que leur téléphone a été volé"
+},
+"say they are not sure": {
+"it": "dicono che non sono sicuri",
+"es": "dicen que no están seguros",
+"de": "sagen, sie seien sich nicht sicher",
+"fr": "qu'ils ne sont pas sûrs"
+},
+"say they dislike a song": {
+"it": "dicono che non amano una canzone",
+"es": "dicen que no les gusta una canción",
+"de": "sagen, sie mögen ein Lied nicht",
+"fr": "ils disent qu'ils n'aiment pas une chanson"
+},
+"say they forgot their passcode": {
+"it": "Dicono di aver dimenticato la loro password.",
+"es": "dicen que olvidaron su contraseña",
+"de": "sagen, sie haben ihren Passcode vergessen",
+"fr": "disent qu'ils ont oublié leur code d'accès"
+},
+"say they like a song": {
+"it": "dire che come una canzone",
+"es": "dicen que les gusta una canción",
+"de": "sagen, sie mögen ein Lied",
+"fr": "ils disent qu'ils aiment une chanson"
+},
+"say they lost their card": {
+"it": "Dicono che hanno perso la carta.",
+"es": "dicen que perdieron su tarjeta",
+"de": "sagen, sie haben ihre Karte verloren",
+"fr": "Ils disent qu'ils ont perdu leur carte."
+},
+"say yes": {
+"it": "Di' di si'.",
+"es": "Di que sí.",
+"de": "Ja sagen",
+"fr": "Dis oui."
+},
+"schedule a meeting": {
+"it": "programmare una riunione",
+"es": "programar una reunión",
+"de": "Termin für eine Sitzung",
+"fr": "Planifier une réunion"
+},
+"schedule an event": {
+"it": "programmare un evento",
+"es": "programar un evento",
+"de": "Termin für eine Veranstaltung",
+"fr": "planifier un événement"
+},
+"schedule maintenance for their car": {
+"it": "pianificazione manutenzione per la loro auto",
+"es": "programa de mantenimiento para su coche",
+"de": "Zeitplan Wartung für ihr Auto",
+"fr": "entretien du calendrier de leur voiture"
+},
+"secure a card that was hacked": {
+"it": "proteggere una carta che è stata hackerata",
+"es": "asegurar una tarjeta que fue hackeada",
+"de": "sichern Sie eine Karte, die gehackt wurde",
+"fr": "sécurise une carte qui a été piratée"
+},
+"secure their account after losing their phone": {
+"it": "proteggere il loro account dopo aver perso il telefono",
+"es": "asegurar su cuenta después de perder su teléfono",
+"de": "Sichern Sie ihr Konto nach dem Verlust ihres Telefons",
+"fr": "sécuriser leur compte après avoir perdu leur téléphone"
+},
+"see how much they have spent": {
+"it": "vedere quanto hanno speso",
+"es": "ver cuánto han gastado",
+"de": "sehen, wie viel sie ausgegeben haben",
+"fr": "voir combien ils ont dépensé"
+},
+"see if they have new email": {
+"it": "vedere se hanno una nuova email",
+"es": "ver si tienen nuevo correo electrónico",
+"de": "sehen, ob sie neue E-Mail haben",
+"fr": "voir s'ils ont un nouveau courriel"
+},
+"see the shopping list": {
+"it": "vedi la lista della spesa",
+"es": "ver la lista de la compra",
+"de": "Siehe die Einkaufsliste",
+"fr": "voir la liste des achats"
+},
+"see their balance": {
+"it": "vedere il loro equilibrio",
+"es": "ver su equilibrio",
+"de": "ihre Balance sehen",
+"fr": "voir leur équilibre"
+},
+"see their credit score": {
+"it": "vedere il loro punteggio di credito",
+"es": "ver su puntaje de crédito",
+"de": "sehen ihre Kredit-Score",
+"fr": "voir leur cote de crédit"
+},
+"see their latest transactions": {
+"it": "vedere le loro ultime transazioni",
+"es": "ver sus últimas transacciones",
+"de": "siehe ihre letzten Transaktionen",
+"fr": "voir leurs dernières transactions"
+},
+"see their pending tasks": {
+"it": "vedere i loro compiti in sospeso",
+"es": "ver sus tareas pendientes",
+"de": "sehen ihre ausstehenden Aufgaben",
+"fr": "voir leurs tâches en suspens"
+},
+"see their points total": {
+"it": "vedi i loro punti totali",
+"es": "ver sus puntos totales",
+"de": "ihre Punkte insgesamt sehen",
+"fr": "voir leurs points total"
+},
+"see their recent transactions": {
+"it": "vedere le loro recenti transazioni",
+"es": "ver sus transacciones recientes",
+"de": "siehe ihre jüngsten Transaktionen",
+"fr": "voir leurs transactions récentes"
+},
+"see what events are planned": {
+"it": "vedere quali eventi sono pianificati",
+"es": "ver qué eventos están previstos",
+"de": "sehen, welche Veranstaltungen geplant sind",
+"fr": "voir quels événements sont prévus"
+},
+"see what is on a list": {
+"it": "vedere cosa c'è in una lista",
+"es": "ver lo que hay en una lista",
+"de": "sehen, was auf einer Liste steht",
+"fr": "voir ce qui est sur une liste"
+},
+"see what their account balance is": {
+"it": "vedere che cosa il loro saldo di conto è",
+"es": "ver cuál es el saldo de su cuenta",
+"de": "sehen, was ihr Kontostand ist",
+"fr": "voir ce qu'est le solde de leur compte"
+},
+"see which alarms are set": {
+"it": "vedere quali allarmi sono impostati",
+"es": "ver qué alarmas se activan",
+"de": "sehen, welche Alarme gesetzt werden",
+"fr": "voir quelles alarmes sont réglées"
+},
+"send a high value transfer": {
+"it": "invia un trasferimento ad alto valore",
+"es": "enviar una transferencia de alto valor",
+"de": "senden Sie eine hohe Wertübertragung",
+"fr": "envoyer un transfert de valeur élevée"
+},
+"send a text message": {
+"it": "inviare un messaggio di testo",
+"es": "enviar un mensaje de texto",
+"de": "eine SMS senden",
+"fr": "envoyer un message texte"
+},
+"send an SMS": {
+"it": "inviare un SMS",
+"es": "enviar un SMS",
+"de": "SMS senden",
+"fr": "envoyer un SMS"
+},
+"send an email": {
+"it": "inviare un'email",
+"es": "enviar un correo electrónico",
+"de": "eine E-Mail senden",
+"fr": "envoyer un courriel"
+},
+"send money to another account": {
+"it": "inviare denaro su un altro conto",
+"es": "enviar dinero a otra cuenta",
+"de": "Geld auf ein anderes Konto senden",
+"fr": "envoyer de l'argent sur un autre compte"
+},
+"send their current position to a contact": {
+"it": "inviare la loro posizione attuale a un contatto",
+"es": "enviar su posición actual a un contacto",
+"de": "ihre aktuelle Position an einen Kontakt senden",
+"fr": "envoyer leur position actuelle à un contact"
+},
+"set a new PIN": {
+"it": "imposta un nuovo PIN",
+"es": "establecer un nuevo PIN",
+"de": "eine neue PIN setzen",
+"fr": "définir un nouveau code PIN"
+},
+"set a new PIN for their card": {
+"it": "impostare un nuovo PIN per la loro carta",
+"es": "establecer un nuevo PIN para su tarjeta",
+"de": "eine neue PIN für ihre Karte setzen",
+"fr": "définir un nouveau NIP pour leur carte"
+},
+"set a timer": {
+"it": "imposta un timer",
+"es": "establecer un temporizador",
+"de": "einen Timer einstellen",
+"fr": "définir une minuterie"
+},
+"set a travel notice on their card": {
+"it": "impostare un avviso di viaggio sulla loro carta",
+"es": "fijar un aviso de viaje en su tarjeta",
+"de": "einen Reisehinweis auf ihre Karte setzen",
+"fr": "fixer un avis de voyage sur leur carte"
+},
+"set an alarm": {
+"it": "imposta un allarme",
+"es": "establecer una alarma",
+"de": "Alarm setzen",
+"fr": "Régler une alarme"
+},
+"set or change a reminder": {
+"it": "imposta o cambia un promemoria",
+"es": "establecer o cambiar un recordatorio",
+"de": "eine Erinnerung einstellen oder ändern",
+"fr": "définir ou modifier un rappel"
+},
+"set the lights to another colour": {
+"it": "impostare le luci su un altro colore",
+"es": "ajustar las luces a otro color",
+"de": "die Lichter auf eine andere Farbe setzen",
+"fr": "régler les lumières à une autre couleur"
+},
+"set up a meeting with someone": {
+"it": "organizzare un incontro con qualcuno",
+"es": "organizar una reunión con alguien",
+"de": "ein Treffen mit jemandem organisieren",
+"fr": "organiser une réunion avec quelqu'un"
+},
+"set up automatic top-up": {
+"it": "impostare l'aggiunta automatica",
+"es": "configurar recarga automática",
+"de": "automatisches Nachrüsten einrichten",
+"fr": "mettre en place un système de recharge automatique"
+},
+"set up direct deposit for their paycheck": {
+"it": "impostare il deposito diretto per il loro stipendio",
+"es": "crear un depósito directo para su cheque de pago",
+"de": "direkte Anzahlung für ihren Gehaltsscheck einrichten",
+"fr": "mettre en place le dépôt direct pour leur chèque de paie"
+},
+"set up or change a direct debit": {
+"it": "impostare o modificare un addebito diretto",
+"es": "configurar o cambiar un adeudo domiciliado",
+"de": "eine Lastschrift einrichten oder ändern",
+"fr": "mettre en place ou modifier un débit direct"
+},
+"settle a bill": {
+"it": "sistemare un disegno di legge",
+"es": "saldar una cuenta",
+"de": "eine Rechnung zu begleichen",
+"fr": "régler un projet de loi"
+},
+"settle a bill from their account": {
+"it": "regolare una bolletta dal loro conto",
+"es": "saldar una cuenta de su cuenta",
+"de": "eine Rechnung von ihrem Konto zu begleichen",
+"fr": "régler une facture à partir de leur compte"
+},
+"share an account with someone": {
+"it": "condividere un account con qualcuno",
+"es": "compartir una cuenta con alguien",
+"de": "ein Konto mit jemandem teilen",
+"fr": "partager un compte avec quelqu'un"
+},
+"share their location with someone": {
+"it": "condividere la loro posizione con qualcuno",
+"es": "compartir su ubicación con alguien",
+"de": "ihren Standort mit jemandem teilen",
+"fr": "partager leur emplacement avec quelqu'un"
+},
+"shut off the lamp": {
+"it": "Spegni la lampada",
+"es": "Apaga la lámpara.",
+"de": "Abschalten der Lampe",
+"fr": "Éteignez la lampe"
+},
+"sign off": {
+"it": "firma fuori",
+"es": "desactivación",
+"de": "Abmeldung",
+"fr": "dédicace"
+},
+"silence the speaker": {
+"it": "zitto l'oratore",
+"es": "silenciar al orador",
+"de": "den Redner zum Schweigen bringen",
+"fr": "silence de l'orateur"
+},
+"skip to the next song": {
+"it": "salta alla canzone successiva",
+"es": "Ir a la siguiente canción",
+"de": "skip zum nächsten Song",
+"fr": "Passez à la chanson suivante"
+},
+"solve a math problem": {
+"it": "risolvere un problema di matematica",
+"es": "resolver un problema matemático",
+"de": "ein mathematisches Problem lösen",
+"fr": "résoudre un problème de maths"
+},
+"start a countdown": {
+"it": "avviare un conto alla rovescia",
+"es": "iniciar una cuenta regresiva",
+"de": "einen Countdown starten",
+"fr": "lancer un compte à rebours"
+},
+"start a game with the assistant": {
+"it": "iniziare una partita con l'assistente",
+"es": "iniciar un juego con el asistente",
+"de": "Starten Sie ein Spiel mit dem Assistenten",
+"fr": "commencer un jeu avec l'assistant"
+},
+"start a podcast": {
+"it": "avvia un podcast",
+"es": "iniciar un podcast",
+"de": "einen Podcast starten",
+"fr": "lancer un podcast"
+},
+"start playing some songs": {
+"it": "inizia a riprodurre alcune canzoni",
+"es": "empezar a tocar algunas canciones",
+"de": "beginne einige Songs zu spielen",
+"fr": "commencer à jouer quelques chansons"
+},
+"start the coffee machine": {
+"it": "avviare la macchina del caffè",
+"es": "iniciar la máquina de café",
+"de": "Starten Sie die Kaffeemaschine",
+"fr": "Démarrer la machine à café"
+},
+"start the vacuum cleaner": {
+"it": "avviare l'aspirapolvere",
+"es": "iniciar la aspiradora",
+"de": "Starten Sie den Staubsauger",
+"fr": "démarrer l'aspirateur"
+},
+"start using a physical card": {
+"it": "iniziare a usare una scheda fisica",
+"es": "empezar a usar una tarjeta física",
+"de": "Starten Sie mit einer physischen Karte",
+"fr": "commencer à utiliser une carte physique"
+},
+"start using their new card": {
+"it": "iniziare a usare la loro nuova carta",
+"es": "empezar a usar su nueva tarjeta",
+"de": "Beginnen Sie mit ihrer neuen Karte",
+"fr": "commencer à utiliser leur nouvelle carte"
+},
+"stop a transfer they made": {
+"it": "fermare un trasferimento che hanno fatto",
+"es": "Detener una transferencia que hicieron",
+"de": "eine Übertragung zu stoppen, die sie gemacht haben",
+"fr": "arrêter un transfert qu'ils ont fait"
+},
+"stop what the assistant is doing": {
+"it": "Fermare ciò che l'assistente sta facendo",
+"es": "Detener lo que el asistente está haciendo",
+"de": "Stoppen Sie, was der Assistent tut",
+"fr": "Arrêtez ce que fait l'assistant."
+},
+"store someone's email address": {
+"it": "memorizzare l'indirizzo e-mail di qualcuno",
+"es": "almacenar la dirección de correo electrónico de alguien",
+"de": "speichern Sie jemandes E-Mail-Adresse",
+"fr": "stocker l'adresse e-mail de quelqu'un"
+},
+"switch off the socket": {
+"it": "Spegni la presa",
+"es": "apagar el zócalo",
+"de": "Schalten Sie die Steckdose aus",
+"fr": "Éteignez la prise"
+},
+"switch on the socket": {
+"it": "accendere la presa",
+"es": "encienda el enchufe",
+"de": "Schalter an der Steckdose",
+"fr": "interrupteur de la prise"
+},
+"switch the colour of the lights": {
+"it": "accendere il colore delle luci",
+"es": "cambiar el color de las luces",
+"de": "wechseln Sie die Farbe der Lichter",
+"fr": "changer la couleur des feux"
+},
+"switch the language setting": {
+"it": "cambiare l'impostazione della lingua",
+"es": "cambiar la configuración del idioma",
+"de": "Spracheinstellung wechseln",
+"fr": "Changer le réglage de la langue"
+},
+"switch the lights off": {
+"it": "Spegni le luci",
+"es": "Apaga las luces.",
+"de": "Schalten Sie das Licht aus",
+"fr": "Éteignez les lumières"
+},
+"switch the lights on": {
+"it": "Accendere le luci",
+"es": "Enciende las luces",
+"de": "Licht einschalten",
+"fr": "Allumez les feux"
+},
+"switch the voice accent": {
+"it": "cambiare l'accento vocale",
+"es": "cambiar el acento de voz",
+"de": "Schalten Sie den Sprachakzent",
+"fr": "Changer l'accent de la voix"
+},
+"sync the assistant with their phone": {
+"it": "sincronizza l'assistente con il telefono",
+"es": "sincronizar el asistente con su teléfono",
+"de": "Synchronisieren Sie den Assistenten mit ihrem Telefon",
+"fr": "synchroniser l'assistant avec son téléphone"
+},
+"tell the assistant they hate this music": {
+"it": "dire all'assistente che odiano questa musica",
+"es": "Dile al asistente que odian esta música.",
+"de": "Sag dem Assistenten, dass sie diese Musik hassen.",
+"fr": "Dis à l'assistant qu'ils détestent cette musique."
+},
+"tell the assistant they love this music": {
+"it": "dire all'assistente che amano questa musica",
+"es": "Dile al asistente que les encanta esta música.",
+"de": "dem Assistenten sagen, dass sie diese Musik lieben",
+"fr": "Dites à l'assistant qu'ils aiment cette musique"
+},
+"tell the bank they lost their card": {
+"it": "dire alla banca che hanno perso la carta",
+"es": "Dile al banco que perdieron su tarjeta.",
+"de": "Sagen Sie der Bank, dass sie ihre Karte verloren haben.",
+"fr": "Dites à la banque qu'ils ont perdu leur carte."
+},
+"tell the bank they moved house": {
+"it": "Di' alla banca che hanno spostato casa.",
+"es": "Dile al banco que se mudaron a casa.",
+"de": "Sagen Sie der Bank, dass sie umgezogen sind.",
+"fr": "Dites à la banque qu'ils ont déménagé la maison"
+},
+"tell their bank they are travelling": {
+"it": "dire alla loro banca che stanno viaggiando",
+"es": "decirle a su banco que están viajando",
+"de": "ihrer Bank mitteilen, dass sie reisen",
+"fr": "dire à leur banque qu'ils voyagent"
+},
+"terminate their membership": {
+"it": "porre fine alla loro adesione",
+"es": "poner fin a su condición de miembros",
+"de": "Beendigung der Mitgliedschaft",
+"fr": "mettre fin à leur adhésion"
+},
+"text someone": {
+"it": "Scrivi a qualcuno",
+"es": "texto a alguien",
+"de": "sims jemand",
+"fr": "texto à quelqu'un"
+},
+"thank the assistant": {
+"it": "grazie all'assistente",
+"es": "Gracias al asistente.",
+"de": "Vielen Dank an den Assistenten",
+"fr": "remercier l'assistant"
+},
+"time something for a few minutes": {
+"it": "tempo qualcosa per alcuni minuti",
+"es": "tiempo algo por unos minutos",
+"de": "Zeit etwas für ein paar Minuten",
+"fr": "temps quelque chose pour quelques minutes"
+},
+"top up their account with a card": {
+"it": "rimontare il loro account con una carta",
+"es": "recargar su cuenta con una tarjeta",
+"de": "Ihr Konto mit einer Karte auffüllen",
+"fr": "compléter leur compte avec une carte"
+},
+"top up with cash or a cheque": {
+"it": "top up con contanti o un assegno",
+"es": "Rellénalo con dinero en efectivo o con un cheque",
+"de": "Auffüllen mit Bargeld oder einem Scheck",
+"fr": "en plus de l'argent comptant ou d'un chèque"
+},
+"toss a coin for heads or tails": {
+"it": "lancia una moneta per teste o code",
+"es": "lanza una moneda para cabezas o colas",
+"de": "eine Münze für Kopf oder Schwanz werfen",
+"fr": "lancer une pièce de monnaie pour les têtes ou les queues"
+},
+"track the delivery of their card": {
+"it": "traccia la consegna della carta",
+"es": "seguir la entrega de su tarjeta",
+"de": "Verfolgen Sie die Lieferung ihrer Karte",
+"fr": "suivre la livraison de leur carte"
+},
+"transfer money between accounts": {
+"it": "trasferimento di denaro tra conti",
+"es": "transferencia de dinero entre cuentas",
+"de": "Geld zwischen den Konten überweisen",
+"fr": "transfert de fonds entre comptes"
+},
+"transfer money into their account": {
+"it": "trasferire denaro sul loro conto",
+"es": "transferir dinero a su cuenta",
+"de": "Geld auf ihr Konto überweisen",
+"fr": "transférer de l'argent sur leur compte"
+},
+"translate a phrase into another language": {
+"it": "tradurre una frase in un'altra lingua",
+"es": "traducir una frase a otro idioma",
+"de": "einen Satz in eine andere Sprache übersetzen",
+"fr": "traduire une phrase dans une autre langue"
+},
+"translate a time between zones": {
+"it": "tradurre un tempo tra le zone",
+"es": "traducir un tiempo entre zonas",
+"de": "eine Zeit zwischen den Zonen übersetzen",
+"fr": "traduire un temps entre les zones"
+},
+"tune in to a radio station": {
+"it": "sintonizzarsi con una stazione radio",
+"es": "sintonizar a una estación de radio",
+"de": "Einschalten zu einem Radiosender",
+"fr": "Alignez-vous sur une station de radio"
+},
+"turn off a scheduled alarm": {
+"it": "spegnere un allarme programmato",
+"es": "Apagar una alarma programada",
+"de": "einen geplanten Alarm ausschalten",
+"fr": "Éteignez une alarme programmée"
+},
+"turn off a smart plug": {
+"it": "spegnere una spina intelligente",
+"es": "apagar un enchufe inteligente",
+"de": "einen intelligenten Stecker ausschalten",
+"fr": "Éteignez une prise intelligente"
+},
+"turn off the lights": {
+"it": "Spegni le luci",
+"es": "Apaga las luces.",
+"de": "Licht ausschalten",
+"fr": "Éteignez les lumières"
+},
+"turn on a new card": {
+"it": "accendere una nuova carta",
+"es": "encender una nueva tarjeta",
+"de": "eine neue Karte einschalten",
+"fr": "allumer une nouvelle carte"
+},
+"turn on a smart plug": {
+"it": "accendere una spina intelligente",
+"es": "encender un enchufe inteligente",
+"de": "Einschalten eines intelligenten Steckers",
+"fr": "allumer une prise intelligente"
+},
+"turn on shuffle or repeat": {
+"it": "accendere la mischia o ripetere",
+"es": "encender barajar o repetir",
+"de": "Shuffle einschalten oder wiederholen",
+"fr": "allumer le shuffle ou répéter"
+},
+"turn on the cleaning robot": {
+"it": "accendere il robot di pulizia",
+"es": "encender el robot de limpieza",
+"de": "den Reinigungsroboter einschalten",
+"fr": "allumer le robot de nettoyage"
+},
+"turn on the lights": {
+"it": "accendi le luci",
+"es": "Enciende las luces",
+"de": "Lichter einschalten",
+"fr": "Allumez les lumières"
+},
+"turn on whisper mode": {
+"it": "Attiva la modalità sussurra",
+"es": "encender el modo de susurro",
+"de": "Einschalten des Flüstermodus",
+"fr": "allumer le mode chuchot"
+},
+"turn the sound off": {
+"it": "spegnere il suono",
+"es": "Apaga el sonido.",
+"de": "Schalten Sie den Ton aus",
+"fr": "Éteignez le son"
+},
+"turn the volume down": {
+"it": "abbassare il volume",
+"es": "bajar el volumen",
+"de": "Drehen Sie das Volumen nach unten",
+"fr": "baisser le volume"
+},
+"turn the volume up": {
+"it": "alzare il volume",
+"es": "subir el volumen",
+"de": "Drehen Sie die Lautstärke nach oben",
+"fr": "Remonter le volume"
+},
+"turn up the lights": {
+"it": "Alza le luci.",
+"es": "Enciende las luces",
+"de": "die Lichter aufdrehen",
+"fr": "Allumez les lumières"
+},
+"unblock their PIN": {
+"it": "sbloccare il loro PIN",
+"es": "desbloquear su PIN",
+"de": "Sperren Sie ihre PIN",
+"fr": "Débloquer leur NIP"
+},
+"understand a cancelled card transaction": {
+"it": "capire una transazione con carta annullata",
+"es": "entender una transacción de tarjeta cancelada",
+"de": "eine stornierte Kartentransaktion verstehen",
+"fr": "comprendre une transaction par carte annulée"
+},
+"understand a cancelled top-up": {
+"it": "capire un top-up cancellato",
+"es": "entender una recarga cancelada",
+"de": "eine abgesagte Aufladung verstehen",
+"fr": "comprendre un supplément annulé"
+},
+"understand a declined card transaction": {
+"it": "capire una transazione con carta declinata",
+"es": "entender una transacción de tarjeta rechazada",
+"de": "eine abgelehnte Kartentransaktion verstehen",
+"fr": "comprendre une transaction de carte refusée"
+},
+"understand a failed cash withdrawal": {
+"it": "capire un prelievo in contanti fallito",
+"es": "entender una retirada de efectivo fallida",
+"de": "eine gescheiterte Bargeldabhebung verstehen",
+"fr": "comprendre un retrait en espèces échoué"
+},
+"understand a refused bank transfer": {
+"it": "capire un bonifico bancario rifiutato",
+"es": "entender una transferencia bancaria rechazada",
+"de": "eine abgelehnte Banküberweisung verstehen",
+"fr": "comprendre un transfert bancaire refusé"
+},
+"understand a rejected card transaction": {
+"it": "capire un'operazione con carta rifiutata",
+"es": "entender una transacción de tarjeta rechazada",
+"de": "eine abgelehnte Kartentransaktion verstehen",
+"fr": "comprendre une transaction de carte rejetée"
+},
+"update the address on their account": {
+"it": "aggiornare l'indirizzo sul loro account",
+"es": "actualizar la dirección de su cuenta",
+"de": "Aktualisierung der Adresse auf ihrem Konto",
+"fr": "mettre à jour l'adresse sur leur compte"
+},
+"update the card PIN": {
+"it": "aggiornare il PIN della scheda",
+"es": "actualizar la tarjeta PIN",
+"de": "Aktualisierung der Karten-PIN",
+"fr": "Mettre à jour le code PIN de la carte"
+},
+"update the shopping list": {
+"it": "aggiornare la lista degli acquisti",
+"es": "actualizar la lista de compras",
+"de": "Aktualisierung der Einkaufsliste",
+"fr": "Mettre à jour la liste des achats"
+},
+"update the to-do list": {
+"it": "aggiornare l'elenco delle cose da fare",
+"es": "actualizar la lista de tareas pendientes",
+"de": "Aktualisierung der Aufgabenliste",
+"fr": "Mettre à jour la liste des tâches"
+},
+"update their PIN number": {
+"it": "aggiornare il loro numero PIN",
+"es": "actualizar su número PIN",
+"de": "ihre PIN-Nummer aktualisieren",
+"fr": "mettre à jour leur numéro de NIP"
+},
+"update their address or name": {
+"it": "aggiornare il loro indirizzo o nome",
+"es": "actualizar su dirección o nombre",
+"de": "ihre Adresse oder ihren Namen aktualisieren",
+"fr": "mettre à jour leur adresse ou leur nom"
+},
+"update their calendar": {
+"it": "aggiornare il loro calendario",
+"es": "actualizar su calendario",
+"de": "Aktualisierung ihres Kalenders",
+"fr": "Mettre à jour leur calendrier"
+},
+"update their playlist": {
+"it": "Aggiorna la scaletta",
+"es": "actualizar su lista de reproducción",
+"de": "Aktualisierung ihrer Wiedergabeliste",
+"fr": "mettre à jour leur liste de lecture"
+},
+"update their user name": {
+"it": "aggiornare il proprio nome utente",
+"es": "actualizar su nombre de usuario",
+"de": "ihren Benutzernamen aktualisieren",
+"fr": "mettre à jour leur nom d'utilisateur"
+},
+"use Apple Pay or Google Pay": {
+"it": "Usa Apple Pay o Google Pay",
+"es": "Usar Apple Pay o Google Pay",
+"de": "Apple Pay oder Google Pay verwenden",
+"fr": "utiliser Apple Pay ou Google Pay"
+},
+"use the calculator": {
+"it": "utilizzare la calcolatrice",
+"es": "utilizar la calculadora",
+"de": "den Rechner benutzen",
+"fr": "utiliser la calculatrice"
+},
+"use their card abroad": {
+"it": "utilizzare la loro carta all'estero",
+"es": "utilizar su tarjeta en el extranjero",
+"de": "ihre Karte im Ausland verwenden",
+"fr": "utiliser leur carte à l'étranger"
+},
+"use their rewards": {
+"it": "usa le loro ricompense",
+"es": "usar sus recompensas",
+"de": "ihre Belohnungen nutzen",
+"fr": "utiliser leurs récompenses"
+},
+"verify a top-up": {
+"it": "verifica un aggiornamento",
+"es": "verificar una recarga",
+"de": "Verifizieren Sie ein Top-up",
+"fr": "vérifier un supplément"
+},
+"verify the source of their funds": {
+"it": "verifica la fonte dei loro fondi",
+"es": "verificar la fuente de sus fondos",
+"de": "Überprüfung der Herkunft ihrer Mittel",
+"fr": "vérifier la source de leurs fonds"
+},
+"verify their identity": {
+"it": "verificarne l'identità",
+"es": "verificar su identidad",
+"de": "ihre Identität überprüfen",
+"fr": "vérifier leur identité"
+},
+"write an email to someone": {
+"it": "scrivere un'email a qualcuno",
+"es": "escribir un correo electrónico a alguien",
+"de": "Schreiben Sie eine E-Mail an jemanden",
+"fr": "écrire un email à quelqu'un"
+}
+}
+}

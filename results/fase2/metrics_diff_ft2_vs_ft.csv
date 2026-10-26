@@ -1,0 +1,7 @@
+track,model,variant,runtime,threads,task,split,lang,metric,value,n
+fase2-noul,edge32k-ft2 - edge32k-ft,torch-fp32,torch,10,noul,unseen_ext,pooled,auroc_diff,0.015061423163099774,3655
+fase2-noul,edge32k-ft2 - edge32k-ft,torch-fp32,torch,10,noul,unseen_ext,pooled,auroc_diff_ci_lo,0.0030784159891325494,3655
+fase2-noul,edge32k-ft2 - edge32k-ft,torch-fp32,torch,10,noul,unseen_ext,pooled,auroc_diff_ci_hi,0.025873669343309157,3655
+fase2-noul,edge32k-ft2 - edge32k-ft,torch-fp32,torch,10,noul,unseen_ext/neg_same,pooled,auroc_diff,0.02550258827165275,3010
+fase2-noul,edge32k-ft2 - edge32k-ft,torch-fp32,torch,10,noul,unseen_ext/neg_same,pooled,auroc_diff_ci_lo,0.00895558547918871,3010
+fase2-noul,edge32k-ft2 - edge32k-ft,torch-fp32,torch,10,noul,unseen_ext/neg_same,pooled,auroc_diff_ci_hi,0.04032643127559301,3010

@@ -1,0 +1,415 @@
+{
+ "alarm_query": {
+  "en": "check existing alarms",
+  "it": "controllare gli allarmi esistenti",
+  "es": "comprobar las alarmas existentes",
+  "de": "bestehende Alarme überprüfen",
+  "fr": "vérifier les alarmes existantes"
+ },
+ "alarm_remove": {
+  "en": "delete an alarm",
+  "it": "Elimina un avviso",
+  "es": "borrar una alarma",
+  "de": "Alarm löschen",
+  "fr": "supprimer une alarme"
+ },
+ "alarm_set": {
+  "en": "set an alarm",
+  "it": "imposta un allarme",
+  "es": "establecer una alarma",
+  "de": "Alarm setzen",
+  "fr": "Régler une alarme"
+ },
+ "audio_volume_down": {
+  "en": "turn the volume down",
+  "it": "abbassare il volume",
+  "es": "bajar el volumen",
+  "de": "Drehen Sie das Volumen nach unten",
+  "fr": "baisser le volume"
+ },
+ "audio_volume_mute": {
+  "en": "mute the audio",
+  "it": "muto l'audio",
+  "es": "silenciar el audio",
+  "de": "stumm stumm das Audio",
+  "fr": "Mettons en silence l'audio"
+ },
+ "audio_volume_other": {
+  "en": "change other audio settings",
+  "it": "cambiare altre impostazioni audio",
+  "es": "cambiar otras configuraciones de audio",
+  "de": "Andere Audioeinstellungen ändern",
+  "fr": "modifier d'autres paramètres audio"
+ },
+ "audio_volume_up": {
+  "en": "turn the volume up",
+  "it": "alzare il volume",
+  "es": "subir el volumen",
+  "de": "Drehen Sie die Lautstärke nach oben",
+  "fr": "Remonter le volume"
+ },
+ "calendar_query": {
+  "en": "check the calendar",
+  "it": "controlla il calendario",
+  "es": "verifique el calendario",
+  "de": "Kalender überprüfen",
+  "fr": "vérifier l'agenda"
+ },
+ "calendar_remove": {
+  "en": "delete a calendar event",
+  "it": "Elimina un evento di calendario",
+  "es": "eliminar un evento de calendario",
+  "de": "ein Kalender-Ereignis löschen",
+  "fr": "supprimer un événement de calendrier"
+ },
+ "calendar_set": {
+  "en": "add a calendar event or reminder",
+  "it": "aggiungere un evento o un promemoria di calendario",
+  "es": "añadir un evento o recordatorio de calendario",
+  "de": "Kalender-Ereignis oder Erinnerung hinzufügen",
+  "fr": "ajouter un événement de calendrier ou un rappel"
+ },
+ "cooking_query": {
+  "en": "ask a cooking question",
+  "it": "fare una domanda di cucina",
+  "es": "hacer una pregunta de cocina",
+  "de": "eine Kochfrage stellen",
+  "fr": "poser une question de cuisine"
+ },
+ "cooking_recipe": {
+  "en": "get a recipe",
+  "it": "ottenere una ricetta",
+  "es": "Obtener una receta",
+  "de": "ein Rezept bekommen",
+  "fr": "obtenir une recette"
+ },
+ "datetime_convert": {
+  "en": "convert time zones or dates",
+  "it": "converte i fusi orari o le date",
+  "es": "convertir zonas horarias o fechas",
+  "de": "Umrechnen von Zeitzonen oder Daten",
+  "fr": "convertir des fuseaux horaires ou des dates"
+ },
+ "datetime_query": {
+  "en": "ask the current date or time",
+  "it": "chiedere la data o l'ora corrente",
+  "es": "preguntar la fecha o hora actual",
+  "de": "fragen Sie das aktuelle Datum oder die Uhrzeit",
+  "fr": "demander la date ou l'heure actuelle"
+ },
+ "email_addcontact": {
+  "en": "add an email contact",
+  "it": "aggiungere un contatto email",
+  "es": "añadir un contacto de correo electrónico",
+  "de": "E-Mail-Kontakt hinzufügen",
+  "fr": "ajouter un contact e-mail"
+ },
+ "email_query": {
+  "en": "check emails",
+  "it": "controlla le email",
+  "es": "comprobar los correos electrónicos",
+  "de": "E-Mails überprüfen",
+  "fr": "vérifier les courriels"
+ },
+ "email_querycontact": {
+  "en": "look up a contact",
+  "it": "Cerca un contatto",
+  "es": "buscar un contacto",
+  "de": "einen Kontakt nachschlagen",
+  "fr": "Rechercher un contact"
+ },
+ "email_sendemail": {
+  "en": "send an email",
+  "it": "inviare un'email",
+  "es": "enviar un correo electrónico",
+  "de": "eine E-Mail senden",
+  "fr": "envoyer un courriel"
+ },
+ "general_greet": {
+  "en": "greet the assistant",
+  "it": "Saluta l'assistente",
+  "es": "saluda al asistente",
+  "de": "grüßen Sie den Assistenten",
+  "fr": "saluer l'assistant"
+ },
+ "general_joke": {
+  "en": "hear a joke",
+  "it": "Sentire una barzelletta",
+  "es": "Escucha una broma.",
+  "de": "einen Witz hören",
+  "fr": "entendre une blague"
+ },
+ "iot_cleaning": {
+  "en": "start the vacuum cleaner",
+  "it": "avviare l'aspirapolvere",
+  "es": "iniciar la aspiradora",
+  "de": "Starten Sie den Staubsauger",
+  "fr": "démarrer l'aspirateur"
+ },
+ "iot_coffee": {
+  "en": "make coffee",
+  "it": "fare il caffè",
+  "es": "Hacer café",
+  "de": "Kaffee machen",
+  "fr": "Faire du café"
+ },
+ "iot_hue_lightchange": {
+  "en": "change the light color",
+  "it": "cambia il colore della luce",
+  "es": "cambiar el color de la luz",
+  "de": "ändern Sie die Lichtfarbe",
+  "fr": "changer la couleur de la lumière"
+ },
+ "iot_hue_lightdim": {
+  "en": "dim the lights",
+  "it": "dimezza le luci",
+  "es": "atenuar las luces",
+  "de": "dämpfen Sie die Lichter",
+  "fr": "Baisser les lumières"
+ },
+ "iot_hue_lightoff": {
+  "en": "turn off the lights",
+  "it": "Spegni le luci",
+  "es": "Apaga las luces.",
+  "de": "Licht ausschalten",
+  "fr": "Éteignez les lumières"
+ },
+ "iot_hue_lighton": {
+  "en": "turn on the lights",
+  "it": "accendi le luci",
+  "es": "Enciende las luces",
+  "de": "Lichter einschalten",
+  "fr": "Allumez les lumières"
+ },
+ "iot_hue_lightup": {
+  "en": "make the lights brighter",
+  "it": "rendere le luci più luminose",
+  "es": "hacer las luces más brillantes",
+  "de": "die Lichter heller machen",
+  "fr": "rendre les lumières plus lumineuses"
+ },
+ "iot_wemo_off": {
+  "en": "turn off a smart plug",
+  "it": "spegnere una spina intelligente",
+  "es": "apagar un enchufe inteligente",
+  "de": "einen intelligenten Stecker ausschalten",
+  "fr": "Éteignez une prise intelligente"
+ },
+ "iot_wemo_on": {
+  "en": "turn on a smart plug",
+  "it": "accendere una spina intelligente",
+  "es": "encender un enchufe inteligente",
+  "de": "Einschalten eines intelligenten Steckers",
+  "fr": "allumer une prise intelligente"
+ },
+ "lists_createoradd": {
+  "en": "create a list or add an item to a list",
+  "it": "creare un elenco o aggiungere un elemento a un elenco",
+  "es": "crear una lista o añadir un elemento a una lista",
+  "de": "eine Liste erstellen oder ein Element zu einer Liste hinzufügen",
+  "fr": "créer une liste ou ajouter un élément à une liste"
+ },
+ "lists_query": {
+  "en": "read a list",
+  "it": "leggi un elenco",
+  "es": "leer una lista",
+  "de": "eine Liste lesen",
+  "fr": "lire une liste"
+ },
+ "lists_remove": {
+  "en": "remove a list or a list item",
+  "it": "rimuovere un elenco o un elemento lista",
+  "es": "eliminar una lista o un elemento de lista",
+  "de": "eine Liste oder einen Listeneintrag entfernen",
+  "fr": "supprimer une liste ou un élément de liste"
+ },
+ "music_dislikeness": {
+  "en": "say they dislike a song",
+  "it": "dicono che non amano una canzone",
+  "es": "dicen que no les gusta una canción",
+  "de": "sagen, sie mögen ein Lied nicht",
+  "fr": "ils disent qu'ils n'aiment pas une chanson"
+ },
+ "music_likeness": {
+  "en": "say they like a song",
+  "it": "dire che come una canzone",
+  "es": "dicen que les gusta una canción",
+  "de": "sagen, sie mögen ein Lied",
+  "fr": "ils disent qu'ils aiment une chanson"
+ },
+ "music_query": {
+  "en": "ask what music is playing",
+  "it": "chiedi che musica sta suonando",
+  "es": "pregunta qué música está tocando",
+  "de": "fragen, welche Musik spielt",
+  "fr": "demander à quoi joue la musique"
+ },
+ "music_settings": {
+  "en": "change music playback settings",
+  "it": "modificare le impostazioni di riproduzione musicale",
+  "es": "cambiar la configuración de reproducción de música",
+  "de": "Musikwiedergabeeinstellungen ändern",
+  "fr": "modifier les paramètres de lecture de musique"
+ },
+ "news_query": {
+  "en": "get the news",
+  "it": "get the news",
+  "es": "Obtener las noticias",
+  "de": "die Nachrichten zu bekommen",
+  "fr": "Répondez aux nouvelles"
+ },
+ "play_audiobook": {
+  "en": "play an audiobook",
+  "it": "riprodurre un audiolibro",
+  "es": "reproducir un audiolibro",
+  "de": "ein Hörbuch abspielen",
+  "fr": "lire un livre audio"
+ },
+ "play_game": {
+  "en": "play a game",
+  "it": "fai un gioco",
+  "es": "jugar un juego",
+  "de": "ein Spiel spielen",
+  "fr": "jouer à un jeu"
+ },
+ "play_music": {
+  "en": "play music",
+  "it": "riproduci musica",
+  "es": "reproducir música",
+  "de": "Musik abspielen",
+  "fr": "jouer de la musique"
+ },
+ "play_podcasts": {
+  "en": "play a podcast",
+  "it": "riproduci un podcast",
+  "es": "reproducir un podcast",
+  "de": "einen Podcast abspielen",
+  "fr": "jouer un podcast"
+ },
+ "play_radio": {
+  "en": "play the radio",
+  "it": "riproduci la radio",
+  "es": "reproducir la radio",
+  "de": "Radio abspielen",
+  "fr": "jouer la radio"
+ },
+ "qa_currency": {
+  "en": "ask about exchange rates",
+  "it": "chiedere circa i tassi di cambio",
+  "es": "preguntar sobre los tipos de cambio",
+  "de": "Fragen Sie nach Wechselkursen",
+  "fr": "question sur les taux de change"
+ },
+ "qa_definition": {
+  "en": "ask for the definition of a word",
+  "it": "chiedere la definizione di una parola",
+  "es": "pedir la definición de una palabra",
+  "de": "fragen Sie nach der Definition eines Wortes",
+  "fr": "demander la définition d'un mot"
+ },
+ "qa_factoid": {
+  "en": "ask a general knowledge question",
+  "it": "porre una domanda di conoscenza generale",
+  "es": "hacer una pregunta de conocimiento general",
+  "de": "eine allgemeine Wissensfrage stellen",
+  "fr": "poser une question sur les connaissances générales"
+ },
+ "qa_maths": {
+  "en": "solve a math problem",
+  "it": "risolvere un problema di matematica",
+  "es": "resolver un problema matemático",
+  "de": "ein mathematisches Problem lösen",
+  "fr": "résoudre un problème de maths"
+ },
+ "qa_stock": {
+  "en": "ask about stock prices",
+  "it": "chiedere circa i prezzi delle azioni",
+  "es": "preguntar sobre los precios de las acciones",
+  "de": "fragen Sie nach Aktienpreisen",
+  "fr": "se renseigner sur les prix des actions"
+ },
+ "recommendation_events": {
+  "en": "get event recommendations",
+  "it": "ottieni raccomandazioni sugli eventi",
+  "es": "obtener recomendaciones de eventos",
+  "de": "Event-Empfehlungen erhalten",
+  "fr": "obtenir les recommandations de l'événement"
+ },
+ "recommendation_locations": {
+  "en": "get place recommendations",
+  "it": "ottieni delle raccomandazioni",
+  "es": "obtener recomendaciones de lugar",
+  "de": "Platzempfehlungen erhalten",
+  "fr": "obtenir des recommandations de lieu"
+ },
+ "recommendation_movies": {
+  "en": "get movie recommendations",
+  "it": "ottieni consigli sui film",
+  "es": "obtener recomendaciones de películas",
+  "de": "Filmempfehlungen erhalten",
+  "fr": "obtenir des recommandations de film"
+ },
+ "social_post": {
+  "en": "post on social media",
+  "it": "posta sui social media",
+  "es": "post en las redes sociales",
+  "de": "Beitrag auf Social Media",
+  "fr": "billet sur les médias sociaux"
+ },
+ "social_query": {
+  "en": "check social media updates",
+  "it": "controllare gli aggiornamenti sui social media",
+  "es": "comprobar las actualizaciones de las redes sociales",
+  "de": "Social-Media-Updates überprüfen",
+  "fr": "vérifier les mises à jour des médias sociaux"
+ },
+ "takeaway_order": {
+  "en": "order food delivery",
+  "it": "ordinare la consegna di cibo",
+  "es": "orden de entrega de alimentos",
+  "de": "Bestellung Lebensmittel Lieferung",
+  "fr": "commande de livraison de nourriture"
+ },
+ "takeaway_query": {
+  "en": "ask about a food delivery order",
+  "it": "chiedere di un ordine di consegna di cibo",
+  "es": "preguntar por una orden de entrega de alimentos",
+  "de": "fragen Sie nach einer Lebensmittellieferung Bestellung",
+  "fr": "demander au sujet d'un ordre de livraison de nourriture"
+ },
+ "transport_query": {
+  "en": "ask about public transport",
+  "it": "chiedere circa i trasporti pubblici",
+  "es": "preguntar sobre el transporte público",
+  "de": "fragen Sie nach öffentlichen Verkehrsmitteln",
+  "fr": "question sur les transports en commun"
+ },
+ "transport_taxi": {
+  "en": "book a taxi",
+  "it": "prenotare un taxi",
+  "es": "reservar un taxi",
+  "de": "Buchen Sie ein Taxi",
+  "fr": "réserver un taxi"
+ },
+ "transport_ticket": {
+  "en": "book a train or plane ticket",
+  "it": "prenotare un biglietto ferroviario o aereo",
+  "es": "reservar un billete de tren o avión",
+  "de": "buchen Sie einen Zug oder ein Flugticket",
+  "fr": "réserver un billet de train ou d'avion"
+ },
+ "transport_traffic": {
+  "en": "check the traffic",
+  "it": "controllare il traffico",
+  "es": "comprobar el tráfico",
+  "de": "Kontrollieren Sie den Verkehr",
+  "fr": "vérifier le trafic"
+ },
+ "weather_query": {
+  "en": "ask about the weather",
+  "it": "chiedere circa il tempo",
+  "es": "preguntar sobre el tiempo",
+  "de": "Fragen Sie nach dem Wetter",
+  "fr": "question sur la météo"
+ }
+}

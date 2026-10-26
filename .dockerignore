@@ -1,0 +1,9 @@
+# Nell'immagine entra solo il pacchetto: dati, risultati e release restano fuori.
+*
+!pyproject.toml
+!README.md
+!LICENSE
+!NOTICE
+!runtime/
+runtime/**/__pycache__
+runtime/*.egg-info

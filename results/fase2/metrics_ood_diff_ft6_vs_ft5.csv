@@ -1,0 +1,15 @@
+task,scenario,lingua,metrica,ft5,ft6,diff,ci_lo,ci_hi,n
+noul,agente,it,diff_auroc,0.9319,0.9377,0.0057,-0.0236,0.0369,216
+noul,domotica,it,diff_auroc,0.9037,0.9099,0.0062,-0.0108,0.0235,236
+noul,email,it,diff_auroc,0.7839,0.8512,0.0674,0.0168,0.1214,200
+noul,tutte,it,diff_auroc,0.8509,0.8831,0.0322,0.0108,0.0551,652
+choice,domotica,it,diff_accuratezza,0.7875,0.775,-0.0125,-0.0625,0.0375,80
+choice,email,it,diff_accuratezza,0.65,0.625,-0.025,-0.15,0.075,40
+choice,tutte,it,diff_accuratezza,0.7417,0.725,-0.0167,-0.0667,0.0333,120
+noul,agente,en,diff_auroc,0.9433,0.941,-0.0023,-0.0294,0.0263,216
+noul,domotica,en,diff_auroc,0.8592,0.8756,0.0164,-0.0053,0.0363,236
+noul,email,en,diff_auroc,0.7342,0.7757,0.0415,-0.0082,0.0904,200
+noul,tutte,en,diff_auroc,0.8388,0.8583,0.0195,0.0005,0.0375,652
+choice,domotica,en,diff_accuratezza,0.6125,0.625,0.0125,-0.0625,0.0875,80
+choice,email,en,diff_accuratezza,0.55,0.525,-0.025,-0.15,0.1,40
+choice,tutte,en,diff_accuratezza,0.5917,0.5917,0.0,-0.0667,0.0667,120

@@ -1,0 +1,59 @@
+{
+ "_about": "Tempi di addestramento misurati di train_skejja2.py, presi dal campo `sec` dei log salvati in train_meta.json (tempo di solo addestramento, senza preparazione dei dati; comprende le valutazioni periodiche). Serve a sostituire con numeri misurati la stima della prova GPU del 13 ottobre.",
+ "misurato_il": "2026-10-14",
+ "fonti": {
+  "run_F": "results/fase2/train_meta_run_F.json",
+  "run_Fh": "results/fase2/train_meta_run_Fh.json",
+  "prova_mac": "giro di prova del 14 ottobre, non salvato nel repository (120 passi, checkpoint in /tmp)"
+ },
+ "comando_prova_mac": "python training/train_skejja2.py --init <run_E/best> --out <tmp> --device cpu --threads 10 --max_len 320 --bs 32 --max_steps 120 --eval_every 100000 --eval_n 100 --n_choice 2000 --n_noul_anchor 2000",
+ "giri": [
+  {
+   "giro": "run_F",
+   "macchina": "workstation RTX 3090 (cuda)",
+   "device": "cuda",
+   "max_len": 320,
+   "bs": 32,
+   "passi": 5086,
+   "secondi": 1201.8,
+   "sec_per_passo": 0.236,
+   "sec_per_passo_primi_100": 0.316,
+   "esempi_noul": 108569,
+   "esempi_choice": 24000,
+   "esempi_ampiezza": 67249,
+   "nota": "giro F completo: MASSIVE, azioni e dati di ampiezza"
+  },
+  {
+   "giro": "run_Fh",
+   "macchina": "workstation RTX 3090 (cuda)",
+   "device": "cuda",
+   "max_len": 320,
+   "bs": 32,
+   "passi": 3829,
+   "secondi": 751.0,
+   "sec_per_passo": 0.196,
+   "sec_per_passo_primi_100": 0.288,
+   "esempi_noul": 86434,
+   "esempi_choice": 24000,
+   "esempi_ampiezza": 27000,
+   "nota": "variante Fh: meno dati di ampiezza"
+  },
+  {
+   "giro": "prova_mac",
+   "macchina": "Mac, 10 thread (cpu)",
+   "device": "cpu",
+   "max_len": 320,
+   "bs": 32,
+   "passi": 120,
+   "secondi": 113.7,
+   "sec_per_passo": 0.948,
+   "sec_per_passo_primi_100": 0.957,
+   "esempi_noul": 4972,
+   "esempi_choice": 2000,
+   "esempi_ampiezza": 0,
+   "nota": "solo pool di intenzioni, testi corti: favorisce il Mac"
+  }
+ ],
+ "rapporto_mac_su_gpu": 4.02,
+ "nota_rapporto": "Confronto a parità di script, lunghezza (320 token) e batch (32). Il giro sul Mac usa solo il pool di intenzioni, con testi più corti di quelli di ampiezza del giro F: il rapporto vero a parità di dati è quindi almeno questo. La stima «20 volte» del 13 ottobre non è confermata."
+}

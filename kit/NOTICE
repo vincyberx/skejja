@@ -1,0 +1,12 @@
+Skejja phase-1 Raspberry Pi benchmark kit.
+
+Models in models/ are derived from knowledgator/gliclass-multilang-edge (Apache License 2.0,
+https://huggingface.co/knowledgator/gliclass-multilang-edge), Copyright Knowledgator.
+Modifications by the Skejja project: vocabulary trimmed to 32,768 tokens (en/it/es/de/fr),
+fine-tuning on MASSIVE train utterances (49 intents), an 8-layer student distilled from the
+fine-tuned model, ONNX export, weight-only and dynamic int8 quantization.
+models/gliclass-edge-w8e4a4 is the unmodified-weights baseline, quantized to ONNX.
+
+Test data in data/ is derived from MASSIVE (Amazon, CC BY 4.0,
+https://github.com/alexa/massive), via mteb/amazon_massive_intent; option descriptions
+and yes/no questions were added by the Skejja project.

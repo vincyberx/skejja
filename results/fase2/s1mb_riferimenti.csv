@@ -1,0 +1,12 @@
+run_id,modello,parametri_totali,parametri_non_lookup,metodo_conteggio,prove,task_avg,noul,choice,score,prove_con_esposizione_dichiarata
+typesafe__jev_1_13,jev-1.13.0,,,,137,59.59,64.63,67.22,46.92,0
+hotchpotch__bekko-system-one-v0-400m,hotchpotch/bekko-system-one-v0-400m,394784771,343207939,non_lookup_parameters_v1,137,50.6,51.24,61.32,39.25,98
+jaredpalmer__kev-4b,jaredpalmer/kev-4b,4207062528,3571363328,non_lookup_parameters_v1,137,42.33,48.48,52.03,26.47,0
+hotchpotch__bekko-system-one-v0-68m,hotchpotch/bekko-system-one-v0-68m,68146179,42357763,non_lookup_parameters_v1,137,40.46,42.91,51.62,26.85,98
+hotchpotch__bekko-system-one-v0-17m,hotchpotch/bekko-system-one-v0-17m,16798211,3904003,non_lookup_parameters_v1,137,27.57,31.43,35.57,15.7,98
+jaredpalmer__kev-0.8b,jaredpalmer/kev-0.8b,752917824,498638144,non_lookup_parameters_v1,137,18.68,23.61,27.36,5.07,0
+convaiinnovations__laya-typed-decisions,convaiinnovations/laya-typed-decisions,421293830,369716998,non_lookup_parameters_v1,137,15.0,20.06,18.93,5.99,0
+convaiinnovations__laya,convaiinnovations/laya,421293830,369716998,non_lookup_parameters_v1,137,13.36,20.19,16.31,3.58,0
+MoritzLaurer__ModernBERT-large-zeroshot-v2.0,MoritzLaurer/ModernBERT-large-zeroshot-v2.0,395833346,344256514,non_lookup_parameters_v1,137,9.56,7.33,17.67,3.68,0
+convaiinnovations__laya-multilingual,convaiinnovations/laya-multilingual,321908998,125300998,non_lookup_parameters_v1,137,9.28,14.01,13.03,0.79,0
+fastino__GLiNER2.5-Decide,fastino/GLiNER2.5-Decide,486444053,354816021,embedding_excluded_parameters_v1,137,9.15,5.4,18.19,3.87,0

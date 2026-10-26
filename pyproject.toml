@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "skejja"
+dynamic = ["version"]
+description = "Small local System One decision model (Choice, Noul, Score) with a /v1/systemone compatible API"
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "onnxruntime>=1.17", "tokenizers>=0.15"]
+
+[project.urls]
+Homepage = "https://github.com/vincyberx/skejja"
+Model = "https://huggingface.co/vincyber/skejja-edge32k-ft6"
+Documentation = "https://github.com/vincyberx/skejja/blob/main/docs/api.md"
+
+[project.optional-dependencies]
+server = ["fastapi>=0.110", "uvicorn>=0.27"]
+mcp = ["mcp>=2.3,<3"]
+dev = ["pytest>=8", "httpx>=0.27", "fastapi>=0.110", "uvicorn>=0.27", "mcp>=2.3,<3"]
+
+[project.scripts]
+skejja = "skejja.cli:main"
+
+# Il runtime resta un file unico (runtime/skejja_infer.py) perché il kit del Raspberry lo copia da solo nei bundle;
+# il pacchetto `skejja` gli sta accanto e lo importa.
+[tool.setuptools]
+package-dir = { "" = "runtime" }
+packages = ["skejja"]
+py-modules = ["skejja_infer"]
+
+[tool.setuptools.dynamic]
+version = { attr = "skejja.__version__" }   # una sola fonte: runtime/skejja/__init__.py
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

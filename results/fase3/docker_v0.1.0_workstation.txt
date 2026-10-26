@@ -1,0 +1,30 @@
+Prova dell'immagine Docker di Skejja v0.1.0 — 25 ottobre 2026
+Macchina: workstation, Ubuntu 24.04 in WSL2, Docker 29.1.3 (builder classico). Sorgenti: commit 967d54c.
+Bundle: releases/v0.1.0/skejja-edge32k-ft6_onnx-int8.tar.gz, sha256 751e243f1fba39421d36d44a832fc42a34bb74c6bec68f15d956e219e1131f42
+Script: scripts/docker_test.sh. Uscita (righe di esito):
+
+OK   build
+immagine 465MB
+OK   --version: skejja 0.1.0
+== A: bundle montato in /model, senza --user
+-rw-r--r-- ... edge-v32k-ft6.int8.onnx.data / edge-v32k-ft6.int8dyn.onnx.data
+uid=999(skejja) gid=999(skejja) groups=999(skejja)
+OK   health
+OK   senza chiave: 401
+risposta: choice "off" (p 0,9947), noul "Does the user want to turn off the lights?" 0,9231
+OK   risposte corrette
+OK   healthcheck: healthy
+== B: scaricamento al primo avvio in un volume /cache
+OK   health (dopo lo scaricamento)
+OK   primo avvio: scaricato
+OK   risposta B
+OK   secondo avvio: health
+OK   secondo avvio: usa la cache
+== C: hash sbagliato rifiutato
+skejja-edge32k-ft6_onnx-int8.tar.gz: 19 byte invece dei 208260729 attesi: archivio scartato
+OK   archivio sbagliato rifiutato
+== esito: TUTTO OK
+
+Nota: onnxruntime 1.31 stampa all'avvio «Failed to persist telemetry device ID; using an in-memory identifier»
+anche con disable_telemetry_events(): è un avviso. Non abbiamo controllato a livello di rete se onnxruntime invii
+qualcosa.

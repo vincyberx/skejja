@@ -1,0 +1,22 @@
+track,model,variant,runtime,threads,task,split,lang,metric,value,n
+fase2-noul,edge32k-ft3 - edge32k-ft,torch-fp32,torch,10,noul,unseen_ext,pooled,auroc_ft3,0.8385462412114656,3655
+fase2-noul,edge32k-ft3 - edge32k-ft,torch-fp32,torch,10,noul,unseen_ext,pooled,auroc_ft3_ci_lo,0.8192500398712744,3655
+fase2-noul,edge32k-ft3 - edge32k-ft,torch-fp32,torch,10,noul,unseen_ext,pooled,auroc_ft3_ci_hi,0.8602278514966532,3655
+fase2-noul,edge32k-ft3 - edge32k-ft,torch-fp32,torch,10,noul,unseen_ext,pooled,auroc_ft,0.8040809704087152,3655
+fase2-noul,edge32k-ft3 - edge32k-ft,torch-fp32,torch,10,noul,unseen_ext,pooled,auroc_diff,0.034465270802750414,3655
+fase2-noul,edge32k-ft3 - edge32k-ft,torch-fp32,torch,10,noul,unseen_ext,pooled,auroc_diff_ci_lo,0.023695736667553716,3655
+fase2-noul,edge32k-ft3 - edge32k-ft,torch-fp32,torch,10,noul,unseen_ext,pooled,auroc_diff_ci_hi,0.04502757867730067,3655
+fase2-noul,edge32k-ft3 - edge32k-ft,torch-fp32,torch,10,noul,unseen_ext/neg_same,pooled,auroc_ft3,0.7740740168430812,3010
+fase2-noul,edge32k-ft3 - edge32k-ft,torch-fp32,torch,10,noul,unseen_ext/neg_same,pooled,auroc_ft3_ci_lo,0.7482526131058156,3010
+fase2-noul,edge32k-ft3 - edge32k-ft,torch-fp32,torch,10,noul,unseen_ext/neg_same,pooled,auroc_ft3_ci_hi,0.7987088111610248,3010
+fase2-noul,edge32k-ft3 - edge32k-ft,torch-fp32,torch,10,noul,unseen_ext/neg_same,pooled,auroc_ft,0.725886027748038,3010
+fase2-noul,edge32k-ft3 - edge32k-ft,torch-fp32,torch,10,noul,unseen_ext/neg_same,pooled,auroc_diff,0.04818798909504318,3010
+fase2-noul,edge32k-ft3 - edge32k-ft,torch-fp32,torch,10,noul,unseen_ext/neg_same,pooled,auroc_diff_ci_lo,0.03345867043410111,3010
+fase2-noul,edge32k-ft3 - edge32k-ft,torch-fp32,torch,10,noul,unseen_ext/neg_same,pooled,auroc_diff_ci_hi,0.061440282116091496,3010
+fase2-noul,edge32k-ft3 - edge32k-ft,torch-fp32,torch,10,noul,unseen_ext_ok,pooled,auroc_ft3,0.9015533980582524,2705
+fase2-noul,edge32k-ft3 - edge32k-ft,torch-fp32,torch,10,noul,unseen_ext_ok,pooled,auroc_ft3_ci_lo,0.8843835332191817,2705
+fase2-noul,edge32k-ft3 - edge32k-ft,torch-fp32,torch,10,noul,unseen_ext_ok,pooled,auroc_ft3_ci_hi,0.9184305382871687,2705
+fase2-noul,edge32k-ft3 - edge32k-ft,torch-fp32,torch,10,noul,unseen_ext_ok,pooled,auroc_ft,0.8717762643095204,2705
+fase2-noul,edge32k-ft3 - edge32k-ft,torch-fp32,torch,10,noul,unseen_ext_ok,pooled,auroc_diff,0.029777133748732032,2705
+fase2-noul,edge32k-ft3 - edge32k-ft,torch-fp32,torch,10,noul,unseen_ext_ok,pooled,auroc_diff_ci_lo,0.019427489092996415,2705
+fase2-noul,edge32k-ft3 - edge32k-ft,torch-fp32,torch,10,noul,unseen_ext_ok,pooled,auroc_diff_ci_hi,0.04021042093296609,2705

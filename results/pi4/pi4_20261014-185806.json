@@ -1,0 +1,437 @@
+{
+ "system": {
+  "device_model": "Raspberry Pi 4 Model B Rev 1.5",
+  "machine": "aarch64",
+  "system": "Linux",
+  "os": "Debian GNU/Linux 13 (trixie)",
+  "python": "3.13.5",
+  "onnxruntime": "1.31.0",
+  "tokenizers": "0.23.3",
+  "numpy": "2.5.4",
+  "cpu_count": 4,
+  "cpu_features": [
+   "asimd",
+   "cpuid",
+   "crc32",
+   "evtstrm",
+   "fp"
+  ],
+  "has_dotprod": false,
+  "mem_total_mb": 3790,
+  "mem_available_mb": 3513,
+  "swap_total_mb": 2048,
+  "cpu_temp_c": 74.0,
+  "throttled": "throttled=0xe0000"
+ },
+ "args": {
+  "models": "ft6-int8dyn,ft6-int8",
+  "threads": "1,4",
+  "latency_n": 200,
+  "quality_n": 500,
+  "warmup": 10,
+  "timeout": 3600,
+  "low_mem": false,
+  "force": false,
+  "throttle_every": 30,
+  "cost": false,
+  "cost_grid": "64x8,256x8,512x8,1024x8,256x20,512x20,1024x20,256x50,512x50,1024x50",
+  "cost_n": 15,
+  "cost_budget": 180,
+  "list": false,
+  "child": null,
+  "cost_point": null,
+  "threads_list": [
+   1,
+   4
+  ]
+ },
+ "throttled": true,
+ "throttled_bad_n": 6,
+ "throttled_samples": [
+  {
+   "t_s": 0.0,
+   "event": "start",
+   "value": "0xe0000"
+  },
+  {
+   "t_s": 0.0,
+   "event": "model_start",
+   "model": "ft6-int8dyn",
+   "threads": 1,
+   "value": "0xe0000"
+  },
+  {
+   "t_s": 30.0,
+   "event": "sample",
+   "value": "0xe0000"
+  },
+  {
+   "t_s": 60.0,
+   "event": "sample",
+   "value": "0xe0000"
+  },
+  {
+   "t_s": 90.0,
+   "event": "sample",
+   "value": "0xe0000"
+  },
+  {
+   "t_s": 110.5,
+   "event": "model_end",
+   "model": "ft6-int8dyn",
+   "threads": 1,
+   "value": "0xe0000"
+  },
+  {
+   "t_s": 110.5,
+   "event": "model_start",
+   "model": "ft6-int8dyn",
+   "threads": 4,
+   "value": "0xe0000"
+  },
+  {
+   "t_s": 120.0,
+   "event": "sample",
+   "value": "0xe0008"
+  },
+  {
+   "t_s": 150.0,
+   "event": "sample",
+   "value": "0xe0006"
+  },
+  {
+   "t_s": 180.0,
+   "event": "sample",
+   "value": "0xe0008"
+  },
+  {
+   "t_s": 210.0,
+   "event": "sample",
+   "value": "0xe0008"
+  },
+  {
+   "t_s": 240.1,
+   "event": "sample",
+   "value": "0xe0008"
+  },
+  {
+   "t_s": 270.1,
+   "event": "sample",
+   "value": "0xe0008"
+  },
+  {
+   "t_s": 300.1,
+   "event": "sample",
+   "value": "0xe0008"
+  },
+  {
+   "t_s": 327.7,
+   "event": "model_end",
+   "model": "ft6-int8dyn",
+   "threads": 4,
+   "value": "0xe0008"
+  },
+  {
+   "t_s": 327.7,
+   "event": "model_start",
+   "model": "ft6-int8",
+   "threads": 1,
+   "value": "0xe0008"
+  },
+  {
+   "t_s": 330.1,
+   "event": "sample",
+   "value": "0xe0008"
+  },
+  {
+   "t_s": 360.1,
+   "event": "sample",
+   "value": "0xe0000"
+  },
+  {
+   "t_s": 390.1,
+   "event": "sample",
+   "value": "0xe0000"
+  },
+  {
+   "t_s": 420.1,
+   "event": "sample",
+   "value": "0xe0000"
+  },
+  {
+   "t_s": 450.1,
+   "event": "sample",
+   "value": "0xe0000"
+  },
+  {
+   "t_s": 480.1,
+   "event": "sample",
+   "value": "0xe0000"
+  },
+  {
+   "t_s": 510.1,
+   "event": "sample",
+   "value": "0xe0000"
+  },
+  {
+   "t_s": 540.1,
+   "event": "sample",
+   "value": "0xe0000"
+  },
+  {
+   "t_s": 570.1,
+   "event": "sample",
+   "value": "0xe0000"
+  },
+  {
+   "t_s": 600.1,
+   "event": "sample",
+   "value": "0xe0000"
+  },
+  {
+   "t_s": 615.4,
+   "event": "model_end",
+   "model": "ft6-int8",
+   "threads": 1,
+   "value": "0xe0000"
+  },
+  {
+   "t_s": 615.4,
+   "event": "model_start",
+   "model": "ft6-int8",
+   "threads": 4,
+   "value": "0xe0000"
+  },
+  {
+   "t_s": 630.1,
+   "event": "sample",
+   "value": "0xe0008"
+  },
+  {
+   "t_s": 660.1,
+   "event": "sample",
+   "value": "0xe0008"
+  },
+  {
+   "t_s": 690.1,
+   "event": "sample",
+   "value": "0xe0006"
+  },
+  {
+   "t_s": 720.1,
+   "event": "sample",
+   "value": "0xe0008"
+  },
+  {
+   "t_s": 750.2,
+   "event": "sample",
+   "value": "0xe0006"
+  },
+  {
+   "t_s": 780.2,
+   "event": "sample",
+   "value": "0xe0008"
+  },
+  {
+   "t_s": 810.2,
+   "event": "sample",
+   "value": "0xe0006"
+  },
+  {
+   "t_s": 840.2,
+   "event": "sample",
+   "value": "0xe0008"
+  },
+  {
+   "t_s": 870.2,
+   "event": "sample",
+   "value": "0xe0006"
+  },
+  {
+   "t_s": 900.2,
+   "event": "sample",
+   "value": "0xe0008"
+  },
+  {
+   "t_s": 930.2,
+   "event": "sample",
+   "value": "0xe0008"
+  },
+  {
+   "t_s": 960.2,
+   "event": "sample",
+   "value": "0xe0008"
+  },
+  {
+   "t_s": 990.2,
+   "event": "sample",
+   "value": "0xe0008"
+  },
+  {
+   "t_s": 1020.2,
+   "event": "sample",
+   "value": "0xe0008"
+  },
+  {
+   "t_s": 1050.3,
+   "event": "sample",
+   "value": "0xe0008"
+  },
+  {
+   "t_s": 1080.3,
+   "event": "sample",
+   "value": "0xe0006"
+  },
+  {
+   "t_s": 1110.3,
+   "event": "sample",
+   "value": "0xe0008"
+  },
+  {
+   "t_s": 1140.3,
+   "event": "sample",
+   "value": "0xe0008"
+  },
+  {
+   "t_s": 1170.3,
+   "event": "sample",
+   "value": "0xe0008"
+  },
+  {
+   "t_s": 1200.3,
+   "event": "sample",
+   "value": "0xe0008"
+  },
+  {
+   "t_s": 1230.3,
+   "event": "sample",
+   "value": "0xe0008"
+  },
+  {
+   "t_s": 1232.2,
+   "event": "model_end",
+   "model": "ft6-int8",
+   "threads": 4,
+   "value": "0xe0008"
+  },
+  {
+   "t_s": 1232.2,
+   "event": "end",
+   "value": "0xe0008"
+  }
+ ],
+ "results": [
+  {
+   "model": "ft6-int8dyn",
+   "threads": 1,
+   "load_s": 4.0762234170006195,
+   "low_mem": false,
+   "choice_e2e_p50_ms": 380.25759950050997,
+   "choice_e2e_p95_ms": 443.3579436501986,
+   "choice_fwd_p50_ms": 379.57017850021657,
+   "choice_fwd_p95_ms": 442.6347987996905,
+   "choice_tok_median": 50.5,
+   "choice_latency_n": 200,
+   "noul_e2e_p50_ms": 126.27955900006782,
+   "noul_e2e_p95_ms": 183.5395293499914,
+   "noul_fwd_p50_ms": 125.9698154999569,
+   "noul_fwd_p95_ms": 183.16531244986433,
+   "noul_tok_median": 15.0,
+   "noul_latency_n": 200,
+   "peak_rss_mb": 216.2890625,
+   "status": "ok",
+   "wall_s": 110.5401120185852
+  },
+  {
+   "model": "ft6-int8dyn",
+   "threads": 4,
+   "load_s": 4.059290103999956,
+   "low_mem": false,
+   "choice_e2e_p50_ms": 181.59716399986792,
+   "choice_e2e_p95_ms": 212.0733017001838,
+   "choice_fwd_p50_ms": 180.9006224998484,
+   "choice_fwd_p95_ms": 211.2461916498431,
+   "choice_tok_median": 50.5,
+   "choice_latency_n": 200,
+   "noul_e2e_p50_ms": 80.793858499419,
+   "noul_e2e_p95_ms": 109.9059880496042,
+   "noul_fwd_p50_ms": 80.47247750027964,
+   "noul_fwd_p95_ms": 109.48103769974288,
+   "noul_tok_median": 15.0,
+   "noul_latency_n": 200,
+   "choice_accuracy": 0.854,
+   "choice_ece_cal": 0.050280106693782425,
+   "choice_quality_n": 500,
+   "choice_accuracy_by_lang": {
+    "de": 0.88,
+    "en": 0.89,
+    "es": 0.81,
+    "fr": 0.84,
+    "it": 0.85
+   },
+   "noul_auroc": 0.9748363636363636,
+   "noul_accuracy": 0.89,
+   "noul_ece_cal": 0.0656474837872429,
+   "noul_quality_n": 500,
+   "peak_rss_mb": 226.859375,
+   "status": "ok",
+   "wall_s": 217.2007496356964
+  },
+  {
+   "model": "ft6-int8",
+   "threads": 1,
+   "load_s": 3.933199114000672,
+   "low_mem": false,
+   "choice_e2e_p50_ms": 859.5890644996871,
+   "choice_e2e_p95_ms": 953.7278958002844,
+   "choice_fwd_p50_ms": 858.9961140000923,
+   "choice_fwd_p95_ms": 953.0362569001682,
+   "choice_tok_median": 50.5,
+   "choice_latency_n": 200,
+   "noul_e2e_p50_ms": 505.9220609996373,
+   "noul_e2e_p95_ms": 587.3046551493644,
+   "noul_fwd_p50_ms": 505.5838349994701,
+   "noul_fwd_p95_ms": 586.9235362500149,
+   "noul_tok_median": 15.0,
+   "noul_latency_n": 200,
+   "peak_rss_mb": 192.69921875,
+   "status": "ok",
+   "wall_s": 287.68637132644653
+  },
+  {
+   "model": "ft6-int8",
+   "threads": 4,
+   "load_s": 3.8955008519997136,
+   "low_mem": false,
+   "choice_e2e_p50_ms": 478.22092700016583,
+   "choice_e2e_p95_ms": 555.4843994497332,
+   "choice_fwd_p50_ms": 477.513048000219,
+   "choice_fwd_p95_ms": 554.6374279501833,
+   "choice_tok_median": 50.5,
+   "choice_latency_n": 200,
+   "noul_e2e_p50_ms": 336.5032690003318,
+   "noul_e2e_p95_ms": 383.314768800028,
+   "noul_fwd_p50_ms": 336.1617209998258,
+   "noul_fwd_p95_ms": 382.9463723005573,
+   "noul_tok_median": 15.0,
+   "noul_latency_n": 200,
+   "choice_accuracy": 0.85,
+   "choice_ece_cal": 0.05638007097534368,
+   "choice_quality_n": 500,
+   "choice_accuracy_by_lang": {
+    "de": 0.86,
+    "en": 0.9,
+    "es": 0.81,
+    "fr": 0.84,
+    "it": 0.84
+   },
+   "noul_auroc": 0.9758868686868687,
+   "noul_accuracy": 0.898,
+   "noul_ece_cal": 0.058660070099803896,
+   "noul_quality_n": 500,
+   "peak_rss_mb": 203.9453125,
+   "status": "ok",
+   "wall_s": 616.7600562572479
+  }
+ ]
+}

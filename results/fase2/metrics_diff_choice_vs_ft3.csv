@@ -1,0 +1,19 @@
+track,model,variant,runtime,threads,task,split,lang,metric,value,n
+fase2-choice,edge32k-ft4 - edge32k-ft3,torch-fp32,torch,10,choice,all,pooled,acc_diff,-0.009999999999999898,2000
+fase2-choice,edge32k-ft4 - edge32k-ft3,torch-fp32,torch,10,choice,all,pooled,acc_diff_ci_lo,-0.02401250000000002,2000
+fase2-choice,edge32k-ft4 - edge32k-ft3,torch-fp32,torch,10,choice,all,pooled,acc_diff_ci_hi,0.0040000000000000036,2000
+fase2-choice,edge32k-ft4 - edge32k-ft3,torch-fp32,torch,10,choice,unseen,pooled,acc_diff,-0.037931034482758585,290
+fase2-choice,edge32k-ft4 - edge32k-ft3,torch-fp32,torch,10,choice,unseen,pooled,acc_diff_ci_lo,-0.09310344827586214,290
+fase2-choice,edge32k-ft4 - edge32k-ft3,torch-fp32,torch,10,choice,unseen,pooled,acc_diff_ci_hi,0.013793103448275782,290
+fase2-choice,edge32k-ft4 - edge32k-ft3,torch-fp32,torch,10,choice,seen,pooled,acc_diff,-0.0052631578947368585,1710
+fase2-choice,edge32k-ft4 - edge32k-ft3,torch-fp32,torch,10,choice,seen,pooled,acc_diff_ci_lo,-0.01929824561403504,1710
+fase2-choice,edge32k-ft4 - edge32k-ft3,torch-fp32,torch,10,choice,seen,pooled,acc_diff_ci_hi,0.007017543859649145,1710
+fase2-choice,edge32k-ft5 - edge32k-ft3,torch-fp32,torch,10,choice,all,pooled,acc_diff,-0.005999999999999894,2000
+fase2-choice,edge32k-ft5 - edge32k-ft3,torch-fp32,torch,10,choice,all,pooled,acc_diff_ci_lo,-0.01849999999999996,2000
+fase2-choice,edge32k-ft5 - edge32k-ft3,torch-fp32,torch,10,choice,all,pooled,acc_diff_ci_hi,0.007499999999999954,2000
+fase2-choice,edge32k-ft5 - edge32k-ft3,torch-fp32,torch,10,choice,unseen,pooled,acc_diff,-0.04137931034482756,290
+fase2-choice,edge32k-ft5 - edge32k-ft3,torch-fp32,torch,10,choice,unseen,pooled,acc_diff_ci_lo,-0.08974137931034488,290
+fase2-choice,edge32k-ft5 - edge32k-ft3,torch-fp32,torch,10,choice,unseen,pooled,acc_diff_ci_hi,0.0034482758620689724,290
+fase2-choice,edge32k-ft5 - edge32k-ft3,torch-fp32,torch,10,choice,seen,pooled,acc_diff,0.0,1710
+fase2-choice,edge32k-ft5 - edge32k-ft3,torch-fp32,torch,10,choice,seen,pooled,acc_diff_ci_lo,-0.011111111111111183,1710
+fase2-choice,edge32k-ft5 - edge32k-ft3,torch-fp32,torch,10,choice,seen,pooled,acc_diff_ci_hi,0.012280701754386003,1710
