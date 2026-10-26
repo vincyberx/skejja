@@ -1,2 +1,2 @@
-# finché skejja non è su PyPI si installa dal repository GitHub (deve essere pubblico)
-skejja @ git+https://github.com/vincyberx/skejja@main
+# versione fissata: lo Space resta uguale finché non si sceglie di aggiornarlo
+skejja @ git+https://github.com/vincyberx/skejja@v0.1.0

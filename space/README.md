@@ -5,6 +5,7 @@ colorFrom: indigo
 colorTo: gray
 sdk: gradio
 sdk_version: 6.30.0
+python_version: "3.12"
 app_file: app.py
 license: apache-2.0
 short_description: A 57M decision model for short commands, in 5 languages
