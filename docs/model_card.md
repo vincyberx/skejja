@@ -21,7 +21,8 @@ It runs on modest CPUs, including a Raspberry Pi, with about 200 MB of RAM, and 
 `POST /v1/systemone`, so existing System One clients work by changing only the URL.
 
 Code, benchmark and every result file: [github.com/vincyberx/skejja](https://github.com/vincyberx/skejja). The file
-paths in this card refer to that repository.
+paths in this card refer to that repository. **[Try it in your browser](https://huggingface.co/spaces/vincyber/skejja)**:
+the demo runs the dynamic int8 file with onnxruntime-web, nothing is sent to a server.
 
 | | |
 |---|---|

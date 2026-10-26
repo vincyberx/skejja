@@ -13,8 +13,9 @@ It has 57M parameters, runs on onnxruntime without PyTorch, works in English, It
 and speaks the same `POST /v1/systemone` API as cloud System One services, so their clients work by changing only
 the URL. The name comes from Italian *scheggia*, a splinter: small and fast.
 
-> **Status: v0.1.0, not yet published** on PyPI or Hugging Face. Install from this repository; the model
-> archives are release files (see [Install](#install)).
+> **Status: v0.1.0.** Model on [Hugging Face](https://huggingface.co/vincyber/skejja-edge32k-ft6),
+> **[try it in your browser](https://huggingface.co/spaces/vincyber/skejja)**. Not yet on PyPI: install from this
+> repository (see [Install](#install)).
 
 ## At a glance
 
@@ -41,7 +42,7 @@ skejja --version
 
 The model is an archive of about 208 MB. Without a path, `skejja` downloads the default model
 (`edge32k-ft6-int8`) on first use, checks its SHA-256 and caches it (`$SKEJJA_HOME`, else `~/.cache/skejja`).
-Until the weights are published, download the archive from the release page and pass its folder:
+To use an archive you downloaded yourself (release page or Hugging Face), pass its folder:
 
 ```sh
 tar xzf skejja-edge32k-ft6_onnx-int8.tar.gz
