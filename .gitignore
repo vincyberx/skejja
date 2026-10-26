@@ -43,3 +43,4 @@ private/
 
 # file del modello per la demo nel browser (si copiano con web/prepare_model.sh)
 web/model/
+video/
