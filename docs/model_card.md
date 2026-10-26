@@ -8,9 +8,6 @@ tags: [system-one, typed-decisions, choice, yes-no, calibration, onnx, int8, ras
 datasets: [mteb/amazon_massive_intent]
 ---
 
-<!-- Scheda del modello per Hugging Face (README del repository del modello). Bozza del 17 ottobre 2026, aggiornata
-     il 25 ottobre per la v0.1.0: non ancora pubblicata. Ogni numero viene da un file in results/ del repository. -->
-
 # Skejja edge32k-ft6
 
 Skejja is a small, open, multilingual **System One** decision model: it does not generate text. It reads a state
@@ -23,19 +20,23 @@ Skejja is a small, open, multilingual **System One** decision model: it does not
 It runs on modest CPUs, including a Raspberry Pi, with about 200 MB of RAM, and exposes an API compatible with
 `POST /v1/systemone`, so existing System One clients work by changing only the URL.
 
+Code, benchmark and every result file: [github.com/vincyberx/skejja](https://github.com/vincyberx/skejja). The file
+paths in this card refer to that repository.
+
 | | |
 |---|---|
 | Parameters | 57.3M (44.7M without the embedding lookup) |
 | Base model | [knowledgator/gliclass-multilang-edge](https://huggingface.co/knowledgator/gliclass-multilang-edge) (Apache-2.0), vocabulary trimmed to 32,768 tokens for en/it/es/de/fr |
 | Version | v0.1.0 (Skejja package 0.1.0) |
-| Files | `edge-v32k-ft6.fp32.onnx`, `edge-v32k-ft6.int8.onnx` (weight-only int8), `edge-v32k-ft6.int8dyn.onnx` (dynamic int8, for ARM CPUs without dot-product), each with its `.onnx.data`; `tokenizer.json`; `calibration.json` |
+| Downloads | `skejja-edge32k-ft6_onnx-int8.tar.gz` (default, 208 MB) and `skejja-edge32k-ft6_onnx-fp32.tar.gz` (exact weights, 212 MB); hashes in `SHA256SUMS` |
+| Files in the archives | `edge-v32k-ft6.fp32.onnx`, `edge-v32k-ft6.int8.onnx` (weight-only int8), `edge-v32k-ft6.int8dyn.onnx` (dynamic int8, for ARM CPUs without dot-product), each with its `.onnx.data`; `tokenizer.json`; `calibration.json` |
 | Languages | English, Italian, Spanish, German, French (trained and measured) |
 | License | Apache-2.0 (attributions in `NOTICE`) |
 
 ## Use
 
 ```sh
-pip install "skejja[server]"          # package not yet on PyPI: install from the GitHub repository
+pip install "skejja[server] @ git+https://github.com/vincyberx/skejja"   # until it is on PyPI
 skejja serve --port 8080              # downloads this model on first use and checks its SHA-256
 curl -s localhost:8080/v1/systemone -H 'Content-Type: application/json' -d '{
   "state": "puoi spegnere le luci della cucina?",
