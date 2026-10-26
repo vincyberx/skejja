@@ -1,0 +1,47 @@
+<!doctype html>
+<!-- Anteprima per i link (Space, GitHub, X, LinkedIn): stesso stile del video e della demo.
+     Si rende con docs/img/make_social_card.sh -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+  @font-face { font-family: "Space Grotesk"; font-weight: 700; src: url("../../web/fonts/space-grotesk-latin-700-normal.woff2") format("woff2"); }
+  @font-face { font-family: "Inter"; font-weight: 400; src: url("../../web/fonts/inter-latin-400-normal.woff2") format("woff2"); }
+  @font-face { font-family: "Inter"; font-weight: 600; src: url("../../web/fonts/inter-latin-600-normal.woff2") format("woff2"); }
+  html, body { margin: 0; width: 100vw; height: 100vh; overflow: hidden; background: #09090b; color: #fafafa; font-family: "Inter", sans-serif; }
+  .card { position: relative; width: 100%; height: 100%; padding: 0 80px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; }
+  .glow { position: absolute; right: -140px; top: 50%; width: 620px; height: 620px; transform: translateY(-50%); border-radius: 50%;
+          background: radial-gradient(circle, rgba(255, 0, 136, .22) 0%, rgba(255, 0, 136, .08) 38%, rgba(255, 0, 136, 0) 68%); }
+  .board { position: absolute; right: 110px; top: 50%; transform: translateY(-50%); width: 300px; height: 200px; border: 2px solid rgba(250, 250, 250, .22); border-radius: 18px; }
+  .board .pins { position: absolute; left: 34px; top: 14px; display: grid; grid-template-columns: repeat(16, 8px); gap: 6px; }
+  .board .pins i { width: 8px; height: 8px; border-radius: 2px; background: rgba(250, 250, 250, .22); }
+  .board .chip { position: absolute; left: 118px; top: 74px; width: 64px; height: 64px; border-radius: 8px; background: #ff0088; }
+  .board .port { position: absolute; right: -2px; width: 34px; height: 30px; border: 2px solid rgba(250, 250, 250, .22); border-right: 0; border-radius: 6px 0 0 6px; }
+  .kicker { font: 700 22px/1 "Space Grotesk"; letter-spacing: .14em; text-transform: uppercase; color: #9ca3af; margin: 0 0 18px; }
+  h1 { font: 700 150px/.9 "Space Grotesk"; letter-spacing: -.04em; margin: 0; }
+  .accent { width: 84px; height: 6px; background: #ff0088; margin: 26px 0 26px; }
+  .line { font: 600 38px/1.2 "Inter"; margin: 0 0 30px; max-width: 640px; }
+  .line em { font-style: normal; color: #ff0088; }
+  .chips { display: flex; gap: 12px; }
+  .chips span { border: 2px solid rgba(250, 250, 250, .14); border-radius: 100px; padding: 8px 20px; font: 400 22px/1 "Inter"; color: #fafafa; }
+  .chips b { font: 700 1em "Space Grotesk"; color: #ff0088; }
+  .sign { position: absolute; left: 80px; bottom: 40px; font: 400 20px/1 "Inter"; color: #9ca3af; }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="glow"></div>
+  <div class="board"><div class="pins" id="pins"></div><div class="chip"></div><div class="port" style="top:36px"></div><div class="port" style="top:120px"></div></div>
+  <p class="kicker">System One · open model</p>
+  <h1>Skejja</h1>
+  <div class="accent"></div>
+  <p class="line">Decisions for agents, small enough for a <em>Raspberry Pi</em>.</p>
+  <div class="chips"><span><b>57M</b> parameters</span><span><b>5</b> languages</span><span><b>182 ms</b> on a Pi 4</span></div>
+  <div class="sign">by @vincyber · Apache-2.0</div>
+</div>
+<script>
+  const pins = document.getElementById("pins");
+  for (let i = 0; i < 32; i++) pins.append(document.createElement("i"));
+</script>
+</body>
+</html>

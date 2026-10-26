@@ -1,12 +1,13 @@
 ---
 title: Skejja
 emoji: ⚡
-colorFrom: indigo
+colorFrom: pink
 colorTo: gray
 sdk: static
 app_file: index.html
 license: apache-2.0
 short_description: A 57M decision model running in your browser, 5 languages
+thumbnail: https://huggingface.co/spaces/vincyber/skejja/resolve/main/media/social-card.png
 models:
   - vincyber/skejja-edge32k-ft6
 ---
