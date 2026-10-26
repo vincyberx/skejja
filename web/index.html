@@ -91,9 +91,12 @@ const NOUL_EX = [
   ["sudo apt install nginx", "Does this command need administrator privileges?"],
 ];
 const $ = (id) => document.getElementById(id);
-const params = new URLSearchParams(location.search);
-const MODEL = params.get("model") || "edge-v32k-ft6.int8dyn.onnx";
-const BASE = params.get("base") || "model";
+// solo i file del modello pubblicati, sempre dalla cartella model/ di questa pagina: un link non può far caricare
+// un modello di un altro sito con il nome di Skejja
+const MODELS = ["edge-v32k-ft6.int8dyn.onnx", "edge-v32k-ft6.int8.onnx"];
+const asked = new URLSearchParams(location.search).get("model");
+const MODEL = MODELS.includes(asked) ? asked : MODELS[0];
+const BASE = "model";
 
 function examples(box, list, a, b) {
   for (const [x, y] of list) {
