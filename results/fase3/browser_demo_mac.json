@@ -1,0 +1,14 @@
+{
+ "data": "2026-10-26",
+ "macchina": "Mac (Apple Silicon), browser del pannello di Claude Code (Chromium), onnxruntime-web 1.30.0 WASM, 1 thread; approssimazione, non vale per altri dispositivi",
+ "riferimento": "runtime/skejja_infer.py con onnxruntime nativo, stesso file .onnx, 1 thread",
+ "campione": "100 domande Choice (test_choice.jsonl, una ogni 20) e 100 sì/no (test_noul.jsonl, una ogni 20)",
+ "tokenizer": {"frasi_confrontate": 6003, "id_diversi": 0, "libreria": "@huggingface/tokenizers 0.2.0"},
+ "edge-v32k-ft6.int8dyn.onnx": {"choice_stessa_scelta": 100, "choice_giuste": 87, "choice_max_diff_prob": 0.0908,
+                                "noul_stessa_decisione": 99, "noul_max_diff_prob": 0.0479,
+                                "ms_choice_mediana": 122.4, "ms_noul_mediana": 38.4},
+ "edge-v32k-ft6.int8.onnx": {"choice_stessa_scelta": 99, "choice_giuste": 88, "choice_max_diff_prob": 0.0721,
+                             "noul_stessa_decisione": 100, "noul_max_diff_prob": 0.0387,
+                             "ms_choice_mediana": 181.6, "ms_noul_mediana": 97.7},
+ "nota": "le differenze vengono dai kernel int8 di WASM, diversi da quelli nativi; la demo mostra il modello, le misure valide restano quelle di results/"
+}

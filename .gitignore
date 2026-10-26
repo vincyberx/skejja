@@ -40,3 +40,6 @@ dist/
 
 # frasi vere dell'utente per la prova sui comandi reali: mai in git (in results/ vanno solo le metriche aggregate)
 private/
+
+# file del modello per la demo nel browser (si copiano con web/prepare_model.sh)
+web/model/

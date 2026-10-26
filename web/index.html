@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Skejja demo</title>
+<style>
+  :root { --bg: #fafaf8; --fg: #1d1d1f; --muted: #6b6b70; --line: #dcdcd6; --accent: #3d4fd1; --bar: #e4e6fb; --card: #fff; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #141416; --fg: #ececee; --muted: #a0a0a8; --line: #33333a; --accent: #8f9bff; --bar: #262a4d; --card: #1c1c20; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 1.6rem; margin: 0 0 4px; }
+  p.lead { color: var(--muted); margin: 0 0 20px; }
+  a { color: var(--accent); }
+  .status { padding: 10px 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--card); margin-bottom: 20px; font-size: .92rem; }
+  .tabs { display: flex; gap: 8px; margin-bottom: 12px; }
+  .tabs button { flex: 0 0 auto; }
+  button { font: inherit; padding: 8px 14px; border-radius: 8px; border: 1px solid var(--line); background: var(--card); color: var(--fg); cursor: pointer; }
+  button[aria-pressed="true"], button.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+  button:disabled { opacity: .5; cursor: default; }
+  section { border: 1px solid var(--line); border-radius: 12px; padding: 16px; background: var(--card); }
+  label { display: block; font-size: .9rem; color: var(--muted); margin: 10px 0 4px; }
+  textarea, input { width: 100%; font: inherit; padding: 8px 10px; border-radius: 8px; border: 1px solid var(--line); background: var(--bg); color: var(--fg); }
+  .row { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 12px; align-items: center; }
+  .examples button { font-size: .85rem; padding: 4px 10px; }
+  .result { margin-top: 16px; }
+  .bar { display: grid; grid-template-columns: minmax(80px, 30%) 1fr 56px; gap: 8px; align-items: center; margin: 4px 0; font-size: .92rem; }
+  .bar .track { height: 12px; border-radius: 6px; background: var(--bar); overflow: hidden; }
+  .bar .fill { height: 100%; background: var(--accent); }
+  .bar .num { text-align: right; font-variant-numeric: tabular-nums; }
+  .meta { color: var(--muted); font-size: .85rem; margin-top: 8px; }
+  footer { color: var(--muted); font-size: .85rem; margin-top: 24px; }
+  [hidden] { display: none !important; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Skejja</h1>
+  <p class="lead">A 57M-parameter decision model, running <strong>in your browser</strong>: nothing you type leaves this page.
+    It answers typed questions about a short sentence in English, Italian, Spanish, German or French. Write the options in English.
+    <a href="https://github.com/vincyberx/skejja">Code</a> · <a href="https://huggingface.co/vincyber/skejja-edge32k-ft6">Model card</a></p>
+
+  <div class="status" id="status" role="status">Loading the model (about 125 MB, only the first time)…</div>
+
+  <div class="tabs" role="tablist">
+    <button id="tab-choice" aria-pressed="true">Choice</button>
+    <button id="tab-noul" aria-pressed="false">Yes / no</button>
+  </div>
+
+  <section id="choice">
+    <label for="c-text">Sentence</label>
+    <textarea id="c-text" rows="2" maxlength="600"></textarea>
+    <label for="c-opts">Options, one per line — <code>name: description</code></label>
+    <textarea id="c-opts" rows="5"></textarea>
+    <div class="row examples" id="c-ex"></div>
+    <div class="row"><button class="primary" id="c-go" disabled>Decide</button></div>
+    <div class="result" id="c-out" aria-live="polite"></div>
+  </section>
+
+  <section id="noul" hidden>
+    <label for="n-text">Sentence</label>
+    <textarea id="n-text" rows="2" maxlength="600"></textarea>
+    <label for="n-q">Question (works best as: <code>Does the user want to …?</code>)</label>
+    <input id="n-q">
+    <div class="row examples" id="n-ex"></div>
+    <div class="row"><button class="primary" id="n-go" disabled>Decide</button></div>
+    <div class="result" id="n-out" aria-live="polite"></div>
+  </section>
+
+  <footer>Built for short commands and intents: weak at reasoning, long texts and many options.
+    Yes/no probabilities on questions the model has never seen are not calibrated.</footer>
+</main>
+
+<script type="module">
+import { Skejja } from "./skejja.js";
+
+const HOME = "lights_on: turn on the lights\nlights_off: turn off the lights\nmusic: play music\nweather: ask about the weather";
+const CHOICE_EX = [
+  ["puoi spegnere le luci della cucina?", HOME],
+  ["¿va a llover mañana en Madrid?", HOME],
+  ["Mach bitte etwas Jazz an", HOME],
+  ["I was charged twice for the same order", "billing: a payment or refund problem\nshipping: a delivery problem\naccess: a login or account access problem"],
+];
+const NOUL_EX = [
+  ["ricordami di comprare il latte domani", "Does the user want to set a reminder?"],
+  ["réveille-moi à 7 heures demain", "Does the user want to set an alarm?"],
+  ["what time is it in Tokyo?", "Does the user want to set an alarm?"],
+  ["sudo apt install nginx", "Does this command need administrator privileges?"],
+];
+const $ = (id) => document.getElementById(id);
+const params = new URLSearchParams(location.search);
+const MODEL = params.get("model") || "edge-v32k-ft6.int8dyn.onnx";
+const BASE = params.get("base") || "model";
+
+function examples(box, list, a, b) {
+  for (const [x, y] of list) {
+    const btn = document.createElement("button");
+    btn.textContent = x.length > 28 ? x.slice(0, 26) + "…" : x;
+    btn.onclick = () => { $(a).value = x; $(b).value = y; };
+    box.append(btn);
+  }
+}
+examples($("c-ex"), CHOICE_EX, "c-text", "c-opts");
+examples($("n-ex"), NOUL_EX, "n-text", "n-q");
+[$("c-text").value, $("c-opts").value] = CHOICE_EX[0];
+[$("n-text").value, $("n-q").value] = NOUL_EX[0];
+
+for (const [t, s] of [["tab-choice", "choice"], ["tab-noul", "noul"]]) {
+  $(t).onclick = () => {
+    for (const [t2, s2] of [["tab-choice", "choice"], ["tab-noul", "noul"]]) {
+      $(t2).setAttribute("aria-pressed", String(t2 === t));
+      $(s2).hidden = s2 !== s;
+    }
+  };
+}
+
+function bars(out, rows, meta) {
+  out.replaceChildren();
+  for (const [name, p] of rows) {
+    const d = document.createElement("div");
+    d.className = "bar";
+    d.innerHTML = `<span></span><span class="track"><span class="fill"></span></span><span class="num"></span>`;
+    d.children[0].textContent = name;
+    d.querySelector(".fill").style.width = `${(p * 100).toFixed(1)}%`;
+    d.children[2].textContent = p.toFixed(2);
+    out.append(d);
+  }
+  const m = document.createElement("div");
+  m.className = "meta";
+  m.textContent = meta;
+  out.append(m);
+}
+
+function parseOptions(text) {
+  const opts = [];
+  text.split("\n").map((l) => l.trim()).filter(Boolean).forEach((line, i) => {
+    const k = line.indexOf(":");
+    opts.push(k > 0 ? [line.slice(0, k).trim(), line.slice(k + 1).trim()] : [`option_${i + 1}`, line]);
+  });
+  if (opts.length < 2 || opts.length > 20 || opts.some(([n, d]) => !n || !d)) throw new Error("Give 2–20 options, one per line: name: description");
+  return opts;
+}
+
+let model;
+try {
+  const t0 = performance.now();
+  model = await Skejja.load(BASE, MODEL, {
+    onProgress: (got, total) => {
+      $("status").textContent = `Loading the model… ${(got / 1e6).toFixed(0)}${total ? ` / ${(total / 1e6).toFixed(0)}` : ""} MB`;
+    },
+  });
+  $("status").textContent = `Model ready (${MODEL}, loaded in ${((performance.now() - t0) / 1000).toFixed(1)} s). Runs on this device's CPU.`;
+  $("c-go").disabled = $("n-go").disabled = false;
+} catch (e) {
+  $("status").textContent = `Could not load the model: ${e.message}`;
+}
+
+$("c-go").onclick = async () => {
+  const out = $("c-out");
+  try {
+    const opts = parseOptions($("c-opts").value);
+    const t0 = performance.now();
+    const r = await model.choice($("c-text").value, opts.map(([, d]) => d));
+    const ms = performance.now() - t0;
+    const rows = opts.map(([n], i) => [n, r.probabilities[i]]).sort((a, b) => b[1] - a[1]);
+    bars(out, rows, `Choice: ${rows[0][0]} · confidence ${r.confidence.toFixed(2)} · ${ms.toFixed(0)} ms in this browser · ${r.tokens} tokens`);
+  } catch (e) { out.textContent = e.message; }
+};
+
+$("n-go").onclick = async () => {
+  const out = $("n-out");
+  const t0 = performance.now();
+  const r = await model.yesNo($("n-text").value, $("n-q").value);
+  bars(out, [["yes", r.yes], ["no", 1 - r.yes]], `${(performance.now() - t0).toFixed(0)} ms in this browser · ${r.tokens} tokens`);
+};
+
+window.__skejja = model;   // per le prove automatiche
+</script>
+</body>
+</html>

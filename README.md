@@ -75,7 +75,7 @@ engine.run({"state": "turn the music down", "questions": {"q": {"type": "choice"
 
 Also available: an MCP server for agents (`skejja mcp`, stdio) with a [skill file](skills/skejja/SKILL.md) that
 tells an agent when and how to use it, a one-shot command (`skejja run request.json`), a [Dockerfile](Dockerfile) and
-a [demo app](space/app.py) for a Hugging Face Space. The full contract, the extras (per-question calibration, input truncation) and
+a [demo that runs in the browser](web/) (onnxruntime-web, nothing sent to a server). The full contract, the extras (per-question calibration, input truncation) and
 the differences from cloud services are in [docs/api.md](docs/api.md).
 
 **Tips.** Write options as concrete actions in English; the state can be in any of the five languages. Phrase
@@ -134,7 +134,7 @@ later rounds were rejected that way ([fase2_giro_G.md](docs/fase2_giro_G.md)). M
 | `training/` | vocabulary trimming, fine-tuning, ONNX export |
 | `baselines/` | measurements of other models |
 | `kit/` | Raspberry Pi benchmark kit |
-| `skills/`, `space/` | skill file for agents, demo app |
+| `skills/`, `web/` | skill file for agents, browser demo |
 | `results/` | every number in the documents comes from a CSV or JSON here |
 | `docs/` | phase reports and methods (mostly in Italian) |
 
