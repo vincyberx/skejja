@@ -5,43 +5,76 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Skejja demo</title>
 <style>
-  :root { --bg: #fafaf8; --fg: #1d1d1f; --muted: #6b6b70; --line: #dcdcd6; --accent: #3d4fd1; --bar: #e4e6fb; --card: #fff; }
-  @media (prefers-color-scheme: dark) {
-    :root { --bg: #141416; --fg: #ececee; --muted: #a0a0a8; --line: #33333a; --accent: #8f9bff; --bar: #262a4d; --card: #1c1c20; }
+  @font-face { font-family: "Space Grotesk"; font-weight: 700; font-display: swap; src: url("fonts/space-grotesk-latin-700-normal.woff2") format("woff2"); }
+  @font-face { font-family: "Inter"; font-weight: 400; font-display: swap; src: url("fonts/inter-latin-400-normal.woff2") format("woff2"); }
+  @font-face { font-family: "Inter"; font-weight: 600; font-display: swap; src: url("fonts/inter-latin-600-normal.woff2") format("woff2"); }
+  :root {
+    color-scheme: dark;
+    --bg: #09090b; --surface: #141417; --surface-2: #1c1c21; --fg: #fafafa; --muted: #9ca3af;
+    --line: rgba(250, 250, 250, .10); --accent: #ff0088; --accent-soft: #ff66b8;
+    --display: "Space Grotesk", "Inter", system-ui, sans-serif;
   }
   * { box-sizing: border-box; }
-  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
-  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
-  h1 { font-size: 1.6rem; margin: 0 0 4px; }
-  p.lead { color: var(--muted); margin: 0 0 20px; }
-  a { color: var(--accent); }
-  .status { padding: 10px 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--card); margin-bottom: 20px; font-size: .92rem; }
-  .tabs { display: flex; gap: 8px; margin-bottom: 12px; }
-  .tabs button { flex: 0 0 auto; }
-  button { font: inherit; padding: 8px 14px; border-radius: 8px; border: 1px solid var(--line); background: var(--card); color: var(--fg); cursor: pointer; }
-  button[aria-pressed="true"], button.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
-  button:disabled { opacity: .5; cursor: default; }
-  section { border: 1px solid var(--line); border-radius: 12px; padding: 16px; background: var(--card); }
-  label { display: block; font-size: .9rem; color: var(--muted); margin: 10px 0 4px; }
-  textarea, input { width: 100%; font: inherit; padding: 8px 10px; border-radius: 8px; border: 1px solid var(--line); background: var(--bg); color: var(--fg); }
-  .row { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 12px; align-items: center; }
-  .examples button { font-size: .85rem; padding: 4px 10px; }
-  .result { margin-top: 16px; }
-  .bar { display: grid; grid-template-columns: minmax(80px, 30%) 1fr 56px; gap: 8px; align-items: center; margin: 4px 0; font-size: .92rem; }
-  .bar .track { height: 12px; border-radius: 6px; background: var(--bar); overflow: hidden; }
-  .bar .fill { display: block; height: 100%; background: var(--accent); }
-  .bar .num { text-align: right; font-variant-numeric: tabular-nums; }
-  .meta { color: var(--muted); font-size: .85rem; margin-top: 8px; }
-  footer { color: var(--muted); font-size: .85rem; margin-top: 24px; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.55 "Inter", system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 48px 16px 64px; }
+  .kicker { font: 700 .78rem/1 var(--display); letter-spacing: .14em; text-transform: uppercase; color: var(--muted); margin: 0 0 14px; }
+  h1 { font: 700 clamp(3rem, 12vw, 4.75rem)/.95 var(--display); letter-spacing: -.04em; margin: 0; }
+  h1::after { content: ""; display: block; width: 56px; height: 4px; background: var(--accent); margin: 18px 0 20px; }
+  p.lead { color: var(--muted); margin: 0 0 18px; font-size: 1.05rem; }
+  p.lead strong { color: var(--fg); font-weight: 600; }
+  a { color: var(--accent-soft); text-underline-offset: 3px; }
+  code { font-size: .88em; color: var(--fg); background: var(--surface-2); padding: 1px 6px; border-radius: 6px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 24px; padding: 0; list-style: none; }
+  .chips li { border: 1.5px solid var(--line); border-radius: 100px; padding: 5px 14px; font-size: .85rem; }
+  .chips b { font: 700 1em var(--display); color: var(--accent); }
+  .status { display: flex; gap: 10px; align-items: center; padding: 12px 16px; border: 1px solid var(--line); border-radius: 16px; background: var(--surface); margin-bottom: 20px; font-size: .9rem; color: var(--muted); }
+  .status::before { content: ""; flex: 0 0 8px; height: 8px; border-radius: 50%; background: var(--muted); }
+  .status.ready::before { background: var(--accent); box-shadow: 0 0 0 4px rgba(255, 0, 136, .18); }
+  .tabs { display: inline-flex; gap: 4px; padding: 4px; margin-bottom: 14px; border: 1px solid var(--line); border-radius: 100px; background: var(--surface); }
+  button { font: inherit; padding: 8px 16px; border-radius: 100px; border: 1.5px solid var(--line); background: transparent; color: var(--fg); cursor: pointer; }
+  button:hover:not(:disabled) { border-color: rgba(250, 250, 250, .28); }
+  button:focus-visible, textarea:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .tabs button { border: 0; font-weight: 600; color: var(--muted); }
+  .tabs button[aria-pressed="true"] { background: var(--accent); color: #fff; }
+  button.primary { background: var(--accent); border-color: var(--accent); color: #fff; font: 700 1rem var(--display); padding: 11px 28px; }
+  button.primary:hover:not(:disabled) { background: #e6007a; border-color: #e6007a; }
+  button:disabled { opacity: .4; cursor: default; }
+  section { border: 1px solid var(--line); border-radius: 24px; padding: 24px; background: var(--surface); }
+  label { display: block; font-size: .85rem; color: var(--muted); margin: 14px 0 6px; }
+  label:first-child { margin-top: 0; }
+  textarea, input { width: 100%; font: inherit; padding: 10px 14px; border-radius: 14px; border: 1px solid var(--line); background: var(--surface-2); color: var(--fg); resize: vertical; }
+  .row { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 14px; align-items: center; }
+  .examples button { font-size: .82rem; padding: 4px 12px; color: var(--muted); }
+  .examples button:hover { color: var(--fg); }
+  .result { margin-top: 20px; }
+  .result:empty { display: none; }
+  .bar { display: grid; grid-template-columns: minmax(80px, 30%) 1fr 52px; gap: 12px; align-items: center; margin: 8px 0; font-size: .92rem; color: var(--muted); }
+  .bar .track { height: 14px; border-radius: 8px; background: var(--surface-2); overflow: hidden; }
+  .bar .fill { display: block; height: 100%; border-radius: 8px; background: rgba(156, 163, 175, .35); transition: width .45s cubic-bezier(.2, .7, .2, 1); }
+  .bar .num { text-align: right; font: 700 1rem var(--display); font-variant-numeric: tabular-nums; }
+  .bar.win { color: var(--fg); font-weight: 600; }
+  .bar.win .fill { background: var(--accent); }
+  .bar.win .num { color: var(--accent); }
+  .meta { color: var(--muted); font-size: .82rem; margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--line); }
+  footer { color: var(--muted); font-size: .85rem; margin-top: 28px; }
+  footer p { margin: 0 0 8px; }
   [hidden] { display: none !important; }
+  @media (prefers-reduced-motion: reduce) { .bar .fill { transition: none; } }
+  @media (max-width: 480px) { section { padding: 18px; border-radius: 20px; } .bar { grid-template-columns: minmax(72px, 34%) 1fr 44px; gap: 8px; } }
 </style>
 </head>
 <body>
 <main>
+  <p class="kicker">System One · open model</p>
   <h1>Skejja</h1>
   <p class="lead">A 57M-parameter decision model, running <strong>in your browser</strong>: nothing you type leaves this page.
     It answers typed questions about a short sentence in English, Italian, Spanish, German or French. Write the options in English.
     <a href="https://github.com/vincyberx/skejja">Code</a> · <a href="https://huggingface.co/vincyber/skejja-edge32k-ft6">Model card</a></p>
+  <ul class="chips">
+    <li><b>57M</b> parameters</li>
+    <li><b>5</b> languages · IT EN ES DE FR</li>
+    <li><b>182 ms</b> on a Raspberry Pi 4</li>
+  </ul>
 
   <div class="status" id="status" role="status">Loading the model (about 125 MB, only the first time)…</div>
 
@@ -70,8 +103,11 @@
     <div class="result" id="n-out" aria-live="polite"></div>
   </section>
 
-  <footer>Built for short commands and intents: weak at reasoning, long texts and many options.
-    Yes/no probabilities on questions the model has never seen are not calibrated.</footer>
+  <footer>
+    <p>Built for short commands and intents: weak at reasoning, long texts and many options.
+      Yes/no probabilities on questions the model has never seen are not calibrated.</p>
+    <p>A project by <a href="https://github.com/vincyberx">@vincyber</a> · Apache-2.0 · Raspberry Pi time: 8-option Choice, 4 threads, int8.</p>
+  </footer>
 </main>
 
 <script type="module">
@@ -122,9 +158,10 @@ for (const [t, s] of [["tab-choice", "choice"], ["tab-noul", "noul"]]) {
 
 function bars(out, rows, meta) {
   out.replaceChildren();
+  const best = Math.max(...rows.map(([, p]) => p));
   for (const [name, p] of rows) {
     const d = document.createElement("div");
-    d.className = "bar";
+    d.className = p === best ? "bar win" : "bar";
     d.innerHTML = `<span></span><span class="track"><span class="fill"></span></span><span class="num"></span>`;
     d.children[0].textContent = name;
     d.querySelector(".fill").style.width = `${(p * 100).toFixed(1)}%`;
@@ -156,6 +193,7 @@ try {
     },
   });
   $("status").textContent = `Model ready (${MODEL}, loaded in ${((performance.now() - t0) / 1000).toFixed(1)} s). Runs on this device's CPU.`;
+  $("status").classList.add("ready");
   $("c-go").disabled = $("n-go").disabled = false;
 } catch (e) {
   $("status").textContent = `Could not load the model: ${e.message}`;

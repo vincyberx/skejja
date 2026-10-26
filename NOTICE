@@ -53,3 +53,7 @@ against texts already used by the project; task families, questions and option d
 written by the Skejja project; labels are teacher-model probabilities, not human annotations.
 Training splits of SST-2, AG News, Emotion and SMS Spam were used only to measure the teacher
 model; they are not redistributed and were not used to train Skejja.
+
+The browser demo (web/) bundles the Space Grotesk and Inter fonts (web/fonts/, Latin subset in WOFF2 from
+Fontsource), licensed under the SIL Open Font License 1.1: Copyright 2020 The Space Grotesk Project Authors and
+Copyright 2016 The Inter Project Authors. The license texts are in web/fonts/.
