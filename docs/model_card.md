@@ -37,7 +37,7 @@ the demo runs the dynamic int8 file with onnxruntime-web, nothing is sent to a s
 ## Use
 
 ```sh
-pip install "skejja[server] @ git+https://github.com/vincyberx/skejja"   # until it is on PyPI
+pip install "skejja[server]"
 skejja serve --port 8080              # downloads this model on first use and checks its SHA-256
 curl -s localhost:8080/v1/systemone -H 'Content-Type: application/json' -d '{
   "state": "puoi spegnere le luci della cucina?",

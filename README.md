@@ -14,8 +14,7 @@ and speaks the same `POST /v1/systemone` API as cloud System One services, so th
 the URL. The name comes from Italian *scheggia*, a splinter: small and fast.
 
 > **Status: v0.1.0.** Model on [Hugging Face](https://huggingface.co/vincyber/skejja-edge32k-ft6),
-> **[try it in your browser](https://huggingface.co/spaces/vincyber/skejja)**. Not yet on PyPI: install from this
-> repository (see [Install](#install)).
+> **[try it in your browser](https://huggingface.co/spaces/vincyber/skejja)**, package on PyPI.
 
 ## At a glance
 
@@ -28,15 +27,15 @@ the URL. The name comes from Italian *scheggia*, a splinter: small and fast.
 | Peak RAM | **216–227 MB** | same |
 | Choice latency, 1 / 4 threads | 34.5 / 14.8 ms | Mac (Apple Silicon), an approximation only |
 
-Sources: [metrics_edge32k-ft6.csv](results/fase2/metrics_edge32k-ft6.csv),
-[pi4_20261014-185806.json](results/pi4/pi4_20261014-185806.json),
-[latenza_julia-1_ft6_mac.json](results/fase3/latenza_julia-1_ft6_mac.json). The Pi 4 had no heatsink and
+Sources: [metrics_edge32k-ft6.csv](https://github.com/vincyberx/skejja/blob/main/results/fase2/metrics_edge32k-ft6.csv),
+[pi4_20261014-185806.json](https://github.com/vincyberx/skejja/blob/main/results/pi4/pi4_20261014-185806.json),
+[latenza_julia-1_ft6_mac.json](https://github.com/vincyberx/skejja/blob/main/results/fase3/latenza_julia-1_ft6_mac.json). The Pi 4 had no heatsink and
 throttled, so its latencies are upper bounds. No Raspberry Pi 5 numbers yet.
 
 ## Install
 
 ```sh
-pip install "skejja[server] @ git+https://github.com/vincyberx/skejja"   # until it is on PyPI
+pip install "skejja[server]"          # add [mcp] for the MCP server
 skejja --version
 ```
 
@@ -74,16 +73,16 @@ engine.run({"state": "turn the music down", "questions": {"q": {"type": "choice"
             "criteria": {"vol_down": "lower the volume", "vol_up": "raise the volume"}}}})
 ```
 
-Also available: an MCP server for agents (`skejja mcp`, stdio) with a [skill file](skills/skejja/SKILL.md) that
-tells an agent when and how to use it, a one-shot command (`skejja run request.json`), a [Dockerfile](Dockerfile) and
-a [demo that runs in the browser](web/) (onnxruntime-web, nothing sent to a server). The full contract, the extras (per-question calibration, input truncation) and
-the differences from cloud services are in [docs/api.md](docs/api.md).
+Also available: an MCP server for agents (`skejja mcp`, stdio) with a [skill file](https://github.com/vincyberx/skejja/blob/main/skills/skejja/SKILL.md) that
+tells an agent when and how to use it, a one-shot command (`skejja run request.json`), a [Dockerfile](https://github.com/vincyberx/skejja/blob/main/Dockerfile) and
+a [demo that runs in the browser](https://github.com/vincyberx/skejja/tree/main/web/) (onnxruntime-web, nothing sent to a server). The full contract, the extras (per-question calibration, input truncation) and
+the differences from cloud services are in [docs/api.md](https://github.com/vincyberx/skejja/blob/main/docs/api.md).
 
 **Tips.** Write options as concrete actions in English; the state can be in any of the five languages. Phrase
 yes/no questions as in training, "Does the user want to <concrete action>?": other phrasings can give answers near
 0.5. Prefer one yes/no per action to a catch-all "something else" option. For the questions that matter, give a few dozen labelled
 examples, in their real proportions, to `POST /v1/skejja/calibrations`: on unseen yes/no questions this takes the
-calibration error from 0.150 to 0.041 with 64 examples ([metrics_fewshot.csv](results/fase2/metrics_fewshot.csv)).
+calibration error from 0.150 to 0.041 with 64 examples ([metrics_fewshot.csv](https://github.com/vincyberx/skejja/blob/main/results/fase2/metrics_fewshot.csv)).
 
 ## Compared with other open models
 
@@ -98,8 +97,8 @@ Skejja's training.
 | GLiClass multilang edge (Skejja's base) | 143M | 0.547 / 0.597 | 0.697 |
 | Julia 1 | 144M | 0.514 / 0.514 | 0.503 |
 
-Sources: [metrics_baseline.csv](results/fase1/metrics_baseline.csv) (PyTorch fp32),
-[metrics_julia-1.csv](results/fase3/metrics_julia-1.csv), method in [docs/fase3_julia.md](docs/fase3_julia.md).
+Sources: [metrics_baseline.csv](https://github.com/vincyberx/skejja/blob/main/results/fase1/metrics_baseline.csv) (PyTorch fp32),
+[metrics_julia-1.csv](https://github.com/vincyberx/skejja/blob/main/results/fase3/metrics_julia-1.csv), method in [docs/fase3_julia.md](https://github.com/vincyberx/skejja/blob/main/docs/fase3_julia.md).
 MASSIVE intents are close to Skejja's training data, so this table shows what Skejja was built for, not general
 ability. Julia 1 may have seen MASSIVE during training; its published results are on easier, broader tasks.
 
@@ -107,17 +106,17 @@ ability. Julia 1 may have seen MASSIVE during training; its published results ar
 
 - **Short inputs.** Trained on inputs up to 192 tokens. On a real task with long contexts (deciding whether a
   voice assistant should hand a turn to a larger model, inputs over 512 tokens) it reached AUROC 0.79 and was not
-  good enough ([real_requests.md](docs/real_requests.md)).
+  good enough ([real_requests.md](https://github.com/vincyberx/skejja/blob/main/docs/real_requests.md)).
 - **Real requests are harder than benchmarks.** On real requests to the author's voice assistant, routing to 5
   destinations reached 0.589 (124 requests with an unambiguous label); yes/no questions on concrete actions (mail,
   web search) reached AUROC about 0.86 (167 requests). Catch-all options and user jargon are the main failure modes (same document).
 - **Not a general System One.** Reasoning, entailment between two texts and Choice with many options are near
-  chance on S1MB english-v1 ([fase2_ampiezza.md](docs/fase2_ampiezza.md)).
+  chance on S1MB english-v1 ([fase2_ampiezza.md](https://github.com/vincyberx/skejja/blob/main/docs/fase2_ampiezza.md)).
 - **New yes/no questions without examples are not calibrated**: AUROC 0.840, ECE 0.150 on unseen intents.
 - **Options in the language of the sentence** score 2.4 points below English options (0.849 vs 0.873), German the
   weakest.
 - **Noisy unseen split**: about 31% of the MASSIVE labels of the unseen sentences are questionable
-  ([bench/data/annotations/](bench/data/annotations/)).
+  ([bench/data/annotations/](https://github.com/vincyberx/skejja/tree/main/bench/data/annotations/)).
 
 ## How it was built
 
@@ -125,8 +124,8 @@ A [GLiClass multilang edge](https://huggingface.co/knowledgator/gliclass-multila
 trimmed to 32,768 tokens for five languages, fine-tuned on MASSIVE (four scenarios held out), multilingual yes/no
 data, agent-action checks and breadth data labelled by a teacher model, then exported to ONNX and quantized to int8.
 Every candidate was accepted or rejected by rules fixed before training (paired bootstrap, Holm correction); two
-later rounds were rejected that way ([fase2_giro_G.md](docs/fase2_giro_G.md)). Model card:
-[docs/model_card.md](docs/model_card.md).
+later rounds were rejected that way ([fase2_giro_G.md](https://github.com/vincyberx/skejja/blob/main/docs/fase2_giro_G.md)). Model card:
+[docs/model_card.md](https://github.com/vincyberx/skejja/blob/main/docs/model_card.md).
 
 | Folder | Contents |
 |---|---|
@@ -141,7 +140,7 @@ later rounds were rejected that way ([fase2_giro_G.md](docs/fase2_giro_G.md)). M
 
 ## License
 
-Code and model: Apache License 2.0 ([LICENSE](LICENSE)); attributions for the base model and the data in
-[NOTICE](NOTICE). Benchmark data derives from [MASSIVE](https://github.com/alexa/massive) (CC BY 4.0).
+Code and model: Apache License 2.0 ([LICENSE](https://github.com/vincyberx/skejja/blob/main/LICENSE)); attributions for the base model and the data in
+[NOTICE](https://github.com/vincyberx/skejja/blob/main/NOTICE). Benchmark data derives from [MASSIVE](https://github.com/alexa/massive) (CC BY 4.0).
 "Jev", "System One" and "TypeSafe" belong to their owners; Skejja is not affiliated with them and uses none of their
 code.
